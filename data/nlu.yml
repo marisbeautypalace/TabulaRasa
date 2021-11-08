@@ -2,89 +2,66 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
+    - hallo
+    - guten tag
     - hey
-    - hello
     - hi
-    - hello there
-    - good morning
-    - good evening
     - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-    - Hey!
-    - Hi
+    - servus
+    - guten Morgen
 - intent: goodbye
   examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - schönen tag
+    - Tschau
+    - Tschüss
+    - auf wiedersehen
+    - schönen abend
+    - Bis dann
+    - Bis bald
+    - chiao
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-    - yes!
+    - ja
+    - jo
+    - klar
+    - genau
+    - auf jeden fall
+    - jau
+    - j
 - intent: deny
   examples: |
-    - no
+    - nein
     - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - niemals
+    - ich glaube nicht
+    - ne
+    - nö
+    - nicht wirklich
 - intent: mood_great
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-    - good!
+    - perfekt
+    - großartig
+    - wunderbar
+    - gut
+    - wundervoll
+    - ich fühle mich gut
+    - mir geht es gut
+    - mir geht es wunderbar
 - intent: mood_unhappy
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-    - I am sad...
+    - mir geht es schlecht
+    - ich bin traurig
+    - ich fühle micht nicht gut
+    - ich fügle mich schlecht
+    - ich bin enttäuscht
+    - unglücklich
+    - traurig
+    - sehr traurig
+    - unglücklich
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - bist du ein roboter?
+    - bist du ein bot?
+    - bist du ein mensch?
+    - wer bist du?
+    - was bist du?
