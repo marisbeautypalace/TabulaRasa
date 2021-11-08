@@ -29,6 +29,7 @@ nlu:
     - auf jeden fall
     - jau
     - j
+    - ja, schon
 - intent: deny
   examples: |
     - nein
@@ -49,6 +50,8 @@ nlu:
     - mir geht es gut
     - mir geht es wunderbar
     - ganz okay
+    - ganz in Ordnung
+    - Gut!
 - intent: mood_unhappy
   examples: |
     - mir geht es schlecht
@@ -59,6 +62,7 @@ nlu:
     - unglücklich
     - traurig
     - sehr traurig
+    - schlecht...
 - intent: bot_challenge
   examples: |
     - bist du ein roboter?
@@ -66,3 +70,4 @@ nlu:
     - bist du ein mensch?
     - wer bist du?
     - was bist du?
+    - bist du ein Bot?
