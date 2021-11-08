@@ -9,6 +9,7 @@ nlu:
     - moin
     - servus
     - guten Morgen
+    - Moin!
 - intent: goodbye
   examples: |
     - schönen tag
@@ -47,6 +48,7 @@ nlu:
     - ich fühle mich gut
     - mir geht es gut
     - mir geht es wunderbar
+    - ganz okay
 - intent: mood_unhappy
   examples: |
     - mir geht es schlecht
@@ -57,7 +59,6 @@ nlu:
     - unglücklich
     - traurig
     - sehr traurig
-    - unglücklich
 - intent: bot_challenge
   examples: |
     - bist du ein roboter?
