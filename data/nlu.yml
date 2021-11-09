@@ -71,3 +71,22 @@ nlu:
     - wer bist du?
     - was bist du?
     - bist du ein Bot?
+
+- intent: faq/cloud_or_it
+  examples: |
+    - Brauche ich noch eine IT-Abteilung? 
+    - Benötige ich eine IT-Abteilung?
+    - Wozu benötige ich eine IT-Abteilung? 
+    - Was bringt eine IT-Abteilung?  
+    - Welche Vorteile hat eine IT-Abteilung? 
+    - Was macht die IT-Abteilung, wenn alles in der Cloud gemacht wird? 
+    - Welche Aufgaben hat die IT-Abteilung zukünftig? 
+    - Was macht die IT-Abteilung zukünftig? 
+    - Was sind die Aufgaben der IT-Abteilung, wenn ich eine Cloud nutze? 
+
+- intent: faq/cloudcomputing_or_ownserver
+  examples: |
+    - Eher Cloudcomputing oder eigener Server?
+    - Muss ich auf Cloud Computing umsteigen oder soll ich meinen eigenen Server nutzen?
+    - Besser einen eigenen Server nutzen oder Cloud Computing?
+
