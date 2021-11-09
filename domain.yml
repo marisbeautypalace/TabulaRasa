@@ -8,6 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - faq
 
 responses:
   utter_greet:
@@ -28,6 +29,12 @@ responses:
 
   utter_iamabot:
   - text: "Ich bin ein Rasa-Bot."
+
+  utter_faq/cloud_or_it:
+  - text: "Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett (Ausnahme: Internetanbindung und Firewall). Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu."
+
+  utter_faq/cloudcomputing_or_ownserver:
+  - text: "Ist doch alles scheißgal, hauptsache löppt."
 
 session_config:
   session_expiration_time: 60
