@@ -1,0 +1,38 @@
+<html>
+    <body>
+    <style>
+      .rw-conversation-container .rw-header{background-color: #b50900;}
+      .rw-conversation-container .rw-messages-container .rw-message .rw-client{background-color: #b50900;}
+      .rw-launcher{background-color: #b50900;}
+      .rw-conversation-container .rw-reply{background-color: #b50900; border: 1px solid #b50900;}
+    </style>
+    
+            <script>!(function () {
+            let e = document.createElement("script"),
+              t = document.head || document.getElementsByTagName("head")[0];
+            (e.src =
+              "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+              (e.async = !0),
+              (e.onload = () => {
+                window.WebChat.default(
+                  {
+                    customData: { language: "en" },
+                    socketUrl: "http://localhost:5005",
+                    title: "Mittelstand 4.0",
+                    subtitle: "KoLi",
+                    profileAvatar: "./assets/avatar_koli.svg",
+                    showMessageDate: true,
+                    showFullScreenButton : false,
+                    inputTextFieldHint: "Geben Sie ihre Nachricht ein...",
+                    initPayload: "Hallo mein Name ist KoLi. Wie kann ich Ihnen behilflich sein?",
+                    //openLauncherImage: "..."
+                    //closeImage: "..."
+                  },
+                  null
+                );
+              }),
+              t.insertBefore(e, t.firstChild);
+          })();
+          </script>          
+    </body>
+</html>
