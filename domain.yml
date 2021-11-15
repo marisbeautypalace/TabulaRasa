@@ -5,6 +5,8 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- hello_world:
+    use_entities: true
 - greet:
     use_entities: true
 - goodbye:
@@ -49,6 +51,7 @@ responses:
   - text: Face Recognition [Fr] wird eingesetzt, um die Position von Gesichtern in Foto- oder Videoaufnahmen zu erkennen. Face Recognition Dienste markieren in den meisten Fällen Gesichter durch Rechtecke. Oft können Face Recognition-Services neben der Position des Gesichts auch weitere Eigenschaften, wie zum Beispiel das geschätzte Alter, das Geschlecht und die emotionale Stimmung feststellen.
   utter_faq/face_identification:
   - text: Die KI-Komponente erkennt Gesichter anhand von Bildern oder Videoaufnahmen und weist diese bekannten Personen zu. Face Identification [Fi] ist ein Spezialfall von Face Recognition [Fr]. Die KI-Komponente ist nicht nur in der Lage, eine Person zu erkennen, sondern diese auch anhand eines Vergleichsbildes zu identifizieren.
-actions: []
+actions:
+  - action_hello_world
 forms: {}
 e2e_actions: []

@@ -1,5 +1,10 @@
 version: "2.0"
 nlu:
+- intent: hello_world
+  examples: |
+    - Kannst du mich begrüßen?
+    - begrüße mich bitte
+    - sag mir Hallo
 - intent: greet
   examples: |
     - hallo
