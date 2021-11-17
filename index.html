@@ -5,6 +5,7 @@
       .rw-conversation-container .rw-messages-container .rw-message .rw-client{background-color: #b50900;}
       .rw-launcher{background-color: #b50900;}
       .rw-conversation-container .rw-reply{background-color: #b50900; border: 1px solid #b50900;}
+      .rw-sender .rw-send{background-color: transparent; filter: invert(50%) brightness(125%);}
     </style>
     
             <script>!(function () {
@@ -24,7 +25,12 @@
                     showMessageDate: true,
                     showFullScreenButton : false,
                     inputTextFieldHint: "Geben Sie ihre Nachricht ein...",
-                    initPayload: "Hallo mein Name ist KoLi. Wie kann ich Ihnen behilflich sein?",
+                    fullScreenMode: false,
+                    connectingText: "Verbinde mit Kompetenzzentrum Lingen",
+                    initPayload: "/greet",
+                    params: {
+                      storage: "session"
+                    }
                     //openLauncherImage: "..."
                     //closeImage: "..."
                   },
