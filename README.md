@@ -8,6 +8,7 @@ Creating a rasa chatbot to answer FAQs and manage event registration for Kompete
 
 # Setup Rasa X server
 ToDo: Massimo
+(https://rasa.com/docs/rasa-x/installation-and-setup/install/docker-compose/)
 
 # Rasa installation (local)
 
