@@ -6,11 +6,11 @@ interd. Project HS Osnabrueck
 
 Creating a rasa chatbot to answer FAQs and manage event registration for Kompetenzzentrum 4.0 Lingen
 
-# Setup Rasa X server
+## Setup Rasa X server
 ToDo: Massimo
 (https://rasa.com/docs/rasa-x/installation-and-setup/install/docker-compose/)
 
-# Rasa installation (local)
+## Rasa installation (local)
 
 1. Create a virtual enviroment with python version 3.7
 ```
@@ -90,7 +90,7 @@ rasa shell
 For more information see the official rasa documentation:
 https://rasa.com/docs/rasa/
 
-# Access Rasa X server
+## Access Rasa X server
 1. Use the network of the hs osnabrück (e. g. via eduVPN)
 
 2. Open 131.173.65.71/login in your favourite browser and login with credentials
