@@ -1,43 +1,29 @@
-# Configuration for Rasa NLU.
-# https://rasa.com/docs/rasa/nlu/components/
-
-language: "de"  # two-letter language code
-
+language: de
 pipeline:
-  - name: SpacyNLP
-    model: de_core_news_sm
-  - name: SpacyTokenizer
-  - name: SpacyFeaturizer
-  - name: RegexFeaturizer
-  - name: LexicalSyntacticFeaturizer
-  - name: CountVectorsFeaturizer
-  - name: CountVectorsFeaturizer
-    analyzer: "char_wb"
-    min_ngram: 1
-    max_ngram: 4
-  - name: DIETClassifier
-    epochs: 100
-  - name: EntitySynonymMapper
-  - name: ResponseSelector
-    epochs: 100
-    retrieval_intent: faq
-#  - name: ResponseSelector
-#    epochs: 100
-#    retrieval_intent: chitchat
-
-
-# Configuration for Rasa Core.
-# https://rasa.com/docs/rasa/core/policies/
+- name: SpacyNLP
+  model: de_core_news_lg
+- name: SpacyTokenizer
+- name: SpacyFeaturizer
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: DIETClassifier
+  epochs: 100
+- name: EntitySynonymMapper
+- name: ResponseSelector
+  epochs: 100
+  retrieval_intent: faq
 policies:
-# # No configuration for policies was provided. The following default policies were used to train your model.
-# # If you'd like to customize them, uncomment and adjust the policies.
-# # See https://rasa.com/docs/rasa/policies for more information.
-   - name: MemoizationPolicy
-   - name: RulePolicy
-   - name: UnexpecTEDIntentPolicy
-     max_history: 5
-     epochs: 100
-   - name: TEDPolicy
-     max_history: 5
-     epochs: 100
-     constrain_similarities: true
+- name: MemoizationPolicy
+- name: RulePolicy
+- name: UnexpecTEDIntentPolicy
+  max_history: 5
+  epochs: 100
+- name: TEDPolicy
+  max_history: 5
+  epochs: 100
+  constrain_similarities: true
