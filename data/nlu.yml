@@ -178,12 +178,122 @@ nlu:
     - Könnt ihr mir einen Cloud-Anbieter empfehlen?
     - Könnt ihr mir eine Software-Lösung empfehlen?
 
-## KI-Themen
+## FAQ KI-Themen
 - intent: faq/SpeechRecognition_SpeechIdentification
+  examples: |
     - Was ist Spracherkennung? 
     - Wie kann man Sprache erkennen?  
     - Wie kann ich Stimmen identifizieren? 
     - Wie kann der Computer erkennen was ich spreche? 
     - Mit welcher Technik wird das Gesprochene in Text umgewandelt? 
 
+- intent: faq/FaceRecognition_FaceIdentification 
+  examples: |
+    - Wofür wird Gesichtserkennung eingesetzt? 
+    - Was ist Gesichtserkennung? 
+    - Wie funktioniert Gesichtserkennung?
+    - Kann man Gesichter identifizieren? 
 
+- intent: faq/ImageRecognition_ImageIdentification
+  examples: |
+    - Was ist Bilderkennung? 
+    - Wozu benötigt man Bilderkennung? 
+    - Wie kann ich Objekte auf einem Bild finden? 
+    - Wie kategorisiere ich Objekte auf einem Bild? 
+    - Wie stelle ich fest das auf einem Bild ein Objekt ist? 
+    - Können in Videos Objekte gezählt werden? 
+    - Wie können Objekte in einem Bild erkannt werden? 
+
+- intent: faq/AudioRecognition_AudioIdentification 
+  examples: |
+    - Wie können Audiosignale klassifiziert werden? 
+    - Kann eine KI hören? 
+    - Kann ein Geräusch identifiziert werden? 
+    - Wie kann eine Spracherkennung Sprache von anderen Audiosignalen trennen? 
+    - Wie erkennt ein Computer verschiedene Audiosignale? 
+    - Gibt es die Möglichkeit verschiedene Audiosignale zu verarbeiten?  
+    - Wie kann ich verschiedene Audiosignale verarbeiten? 
+
+- intent: faq/DataAnalytics 
+  examples: |
+    - Was ist Data Analystics? 
+    - Wie kann ich Muster in Daten erkennen? 
+    - Wozu wird Data Analytics verwendet? 
+    - Wie lassen sich große Datenmengen analysieren? 
+    - Wie können unstrukturierte Datenquellen verarbeitet werden?  
+    - Wie können Daten Sensordaten korreliert werden?  
+    - Wie lassen sich Datenanalyse effizient gestalten?  
+
+- intent: faq/TextExtraction 
+  examples: |
+    - Wie können Entitäten in Texten erkannt werden? 
+    - Wie kann die Bedeutung von Wörtern erkannt werden? 
+    - Wie werden Begriffe in Texten extrahiert? 
+    - Wie kann die Bedeutung von Textbausteinen ermittelt werden? 
+    - Wie kann mit Mehrdeutigkeiten von Begriffen in Texten umgegangen werden? 
+    - Was macht eine Text Extraction? 
+
+- intent: faq/ProblemSolving 
+  examples: |
+    - Wie kann ich komplexe Probleme mit KI lösen? 
+    - Wie kann ich ein Gesamtproblem in Einzelschritte gliedern? 
+    - Wie funktioniert Problemlösung mit KI? 
+    - Was ist Problem Solving?  
+
+- intent: faq/LanguageUnderstanding 
+  examples: |
+    - Was ist Language Understanding? 
+    - Wie kann die Bedeutung eines Textes ermittelt werden? 
+    - Wie versteht KI Texte? 
+    - Wie versteht eine  KI  Texte? 
+    - Können Beziehungen in Texten erkannt werden? 
+    - Wie werden mehrdeutige Texte verstanden? 
+
+- intent: faq/LanguageGeneration 
+  examples: |
+    - Wie kann ein natürlicher Text mit KI generiert werden? 
+    - Was ist Language Generation? 
+    - Kann ein natürlicher Dialog von einem Computer erzeugt werden? 
+    - Wie kann ein Computer einen Text natürlich formulieren? 
+
+- intent: faq/PredictiveInference 
+  examples: |
+    - Wie können Prognosen erstellt werden? 
+    - Wie können Vorhersagen getroffen werden? 
+    - Kann auf Basis von Vergangenheitsdaten etwas prognostiziert werden? 
+    - Wie kann eine KI Vorhersagen erstellen? 
+    - Welche Prognosen kann eine KI erstellen? 
+    - Wie entsteht eine Wetterprognose? 
+    - Wie kann eine Umsatzprognose erstellt werden? 
+
+- intent: faq/ArtificialNeuralNetwork  
+  examples: |
+    - Was sind Artificial neural networks? 
+    - Kann ein Algorithmus das menschliche Gehirn nachempfinden? 
+    - Wie können komplexe Probleme von einem Computer gelöst werden? 
+
+- intent: faq/MachineLearning 
+  examples: |
+    - Was ist Machine Learning? 
+    - Wie kann Wissen künstlich generiert werden? 
+    - Mit welcher Technik lassen Muster in Daten erkennen? 
+    - Kann ein Computer lernen? 
+
+ - intent: faq/DeepLearning 
+   examples: |
+    - Was ist Deep Learning? 
+    - Was ist der Unterschied zwischen machine learning und deep learning? 
+    - Was sind Schichten beim Deep Learning? 
+
+- intent: faq/Bot
+  examples: |
+    - Was ist ein Bot? 
+    - Wie können sich wiederholende Aufgaben von einem Computer erledigt werden? 
+    - Wie kann ich mit einem Computer chatten? 
+
+- intent: faq/PredictiveMaintenance 
+  examples: |
+    - Was ist Predictive Maintenance?  
+    - Wie kann der Wartungsprozess effizienter gestaltet werden? 
+    - Wie können Wartungen vorhergesagt werden? 
+    - Können Maschinendaten zur Planung von Wartungen genutzt werden? 

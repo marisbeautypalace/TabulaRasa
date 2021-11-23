@@ -70,9 +70,37 @@ responses:
   utter_faq/mittelstand_agentur_software:
   - text: Nein. Die Agentur Cloud wird mit öffentlichen Geldern gefördert und ist angehalten, neutral aufzutreten. Sollten doch einmal Namen von Cloud-Anbietern oder Software-Lösungen fallen, sind diese beispielhaft dargestellt. Es werden keine Marktteilnehmer oder Produkte bevorzugt.
 
-## KI-Themen
+## FAQ KI-Themen
   utter_faq/SpeechRecognition_SpeechIdentification:
   - text: Mit dem KI-Modul Speech Recognition [Sr] wird gesprochene Sprache und/oder Gefühlszustände allgemein in ein Audiosignal gewandelt. Darüber hinaus kann mit Speech Identification [Si] eine individuelle Stimme an einem Audiosignal erkannt werden. 
+  utter_faq/FaceRecognition_FaceIdentification: 
+  - text: Mit der KI-Komponente Face Recognition [Fr] können Gesichter und emotionale Zuständen in Bildern oder Videosignalen erkannt werden. Konkrete Personen können mit dem KI-Modul Face Identifiaction [Fi] in Bildern oder Videosignalen erkannt. 
+  utter_faq/ImageRecognition_ImageIdentification:
+  - text: Image Recognition [Ir] ermöglicht das Erkennen bestimmter Objekttypen in Bildern oder Videosignalen. Mit Image Identification [Ii] kann ein konkretes Objekt in einem Bild oder Video erkannt werden. 
+  utter_faq/AudioRecognition_AudioIdentification:
+  - text: Audio Recognition [Ar], Speech Recognition [Sr] und Audio Identification [Ai] sind eng verwandt und überlappen sich teilweise. Nach einer Analyse des Audiosignals wird bei dem KI-Element Audio Recognition [Ar] das Signal von maschinellen Lernverfahren klassifiziert. Es werden bestimmte Arten von Geräuschen (Alarme, Gerätestress, Automotor) in einem Audiosignal erkannt. Mit Hilfe der Audio Identification [Ai] werde Audiosignaturen (ein bestimmter Motor oder eine bestimmte Türklingel) aus Audiosignalen erkannt.  
+  utter_faq/DataAnalytics:
+  - text: Mit dem KI-Modul Data Analytics [Da]  werden Daten analysiert, um bestimmte Tatsachen und/ oder Ereignisse zu erkennen, die diese Daten repräsentieren. Beispielsweise kann es sich dabei um das Erkennen von Verkaufstrends und Kundengruppen oder das Korrelieren von Sensordaten handeln. 
+  utter_faq/TextExtraction:
+  - text: Die KI-Komponente Text Extraction [Te] analysiert Texte, um Informationen über Entitäten, Zeit, Orte und Fakten extrahieren, die ausschließlich im Text enthalten sind. Es können verschiedene Entitäten (z. B. Personen, Organisationen, Städte, Produkte) und Begriffe (z. B. Kommunikation, Innovation, Produktion) in Texten erkannt und verstanden werden. Mehrdeutigkeiten von Wörtern werden aufgelöst.  
+  utter_faq/ProblemSolving:
+  - text: Die KI-Komponente Problem Solving [Ps] entspricht der menschlichen Fähigkeit, ein Problem durch Nachdenken zu lösen. Die prinzipielle Lösung steht im Vordergrund, das mögliche Optimieren ist nachrangig. Eine Fähigkeit von Problem Solving [Ps] besteht oft darin, ein Gesamtproblem in Einzelprobleme zu zerlegen. 
+  utter_faq/LanguageUnderstanding:
+  - text: Language Understanding [Lu] beschreibt das Verstehen der Information im Text, also die Zuordnung zur Bedeutung. Das KI-Element versteht die in Texten gemeinten Beziehungen zwischen Entitäten und Konzepten (siehe auch Text Extraction Te).  
+  utter_faq/LanguageGeneration:
+  - text: Die Aufgabe von Language Generation [Lg] ist das automatische Erzeugen eines natürlichsprachlichen Textes aus der formalen logischen Repräsentation von Wissen. 
+  utter_faq/PredictiveInference:
+  - text: Mit Predictive Inference [Pi] können Vorhersagen von Ereignissen oder Zuständen in der Zukunft auf der Grundlage eines Verständnisses eines aktuellen Zustandes der Welt und der Funktionsweise der Welt erstellt werden. Es basiert auf existierende Daten von metrischen Werten, Skalenwerten, Intervallen oder Klassen, z. B. Verkaufsprognosen, Wettervorhersagen oder Risikoklassen. 
+  utter_faq/ArtificialNeuralNetwork:
+  - text: Künstliche neuronale Netze sind Algorithmen, die dem menschlichen Gehirn nachempfunden. Sie werden für maschinelles Lernen und künstliche Intelligenz eingesetzt, um diverser (komplexer) Problemstellungen zu lösen. 
+  utter_faq/MachineLearning:
+  - text: Maschinelles Lernen ist ein Teilgebiet der künstlichen Intelligenz. Durch das Erkennen von Mustern in vorliegenden Datenbeständen während einer Lernphase sind IT-Systeme in der Lage, eigenständig Lösungen für Probleme zu finden. 
+  utter_faq/DeepLearning:
+  - text: Deep Learning bezeichnet eine Methode maschinellen Lernens, die künstliche neuronale Netze mit zahlreichen Zwischenschichten zwischen Eingabe- und Ausgabeschicht einsetzt und eine umfangreiche innere Struktur herausbildet. Die Maschinen werden in die Lage versetzt selbstständig und ohne menschliches Zutun, ihre Fähigkeiten verbessern. 
+  utter_faq/Bot:
+  - text: Bots sind Computerprogramme, die sich wiederholende Aufgaben automatisiert abarbeiten ohne auf eine menschliche Interaktion angewiesen zu sein. Ein Chatbot im Speziellen ist ein textbasiertes Dialogsystem, welches das Chatten mit einem technischen System erlaubt.  
+  utter_faq/PredictiveMaintenance:
+  - text: Unter Predictive Maintenance versteht man einen proaktiven Wartungsvorgang, der auf die einer permanenten Überwachung und Auswertung von Maschinen- und Prozessdaten basiert. Ziel ist es den zukünftigen Wartungsbedarf vorherzusagen und dadurch Störungen zu vermeiden. 
 
 actions:
   - action_hello_world
