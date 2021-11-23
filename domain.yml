@@ -39,17 +39,41 @@ responses:
   - text: Auf Wiedersehen
   utter_iamabot:
   - text: Ich bin ein Rasa-Bot.
+ 
+## FAQ IaaS
   utter_faq/cloud_or_it:
-  - text: 'Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett (Ausnahme: Internetanbindung und Firewall). Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.'
+  - text: Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett (Ausnahmen sind Internetanbindung und Firewall). Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.
   utter_faq/cloudcomputing_or_ownserver:
   - text: Es sind beliebige Mischungen möglich, die sich dann unter dem Sammelbegriff Hybrid Cloud zusammenfassen lassen. In den meisten Fällen ist eine schrittweise Umstellung oder der parallele Betrieb von Cloud und Nicht-Cloud-Lösungen sogar sinnvoller als ein vollständiger Wechsel in die Cloud.
-  utter_faq/face_recognition:
-  - text: Face Recognition [Fr] wird eingesetzt, um die Position von Gesichtern in Foto- oder Videoaufnahmen zu erkennen. Face Recognition Dienste markieren in den meisten Fällen Gesichter durch Rechtecke. Oft können Face Recognition-Services neben der Position des Gesichts auch weitere Eigenschaften, wie zum Beispiel das geschätzte Alter, das Geschlecht und die emotionale Stimmung feststellen.
+  utter_faq/use_of_cloud:
+  - text: Cloud Computing eignet sich für Unternehmen, die mithilfe Ihrer IT flexibel auf Kundenanforderungen eingehen möchten. Auch für diejenigen, die nicht größere Beträge in Servertechnik investieren möchten, könnte Cloud Computing interessant sein. (Link)
+  utter_faq/use_of_cloud_not:
+  - text: Problematisch wird die Cloud immer dann, wenn die Netzwerkanbindung nicht in ausreichendem Maße gewährleistet ist. Neben einer grundsätzlich schlechten Breitbandverbindung betrifft es vor allem Außendienstmitarbeiter mit schlechter Mobilfunkanbindung. (Link)
+  utter_faq/cloud_introduction:
+  - text: Beginnen Sie mit dem Kurzleitfaden „Auswahl und Einführung von Cloud-Lösungen“.
+  utter_faq/network_breakdown:
+  - text: Unternehmen sollten sich schon jetzt die Frage stellen, ob sie arbeitsfähig wären, wenn das Internet ausfällt. Allein die Kommunikation und der Datentransfer über E-Mail oder die IP-Telefonie sind abhängig von einer funktionierenden Internetleitung. Diese Frage stellt sich also nicht erst, wenn man auf Cloud Computing umsattelt. (Link)
+  utter_faq/range_of_internet:
+  - text: Die Bandbreitenanforderungen hängen zum Teil von der Art der Anwendung und auf alle Fälle von der Anzahl der Nutzer und der Datenmenge ab, die zwischen dem Unternehmen und der Cloud (regelmäßig) übermittelt werden soll. Insofern ist hier keine allgemeingültige Antwort möglich. (Link)
+  utter_faq/provider_change:
+  - text: Sie sollten immer standardisierte Datenformate verwenden, da Sie diese im Falle eines Anbieterwechsels oder der Insolvenz Ihres Anbieters weiterverwenden möchten. Die Wahl des Datenträgers für die Rückgabe hängt von der Datenmenge ab, die Sie beim Anbieter gespeichert haben. (Link)
+  utter_faq/security:
+  - text: Das hängt sehr stark davon ab, was Sie in den Nutzungsvereinbarungen mit Ihrem Anbieter vertraglich festgelegt haben. Ein Datenverlust ist daher nicht ausgeschlossen, kann aber durch entsprechende vertragliche Vereinbarungen verhindert werden. Grundsätzlich sollte man zwei Dinge absichern. (Link)
+  utter_faq/mittelstand_agentur:
+  - text: Die Aufgabe der Mittelstand 4.0-Agentur Cloud ist es, Multiplikatoren aus Mittelstandsverbänden, Kammern und Wirtschaftsförderungseinrichtungen beim Wissenstransfer bzgl. Cloud Computing und Smart Services in Richtung kleiner und mittelständischer Unternehmen zu unterstützen. (Link)
+  utter_faq/mittelstand_agentur_offers:
+  - text: Die Agentur ist ein Bundesprojekt und wird mit öffentlichen Mitteln des Bundesministeriums für Wirtschaft und Energie gefördert. Aus diesem Grund werden die Angebote kostenlos angeboten.
+  utter_faq/mittelstand_agentur_location:
+  - text: Die Agentur setzt sich aus den drei Partnern zusammen. Dem Fraunhofer IAO (Stuttgart), der it.emsland (Lingen) und der Hochschule Osnabrück (Campus Lingen). Die Projektmitarbeiter sitzen an den Standorten ihrer jeweiligen Organisation.
+  utter_faq/mittelstand_agentur_BMWi:
+  - text: Die Agentur ist ein Bundesprojekt und wird mit öffentlichen Mitteln des Bundesministeriums für Wirtschaft und Energie gefördert. Die Projektpartner (Fraunhofer IAO, it.emsland und Hochschule Osnabrück) bilden gemeinsam die Mittelstand 4.0-Agentur Cloud und sind für die Umsetzung des Projekts verantwortlich.
+  utter_faq/mittelstand_agentur_software:
+  - text: Nein. Die Agentur Cloud wird mit öffentlichen Geldern gefördert und ist angehalten, neutral aufzutreten. Sollten doch einmal Namen von Cloud-Anbietern oder Software-Lösungen fallen, sind diese beispielhaft dargestellt. Es werden keine Marktteilnehmer oder Produkte bevorzugt.
+
 ## KI-Themen
   utter_faq/SpeechRecognition_SpeechIdentification:
   - text: Mit dem KI-Modul Speech Recognition [Sr] wird gesprochene Sprache und/oder Gefühlszustände allgemein in ein Audiosignal gewandelt. Darüber hinaus kann mit Speech Identification [Si] eine individuelle Stimme an einem Audiosignal erkannt werden. 
-  utter_faq/face_identification:
-  - text: Die KI-Komponente erkennt Gesichter anhand von Bildern oder Videoaufnahmen und weist diese bekannten Personen zu. Face Identification [Fi] ist ein Spezialfall von Face Recognition [Fr]. Die KI-Komponente ist nicht nur in der Lage, eine Person zu erkennen, sondern diese auch anhand eines Vergleichsbildes zu identifizieren.
+
 actions:
   - action_hello_world
 forms: {}

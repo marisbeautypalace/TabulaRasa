@@ -76,8 +76,11 @@ nlu:
     - wer bist du?
     - was bist du?
     - bist du ein Bot?
+
+## FAQ IaaS
 - intent: faq/cloud_or_it
   examples: |
+    - Wenn ich künftig alles „in der Cloud mache“, wozu brauche ich meine IT-Abteilung noch?
     - Brauche ich noch eine IT-Abteilung?
     - Benötige ich eine IT-Abteilung?
     - Wozu benötige ich eine IT-Abteilung?
@@ -87,11 +90,93 @@ nlu:
     - Welche Aufgaben hat die IT-Abteilung zukünftig?
     - Was macht die IT-Abteilung zukünftig?
     - Was sind die Aufgaben der IT-Abteilung, wenn ich eine Cloud nutze?
+
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - Eher Cloudcomputing oder eigener Server?
     - Muss ich auf Cloud Computing umsteigen oder soll ich meinen eigenen Server nutzen?
     - Besser einen eigenen Server nutzen oder Cloud Computing?
+    - Was mache ich mit meinem Server, wenn ich Cloud Computing nutze?
+    - Wird zukünftig nur noch Cloud Computing genutzt oder kann ich eigene Server noch nutzen?
+
+- intent: faq/use_of_cloud
+  examples: |
+    - Für wen eignet sich der Einsatz von Cloud Computing?
+    - Wer nutzt Cloud Computing?
+    - Welche Unternehmen nutzen Cloud Computing?
+    - Für wen ist Cloud Computing gut?
+
+- intent: faq/use_of_cloud_not
+  examples: |
+    - Für wen eignet sich der Einsatz von Cloud Computing nicht?
+    - Wer nutzt Cloud Computing nicht?
+    - Welche Unternehmen nutzen Cloud Computing nicht?
+    - Für wen ist Cloud Computing nicht geeignet?
+
+- intent: faq/cloud_introduction
+  examples: |
+    - Wie gehe ich am besten bei der Einführung von Cloud Computing vor?
+    - Wie führe ich Cloud Computing im Unternehmen ein?
+    - Gibt es einen Prozess, um das Cloud Computing einzuführen?
+    - Wie wird Cloud Computing im Unternehmen eingeführt?
+
+- intent: faq/network_breakown
+  examples: |
+    - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
+    - Was passiert, wenn das Internet ausfällt?
+    - Gibt es Probleme bei einer instabilen Internetverbindung?
+    - Kann das Unternehmen ohne Internet noch arbeiten?
+
+- intent: faq/range_of_internet
+  examples: |
+    - Welche Bandbreite benötige ich, um Cloud Computing nutzen zu können?
+    - Wie stark muss meine Internetverbindung für Cloud Computing sein?
+    - Brauche ich eine gute Bandbreite für Cloud Computing?
+    - Gibt es eine vorgeschriebene Bandbreite für Cloud Computing?
+
+- intent: faq/provider_change
+  examples: |
+    - Welche Datenformat und Datenträger sollte man für die Rückgabe der Daten im Falle eines Anbieterwechsels wählen?
+    - Was muss ich bei einem Anbieterwechsel beachten?
+    - Wie läuft die Rückgabe von Daten bei einem Anbieterwechsel ab?
+    - Gibt es spezielle Anforderungen an Datenträger für die Rückgabe von Daten bei einem Anbieterwechsel?
+
+- intent: faq/sequrity
+  examples: |
+    - Was passiert mit meinen Daten, wenn der Cloud-Anbieter insolvent geht?
+    - Sind meine Daten im Falle einer Insolvenz des Cloud-Anbieters verloren?
+    - Wie kann ich einen Datenverlust bei Insolvenz des Cloud-Anbieters absichern?
+
+- intent: faq/mittelstand_agentur
+  examples: |
+    - Was bietet die Mittelstand 4.0-Agentur Cloud an?
+    - Was bietet die Cloud der Mittelstand 4.0-Agentur an?
+    - Was sind die Aufgaben der Mittelstand 4.0-Agentur Cloud?
+    - Was ist die Cloud der Mittelstand 4.0-Agentur?
+
+- intent: faq/mittelstand_agentur_offers
+  examples: |
+    - Warum sind die Angebote der Mittelstand 4.0-Agentur Cloud kostenlos nutzbar?
+    - Wird die Mittelstand 4.0-Agentur gefördert?
+    - Was kostet das Angebot der Mittelstand 4.0-Agentur?
+    - Wie hoch sind die Kosten für die Leistungen der Mittelstand 4.0-Agentur?
+
+- intent: faq/mittelstand_agentur_location
+  examples: |
+    - Hat die Mittelstand 4.0-Agentur Cloud einen Unternehmensstandort?
+    - Wie ist die Mittelstand 4.0-Agentur zusammengesetzt?
+    - Wo sitzen die Mitarbeiter der Mittelstand 4.0-Agentur?
+    - Gibt es einen Standort der Mittelstand 4.0 Agentur?
+
+- intent: faq/mittelstand_agentur_BMWi
+  examples: |
+    - In welcher Beziehung steht die Agentur zum Bundeswirtschaftsministerium?
+
+- intent: faq/mittelstand_agentur_software
+  examples: |
+    - Empfiehlt die Agentur Cloud-Anbieter oder Software-Lösungen?
+    - Könnt ihr mir einen Cloud-Anbieter empfehlen?
+    - Könnt ihr mir eine Software-Lösung empfehlen?
 
 ## KI-Themen
 - intent: faq/SpeechRecognition_SpeechIdentification
