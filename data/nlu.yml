@@ -92,37 +92,13 @@ nlu:
     - Eher Cloudcomputing oder eigener Server?
     - Muss ich auf Cloud Computing umsteigen oder soll ich meinen eigenen Server nutzen?
     - Besser einen eigenen Server nutzen oder Cloud Computing?
-- intent: faq/speech_recognition
-  examples: |
-    - Was ist Spracherkennung?
-    - Was ist Speech Recognition?
-    - Wozu braucht man Speech Recognition?
-    - Wie kann man Sprache erkennen?
-    - Wie kann der Computer erkennen was ich spreche?
-    - Mit welcher Technik wird das Gesprochene in Text umgewandelt?
-    - Wie kann ich Sprache erkennen?
-    - Kannst du mir sagen, was Spracherkennung ist?
-    - Spracherkennung
-    - sprcherkenung
-- intent: faq/speech_identification
-  examples: |
-    - Gibt es einen Unterschied zwischen Speech Identification and Speech Recognition?
-    - Was ist Stimmerkennung?
-    - Kann ein Computer mich an meiner Stimme erkennen?
-    - Gibt es eine Möglichkeit Stimmen zu identifizieren?
-    - Woran lassen sich Stimmen erkennen?
-- intent: faq/face_recognition
-  examples: |
-    - Wofür wird Face Recognition eingesetzt?
-    - Was ist Face Recognition?
-    - Wie funktioniert Face Recognition?
-    - Kann man mit Face Recognition Gesichter identifizieren?
-    - Was ist das Ergebnis der Face Recognition?
-- intent: faq/face_identification
-  examples: |
-    - Was ist Face Identification?
-    - Wie funktioniert Gesichtserkennung?
-    - Wie kann ich Gesichter erkennen?
-    - Was braucht man für Gesichtserkennung?
-    - Wie erkenne ich Gesichter?
-    - Was ist der Unterschied zwischen Face Identification und Face Recognition?
+
+## KI-Themen
+- intent: faq/SpeechRecognition_SpeechIdentification
+    - Was ist Spracherkennung? 
+    - Wie kann man Sprache erkennen?  
+    - Wie kann ich Stimmen identifizieren? 
+    - Wie kann der Computer erkennen was ich spreche? 
+    - Mit welcher Technik wird das Gesprochene in Text umgewandelt? 
+
+
