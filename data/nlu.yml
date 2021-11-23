@@ -279,8 +279,8 @@ nlu:
     - Mit welcher Technik lassen Muster in Daten erkennen? 
     - Kann ein Computer lernen? 
 
- - intent: faq/DeepLearning 
-   examples: |
+- intent: faq/DeepLearning 
+  examples: |
     - Was ist Deep Learning? 
     - Was ist der Unterschied zwischen machine learning und deep learning? 
     - Was sind Schichten beim Deep Learning? 
