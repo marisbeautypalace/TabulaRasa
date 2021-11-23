@@ -43,12 +43,11 @@ responses:
   - text: 'Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett (Ausnahme: Internetanbindung und Firewall). Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.'
   utter_faq/cloudcomputing_or_ownserver:
   - text: Es sind beliebige Mischungen möglich, die sich dann unter dem Sammelbegriff Hybrid Cloud zusammenfassen lassen. In den meisten Fällen ist eine schrittweise Umstellung oder der parallele Betrieb von Cloud und Nicht-Cloud-Lösungen sogar sinnvoller als ein vollständiger Wechsel in die Cloud.
-  utter_faq/speech_recognition:
-  - text: Speech Recognition [Sr] bietet die Möglichkeit, Wörter und Sätze in gesprochener Sprache und Audiosignalen zu erkennen und zu verstehen. Im ersten Schritt wird dabei die Sprache in ein maschinenlesbares Format übersetzt. Anschließend wird dieses durch linguistische Modelle, Algorithmen und Filter weiterverarbeitet. Eine erweiterte Anwendung ist das Erkennen von Gefühlslagen, des sogenannten Sentiments.
-  utter_faq/speech_identification:
-  - text: Speech Identification [Si] bezeichnet das Verwenden akustischer Parameter zur Identifikation eines individuellen Sprechers. Dazu werden charakteristische Eigenschaften im Klangbild der Sprache eines Individuums genutzt, um diese von anderen Sprechern zu unterscheiden. Man unterscheidet zwischen eingeschränkter und uneingeschränkter Erkennung. Eingeschränkt bedeutet, dass für einen Sprecher vorgegebene Zahlen oder Worte als Muster hinterlegt sind. Flexibler ist die uneingeschränkte Variante, die anhand zufälliger Sprache die Identität feststellen kann, was höhere Anforderungen an das System mit sich bringt.
   utter_faq/face_recognition:
   - text: Face Recognition [Fr] wird eingesetzt, um die Position von Gesichtern in Foto- oder Videoaufnahmen zu erkennen. Face Recognition Dienste markieren in den meisten Fällen Gesichter durch Rechtecke. Oft können Face Recognition-Services neben der Position des Gesichts auch weitere Eigenschaften, wie zum Beispiel das geschätzte Alter, das Geschlecht und die emotionale Stimmung feststellen.
+## KI-Themen
+  utter_faq/SpeechRecognition_SpeechIdentification:
+  - text: Mit dem KI-Modul Speech Recognition [Sr] wird gesprochene Sprache und/oder Gefühlszustände allgemein in ein Audiosignal gewandelt. Darüber hinaus kann mit Speech Identification [Si] eine individuelle Stimme an einem Audiosignal erkannt werden. 
   utter_faq/face_identification:
   - text: Die KI-Komponente erkennt Gesichter anhand von Bildern oder Videoaufnahmen und weist diese bekannten Personen zu. Face Identification [Fi] ist ein Spezialfall von Face Recognition [Fr]. Die KI-Komponente ist nicht nur in der Lage, eine Person zu erkennen, sondern diese auch anhand eines Vergleichsbildes zu identifizieren.
 actions:
