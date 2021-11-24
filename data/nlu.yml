@@ -178,6 +178,13 @@ nlu:
     - Könnt ihr mir einen Cloud-Anbieter empfehlen?
     - Könnt ihr mir eine Software-Lösung empfehlen?
 
+##Cloud Terminologien
+- intent: faq/IaaS
+  examples: |
+    - Was versteht man unter Infrastructure as a Service?
+    - Für welche Zwecke kann ich Infrastructure as a Service nutzen?
+    - Was ist Infrastructure as a Service?
+
 ## FAQ KI-Themen
 - intent: faq/SpeechRecognition_SpeechIdentification
   examples: |
