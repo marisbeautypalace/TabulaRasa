@@ -77,7 +77,7 @@ nlu:
     - was bist du?
     - bist du ein Bot?
 
-## FAQ IaaS
+## FAQ kicc.digital
 - intent: faq/cloud_or_it
   examples: |
     - Wenn ich künftig alles „in der Cloud mache“, wozu brauche ich meine IT-Abteilung noch?
@@ -184,6 +184,54 @@ nlu:
     - Was versteht man unter Infrastructure as a Service?
     - Für welche Zwecke kann ich Infrastructure as a Service nutzen?
     - Was ist Infrastructure as a Service?
+
+- intent: faq/PaaS
+  examples: |
+    - Was versteht man unter Platform as a Service?
+    - Für welche Zwecke kann ich Platform as a Service nutzen?
+    - Was ist Platform as a Service?
+
+- intent: faq/SaaS
+  examples: |
+    - Was versteht man unter Software as a Service?
+    - Für welche Zwecke kann ich Software as a Service nutzen?
+    - Was ist Software as a Service?
+
+- intent: faq/private_cloud
+  examples: |
+    - Was ist eine private Cloud?
+    - Für welche Zwecke kann ich Private Cloud nutzen?
+    - Was ist Private Cloud?
+
+- intent: faq/public_cloud
+  examples: |
+    - Was ist eine Public Cloud?
+    - Für welche Zwecke kann ich Private Cloud nutzen?
+    - Was ist Private Cloud?
+
+- intent: faq/hybrid_cloud
+  examples: |
+    - Was ist eine Hybrid Cloud?
+    - Für welche Zwecke kann ich Hybrid Cloud nutzen?
+    - Was ist Hybrid Cloud?
+
+- intent: faq/community_cloud
+  examples: |
+    - Was ist eine Community Cloud?
+    - Für welche Zwecke kann ich Community Cloud nutzen?
+    - Was ist Community Cloud?
+
+- intent: faq/onpremise_ondemand
+  examples: |
+    - Was ist der Unterschied zwischen On-Premise und On-Demand?
+    - Für welche Zwecke nutze ich On-Premise oder On-Demand?
+    - Wann nutze ich On-Premise und wann On-Demand?
+
+- intent: faq/services
+  examples: |
+    - Was sind Dienstleistungen von Cloud Computing?
+    - Welche Dienstleistungen bietet das Cloud Computing?
+    - Bietet Cloud Computing Dienstleistungen an?
 
 ## FAQ KI-Themen
 - intent: faq/SpeechRecognition_SpeechIdentification

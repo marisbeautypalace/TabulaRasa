@@ -40,7 +40,7 @@ responses:
   utter_iamabot:
   - text: Ich bin ein Rasa-Bot.
  
-## FAQ IaaS
+## FAQ kicc-process
   utter_faq/cloud_or_it:
   - text: Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett (Ausnahmen sind Internetanbindung und Firewall). Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.
   utter_faq/cloudcomputing_or_ownserver:
@@ -70,9 +70,33 @@ responses:
   utter_faq/mittelstand_agentur_software:
   - text: Nein. Die Agentur Cloud wird mit öffentlichen Geldern gefördert und ist angehalten, neutral aufzutreten. Sollten doch einmal Namen von Cloud-Anbietern oder Software-Lösungen fallen, sind diese beispielhaft dargestellt. Es werden keine Marktteilnehmer oder Produkte bevorzugt.
 
-#Cloud Terminologien
+## Cloud Terminologien
   utter_faq/IaaS:
   - text: IaaS (Infrastructure as a Service) ist die unterste Ebene der Cloud-Modelle. In diesem Bereich wird vom Anwender virtuelle Hardware als Infrastruktur beim Cloud-Service-Provider (CSP) gemietet und in die unternehmensinterne IT-Landschaft integriert. Klassische Beispiele sind Speicherplatz, Rechenleistung oder Netzwerkbandbreite.
+
+  utter_faq/PaaS:
+  - text: PaaS (Platform as a Service) ist die mittlere Ebene der Cloud-Modelle. Der Anwender hat keinen oder nur eingeschränkten Zugriff auf die Administration der Hardware. Im Kern wird vom Anbieter eine Computer-Plattform zur Verfügung gestellt, welche für die Entwicklung von Webanwendungen und kompletten Entwicklungsumgebungen genutzt wird. (Link)
+
+  utter_faq/SaaS:
+  - text: SaaS (Software as a Service) ist die oberste Ebene der Cloud-Modelle. In diesem Bereich werden fertige Softwarelösungen in Form von Anwendungen für den Nutzer bereitgestellt. Die Verantwortung für die Wartung, Software-Updates und die Verwaltung von Lizenzen obliegt vollständig dem Provider. Klassische Beispiele sind Office 365, Google Apps und iCloud Apps. (Link)
+
+  utter_faq/private_cloud:
+  - text: Die private Wolke (Cloud) ist eine unternehmenseigene Cloud-Umgebung, welche gezielt für die eigene Institution sowie ggf. Geschäftspartner, Kunden und Lieferanten betrieben wird. Die Organisation und der Betrieb kann von dem Unternehmen selbst oder von einem Dritten geführt werden. (Link)
+
+  utter_faq/public_cloud:
+  - text: Die öffentliche Wolke (Cloud) ist eine vom Provider betriebene und i.d.R. über das Internet bereitgestellte Cloud-Umgebung. Die bereitgestellte Infrastruktur wird von einer beliebigen Anzahl an Kunden anteilig gemietet. Die vom Kunden erworbenen Nutzungsrechte umfassen beispielsweise die Miete von standardisierten Anwendungs- und Infrastruktur-Services. (Link)
+
+  utter_faq/hybrid_cloud:
+  - text: Die gemischte Wolke (Cloud) ist eine Mischform bestehend aus einer möglichen Kombination von Private Cloud, Public Cloud und traditioneller IT. Die verschiedenen, für sich individuellen Infrastrukturen, können über standardisierte Schnittstellen miteinander kommunizieren. (Link)
+
+  utter_faq/community_cloud:
+  - text: Die gemeinschaftliche Wolke (Cloud) ist ein Zusammenschluss von mehreren Unternehmen der gleichen Branche oder Interessengemeinschaft, welche aus ihren privaten Cloud-Lösungen eine Community Cloud formen. Der Zugriff ist auf die Mitglieder des Interessenverbands beschränkt. (Link)
+
+  utter_faq/onpremise_ondemand:
+  - text: Bei der Auslagerung von IT-Dienstleistungen in die Cloud wird häufig von Software-on-Demand gesprochen. Im Vergleich zu dem On-Premise-Nutzungsmodell, bei welchem der Nutzer die Lizenz für ein Computerprogramm erwirbt und dieses selbst auf der eigenen Hardware betreibt, wird bei der On-Demand-Lösung die Software und damit verbundene Lizenzen beim Anbieter betrieben und je nach Bedarf hoch- oder herunterskaliert.
+
+  utter_faq/services:
+  - text: Dienstleistungen von Cloud Computing sind sehr vielfältig und können folgendes beispielsweise beinhalten. Informationssicherheit, Performance der Dienstleistung, integrationsfähigkeit an die IT-Landschaft des Kunden, niedrige Kosten, keine Technologiehürden, niedriger Einführungsaufwand, Berücksichtigung der Compliance-Anforderungen, Pay-per-Use, gute Help-Desk Strukturen und Support, virtuelles Training, Notfallpläne, flexible Gestaltung von Service Level Agreements.
 
 ## FAQ KI-Themen
   utter_faq/SpeechRecognition_SpeechIdentification:
