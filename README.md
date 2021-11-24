@@ -7,7 +7,34 @@ interd. Project HS Osnabrueck
 Creating a rasa chatbot to answer FAQs and manage event registration for Kompetenzzentrum 4.0 Lingen
 
 ## Setup Rasa X server
-ToDo: Massimo
+
+1. Download the install script for Rasa X either for a specific version 
+```
+curl -sSL -o install.sh https://storage.googleapis.com/rasa-x-releases/0.42.6/install.sh
+```
+or edge version
+```
+curl -sSL -o install.sh https://storage.googleapis.com/rasa-x-releases/latest/install.sh
+```
+
+2. Install Rasa X
+```
+sudo bash ./install.sh
+```
+
+3. Start up Rasa X in the Backround
+```
+cd /etc/rasa
+sudo docker-compose up -d
+```
+
+4. Set up your password
+```
+cd /etc/rasa
+sudo python3 rasa_x_commands.py create --update admin me <PASSWORD>
+```
+
+For more Information also see:
 (https://rasa.com/docs/rasa-x/installation-and-setup/install/docker-compose/)
 
 ## Rasa installation (local)
