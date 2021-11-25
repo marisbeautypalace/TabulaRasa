@@ -128,5 +128,9 @@ The UI is build with rasa webchat. A chat widget to deploy virtual assistants ma
 For more information see the rasa webchat project:
 https://github.com/botfront/rasa-webchat
 
-The script which contains the body, the parameters and other features you will find in the '''index.html'''.
+The script which contains the body, the parameters and other features you will find here:
+```
+index.html
+```
+
 
