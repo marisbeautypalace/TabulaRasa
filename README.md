@@ -138,5 +138,15 @@ https://rasa.com/docs/rasa/
 
 2. Open 131.173.65.71/login in your favourite browser and login with credentials
 
+## UI maintenance
+The UI is build with rasa webchat. A chat widget to deploy virtual assistants made with rasa or botfront on any website. 
+
+For more information see the rasa webchat project:
+https://github.com/botfront/rasa-webchat
+
+The script which contains the body, the parameters and other features you will find here:
+```
+index.html
+```
 
 

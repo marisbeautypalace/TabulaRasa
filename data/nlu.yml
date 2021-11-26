@@ -352,3 +352,63 @@ nlu:
     - Wie kann der Wartungsprozess effizienter gestaltet werden? 
     - Wie können Wartungen vorhergesagt werden? 
     - Können Maschinendaten zur Planung von Wartungen genutzt werden? 
+
+## FAQ Website KoLi
+- intent: faq/mittelstand_agentur_support
+  examples: |
+    - Was beinhalten die Angebote vom Kompetenzzentrum?
+    - Wobei kann mich das Kompetenzzentrum unterstützen?
+
+- intent: faq/mittelstand_agentur_cooperation
+  examples: |
+    - Kann ich mit dem Kompetenzzentrum kooperieren?
+    - Wie werde ich Kooperationspartner vom Kompetenzzentrum?
+    - Ist es möglich eine Kooperation mit dem Kompetenzzentrum einzugehen?
+    - Kann ich andere Unternehmen im Bereich der digitalen Transformation unterstützen?
+
+- intent: faq/ki_companysize
+  examples: |
+    - Künstliche Intelligenz ist nur etwas für große Unternehmen. Oder nicht?
+    - Ist der Einsatz von künstlicher Intelligenz in einem kleinen Unternehmen sinnvoll?
+
+- intent: faq/ki_data
+  examples: |
+    - Welche Rolle spielen Daten beim Einsatz Künstlicher Intelligenz?
+    - Sind Daten in Bezug auf Künstliche Intelligenz wichtig?
+
+- intent: faq/ki_use
+  examples: |
+    - Wann ist der Einsatz von Künstlicher Intelligenz sinnvoll?
+    - Welche Fragen sollte man sich beim Einsatz von künstlicher Intelligenz stellen?
+
+- intent: faq/ki_hardware
+  examples: |
+    - Kann man Künstliche Intelligenz auf der eigenen Unternehmens-IT laufen lassen?
+    - Benötige ich spezielle Hardware für Künstliche Intelligenz?
+
+- intent: faq/ki_topics
+  examples: |
+    - In welchen Bereichen kann ich zum Thema Künstliche Intelligenz Unterstützung erhalten?
+    - Was bietet das Kompetenzzentrum zum Thema Künstliche Intelligenz an?
+
+- intent: faq/cloud_computing_topics
+  examples: |
+    - In welchen Bereichen kann ich zum Thema Cloud Computing Unterstützung erhalten?
+    - Was bietet das Kompetenzzentrum im Bereich Cloud Computing an?
+
+- intent: faq/agriculture_digitalization
+  examples: |
+    - Was für Möglichkeiten im Bereich der Digitalisierung habe ich auf meinem landwirtschaftlichen Betrieb?
+    - Wozu braucht ein landwirtschaftlicher Betrieb die Digitalisierung?
+
+- intent: faq/craft_digitalization
+  examples: |
+    - Wie kann das Kompetenzzentrum meinem Handwerksbetrieb im Bereich Digitalisierung unterstützen?
+
+- intent: faq/maritime_digitalization
+  examples: |
+    - Wie kann das Kompetenzzentrum meine Reederei im Bereich Digitalisierung unterstützen?
+    - Wie kann das Kompetenzzentrum meine Werft im Bereich Digitalisierung unterstützen?
+    - Wie kann das Kompetenzzentrum mein Unternehmen aus dem maritimen Bereich in Bezug auf Digitalisierung unterstützen?
+
+## Ansprechpartner
