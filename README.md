@@ -6,7 +6,7 @@ interd. Project HS Osnabrueck
 
 Creating a rasa chatbot to answer FAQs and manage event registration for Kompetenzzentrum 4.0 Lingen
 
-## Setup Rasa X server
+## Setup Rasa X server (Docker)
 
 1. Download the install script for Rasa X either for a specific version 
 ```
@@ -36,6 +36,22 @@ sudo python3 rasa_x_commands.py create --update admin me <PASSWORD>
 
 For more Information also see:
 (https://rasa.com/docs/rasa-x/installation-and-setup/install/docker-compose/)
+
+## Connect Rasa X with your Git Reposetory
+
+1. Start Rasa X within your webbrowser and navigate to the "Connect to a reposetory" option
+
+2. Clone your Git Repos URL with SSH and paste it in the "SSH for repository" field in Rasa X
+
+3. For the filed "Target branch" choose "master"
+
+4. Copy the SSH deply key from Rasa X and paste ist into your Git Repos Settings/Deploy keys. Title the key and give write accsess
+
+5. Press "Veryfy connection" Button
+
+## Set up Docker
+
+1. 
 
 ## Rasa installation (local)
 
