@@ -158,6 +158,7 @@ x-rasa-services: &default-rasa-service
 sudo docker-compose down
 sudo docker-compose build
 sudo docker-compose up -d
+```
 
 ## Rasa installation (local)
 
