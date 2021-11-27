@@ -215,6 +215,7 @@ nlu:
     - Wie kann ich Stimmen identifizieren?
     - Wie kann der Computer erkennen was ich spreche?
     - Mit welcher Technik wird das Gesprochene in Text umgewandelt?
+    - Spracherkennung?
 - intent: faq/FaceRecognition_FaceIdentification
   examples: |
     - Wofür wird Gesichtserkennung eingesetzt?
