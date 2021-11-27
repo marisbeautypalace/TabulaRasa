@@ -58,6 +58,7 @@ nlu:
     - ganz in Ordnung
     - Gut!
     - gut und dir?
+    - Gut, danke
 - intent: mood_unhappy
   examples: |
     - mir geht es schlecht
@@ -135,6 +136,11 @@ nlu:
     - Cloud einführen
     - Einführen von Cloud
     - Wie Einführung Cloud Unternehmen?
+    - Prozess Einführung Cloud?
+    - Wir planen den Neustart einer Cloud. Wie führe ich diese ein?
+    - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor?
+    - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor`
+    - Cloud im Unternehmen einführen
 - intent: faq/network_breakown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
@@ -142,6 +148,7 @@ nlu:
     - Gibt es Probleme bei einer instabilen Internetverbindung?
     - Kann das Unternehmen ohne Internet noch arbeiten?
     - Was passiert wenn das Internet ausfällt?
+    - Was passiert, wenn mein Internet ausfällt?
 - intent: faq/range_of_internet
   examples: |
     - Welche Bandbreite benötige ich, um Cloud Computing nutzen zu können?
