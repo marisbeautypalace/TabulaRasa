@@ -77,13 +77,6 @@ nlu:
     - wer bist du?
     - was bist du?
     - bist du ein Bot?
-- intent: faq/cloud_or_it
-  examples: |
-      was macht die It Abteilung dann in der zuKUunft?
-      brauch ich in der Zukunft eine Abteilung für it?
-      Vorteil it Abteilung?
-      was macht it?
-      ist eine IT Abteilung noch wichtig für mein Unternehmen?
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - Eher Cloudcomputing oder eigener Server?
@@ -114,6 +107,7 @@ nlu:
     - Wann nutze ich die Cloud?
     - Wann nutze ich eine Cloud?
     - Brauche ich eine Cloud
+    - Cloud einführen?
 - intent: faq/use_of_cloud_not
   examples: |
     - Für wen eignet sich der Einsatz von Cloud Computing nicht?
@@ -132,6 +126,20 @@ nlu:
     - Wie führe ich Cloud Computing im Unternehmen ein?
     - Gibt es einen Prozess, um das Cloud Computing einzuführen?
     - Wie wird Cloud Computing im Unternehmen eingeführt?
+    - Cloud Einführung?
+    - Wie Plane ich die Cloudeinführung?
+    - Wir planen den Neustart einer Cloud. Wie führe ich diese ein?
+    - Prozess Einführung Cloud?
+    - Cloud wie einführen?
+    - Ich suche Informationen, wie ich einen Cloud in meinem Unternehmen einführen kann.
+    - Haben Sie Informationen zur Einführung einer Cloud?
+    - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor?
+    - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor`
+    - Wie Einführung Cloud Unternehmen?
+    - Cloud im Unternehmen einführen
+    - Einführen von Cloud
+    - Cloud einführen
+    - Wie führe ich eine Cloud ein?
 - intent: faq/network_breakown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
@@ -426,3 +434,15 @@ nlu:
 - intent: faq/geschaefsstelle_muenster
   examples: |
     - Münster
+- intent: faq/cloud_or_it
+  examples:
+  - text: |
+      was macht die It Abteilung dann in der zuKUunft ?
+  - text: |
+      brauch ich in der Zukunft eine Abteilung für it?
+  - text: |
+      Vorteil it Abteilung?
+  - text: |
+      was macht it?
+  - text: |
+      ist eine IT Abteilung noch wichtig für mein Unternehmen?
