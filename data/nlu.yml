@@ -144,55 +144,137 @@ nlu:
 - intent: faq/network_breakown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
+    - Internetausfall
+    - Netzwerkausfall
+    - Ausfall des Netzwerks
+    - Breakdown des Internets
+    - Keine Funktion des Internets
+    - Internet funktioniert nicht mehr richtig
+    - Internet läuft nicht
     - Was passiert, wenn das Internet ausfällt?
     - Gibt es Probleme bei einer instabilen Internetverbindung?
     - Kann das Unternehmen ohne Internet noch arbeiten?
     - Was passiert wenn das Internet ausfällt?
     - Was passiert, wenn mein Internet ausfällt?
+    - Mein Internet fällt aus.
+    - Was ist, wenn mein Internet nicht mehr funktioniert?
+    - Mein Internet funktioniert nicht mher.
+    - Das Internet ist nicht funktionsfähig. Was kann passieren?#
+    - Was kann passieren, wenn das Internet nicht funktionsfähig ist?
+    - Bin ich noch arbeitsfähig wenn das Internet ausfällt?
+    - Kann ich ohne Internet noch arbeiten? 
+    - Wie arbeite ich ohne Internet?
+    - Kann ich noch arbeiten, wenn das Netzweerk zusammenbricht? 
+    - Kann ich noch arbeiten, wenn das Internet nicht mehr funktioniert?
 - intent: faq/range_of_internet
   examples: |
     - Welche Bandbreite benötige ich, um Cloud Computing nutzen zu können?
+    - Internetverbindug
+    - Bandbreite
+    - Bandbreite für Cloud Computing
+    - Internetverbindung um Cloud Computing zu nutzen
     - Wie stark muss meine Internetverbindung für Cloud Computing sein?
     - Brauche ich eine gute Bandbreite für Cloud Computing?
     - Gibt es eine vorgeschriebene Bandbreite für Cloud Computing?
+    - Welche Bandbreite benötigt mein Unternehmen? 
+    - Welche Bandbreite benötige ich, um eine Cloud zu nutzen?
+    - Wie stark muss die Internetverbindung sein?
 - intent: faq/provider_change
   examples: |
     - Welche Datenformat und Datenträger sollte man für die Rückgabe der Daten im Falle eines Anbieterwechsels wählen?
+    - Datenträger
+    - Datenformat
+    - Anbieterwechsel
+    - Datenträger und Datenformat
+    - Datenträger und Datenformat für die Rückgabe der Daten
+    - Rückgabe der Daten bei Anbieterwechsel
     - Was muss ich bei einem Anbieterwechsel beachten?
     - Wie läuft die Rückgabe von Daten bei einem Anbieterwechsel ab?
     - Gibt es spezielle Anforderungen an Datenträger für die Rückgabe von Daten bei einem Anbieterwechsel?
+    - Was muss ich bei einem Anbieterwechsel beachten?
 - intent: faq/sequrity
   examples: |
     - Was passiert mit meinen Daten, wenn der Cloud-Anbieter insolvent geht?
+    - Insolvenz meines Anbieters
+    - Insolvenz des Cloud Anbieters
+    - Insolvenz des Cloudanbieters
+    - Datenverlust bei Insolvenz des Anbieters
+    - Verliere ich meine Daten, wenn der Anbieter insolent ist?
+    - Was passiet mit meinen Daten bei einer Insolvenz des Anbieters?
     - Sind meine Daten im Falle einer Insolvenz des Cloud-Anbieters verloren?
     - Wie kann ich einen Datenverlust bei Insolvenz des Cloud-Anbieters absichern?
 - intent: faq/mittelstand_agentur
   examples: |
     - Was bietet die Mittelstand 4.0-Agentur Cloud an?
+    - Mittstand 4.0 Agentur
+    - Mittelstand 4.0 Cloud
+    - Cloud der Agentur Mittelstand 4.0
+    - Die Agentur 
+    - Mittelstand 4.0
+    - Aufgaben der Mittelstand 4.0 Agentur
+    - Was macht die Mittelstand 4.0 Agentur?
+    - Was sind die Aufgaben der Agentur?
+    - Was sind die Aufgaben der Mittelstand 4.0 Agentur?
+    - Was macht die Agentur?
+    - Was bietet die Agentur an?
+    - Was bietet die Cloud der Agentur an?
+    - Was bieten die Cloud an?
     - Was bietet die Cloud der Mittelstand 4.0-Agentur an?
     - Was sind die Aufgaben der Mittelstand 4.0-Agentur Cloud?
     - Was ist die Cloud der Mittelstand 4.0-Agentur?
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - Warum sind die Angebote der Mittelstand 4.0-Agentur Cloud kostenlos nutzbar?
+    - Angebote kostellos nutzbar
+    - kostenlose Angebote
+    - kostenlos nutzbar
+    - Kosten für Angebote
+    - Warum kostenlos?
+    - Warum Angebote kostenlos?
+    - Warum sind die Angebote kostenlos?
+    - Wie hoch sind die Kosten für die Angebote der Agentur?
+    - Was kosten die Angebote der Mittelstand 4.0 Agentur?
     - Wird die Mittelstand 4.0-Agentur gefördert?
     - Was kostet das Angebot der Mittelstand 4.0-Agentur?
     - Wie hoch sind die Kosten für die Leistungen der Mittelstand 4.0-Agentur?
 - intent: faq/mittelstand_agentur_location
   examples: |
     - Hat die Mittelstand 4.0-Agentur Cloud einen Unternehmensstandort?
+    - Standort
+    - Adresse der Agentur
+    - Anschrift der Mittelstand 4.0 Agentur
+    - Unternehmenssitz
+    - Standort der Agentur
+    - Adresse der Mittelstand 4.0 Agentur
     - Wie ist die Mittelstand 4.0-Agentur zusammengesetzt?
+    - WO arbeiten die Mitarbeiter der Mittelstand 4.0 Agentur?
     - Wo sitzen die Mitarbeiter der Mittelstand 4.0-Agentur?
     - Gibt es einen Standort der Mittelstand 4.0 Agentur?
     - Wo hat die Mittelstand Agentur ihren Standort?
 - intent: faq/mittelstand_agentur_BMWi
   examples: |
     - In welcher Beziehung steht die Agentur zum Bundeswirtschaftsministerium?
+    - Bundeswirtschaftsministerium
+    - Wirstschaftsministerium
+    - Beziehung zum Ministerium für Wirtschaft
+    - Wie ist die Beziehung zum Bundeswirtschaftsministerium?
+    - Welche Beziehung hat die Agentur zum Bundeswirtschaftsministerium? 
+    - Wie ist der Kontakt zum Bundeswirtschaftsministerium?
+    - Was hat die Mittelstand 4.0-Agentur mit dem Bundeswirtschaftsministerium zutun?
 - intent: faq/mittelstand_agentur_software
   examples: |
     - Empfiehlt die Agentur Cloud-Anbieter oder Software-Lösungen?
+    - SOftware
+    - Softwareauswahl
+    - Softwareempfehlungen
+    - Software empfehlen
+    - Welche Software sollte ich anschaffen?
     - Könnt ihr mir einen Cloud-Anbieter empfehlen?
     - Könnt ihr mir eine Software-Lösung empfehlen?
+    - Welche Software könnt ihr empfehlen?
+    - Welche Software sollte ich nutzen? 
+    - Welche Software würdet ihr nutzen?
+    - Ich weiß nicht welche Software ich anschaffen soll.
 - intent: faq/IaaS
   examples: |
     - Was versteht man unter Infrastructure as a Service?
@@ -430,6 +512,15 @@ nlu:
 - intent: faq/contact_person
   examples: |
     - Wer ist mein Ansprechpartner?
+    - Kontaktperson
+    - Ansprechpartner
+    - Anschrift von einem Mitarbeiter?
+    - Wen kann ich Ansprechen?
+    - Wer könnte meine Kontaktperson sein?
+    - Ich suche einen Ansprechpartner.
+    - Mailadresse
+    - Ich benötige eine Mailadresse von einem Mitarbeiter.
+    - Wen kann ich ansprechen?
     - Ich hätte gerne einen persönlichen Kontakt.
     - wer ist mein Ansprechpartner?
     - Wer ist mein Ansprechpartner
