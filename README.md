@@ -47,11 +47,76 @@ For more Information also see:
 
 4. Copy the SSH deply key from Rasa X and paste ist into your Git Repos Settings/Deploy keys. Title the key and give write accsess
 
-5. Press "Veryfy connection" Button
+5. Press "Verify connection" Button
 
-## Set up Docker
+## Set up Docker Compose for the Docker Image with Spacy & Action Server
 
-1. 
+1. Doawnload the Rasa X Docker-compose.yml (in this case for Version == 0.42.4)
+```
+wget -qO docker-compose.yml https://storage.googleapis.com/rasa-x-releases/0.42.4/docker-compose.ce.yml
+```
+
+2. Create a directory for the Rasa-Sevice Dockerfile (e. g. "rasa-service")
+```
+sudo mkdir rasa-service
+```
+
+3. Within the directrory create a Dockerfile
+```
+sudo nano Dockerfile
+```
+
+4. Paste this code to extend the Dockerimage with Spacy
+```
+ARG RASA_IMAGE
+FROM ${RASA_IMAGE}
+
+USER root
+
+RUN pip install -U pip setuptools wheel
+RUN pip install -U spacy
+
+RUN python -m spacy download de_core_news_lg
+
+USER 1001
+```
+5. Create a directory for the Rasa-Action Dockerfile (e. g. "rasa-action")
+```
+sudo mkdir rasa-action
+```
+
+6. Within the directrory create a Dockerfile
+```
+sudo nano Dockerfile
+```
+
+7. Paste this code to extend the Dockerimage for the Action Server
+```
+# Extend the offical Rasa SDK image
+FROM rasa/rasa-sdk:2.8.2
+
+# Use Subdirectory as working directory
+WORKDIR /app
+
+# Copy any additional custom requirements, if necesarry (uncomment next line)
+# COPY actions/requirements.txt ./
+
+# Change User
+USER root
+
+# Install extra reqirements for actions, if necesarry (uncoment next line)
+# RUN pip install -r requirements.txt
+
+# Copy actions folder to working directory
+COPY ./actions /app/actions
+
+# Change User
+USER 1001
+
+```
+
+
+5. Reference the 
 
 ## Rasa installation (local)
 
