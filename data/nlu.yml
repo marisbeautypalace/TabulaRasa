@@ -316,6 +316,7 @@ nlu:
     - Wie kann der Wartungsprozess effizienter gestaltet werden?
     - Wie können Wartungen vorhergesagt werden?
     - Können Maschinendaten zur Planung von Wartungen genutzt werden?
+#neue faq agentur 4.0
 - intent: faq/mittelstand_agentur_support
   examples: |
     - Was beinhalten die Angebote vom Kompetenzzentrum?
