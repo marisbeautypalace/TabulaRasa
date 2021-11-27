@@ -221,6 +221,7 @@ nlu:
     - Was ist Gesichtserkennung?
     - Wie funktioniert Gesichtserkennung?
     - Kann man Gesichter identifizieren?
+    - wie erkenne ich gesichter?
 - intent: faq/ImageRecognition_ImageIdentification
   examples: |
     - Was ist Bilderkennung?
@@ -358,3 +359,10 @@ nlu:
     - Wie kann das Kompetenzzentrum meine Reederei im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum meine Werft im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum mein Unternehmen aus dem maritimen Bereich in Bezug auf Digitalisierung unterstützen?
+- intent: faq/speech_recognition
+  examples: |
+    - Wie kann ich Sprache erkennen?
+    - Kannst du mir sagen, was Spracherkennung ist?
+    - sprcherkenung
+    - Spracherkennung
+    - Wie funktioniert Spracherkennung
