@@ -76,7 +76,6 @@ nlu:
     - wer bist du?
     - was bist du?
     - bist du ein Bot?
-#faq kicc-process
 - intent: faq/cloud_or_it
   examples: |
     - Wenn ich künftig alles „in der Cloud mache“, wozu brauche ich meine IT-Abteilung noch?
@@ -164,12 +163,14 @@ nlu:
     - Empfiehlt die Agentur Cloud-Anbieter oder Software-Lösungen?
     - Könnt ihr mir einen Cloud-Anbieter empfehlen?
     - Könnt ihr mir eine Software-Lösung empfehlen?
-# ki themen
 - intent: faq/IaaS
   examples: |
     - Was versteht man unter Infrastructure as a Service?
     - Für welche Zwecke kann ich Infrastructure as a Service nutzen?
     - Was ist Infrastructure as a Service?
+    - wofür kann ich iaas nutzen?
+    - wofür kann ich infrastructure as a service nutzen?
+    - was ist infrastructure as a service?
 - intent: faq/PaaS
   examples: |
     - Was versteht man unter Platform as a Service?
