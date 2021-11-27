@@ -124,17 +124,18 @@ responses:
   - text: Die Experten des Mittelstand 4.0-Kompetenzzentrums stehen kleinen und mittleren Handwerksbetrieben aus der Region Nord-West mit Rat und Tat zur Seite. Wir befähigen Handwerksbetriebe, ihr Geschäftsmodell mit einer Datenbrille zu hinterfragen und auf Zukunftsfähigkeit hin zu überprüfen.
   utter_faq/maritime_digitalization:
   - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt kleine und mittlere Unternehmen der maritimen Branche. Das Kompetenzzentrum Lingen befähigt unter anderem Reedereien, Häfen, Werften sowie Zuliefer- und Offshore-Betriebe dazu, technologisch-wirtschaftliche Potenziale zu erschließen und diese zu nutzen. Weiterhin sensibilisiert das Kompetenzzentrum für digitale, branchenspezifische Herausforderungen und begleiten Unternehmen in ihren konkreten Umsetzungsprojekten.
-  utter_faq/contact_person:
-  - buttons:
-    - payload: faq/geschaeftsstelle_lingen
-      title: Geschäftsstelle Lingen
-    - payload: faq/geschaeftsstelle_muenster
-      title: Geschäftsstelle Münster
-    text: Für welchen Bereich wünschen Sie einen Ansprechpartner?
-  utter_faq/geschaeftsstelle_lingen:
+  utter_contact/initial_question:
+  - text: "Für welchen Bereich wünschen Sie einen Ansprechpartner?"
+    buttons:
+    - title: "Geschäftsstelle Lingen"
+      payload: "contact/geschaeftsstelle_lingen"
+    - title: "Geschäftsstelle Münster"
+      payload: "contact/geschaeftsstelle_muenster"
+  utter_contact/geschaeftsstelle_lingen:
   - text: Ihr Ansprechpartner der Geschäftsstelle Lingen ist Michael Schnaider (it.emsland) schnaider@it-emsland.de
-  utter_faq/geschaeftsstelle_muenster:
+  utter_contact/geschaeftsstelle_muenster:
   - text: Ihr Ansprechpartner der Geschäftsstelle Münster ist Sebastian Köffer (münsterLAND.digital e.V.) sk@muensterland.digital
 actions:
 - action_hello_world
 - utter/faq
+- utter/contact
