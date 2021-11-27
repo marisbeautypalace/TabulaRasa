@@ -171,6 +171,7 @@ nlu:
     - wofür kann ich iaas nutzen?
     - wofür kann ich infrastructure as a service nutzen?
     - was ist infrastructure as a service?
+    - was ist Infrastructure as a service?
 - intent: faq/PaaS
   examples: |
     - Was versteht man unter Platform as a Service?
@@ -186,6 +187,7 @@ nlu:
     - Was ist eine private Cloud?
     - Für welche Zwecke kann ich Private Cloud nutzen?
     - Was ist Private Cloud?
+    - was ist eine private cloud?
 - intent: faq/public_cloud
   examples: |
     - Was ist eine Public Cloud?
@@ -258,6 +260,7 @@ nlu:
     - Wie können unstrukturierte Datenquellen verarbeitet werden?
     - Wie können Daten Sensordaten korreliert werden?
     - Wie lassen sich Datenanalyse effizient gestalten?
+    - was ist Data analytics?
 - intent: faq/TextExtraction
   examples: |
     - Wie können Entitäten in Texten erkannt werden?
@@ -368,4 +371,3 @@ nlu:
     - Wie kann das Kompetenzzentrum meine Reederei im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum meine Werft im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum mein Unternehmen aus dem maritimen Bereich in Bezug auf Digitalisierung unterstützen?
-    
