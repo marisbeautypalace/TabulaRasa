@@ -57,6 +57,7 @@ nlu:
     - ganz okay
     - ganz in Ordnung
     - Gut!
+    - gut und dir?
 - intent: mood_unhappy
   examples: |
     - mir geht es schlecht
@@ -77,17 +78,37 @@ nlu:
     - was bist du?
     - bist du ein Bot?
 - intent: faq/cloud_or_it
-  examples: |
-    - Wenn ich künftig alles „in der Cloud mache“, wozu brauche ich meine IT-Abteilung noch?
-    - Brauche ich noch eine IT-Abteilung?
-    - Benötige ich eine IT-Abteilung?
-    - Wozu benötige ich eine IT-Abteilung?
-    - Was bringt eine IT-Abteilung?
-    - Welche Vorteile hat eine IT-Abteilung?
-    - Was macht die IT-Abteilung, wenn alles in der Cloud gemacht wird?
-    - Welche Aufgaben hat die IT-Abteilung zukünftig?
-    - Was macht die IT-Abteilung zukünftig?
-    - Was sind die Aufgaben der IT-Abteilung, wenn ich eine Cloud nutze?
+  examples:
+  - text: |
+      Wenn ich künftig alles „in der Cloud mache“, wozu brauche ich meine IT-Abteilung noch?
+  - text: |
+      Brauche ich noch eine IT-Abteilung?
+  - text: |
+      Benötige ich eine IT-Abteilung?
+  - text: |
+      Wozu benötige ich eine IT-Abteilung?
+  - text: |
+      Was bringt eine IT-Abteilung?
+  - text: |
+      Welche Vorteile hat eine IT-Abteilung?
+  - text: |
+      Was macht die IT-Abteilung, wenn alles in der Cloud gemacht wird?
+  - text: |
+      Welche Aufgaben hat die IT-Abteilung zukünftig?
+  - text: |
+      Was macht die IT-Abteilung zukünftig?
+  - text: |
+      Was sind die Aufgaben der IT-Abteilung, wenn ich eine Cloud nutze?
+  - text: |
+      ist eine IT Abteilung noch wichtig für mein Unternehmen?
+  - text: |
+      was macht die It Abteilung dann in der zuKUunft ?
+  - text: |
+      brauch ich in der Zukunft eine Abteilung für it?
+  - text: |
+      Vorteil it Abteilung?
+  - text: |
+      was macht it?
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - Eher Cloudcomputing oder eigener Server?
@@ -95,12 +116,15 @@ nlu:
     - Besser einen eigenen Server nutzen oder Cloud Computing?
     - Was mache ich mit meinem Server, wenn ich Cloud Computing nutze?
     - Wird zukünftig nur noch Cloud Computing genutzt oder kann ich eigene Server noch nutzen?
+    - Arbeite ich später nur noch auf der Cloud?
 - intent: faq/use_of_cloud
   examples: |
     - Für wen eignet sich der Einsatz von Cloud Computing?
     - Wer nutzt Cloud Computing?
     - Welche Unternehmen nutzen Cloud Computing?
     - Für wen ist Cloud Computing gut?
+    - Wann ist der Einsatz einer Cloud sinnvoll?
+    - Wann brauche ich ein Cloud?
 - intent: faq/use_of_cloud_not
   examples: |
     - Für wen eignet sich der Einsatz von Cloud Computing nicht?
@@ -172,16 +196,24 @@ nlu:
     - wofür kann ich infrastructure as a service nutzen?
     - was ist infrastructure as a service?
     - was ist Infrastructure as a service?
+    - was ist iaas?
 - intent: faq/PaaS
   examples: |
     - Was versteht man unter Platform as a Service?
     - Für welche Zwecke kann ich Platform as a Service nutzen?
     - Was ist Platform as a Service?
+    - was ist paas?
+    - wofür brauche ich paas?
+    - wofür brauche ich platform as a service?
+    - wofür brauche ich platform as a service?`
 - intent: faq/SaaS
   examples: |
     - Was versteht man unter Software as a Service?
     - Für welche Zwecke kann ich Software as a Service nutzen?
     - Was ist Software as a Service?
+    - Was ist SaaS?
+    - Warum Software as a Service?
+    - Wozu brauche ich Software as a Service?
 - intent: faq/private_cloud
   examples: |
     - Was ist eine private Cloud?
@@ -261,6 +293,7 @@ nlu:
     - Wie können Daten Sensordaten korreliert werden?
     - Wie lassen sich Datenanalyse effizient gestalten?
     - was ist Data analytics?
+    - was ist data analytics?
 - intent: faq/TextExtraction
   examples: |
     - Wie können Entitäten in Texten erkannt werden?
