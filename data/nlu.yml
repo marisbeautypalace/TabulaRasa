@@ -218,6 +218,11 @@ nlu:
     - Wie kann der Computer erkennen was ich spreche?
     - Mit welcher Technik wird das Gesprochene in Text umgewandelt?
     - Spracherkennung?
+    - Wie kann ich Sprache erkennen?
+    - Kannst du mir sagen, was Spracherkennung ist?
+    - sprcherkenung
+    - Spracherkennung
+    - Wie funktioniert Spracherkennung
 - intent: faq/FaceRecognition_FaceIdentification
   examples: |
     - Wofür wird Gesichtserkennung eingesetzt?
@@ -362,10 +367,4 @@ nlu:
     - Wie kann das Kompetenzzentrum meine Reederei im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum meine Werft im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum mein Unternehmen aus dem maritimen Bereich in Bezug auf Digitalisierung unterstützen?
-- intent: faq/speech_recognition
-  examples: |
-    - Wie kann ich Sprache erkennen?
-    - Kannst du mir sagen, was Spracherkennung ist?
-    - sprcherkenung
-    - Spracherkennung
-    - Wie funktioniert Spracherkennung
+    
