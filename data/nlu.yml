@@ -76,8 +76,6 @@ nlu:
     - wer bist du?
     - was bist du?
     - bist du ein Bot?
-
-## FAQ kicc.digital
 - intent: faq/cloud_or_it
   examples: |
     - Wenn ich künftig alles „in der Cloud mache“, wozu brauche ich meine IT-Abteilung noch?
@@ -90,7 +88,6 @@ nlu:
     - Welche Aufgaben hat die IT-Abteilung zukünftig?
     - Was macht die IT-Abteilung zukünftig?
     - Was sind die Aufgaben der IT-Abteilung, wenn ich eine Cloud nutze?
-
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - Eher Cloudcomputing oder eigener Server?
@@ -98,317 +95,266 @@ nlu:
     - Besser einen eigenen Server nutzen oder Cloud Computing?
     - Was mache ich mit meinem Server, wenn ich Cloud Computing nutze?
     - Wird zukünftig nur noch Cloud Computing genutzt oder kann ich eigene Server noch nutzen?
-
 - intent: faq/use_of_cloud
   examples: |
     - Für wen eignet sich der Einsatz von Cloud Computing?
     - Wer nutzt Cloud Computing?
     - Welche Unternehmen nutzen Cloud Computing?
     - Für wen ist Cloud Computing gut?
-
 - intent: faq/use_of_cloud_not
   examples: |
     - Für wen eignet sich der Einsatz von Cloud Computing nicht?
     - Wer nutzt Cloud Computing nicht?
     - Welche Unternehmen nutzen Cloud Computing nicht?
     - Für wen ist Cloud Computing nicht geeignet?
-
 - intent: faq/cloud_introduction
   examples: |
     - Wie gehe ich am besten bei der Einführung von Cloud Computing vor?
     - Wie führe ich Cloud Computing im Unternehmen ein?
     - Gibt es einen Prozess, um das Cloud Computing einzuführen?
     - Wie wird Cloud Computing im Unternehmen eingeführt?
-
 - intent: faq/network_breakown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
     - Was passiert, wenn das Internet ausfällt?
     - Gibt es Probleme bei einer instabilen Internetverbindung?
     - Kann das Unternehmen ohne Internet noch arbeiten?
-
 - intent: faq/range_of_internet
   examples: |
     - Welche Bandbreite benötige ich, um Cloud Computing nutzen zu können?
     - Wie stark muss meine Internetverbindung für Cloud Computing sein?
     - Brauche ich eine gute Bandbreite für Cloud Computing?
     - Gibt es eine vorgeschriebene Bandbreite für Cloud Computing?
-
 - intent: faq/provider_change
   examples: |
     - Welche Datenformat und Datenträger sollte man für die Rückgabe der Daten im Falle eines Anbieterwechsels wählen?
     - Was muss ich bei einem Anbieterwechsel beachten?
     - Wie läuft die Rückgabe von Daten bei einem Anbieterwechsel ab?
     - Gibt es spezielle Anforderungen an Datenträger für die Rückgabe von Daten bei einem Anbieterwechsel?
-
 - intent: faq/sequrity
   examples: |
     - Was passiert mit meinen Daten, wenn der Cloud-Anbieter insolvent geht?
     - Sind meine Daten im Falle einer Insolvenz des Cloud-Anbieters verloren?
     - Wie kann ich einen Datenverlust bei Insolvenz des Cloud-Anbieters absichern?
-
 - intent: faq/mittelstand_agentur
   examples: |
     - Was bietet die Mittelstand 4.0-Agentur Cloud an?
     - Was bietet die Cloud der Mittelstand 4.0-Agentur an?
     - Was sind die Aufgaben der Mittelstand 4.0-Agentur Cloud?
     - Was ist die Cloud der Mittelstand 4.0-Agentur?
-
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - Warum sind die Angebote der Mittelstand 4.0-Agentur Cloud kostenlos nutzbar?
     - Wird die Mittelstand 4.0-Agentur gefördert?
     - Was kostet das Angebot der Mittelstand 4.0-Agentur?
     - Wie hoch sind die Kosten für die Leistungen der Mittelstand 4.0-Agentur?
-
 - intent: faq/mittelstand_agentur_location
   examples: |
     - Hat die Mittelstand 4.0-Agentur Cloud einen Unternehmensstandort?
     - Wie ist die Mittelstand 4.0-Agentur zusammengesetzt?
     - Wo sitzen die Mitarbeiter der Mittelstand 4.0-Agentur?
     - Gibt es einen Standort der Mittelstand 4.0 Agentur?
-
+    - Wo hat die Mittelstand Agentur ihren Standort?
 - intent: faq/mittelstand_agentur_BMWi
   examples: |
     - In welcher Beziehung steht die Agentur zum Bundeswirtschaftsministerium?
-
 - intent: faq/mittelstand_agentur_software
   examples: |
     - Empfiehlt die Agentur Cloud-Anbieter oder Software-Lösungen?
     - Könnt ihr mir einen Cloud-Anbieter empfehlen?
     - Könnt ihr mir eine Software-Lösung empfehlen?
-
-##Cloud Terminologien
 - intent: faq/IaaS
   examples: |
     - Was versteht man unter Infrastructure as a Service?
     - Für welche Zwecke kann ich Infrastructure as a Service nutzen?
     - Was ist Infrastructure as a Service?
-
 - intent: faq/PaaS
   examples: |
     - Was versteht man unter Platform as a Service?
     - Für welche Zwecke kann ich Platform as a Service nutzen?
     - Was ist Platform as a Service?
-
 - intent: faq/SaaS
   examples: |
     - Was versteht man unter Software as a Service?
     - Für welche Zwecke kann ich Software as a Service nutzen?
     - Was ist Software as a Service?
-
 - intent: faq/private_cloud
   examples: |
     - Was ist eine private Cloud?
     - Für welche Zwecke kann ich Private Cloud nutzen?
     - Was ist Private Cloud?
-
 - intent: faq/public_cloud
   examples: |
     - Was ist eine Public Cloud?
     - Für welche Zwecke kann ich Private Cloud nutzen?
     - Was ist Private Cloud?
-
 - intent: faq/hybrid_cloud
   examples: |
     - Was ist eine Hybrid Cloud?
     - Für welche Zwecke kann ich Hybrid Cloud nutzen?
     - Was ist Hybrid Cloud?
-
 - intent: faq/community_cloud
   examples: |
     - Was ist eine Community Cloud?
     - Für welche Zwecke kann ich Community Cloud nutzen?
     - Was ist Community Cloud?
-
 - intent: faq/onpremise_ondemand
   examples: |
     - Was ist der Unterschied zwischen On-Premise und On-Demand?
     - Für welche Zwecke nutze ich On-Premise oder On-Demand?
     - Wann nutze ich On-Premise und wann On-Demand?
-
 - intent: faq/services
   examples: |
     - Was sind Dienstleistungen von Cloud Computing?
     - Welche Dienstleistungen bietet das Cloud Computing?
     - Bietet Cloud Computing Dienstleistungen an?
-
-## FAQ KI-Themen
 - intent: faq/SpeechRecognition_SpeechIdentification
   examples: |
-    - Was ist Spracherkennung? 
-    - Wie kann man Sprache erkennen?  
-    - Wie kann ich Stimmen identifizieren? 
-    - Wie kann der Computer erkennen was ich spreche? 
-    - Mit welcher Technik wird das Gesprochene in Text umgewandelt? 
-
-- intent: faq/FaceRecognition_FaceIdentification 
+    - Was ist Spracherkennung?
+    - Wie kann man Sprache erkennen?
+    - Wie kann ich Stimmen identifizieren?
+    - Wie kann der Computer erkennen was ich spreche?
+    - Mit welcher Technik wird das Gesprochene in Text umgewandelt?
+- intent: faq/FaceRecognition_FaceIdentification
   examples: |
-    - Wofür wird Gesichtserkennung eingesetzt? 
-    - Was ist Gesichtserkennung? 
+    - Wofür wird Gesichtserkennung eingesetzt?
+    - Was ist Gesichtserkennung?
     - Wie funktioniert Gesichtserkennung?
-    - Kann man Gesichter identifizieren? 
-
+    - Kann man Gesichter identifizieren?
 - intent: faq/ImageRecognition_ImageIdentification
   examples: |
-    - Was ist Bilderkennung? 
-    - Wozu benötigt man Bilderkennung? 
-    - Wie kann ich Objekte auf einem Bild finden? 
-    - Wie kategorisiere ich Objekte auf einem Bild? 
-    - Wie stelle ich fest das auf einem Bild ein Objekt ist? 
-    - Können in Videos Objekte gezählt werden? 
-    - Wie können Objekte in einem Bild erkannt werden? 
-
-- intent: faq/AudioRecognition_AudioIdentification 
+    - Was ist Bilderkennung?
+    - Wozu benötigt man Bilderkennung?
+    - Wie kann ich Objekte auf einem Bild finden?
+    - Wie kategorisiere ich Objekte auf einem Bild?
+    - Wie stelle ich fest das auf einem Bild ein Objekt ist?
+    - Können in Videos Objekte gezählt werden?
+    - Wie können Objekte in einem Bild erkannt werden?
+- intent: faq/AudioRecognition_AudioIdentification
   examples: |
-    - Wie können Audiosignale klassifiziert werden? 
-    - Kann eine KI hören? 
-    - Kann ein Geräusch identifiziert werden? 
-    - Wie kann eine Spracherkennung Sprache von anderen Audiosignalen trennen? 
-    - Wie erkennt ein Computer verschiedene Audiosignale? 
-    - Gibt es die Möglichkeit verschiedene Audiosignale zu verarbeiten?  
-    - Wie kann ich verschiedene Audiosignale verarbeiten? 
-
-- intent: faq/DataAnalytics 
+    - Wie können Audiosignale klassifiziert werden?
+    - Kann eine KI hören?
+    - Kann ein Geräusch identifiziert werden?
+    - Wie kann eine Spracherkennung Sprache von anderen Audiosignalen trennen?
+    - Wie erkennt ein Computer verschiedene Audiosignale?
+    - Gibt es die Möglichkeit verschiedene Audiosignale zu verarbeiten?
+    - Wie kann ich verschiedene Audiosignale verarbeiten?
+- intent: faq/DataAnalytics
   examples: |
-    - Was ist Data Analystics? 
-    - Wie kann ich Muster in Daten erkennen? 
-    - Wozu wird Data Analytics verwendet? 
-    - Wie lassen sich große Datenmengen analysieren? 
-    - Wie können unstrukturierte Datenquellen verarbeitet werden?  
-    - Wie können Daten Sensordaten korreliert werden?  
-    - Wie lassen sich Datenanalyse effizient gestalten?  
-
-- intent: faq/TextExtraction 
+    - Was ist Data Analystics?
+    - Wie kann ich Muster in Daten erkennen?
+    - Wozu wird Data Analytics verwendet?
+    - Wie lassen sich große Datenmengen analysieren?
+    - Wie können unstrukturierte Datenquellen verarbeitet werden?
+    - Wie können Daten Sensordaten korreliert werden?
+    - Wie lassen sich Datenanalyse effizient gestalten?
+- intent: faq/TextExtraction
   examples: |
-    - Wie können Entitäten in Texten erkannt werden? 
-    - Wie kann die Bedeutung von Wörtern erkannt werden? 
-    - Wie werden Begriffe in Texten extrahiert? 
-    - Wie kann die Bedeutung von Textbausteinen ermittelt werden? 
-    - Wie kann mit Mehrdeutigkeiten von Begriffen in Texten umgegangen werden? 
-    - Was macht eine Text Extraction? 
-
-- intent: faq/ProblemSolving 
+    - Wie können Entitäten in Texten erkannt werden?
+    - Wie kann die Bedeutung von Wörtern erkannt werden?
+    - Wie werden Begriffe in Texten extrahiert?
+    - Wie kann die Bedeutung von Textbausteinen ermittelt werden?
+    - Wie kann mit Mehrdeutigkeiten von Begriffen in Texten umgegangen werden?
+    - Was macht eine Text Extraction?
+- intent: faq/ProblemSolving
   examples: |
-    - Wie kann ich komplexe Probleme mit KI lösen? 
-    - Wie kann ich ein Gesamtproblem in Einzelschritte gliedern? 
-    - Wie funktioniert Problemlösung mit KI? 
-    - Was ist Problem Solving?  
-
-- intent: faq/LanguageUnderstanding 
+    - Wie kann ich komplexe Probleme mit KI lösen?
+    - Wie kann ich ein Gesamtproblem in Einzelschritte gliedern?
+    - Wie funktioniert Problemlösung mit KI?
+    - Was ist Problem Solving?
+- intent: faq/LanguageUnderstanding
   examples: |
-    - Was ist Language Understanding? 
-    - Wie kann die Bedeutung eines Textes ermittelt werden? 
-    - Wie versteht KI Texte? 
-    - Wie versteht eine  KI  Texte? 
-    - Können Beziehungen in Texten erkannt werden? 
-    - Wie werden mehrdeutige Texte verstanden? 
-
-- intent: faq/LanguageGeneration 
+    - Was ist Language Understanding?
+    - Wie kann die Bedeutung eines Textes ermittelt werden?
+    - Wie versteht KI Texte?
+    - Wie versteht eine  KI  Texte?
+    - Können Beziehungen in Texten erkannt werden?
+    - Wie werden mehrdeutige Texte verstanden?
+- intent: faq/LanguageGeneration
   examples: |
-    - Wie kann ein natürlicher Text mit KI generiert werden? 
-    - Was ist Language Generation? 
-    - Kann ein natürlicher Dialog von einem Computer erzeugt werden? 
-    - Wie kann ein Computer einen Text natürlich formulieren? 
-
-- intent: faq/PredictiveInference 
+    - Wie kann ein natürlicher Text mit KI generiert werden?
+    - Was ist Language Generation?
+    - Kann ein natürlicher Dialog von einem Computer erzeugt werden?
+    - Wie kann ein Computer einen Text natürlich formulieren?
+- intent: faq/PredictiveInference
   examples: |
-    - Wie können Prognosen erstellt werden? 
-    - Wie können Vorhersagen getroffen werden? 
-    - Kann auf Basis von Vergangenheitsdaten etwas prognostiziert werden? 
-    - Wie kann eine KI Vorhersagen erstellen? 
-    - Welche Prognosen kann eine KI erstellen? 
-    - Wie entsteht eine Wetterprognose? 
-    - Wie kann eine Umsatzprognose erstellt werden? 
-
-- intent: faq/ArtificialNeuralNetwork  
+    - Wie können Prognosen erstellt werden?
+    - Wie können Vorhersagen getroffen werden?
+    - Kann auf Basis von Vergangenheitsdaten etwas prognostiziert werden?
+    - Wie kann eine KI Vorhersagen erstellen?
+    - Welche Prognosen kann eine KI erstellen?
+    - Wie entsteht eine Wetterprognose?
+    - Wie kann eine Umsatzprognose erstellt werden?
+- intent: faq/ArtificialNeuralNetwork
   examples: |
-    - Was sind Artificial neural networks? 
-    - Kann ein Algorithmus das menschliche Gehirn nachempfinden? 
-    - Wie können komplexe Probleme von einem Computer gelöst werden? 
-
-- intent: faq/MachineLearning 
+    - Was sind Artificial neural networks?
+    - Kann ein Algorithmus das menschliche Gehirn nachempfinden?
+    - Wie können komplexe Probleme von einem Computer gelöst werden?
+- intent: faq/MachineLearning
   examples: |
-    - Was ist Machine Learning? 
-    - Wie kann Wissen künstlich generiert werden? 
-    - Mit welcher Technik lassen Muster in Daten erkennen? 
-    - Kann ein Computer lernen? 
-
-- intent: faq/DeepLearning 
+    - Was ist Machine Learning?
+    - Wie kann Wissen künstlich generiert werden?
+    - Mit welcher Technik lassen Muster in Daten erkennen?
+    - Kann ein Computer lernen?
+- intent: faq/DeepLearning
   examples: |
-    - Was ist Deep Learning? 
-    - Was ist der Unterschied zwischen machine learning und deep learning? 
-    - Was sind Schichten beim Deep Learning? 
-
+    - Was ist Deep Learning?
+    - Was ist der Unterschied zwischen machine learning und deep learning?
+    - Was sind Schichten beim Deep Learning?
 - intent: faq/Bot
   examples: |
-    - Was ist ein Bot? 
-    - Wie können sich wiederholende Aufgaben von einem Computer erledigt werden? 
-    - Wie kann ich mit einem Computer chatten? 
-
-- intent: faq/PredictiveMaintenance 
+    - Was ist ein Bot?
+    - Wie können sich wiederholende Aufgaben von einem Computer erledigt werden?
+    - Wie kann ich mit einem Computer chatten?
+- intent: faq/PredictiveMaintenance
   examples: |
-    - Was ist Predictive Maintenance?  
-    - Wie kann der Wartungsprozess effizienter gestaltet werden? 
-    - Wie können Wartungen vorhergesagt werden? 
-    - Können Maschinendaten zur Planung von Wartungen genutzt werden? 
-
-## FAQ Website KoLi
+    - Was ist Predictive Maintenance?
+    - Wie kann der Wartungsprozess effizienter gestaltet werden?
+    - Wie können Wartungen vorhergesagt werden?
+    - Können Maschinendaten zur Planung von Wartungen genutzt werden?
 - intent: faq/mittelstand_agentur_support
   examples: |
     - Was beinhalten die Angebote vom Kompetenzzentrum?
     - Wobei kann mich das Kompetenzzentrum unterstützen?
-
 - intent: faq/mittelstand_agentur_cooperation
   examples: |
     - Kann ich mit dem Kompetenzzentrum kooperieren?
     - Wie werde ich Kooperationspartner vom Kompetenzzentrum?
     - Ist es möglich eine Kooperation mit dem Kompetenzzentrum einzugehen?
     - Kann ich andere Unternehmen im Bereich der digitalen Transformation unterstützen?
-
 - intent: faq/ki_companysize
   examples: |
     - Künstliche Intelligenz ist nur etwas für große Unternehmen. Oder nicht?
     - Ist der Einsatz von künstlicher Intelligenz in einem kleinen Unternehmen sinnvoll?
-
 - intent: faq/ki_data
   examples: |
     - Welche Rolle spielen Daten beim Einsatz Künstlicher Intelligenz?
     - Sind Daten in Bezug auf Künstliche Intelligenz wichtig?
-
 - intent: faq/ki_use
   examples: |
     - Wann ist der Einsatz von Künstlicher Intelligenz sinnvoll?
     - Welche Fragen sollte man sich beim Einsatz von künstlicher Intelligenz stellen?
-
 - intent: faq/ki_hardware
   examples: |
     - Kann man Künstliche Intelligenz auf der eigenen Unternehmens-IT laufen lassen?
     - Benötige ich spezielle Hardware für Künstliche Intelligenz?
-
 - intent: faq/ki_topics
   examples: |
     - In welchen Bereichen kann ich zum Thema Künstliche Intelligenz Unterstützung erhalten?
     - Was bietet das Kompetenzzentrum zum Thema Künstliche Intelligenz an?
-
 - intent: faq/cloud_computing_topics
   examples: |
     - In welchen Bereichen kann ich zum Thema Cloud Computing Unterstützung erhalten?
     - Was bietet das Kompetenzzentrum im Bereich Cloud Computing an?
-
 - intent: faq/agriculture_digitalization
   examples: |
     - Was für Möglichkeiten im Bereich der Digitalisierung habe ich auf meinem landwirtschaftlichen Betrieb?
     - Wozu braucht ein landwirtschaftlicher Betrieb die Digitalisierung?
-
 - intent: faq/craft_digitalization
   examples: |
     - Wie kann das Kompetenzzentrum meinem Handwerksbetrieb im Bereich Digitalisierung unterstützen?
-
 - intent: faq/maritime_digitalization
   examples: |
     - Wie kann das Kompetenzzentrum meine Reederei im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum meine Werft im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum mein Unternehmen aus dem maritimen Bereich in Bezug auf Digitalisierung unterstützen?
-
-## Ansprechpartner

@@ -1,30 +1,17 @@
 version: '2.0'
-config:
-  store_entities_as_slots: true
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- hello_world:
-    use_entities: true
-- greet:
-    use_entities: true
-- goodbye:
-    use_entities: true
-- affirm:
-    use_entities: true
-- deny:
-    use_entities: true
-- mood_great:
-    use_entities: true
-- mood_unhappy:
-    use_entities: true
-- bot_challenge:
-    use_entities: true
-- faq:
-    use_entities: true
-entities: []
-slots: {}
+- hello_world
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- faq
 responses:
   utter_greet:
   - text: Moin! Wie geht es Dir?
@@ -39,8 +26,6 @@ responses:
   - text: Auf Wiedersehen
   utter_iamabot:
   - text: Ich bin ein Rasa-Bot.
- 
-## FAQ kicc-process
   utter_faq/cloud_or_it:
   - text: Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett (Ausnahmen sind Internetanbindung und Firewall). Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.
   utter_faq/cloudcomputing_or_ownserver:
@@ -69,80 +54,66 @@ responses:
   - text: Die Agentur ist ein Bundesprojekt und wird mit öffentlichen Mitteln des Bundesministeriums für Wirtschaft und Energie gefördert. Die Projektpartner (Fraunhofer IAO, it.emsland und Hochschule Osnabrück) bilden gemeinsam die Mittelstand 4.0-Agentur Cloud und sind für die Umsetzung des Projekts verantwortlich.
   utter_faq/mittelstand_agentur_software:
   - text: Nein. Die Agentur Cloud wird mit öffentlichen Geldern gefördert und ist angehalten, neutral aufzutreten. Sollten doch einmal Namen von Cloud-Anbietern oder Software-Lösungen fallen, sind diese beispielhaft dargestellt. Es werden keine Marktteilnehmer oder Produkte bevorzugt.
-
-## Cloud Terminologien
   utter_faq/IaaS:
   - text: IaaS (Infrastructure as a Service) ist die unterste Ebene der Cloud-Modelle. In diesem Bereich wird vom Anwender virtuelle Hardware als Infrastruktur beim Cloud-Service-Provider (CSP) gemietet und in die unternehmensinterne IT-Landschaft integriert. Klassische Beispiele sind Speicherplatz, Rechenleistung oder Netzwerkbandbreite.
-
   utter_faq/PaaS:
   - text: PaaS (Platform as a Service) ist die mittlere Ebene der Cloud-Modelle. Der Anwender hat keinen oder nur eingeschränkten Zugriff auf die Administration der Hardware. Im Kern wird vom Anbieter eine Computer-Plattform zur Verfügung gestellt, welche für die Entwicklung von Webanwendungen und kompletten Entwicklungsumgebungen genutzt wird. (Link)
-
   utter_faq/SaaS:
   - text: SaaS (Software as a Service) ist die oberste Ebene der Cloud-Modelle. In diesem Bereich werden fertige Softwarelösungen in Form von Anwendungen für den Nutzer bereitgestellt. Die Verantwortung für die Wartung, Software-Updates und die Verwaltung von Lizenzen obliegt vollständig dem Provider. Klassische Beispiele sind Office 365, Google Apps und iCloud Apps. (Link)
-
   utter_faq/private_cloud:
   - text: Die private Wolke (Cloud) ist eine unternehmenseigene Cloud-Umgebung, welche gezielt für die eigene Institution sowie ggf. Geschäftspartner, Kunden und Lieferanten betrieben wird. Die Organisation und der Betrieb kann von dem Unternehmen selbst oder von einem Dritten geführt werden. (Link)
-
   utter_faq/public_cloud:
   - text: Die öffentliche Wolke (Cloud) ist eine vom Provider betriebene und i.d.R. über das Internet bereitgestellte Cloud-Umgebung. Die bereitgestellte Infrastruktur wird von einer beliebigen Anzahl an Kunden anteilig gemietet. Die vom Kunden erworbenen Nutzungsrechte umfassen beispielsweise die Miete von standardisierten Anwendungs- und Infrastruktur-Services. (Link)
-
   utter_faq/hybrid_cloud:
   - text: Die gemischte Wolke (Cloud) ist eine Mischform bestehend aus einer möglichen Kombination von Private Cloud, Public Cloud und traditioneller IT. Die verschiedenen, für sich individuellen Infrastrukturen, können über standardisierte Schnittstellen miteinander kommunizieren. (Link)
-
   utter_faq/community_cloud:
   - text: Die gemeinschaftliche Wolke (Cloud) ist ein Zusammenschluss von mehreren Unternehmen der gleichen Branche oder Interessengemeinschaft, welche aus ihren privaten Cloud-Lösungen eine Community Cloud formen. Der Zugriff ist auf die Mitglieder des Interessenverbands beschränkt. (Link)
-
   utter_faq/onpremise_ondemand:
   - text: Bei der Auslagerung von IT-Dienstleistungen in die Cloud wird häufig von Software-on-Demand gesprochen. Im Vergleich zu dem On-Premise-Nutzungsmodell, bei welchem der Nutzer die Lizenz für ein Computerprogramm erwirbt und dieses selbst auf der eigenen Hardware betreibt, wird bei der On-Demand-Lösung die Software und damit verbundene Lizenzen beim Anbieter betrieben und je nach Bedarf hoch- oder herunterskaliert.
-
   utter_faq/services:
   - text: Dienstleistungen von Cloud Computing sind sehr vielfältig und können folgendes beispielsweise beinhalten. Informationssicherheit, Performance der Dienstleistung, integrationsfähigkeit an die IT-Landschaft des Kunden, niedrige Kosten, keine Technologiehürden, niedriger Einführungsaufwand, Berücksichtigung der Compliance-Anforderungen, Pay-per-Use, gute Help-Desk Strukturen und Support, virtuelles Training, Notfallpläne, flexible Gestaltung von Service Level Agreements.
-
-## FAQ KI-Themen
   utter_faq/SpeechRecognition_SpeechIdentification:
-  - text: Mit dem KI-Modul Speech Recognition [Sr] wird gesprochene Sprache und/oder Gefühlszustände allgemein in ein Audiosignal gewandelt. Darüber hinaus kann mit Speech Identification [Si] eine individuelle Stimme an einem Audiosignal erkannt werden. 
-  utter_faq/FaceRecognition_FaceIdentification: 
-  - text: Mit der KI-Komponente Face Recognition [Fr] können Gesichter und emotionale Zuständen in Bildern oder Videosignalen erkannt werden. Konkrete Personen können mit dem KI-Modul Face Identifiaction [Fi] in Bildern oder Videosignalen erkannt. 
+  - text: Mit dem KI-Modul Speech Recognition [Sr] wird gesprochene Sprache und/oder Gefühlszustände allgemein in ein Audiosignal gewandelt. Darüber hinaus kann mit Speech Identification [Si] eine individuelle Stimme an einem Audiosignal erkannt werden.
+  utter_faq/FaceRecognition_FaceIdentification:
+  - text: Mit der KI-Komponente Face Recognition [Fr] können Gesichter und emotionale Zuständen in Bildern oder Videosignalen erkannt werden. Konkrete Personen können mit dem KI-Modul Face Identifiaction [Fi] in Bildern oder Videosignalen erkannt.
   utter_faq/ImageRecognition_ImageIdentification:
-  - text: Image Recognition [Ir] ermöglicht das Erkennen bestimmter Objekttypen in Bildern oder Videosignalen. Mit Image Identification [Ii] kann ein konkretes Objekt in einem Bild oder Video erkannt werden. 
+  - text: Image Recognition [Ir] ermöglicht das Erkennen bestimmter Objekttypen in Bildern oder Videosignalen. Mit Image Identification [Ii] kann ein konkretes Objekt in einem Bild oder Video erkannt werden.
   utter_faq/AudioRecognition_AudioIdentification:
-  - text: Audio Recognition [Ar], Speech Recognition [Sr] und Audio Identification [Ai] sind eng verwandt und überlappen sich teilweise. Nach einer Analyse des Audiosignals wird bei dem KI-Element Audio Recognition [Ar] das Signal von maschinellen Lernverfahren klassifiziert. Es werden bestimmte Arten von Geräuschen (Alarme, Gerätestress, Automotor) in einem Audiosignal erkannt. Mit Hilfe der Audio Identification [Ai] werde Audiosignaturen (ein bestimmter Motor oder eine bestimmte Türklingel) aus Audiosignalen erkannt.  
+  - text: Audio Recognition [Ar], Speech Recognition [Sr] und Audio Identification [Ai] sind eng verwandt und überlappen sich teilweise. Nach einer Analyse des Audiosignals wird bei dem KI-Element Audio Recognition [Ar] das Signal von maschinellen Lernverfahren klassifiziert. Es werden bestimmte Arten von Geräuschen (Alarme, Gerätestress, Automotor) in einem Audiosignal erkannt. Mit Hilfe der Audio Identification [Ai] werde Audiosignaturen (ein bestimmter Motor oder eine bestimmte Türklingel) aus Audiosignalen erkannt.
   utter_faq/DataAnalytics:
-  - text: Mit dem KI-Modul Data Analytics [Da]  werden Daten analysiert, um bestimmte Tatsachen und/ oder Ereignisse zu erkennen, die diese Daten repräsentieren. Beispielsweise kann es sich dabei um das Erkennen von Verkaufstrends und Kundengruppen oder das Korrelieren von Sensordaten handeln. 
+  - text: Mit dem KI-Modul Data Analytics [Da]  werden Daten analysiert, um bestimmte Tatsachen und/ oder Ereignisse zu erkennen, die diese Daten repräsentieren. Beispielsweise kann es sich dabei um das Erkennen von Verkaufstrends und Kundengruppen oder das Korrelieren von Sensordaten handeln.
   utter_faq/TextExtraction:
-  - text: Die KI-Komponente Text Extraction [Te] analysiert Texte, um Informationen über Entitäten, Zeit, Orte und Fakten extrahieren, die ausschließlich im Text enthalten sind. Es können verschiedene Entitäten (z. B. Personen, Organisationen, Städte, Produkte) und Begriffe (z. B. Kommunikation, Innovation, Produktion) in Texten erkannt und verstanden werden. Mehrdeutigkeiten von Wörtern werden aufgelöst.  
+  - text: Die KI-Komponente Text Extraction [Te] analysiert Texte, um Informationen über Entitäten, Zeit, Orte und Fakten extrahieren, die ausschließlich im Text enthalten sind. Es können verschiedene Entitäten (z. B. Personen, Organisationen, Städte, Produkte) und Begriffe (z. B. Kommunikation, Innovation, Produktion) in Texten erkannt und verstanden werden. Mehrdeutigkeiten von Wörtern werden aufgelöst.
   utter_faq/ProblemSolving:
-  - text: Die KI-Komponente Problem Solving [Ps] entspricht der menschlichen Fähigkeit, ein Problem durch Nachdenken zu lösen. Die prinzipielle Lösung steht im Vordergrund, das mögliche Optimieren ist nachrangig. Eine Fähigkeit von Problem Solving [Ps] besteht oft darin, ein Gesamtproblem in Einzelprobleme zu zerlegen. 
+  - text: Die KI-Komponente Problem Solving [Ps] entspricht der menschlichen Fähigkeit, ein Problem durch Nachdenken zu lösen. Die prinzipielle Lösung steht im Vordergrund, das mögliche Optimieren ist nachrangig. Eine Fähigkeit von Problem Solving [Ps] besteht oft darin, ein Gesamtproblem in Einzelprobleme zu zerlegen.
   utter_faq/LanguageUnderstanding:
-  - text: Language Understanding [Lu] beschreibt das Verstehen der Information im Text, also die Zuordnung zur Bedeutung. Das KI-Element versteht die in Texten gemeinten Beziehungen zwischen Entitäten und Konzepten (siehe auch Text Extraction Te).  
+  - text: Language Understanding [Lu] beschreibt das Verstehen der Information im Text, also die Zuordnung zur Bedeutung. Das KI-Element versteht die in Texten gemeinten Beziehungen zwischen Entitäten und Konzepten (siehe auch Text Extraction Te).
   utter_faq/LanguageGeneration:
-  - text: Die Aufgabe von Language Generation [Lg] ist das automatische Erzeugen eines natürlichsprachlichen Textes aus der formalen logischen Repräsentation von Wissen. 
+  - text: Die Aufgabe von Language Generation [Lg] ist das automatische Erzeugen eines natürlichsprachlichen Textes aus der formalen logischen Repräsentation von Wissen.
   utter_faq/PredictiveInference:
-  - text: Mit Predictive Inference [Pi] können Vorhersagen von Ereignissen oder Zuständen in der Zukunft auf der Grundlage eines Verständnisses eines aktuellen Zustandes der Welt und der Funktionsweise der Welt erstellt werden. Es basiert auf existierende Daten von metrischen Werten, Skalenwerten, Intervallen oder Klassen, z. B. Verkaufsprognosen, Wettervorhersagen oder Risikoklassen. 
+  - text: Mit Predictive Inference [Pi] können Vorhersagen von Ereignissen oder Zuständen in der Zukunft auf der Grundlage eines Verständnisses eines aktuellen Zustandes der Welt und der Funktionsweise der Welt erstellt werden. Es basiert auf existierende Daten von metrischen Werten, Skalenwerten, Intervallen oder Klassen, z. B. Verkaufsprognosen, Wettervorhersagen oder Risikoklassen.
   utter_faq/ArtificialNeuralNetwork:
-  - text: Künstliche neuronale Netze sind Algorithmen, die dem menschlichen Gehirn nachempfunden. Sie werden für maschinelles Lernen und künstliche Intelligenz eingesetzt, um diverser (komplexer) Problemstellungen zu lösen. 
+  - text: Künstliche neuronale Netze sind Algorithmen, die dem menschlichen Gehirn nachempfunden. Sie werden für maschinelles Lernen und künstliche Intelligenz eingesetzt, um diverser (komplexer) Problemstellungen zu lösen.
   utter_faq/MachineLearning:
-  - text: Maschinelles Lernen ist ein Teilgebiet der künstlichen Intelligenz. Durch das Erkennen von Mustern in vorliegenden Datenbeständen während einer Lernphase sind IT-Systeme in der Lage, eigenständig Lösungen für Probleme zu finden. 
+  - text: Maschinelles Lernen ist ein Teilgebiet der künstlichen Intelligenz. Durch das Erkennen von Mustern in vorliegenden Datenbeständen während einer Lernphase sind IT-Systeme in der Lage, eigenständig Lösungen für Probleme zu finden.
   utter_faq/DeepLearning:
-  - text: Deep Learning bezeichnet eine Methode maschinellen Lernens, die künstliche neuronale Netze mit zahlreichen Zwischenschichten zwischen Eingabe- und Ausgabeschicht einsetzt und eine umfangreiche innere Struktur herausbildet. Die Maschinen werden in die Lage versetzt selbstständig und ohne menschliches Zutun, ihre Fähigkeiten verbessern. 
+  - text: Deep Learning bezeichnet eine Methode maschinellen Lernens, die künstliche neuronale Netze mit zahlreichen Zwischenschichten zwischen Eingabe- und Ausgabeschicht einsetzt und eine umfangreiche innere Struktur herausbildet. Die Maschinen werden in die Lage versetzt selbstständig und ohne menschliches Zutun, ihre Fähigkeiten verbessern.
   utter_faq/Bot:
-  - text: Bots sind Computerprogramme, die sich wiederholende Aufgaben automatisiert abarbeiten ohne auf eine menschliche Interaktion angewiesen zu sein. Ein Chatbot im Speziellen ist ein textbasiertes Dialogsystem, welches das Chatten mit einem technischen System erlaubt.  
+  - text: Bots sind Computerprogramme, die sich wiederholende Aufgaben automatisiert abarbeiten ohne auf eine menschliche Interaktion angewiesen zu sein. Ein Chatbot im Speziellen ist ein textbasiertes Dialogsystem, welches das Chatten mit einem technischen System erlaubt.
   utter_faq/PredictiveMaintenance:
-  - text: Unter Predictive Maintenance versteht man einen proaktiven Wartungsvorgang, der auf die einer permanenten Überwachung und Auswertung von Maschinen- und Prozessdaten basiert. Ziel ist es den zukünftigen Wartungsbedarf vorherzusagen und dadurch Störungen zu vermeiden. 
-
-## FAQ Website KoLi
+  - text: Unter Predictive Maintenance versteht man einen proaktiven Wartungsvorgang, der auf die einer permanenten Überwachung und Auswertung von Maschinen- und Prozessdaten basiert. Ziel ist es den zukünftigen Wartungsbedarf vorherzusagen und dadurch Störungen zu vermeiden.
   utter_faq/mittelstand_agentur_support:
-  - text: Die Angebote des Mittelstand 4.0-Kompetenzzentrums reichen von der Entwicklung und Ausgestaltung einer Idee bis hin zur konkreten Planung und Umsetzung eines Projektplans. Unternehmen haben durch die verschiedenen Veranstaltungsformate die Chance, sich auf dem gesamten Weg begleiten zu lassen. 
+  - text: Die Angebote des Mittelstand 4.0-Kompetenzzentrums reichen von der Entwicklung und Ausgestaltung einer Idee bis hin zur konkreten Planung und Umsetzung eines Projektplans. Unternehmen haben durch die verschiedenen Veranstaltungsformate die Chance, sich auf dem gesamten Weg begleiten zu lassen.
   utter_faq/mittelstand_agentur_cooperation:
   - text: Eine Kooperation mit dem Mittelstand 4.0-Kompetenzzentrum Lingen ist kostenlos. Außerdem kümmern wir uns um die Umsetzung der Veranstaltungen, sowohl digital als auch in Präsenz. Seien Sie als Wegbegleiter dabei und helfen Sie KMU bei ihrem digitalen Neustart oder Aufbruch. Füllen Sie dazu das Kontaktformular unter folgendem Link aus. (https://kompetenzzentrum-lingen.digital/kooperationen)
   utter_faq/ki_companysize:
   - text: Die Größe von Unternehmen ist für den Einsatz Künstlicher Intelligenz nicht ausschlaggebend. Künstliche Intelligenz kann auch von kleinen Unternehmen jedweder Branche genutzt werden und ist für viele Unternehmensbereiche interessant. Schließlich suchen auch kleine Unternehmen nach Lösungen zur Effizienzsteigerung oder zur Entlastung ihrer Mitarbeitenden, dabei kann Künstliche Intelligenz unter anderem unterstützen.
   utter_faq/ki_data:
-  - text: Künstliche Intelligenz kann nur mit Daten arbeiten, sie spielen also eine essenzielle Rolle. Dabei ist nicht nur die Datenverfügbarkeit entscheidend, sondern auch die Qualität und Menge. Je mehr Daten zur Verfügung stehen, umso besser. Je besser deren Qualität ist, umso besser. Die Daten können sowohl aus dem Unternehmen selbst als auch von externen Quellen stammen. 
+  - text: Künstliche Intelligenz kann nur mit Daten arbeiten, sie spielen also eine essenzielle Rolle. Dabei ist nicht nur die Datenverfügbarkeit entscheidend, sondern auch die Qualität und Menge. Je mehr Daten zur Verfügung stehen, umso besser. Je besser deren Qualität ist, umso besser. Die Daten können sowohl aus dem Unternehmen selbst als auch von externen Quellen stammen.
   utter_faq/ki_use:
   - text: Zunächst sollte der Einsatzzweck von Künstlicher Intelligenz genau definiert werden. Was soll erreicht werden? Welche Prozesse sollen verbessert werden? Basierend auf diesen Fragen kann ein sinnvolles Einsatzszenario von Künstlicher Intelligenz im eigenen Unternehmen entwickelt werden.
   utter_faq/ki_hardware:
-  - text: Jedes Unternehmen kann Künstliche Intelligenz-Anwendungen bei sich laufen lassen. Zu Testzwecken reichen häufig „normale“ Rechner-Kapazitäten. Wird es komplexer oder soll KI ernsthaft in den Unternehmensalltag integriert werden, sollte über entsprechend leistungsfähige Hardware nachgedacht werden, falls diese im Unternehmen noch nicht vorhanden ist. 
+  - text: Jedes Unternehmen kann Künstliche Intelligenz-Anwendungen bei sich laufen lassen. Zu Testzwecken reichen häufig „normale“ Rechner-Kapazitäten. Wird es komplexer oder soll KI ernsthaft in den Unternehmensalltag integriert werden, sollte über entsprechend leistungsfähige Hardware nachgedacht werden, falls diese im Unternehmen noch nicht vorhanden ist.
   utter_faq/ki_topics:
   - text: Das Thema KI ist sehr vielseitig. Die KI-Trainer des Mittelstand 4.0-Kompetenzzentrums Lingen bieten daher tiefergehende Unterstützung KI basierte Bildverarbeitung, Spracherkennung sowie Vorhersage und Planung. Durch die Expertise der Projektpartner im Mittelstand 4.0-Kompetenzzentrum Lingen lassen sich diese Schwerpunkte mit den Branchen Agrar, Handel, Handwerk und Maritim sowie mit Cloud Computing verknüpfen.
   utter_faq/cloud_computing_topics:
@@ -152,12 +123,6 @@ responses:
   utter_faq/craft_digitalization:
   - text: Die Experten des Mittelstand 4.0-Kompetenzzentrums stehen kleinen und mittleren Handwerksbetrieben aus der Region Nord-West mit Rat und Tat zur Seite. Wir befähigen Handwerksbetriebe, ihr Geschäftsmodell mit einer Datenbrille zu hinterfragen und auf Zukunftsfähigkeit hin zu überprüfen.
   utter_faq/maritime_digitalization:
-  - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt kleine und mittlere Unternehmen der maritimen Branche. Das Kompetenzzentrum Lingen befähigt unter anderem Reedereien, Häfen, Werften sowie Zuliefer- und Offshore-Betriebe dazu, technologisch-wirtschaftliche Potenziale zu erschließen und diese zu nutzen. Weiterhin sensibilisiert das Kompetenzzentrum für digitale, branchenspezifische Herausforderungen und begleiten Unternehmen in ihren konkreten Umsetzungsprojekten. 
-
-## Ansprechpartner
-
-
+  - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt kleine und mittlere Unternehmen der maritimen Branche. Das Kompetenzzentrum Lingen befähigt unter anderem Reedereien, Häfen, Werften sowie Zuliefer- und Offshore-Betriebe dazu, technologisch-wirtschaftliche Potenziale zu erschließen und diese zu nutzen. Weiterhin sensibilisiert das Kompetenzzentrum für digitale, branchenspezifische Herausforderungen und begleiten Unternehmen in ihren konkreten Umsetzungsprojekten.
 actions:
-  - action_hello_world
-forms: {}
-e2e_actions: []
+- action_hello_world
