@@ -30,3 +30,10 @@ stories:
   - action: utter_greet
   - intent: hello_world
   - action: action_hello_world
+
+- story: map to contact
+  steps:
+  - intent: contact
+  - action: utter_contact
+  - intent: contact
+  - action: utter_contact

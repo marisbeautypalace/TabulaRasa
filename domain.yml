@@ -12,6 +12,7 @@ intents:
 - mood_unhappy
 - bot_challenge
 - faq
+- contact
 responses:
   utter_greet:
   - text: Moin! Wie geht es Dir?
