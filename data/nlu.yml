@@ -78,36 +78,21 @@ nlu:
     - was bist du?
     - bist du ein Bot?
 - intent: faq/cloud_or_it
-  examples:
-  - text: |
+  examples: |
       Wenn ich künftig alles „in der Cloud mache“, wozu brauche ich meine IT-Abteilung noch?
-  - text: |
       Brauche ich noch eine IT-Abteilung?
-  - text: |
       Benötige ich eine IT-Abteilung?
-  - text: |
       Wozu benötige ich eine IT-Abteilung?
-  - text: |
       Was bringt eine IT-Abteilung?
-  - text: |
       Welche Vorteile hat eine IT-Abteilung?
-  - text: |
       Was macht die IT-Abteilung, wenn alles in der Cloud gemacht wird?
-  - text: |
       Welche Aufgaben hat die IT-Abteilung zukünftig?
-  - text: |
       Was macht die IT-Abteilung zukünftig?
-  - text: |
       Was sind die Aufgaben der IT-Abteilung, wenn ich eine Cloud nutze?
-  - text: |
       ist eine IT Abteilung noch wichtig für mein Unternehmen?
-  - text: |
-      was macht die It Abteilung dann in der zuKUunft ?
-  - text: |
+      was macht die It Abteilung dann in der zuKUunft?
       brauch ich in der Zukunft eine Abteilung für it?
-  - text: |
       Vorteil it Abteilung?
-  - text: |
       was macht it?
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
