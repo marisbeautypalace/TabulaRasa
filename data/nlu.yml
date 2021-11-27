@@ -444,10 +444,4 @@ nlu:
   examples: |
     - Münster
     - faq/geschaeftsstelle_muenster
-- intent: faq/cloud_or_it
-  examples: |
-      was macht die It Abteilung dann in der zuKUunft?
-      brauch ich in der Zukunft eine Abteilung für it?
-      Vorteil it Abteilung?
-      was macht it?
-      ist eine IT Abteilung noch wichtig für mein Unternehmen?
+    - faq/Geschaefsstelle_Muenster
