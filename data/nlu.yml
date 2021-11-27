@@ -77,13 +77,6 @@ nlu:
     - wer bist du?
     - was bist du?
     - bist du ein Bot?
-- intent: faq/cloud_or_it
-  examples: |
-      was macht die It Abteilung dann in der zuKUunft?
-      brauch ich in der Zukunft eine Abteilung für it?
-      Vorteil it Abteilung?
-      was macht it?
-      ist eine IT Abteilung noch wichtig für mein Unternehmen?
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - Eher Cloudcomputing oder eigener Server?
@@ -138,6 +131,7 @@ nlu:
     - Was passiert, wenn das Internet ausfällt?
     - Gibt es Probleme bei einer instabilen Internetverbindung?
     - Kann das Unternehmen ohne Internet noch arbeiten?
+    - Was passiert wenn das Internet ausfällt?
 - intent: faq/range_of_internet
   examples: |
     - Welche Bandbreite benötige ich, um Cloud Computing nutzen zu können?
