@@ -72,35 +72,35 @@ responses:
   - text: Bei der Auslagerung von IT-Dienstleistungen in die Cloud wird häufig von Software-on-Demand gesprochen. Im Vergleich zu dem On-Premise-Nutzungsmodell, bei welchem der Nutzer die Lizenz für ein Computerprogramm erwirbt und dieses selbst auf der eigenen Hardware betreibt, wird bei der On-Demand-Lösung die Software und damit verbundene Lizenzen beim Anbieter betrieben und je nach Bedarf hoch- oder herunterskaliert.
   utter_faq/services:
   - text: Dienstleistungen von Cloud Computing sind sehr vielfältig und können folgendes beispielsweise beinhalten. Informationssicherheit, Performance der Dienstleistung, integrationsfähigkeit an die IT-Landschaft des Kunden, niedrige Kosten, keine Technologiehürden, niedriger Einführungsaufwand, Berücksichtigung der Compliance-Anforderungen, Pay-per-Use, gute Help-Desk Strukturen und Support, virtuelles Training, Notfallpläne, flexible Gestaltung von Service Level Agreements.
-  utter_faq/SpeechRecognition_SpeechIdentification:
+  utter_faq/speech_recognition_speech_identification:
   - text: Mit dem KI-Modul Speech Recognition [Sr] wird gesprochene Sprache und/oder Gefühlszustände allgemein in ein Audiosignal gewandelt. Darüber hinaus kann mit Speech Identification [Si] eine individuelle Stimme an einem Audiosignal erkannt werden.
-  utter_faq/FaceRecognition_FaceIdentification:
+  utter_faq/face_recognition_face_identification:
   - text: Mit der KI-Komponente Face Recognition [Fr] können Gesichter und emotionale Zuständen in Bildern oder Videosignalen erkannt werden. Konkrete Personen können mit dem KI-Modul Face Identifiaction [Fi] in Bildern oder Videosignalen erkannt.
-  utter_faq/ImageRecognition_ImageIdentification:
+  utter_faq/image_recognition_image_identification:
   - text: Image Recognition [Ir] ermöglicht das Erkennen bestimmter Objekttypen in Bildern oder Videosignalen. Mit Image Identification [Ii] kann ein konkretes Objekt in einem Bild oder Video erkannt werden.
-  utter_faq/AudioRecognition_AudioIdentification:
+  utter_faq/audio_recognition_audio_identification:
   - text: Audio Recognition [Ar], Speech Recognition [Sr] und Audio Identification [Ai] sind eng verwandt und überlappen sich teilweise. Nach einer Analyse des Audiosignals wird bei dem KI-Element Audio Recognition [Ar] das Signal von maschinellen Lernverfahren klassifiziert. Es werden bestimmte Arten von Geräuschen (Alarme, Gerätestress, Automotor) in einem Audiosignal erkannt. Mit Hilfe der Audio Identification [Ai] werde Audiosignaturen (ein bestimmter Motor oder eine bestimmte Türklingel) aus Audiosignalen erkannt.
-  utter_faq/DataAnalytics:
+  utter_faq/data_analytics:
   - text: Mit dem KI-Modul Data Analytics [Da]  werden Daten analysiert, um bestimmte Tatsachen und/ oder Ereignisse zu erkennen, die diese Daten repräsentieren. Beispielsweise kann es sich dabei um das Erkennen von Verkaufstrends und Kundengruppen oder das Korrelieren von Sensordaten handeln.
-  utter_faq/TextExtraction:
+  utter_faq/text_extraction:
   - text: Die KI-Komponente Text Extraction [Te] analysiert Texte, um Informationen über Entitäten, Zeit, Orte und Fakten extrahieren, die ausschließlich im Text enthalten sind. Es können verschiedene Entitäten (z. B. Personen, Organisationen, Städte, Produkte) und Begriffe (z. B. Kommunikation, Innovation, Produktion) in Texten erkannt und verstanden werden. Mehrdeutigkeiten von Wörtern werden aufgelöst.
-  utter_faq/ProblemSolving:
+  utter_faq/problem_solving:
   - text: Die KI-Komponente Problem Solving [Ps] entspricht der menschlichen Fähigkeit, ein Problem durch Nachdenken zu lösen. Die prinzipielle Lösung steht im Vordergrund, das mögliche Optimieren ist nachrangig. Eine Fähigkeit von Problem Solving [Ps] besteht oft darin, ein Gesamtproblem in Einzelprobleme zu zerlegen.
-  utter_faq/LanguageUnderstanding:
+  utter_faq/language_understanding:
   - text: Language Understanding [Lu] beschreibt das Verstehen der Information im Text, also die Zuordnung zur Bedeutung. Das KI-Element versteht die in Texten gemeinten Beziehungen zwischen Entitäten und Konzepten (siehe auch Text Extraction Te).
-  utter_faq/LanguageGeneration:
+  utter_faq/language_generation:
   - text: Die Aufgabe von Language Generation [Lg] ist das automatische Erzeugen eines natürlichsprachlichen Textes aus der formalen logischen Repräsentation von Wissen.
-  utter_faq/PredictiveInference:
+  utter_faq/predictive_inference:
   - text: Mit Predictive Inference [Pi] können Vorhersagen von Ereignissen oder Zuständen in der Zukunft auf der Grundlage eines Verständnisses eines aktuellen Zustandes der Welt und der Funktionsweise der Welt erstellt werden. Es basiert auf existierende Daten von metrischen Werten, Skalenwerten, Intervallen oder Klassen, z. B. Verkaufsprognosen, Wettervorhersagen oder Risikoklassen.
-  utter_faq/ArtificialNeuralNetwork:
+  utter_faq/artificial_neural_network:
   - text: Künstliche neuronale Netze sind Algorithmen, die dem menschlichen Gehirn nachempfunden. Sie werden für maschinelles Lernen und künstliche Intelligenz eingesetzt, um diverser (komplexer) Problemstellungen zu lösen.
-  utter_faq/MachineLearning:
+  utter_faq/machine_learning:
   - text: Maschinelles Lernen ist ein Teilgebiet der künstlichen Intelligenz. Durch das Erkennen von Mustern in vorliegenden Datenbeständen während einer Lernphase sind IT-Systeme in der Lage, eigenständig Lösungen für Probleme zu finden.
-  utter_faq/DeepLearning:
+  utter_faq/deep_learning:
   - text: Deep Learning bezeichnet eine Methode maschinellen Lernens, die künstliche neuronale Netze mit zahlreichen Zwischenschichten zwischen Eingabe- und Ausgabeschicht einsetzt und eine umfangreiche innere Struktur herausbildet. Die Maschinen werden in die Lage versetzt selbstständig und ohne menschliches Zutun, ihre Fähigkeiten verbessern.
-  utter_faq/Bot:
+  utter_faq/bot:
   - text: Bots sind Computerprogramme, die sich wiederholende Aufgaben automatisiert abarbeiten ohne auf eine menschliche Interaktion angewiesen zu sein. Ein Chatbot im Speziellen ist ein textbasiertes Dialogsystem, welches das Chatten mit einem technischen System erlaubt.
-  utter_faq/PredictiveMaintenance:
+  utter_faq/predictive_maintenance:
   - text: Unter Predictive Maintenance versteht man einen proaktiven Wartungsvorgang, der auf die einer permanenten Überwachung und Auswertung von Maschinen- und Prozessdaten basiert. Ziel ist es den zukünftigen Wartungsbedarf vorherzusagen und dadurch Störungen zu vermeiden.
   utter_faq/mittelstand_agentur_support:
   - text: Die Angebote des Mittelstand 4.0-Kompetenzzentrums reichen von der Entwicklung und Ausgestaltung einer Idee bis hin zur konkreten Planung und Umsetzung eines Projektplans. Unternehmen haben durch die verschiedenen Veranstaltungsformate die Chance, sich auf dem gesamten Weg begleiten zu lassen.
@@ -124,16 +124,16 @@ responses:
   - text: Die Experten des Mittelstand 4.0-Kompetenzzentrums stehen kleinen und mittleren Handwerksbetrieben aus der Region Nord-West mit Rat und Tat zur Seite. Wir befähigen Handwerksbetriebe, ihr Geschäftsmodell mit einer Datenbrille zu hinterfragen und auf Zukunftsfähigkeit hin zu überprüfen.
   utter_faq/maritime_digitalization:
   - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt kleine und mittlere Unternehmen der maritimen Branche. Das Kompetenzzentrum Lingen befähigt unter anderem Reedereien, Häfen, Werften sowie Zuliefer- und Offshore-Betriebe dazu, technologisch-wirtschaftliche Potenziale zu erschließen und diese zu nutzen. Weiterhin sensibilisiert das Kompetenzzentrum für digitale, branchenspezifische Herausforderungen und begleiten Unternehmen in ihren konkreten Umsetzungsprojekten.
-  utter_faq/contactperson:
+  utter_faq/contact_person:
   - buttons:
     - payload: /Geschaefsstelle_Lingen
       title: Geschäftsstelle Lingen
     - payload: /Geschaefsstelle_Muenster
       title: Geschäftsstelle Münster
     text: 'Für welchen Bereich wünschen Sie einen Ansprechpartner?:'
-  utter_faq/Geschaefsstelle_Lingen:
+  utter_faq/geschaefsstelle_lingen:
   - text: Ihr Ansprechpartner der Geschäftsstelle Lingen ist Michael Schnaider (it.emsland) schnaider@it-emsland.de
-  utter_faq/Geschaefsstelle_Muenster:
+  utter_faq/geschaefsstelle_muenster:
   - text: Ihr Ansprechpartner der Geschäftsstelle Münster ist Sebastian Köffer (münsterLAND.digital e.V.) sk@muensterland.digital
 actions:
 - action_hello_world
