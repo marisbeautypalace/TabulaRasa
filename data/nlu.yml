@@ -414,10 +414,14 @@ nlu:
   examples: |
     - Wer ist mein Ansprechpartner?
     - Ich hätte gerne einen persönlichen Kontakt.
+    - wer ist mein Ansprechpartner?
+    - Wer ist mein Ansprechpartner
+    - Ich suche einen Ansprechpartner
 - intent: faq/geschaeftsstelle_lingen
   examples: |
     - Lingen
     - faq/geschaeftsstelle_lingen
+    - faq/Geschaefsstelle_Lingen
 - intent: faq/geschaeftsstelle_muenster
   examples: |
     - Münster
