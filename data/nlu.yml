@@ -423,6 +423,8 @@ nlu:
 - intent: faq/geschaefsstelle_lingen
   examples: |
     - Lingen
+    - faq/geschaefsstelle_lingen
 - intent: faq/geschaefsstelle_muenster
   examples: |
     - Münster
+    - faq/geschaefsstelle_muenster
