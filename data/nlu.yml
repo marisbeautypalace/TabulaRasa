@@ -220,26 +220,37 @@ nlu:
     - Für welche Zwecke kann ich Private Cloud nutzen?
     - Was ist Private Cloud?
     - was ist eine private cloud?
+    - Wozu braucht man eine private Cloud?
+    - Wie funktioniert eine private Cloud?
+    - was ist eine private Cloud?
 - intent: faq/public_cloud
   examples: |
     - Was ist eine Public Cloud?
     - Für welche Zwecke kann ich Private Cloud nutzen?
     - Was ist Private Cloud?
+    - Was ist eine public Cloud?
+    - Wozu braucht man eine public Cloud?
+    - pulbic CLoud?
 - intent: faq/hybrid_cloud
   examples: |
     - Was ist eine Hybrid Cloud?
     - Für welche Zwecke kann ich Hybrid Cloud nutzen?
     - Was ist Hybrid Cloud?
+    - wozu braucht man hybrid cloud?
 - intent: faq/community_cloud
   examples: |
     - Was ist eine Community Cloud?
     - Für welche Zwecke kann ich Community Cloud nutzen?
     - Was ist Community Cloud?
+    - wozu braucht man eine Community cloud?
+    - was ist eine Community cloud?
 - intent: faq/onpremise_ondemand
   examples: |
     - Was ist der Unterschied zwischen On-Premise und On-Demand?
     - Für welche Zwecke nutze ich On-Premise oder On-Demand?
     - Wann nutze ich On-Premise und wann On-Demand?
+    - wann nutze ich on premise Lösungen?
+    - was ist der unterschied zwischen on Premise und on demand?
 - intent: faq/services
   examples: |
     - Was sind Dienstleistungen von Cloud Computing?
@@ -258,6 +269,7 @@ nlu:
     - sprcherkenung
     - Spracherkennung
     - Wie funktioniert Spracherkennung
+    - wie funktioniert spracherknnung?
 - intent: faq/FaceRecognition_FaceIdentification
   examples: |
     - Wofür wird Gesichtserkennung eingesetzt?
@@ -265,6 +277,8 @@ nlu:
     - Wie funktioniert Gesichtserkennung?
     - Kann man Gesichter identifizieren?
     - wie erkenne ich gesichter?
+    - wie funktioniert Gesichtserkennung?
+    - wie kann ich Gesichter erkennen?
 - intent: faq/ImageRecognition_ImageIdentification
   examples: |
     - Was ist Bilderkennung?
@@ -274,6 +288,7 @@ nlu:
     - Wie stelle ich fest das auf einem Bild ein Objekt ist?
     - Können in Videos Objekte gezählt werden?
     - Wie können Objekte in einem Bild erkannt werden?
+    - wie funktioniert Bilderkennung?
 - intent: faq/AudioRecognition_AudioIdentification
   examples: |
     - Wie können Audiosignale klassifiziert werden?
@@ -362,12 +377,14 @@ nlu:
   examples: |
     - Was beinhalten die Angebote vom Kompetenzzentrum?
     - Wobei kann mich das Kompetenzzentrum unterstützen?
+    - was macht das Kompetenzzentrum?
 - intent: faq/mittelstand_agentur_cooperation
   examples: |
     - Kann ich mit dem Kompetenzzentrum kooperieren?
     - Wie werde ich Kooperationspartner vom Kompetenzzentrum?
     - Ist es möglich eine Kooperation mit dem Kompetenzzentrum einzugehen?
     - Kann ich andere Unternehmen im Bereich der digitalen Transformation unterstützen?
+    - wie kann ich mit dem Kompetenzzentrum kooperieren?
 - intent: faq/ki_companysize
   examples: |
     - Künstliche Intelligenz ist nur etwas für große Unternehmen. Oder nicht?
