@@ -7,24 +7,24 @@ nlu:
     - sag mir Hallo
 - intent: greet
   examples: |
-    - hallo
-    - guten tag
-    - hey
-    - hi
-    - moin
-    - servus
-    - guten Morgen
+    - Hallo
+    - Guten Tag
+    - Hey
+    - Hi
+    - Moin
+    - Servus
+    - Guten Morgen
     - Moin!
 - intent: goodbye
   examples: |
-    - schönen tag
+    - Schönen Tag
     - Tschau
     - Tschüss
-    - auf wiedersehen
-    - schönen abend
+    - Auf wiedersehen
+    - Schönen abend
     - Bis dann
     - Bis bald
-    - chiao
+    - Ciao
 - intent: affirm
   examples: |
     - ja
