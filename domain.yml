@@ -131,9 +131,9 @@ responses:
       payload: "faq/Geschaefsstelle_Lingen"
     - title: "Geschäftsstelle Münster"
       payload: "faq/Geschaefsstelle_Muenster"
-  utter_faq/Geschaefsstelle_Lingen:
+  utter_faq/geschaefsstelle_lingen:
   - text: Ihr Ansprechpartner der Geschäftsstelle Lingen ist Michael Schnaider (it.emsland) schnaider@it-emsland.de
-  utter_faq/Geschaefsstelle_Muenster:
+  utter_faq/geschaefsstelle_muenster:
   - text: Ihr Ansprechpartner der Geschäftsstelle Münster ist Sebastian Köffer (münsterLAND.digital e.V.) sk@muensterland.digital
 actions:
 - action_hello_world
