@@ -105,7 +105,7 @@ responses:
   utter_faq/mittelstand_agentur_support:
   - text: Die Angebote des Mittelstand 4.0-Kompetenzzentrums reichen von der Entwicklung und Ausgestaltung einer Idee bis hin zur konkreten Planung und Umsetzung eines Projektplans. Unternehmen haben durch die verschiedenen Veranstaltungsformate die Chance, sich auf dem gesamten Weg begleiten zu lassen.
   utter_faq/mittelstand_agentur_cooperation:
-  - text: Eine Kooperation mit dem Mittelstand 4.0-Kompetenzzentrum Lingen ist kostenlos. Außerdem kümmern wir uns um die Umsetzung der Veranstaltungen, sowohl digital als auch in Präsenz. Seien Sie als Wegbegleiter dabei und helfen Sie KMU bei ihrem digitalen Neustart oder Aufbruch. Füllen Sie dazu das Kontaktformular unter folgendem Link aus. (https://kompetenzzentrum-lingen.digital/kooperationen)
+  - text: Eine Kooperation mit dem Mittelstand 4.0-Kompetenzzentrum Lingen ist kostenlos. Außerdem kümmern wir uns um die Umsetzung der Veranstaltungen, sowohl digital als auch in Präsenz. Seien Sie als Wegbegleiter dabei und helfen Sie KMU bei ihrem digitalen Neustart oder Aufbruch. Füllen Sie dazu das Kontaktformular unter folgendem Link aus. https://kompetenzzentrum-lingen.digital/kooperationen
   utter_faq/ki_companysize:
   - text: Die Größe von Unternehmen ist für den Einsatz Künstlicher Intelligenz nicht ausschlaggebend. Künstliche Intelligenz kann auch von kleinen Unternehmen jedweder Branche genutzt werden und ist für viele Unternehmensbereiche interessant. Schließlich suchen auch kleine Unternehmen nach Lösungen zur Effizienzsteigerung oder zur Entlastung ihrer Mitarbeitenden, dabei kann Künstliche Intelligenz unter anderem unterstützen.
   utter_faq/ki_data:
