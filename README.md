@@ -51,7 +51,7 @@ For more Information also see:
 
 ## Set up Docker Compose for the Docker Image with Spacy & Action Server
 
-1. Doawnload the Rasa X Docker-compose.yml (in this case for Version == 0.42.4)
+1. Download the Rasa X Docker-compose.yml (in this case for Version == 0.42.4)
 ```
 wget -qO docker-compose.yml https://storage.googleapis.com/rasa-x-releases/0.42.4/docker-compose.ce.yml
 ```
@@ -112,11 +112,53 @@ COPY ./actions /app/actions
 
 # Change User
 USER 1001
-
 ```
 
+8. Within the rasa-action folder create a subfolder 'actions' for all custom actions files and the requirements.txt file. Paste the Pythone code into the files and the required libraries into the .txt file
+```
+cd etc/rasa/rasa-actions
+sudo mkdir actions
+sudo nano actions/actions.py
+sudo nano actions/__init__.py
+sudo nano actions/requirements.txt
+```
 
-5. Reference the 
+9. Change permissions for rasa-service and rasa-action respectively
+```
+sudo chmod 775 -R rasa-service
+sudo chmod 775 -R rasa-action
+```
+
+10. In the docker-compose.yml file, adapt the x-rasa-services: &default-rasa-service section
+```
+x-rasa-services: &default-rasa-service
+  build:
+    context: ./rasa-service
+    args:
+      RASA_IMAGE: "rasa/rasa:${RASA_VERSION}-full"
+  restart: always
+  volumes:
+      - ./.config:/.config
+.....
+```
+
+11. In the docker-compose.yml file, adapt the app section
+```
+  app:
+    build:
+      context: ./rasa-action
+    restart: always
+    expose:
+      - "5055"
+    depends_on:
+      - rasa-production
+```
+12. Rebuild the Docker image
+```
+sudo docker-compose down
+sudo docker-compose build
+sudo docker-compose up -d
+```
 
 ## Rasa installation (local)
 
