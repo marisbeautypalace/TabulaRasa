@@ -420,11 +420,11 @@ nlu:
   examples: |
     - Wer ist mein Ansprechpartner?
     - Ich hätte gerne einen persönlichen Kontakt.
-- intent: faq/geschaefsstelle_lingen
+- intent: faq/geschaeftsstelle_lingen
   examples: |
     - Lingen
-    - faq/geschaefsstelle_lingen
-- intent: faq/geschaefsstelle_muenster
+    - faq/geschaeftsstelle_lingen
+- intent: faq/geschaeftsstelle_muenster
   examples: |
     - Münster
-    - faq/geschaefsstelle_muenster
+    - faq/geschaeftsstelle_muenster
