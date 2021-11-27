@@ -125,6 +125,16 @@ nlu:
     - Wie führe ich Cloud Computing im Unternehmen ein?
     - Gibt es einen Prozess, um das Cloud Computing einzuführen?
     - Wie wird Cloud Computing im Unternehmen eingeführt?
+    - Cloud Einführung?
+    - Cloud einführen?
+    - Wie Plane ich die Cloudeinführung?
+    - Cloud wie einführen?
+    - Ich suche Informationen, wie ich einen Cloud in meinem Unternehmen einführen kann.
+    - Haben Sie Informationen zur Einführung einer Cloud?
+    - Wie führe ich eine Cloud ein?
+    - Cloud einführen
+    - Einführen von Cloud
+    - Wie Einführung Cloud Unternehmen?
 - intent: faq/network_breakown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
@@ -426,3 +436,15 @@ nlu:
   examples: |
     - Münster
     - faq/geschaeftsstelle_muenster
+- intent: faq/cloud_or_it
+  examples:
+  - text: |
+      was macht die It Abteilung dann in der zuKUunft ?
+  - text: |
+      brauch ich in der Zukunft eine Abteilung für it?
+  - text: |
+      Vorteil it Abteilung?
+  - text: |
+      was macht it?
+  - text: |
+      ist eine IT Abteilung noch wichtig für mein Unternehmen?
