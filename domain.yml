@@ -127,10 +127,10 @@ responses:
   utter_faq/contact_person:
   - text: "Für welchen Bereich wünschen Sie einen Ansprechpartner?"
     buttons:
-    - title: "Geschäftsstelle Lingen"
-      payload: "faq/Geschaefsstelle_Lingen"
-    - title: "Geschäftsstelle Münster"
-      payload: "faq/Geschaefsstelle_Muenster"
+      - title: "Geschäftsstelle Lingen"
+        payload: "faq/Geschaefsstelle_Lingen"
+      - title: "Geschäftsstelle Münster"
+        payload: "faq/Geschaefsstelle_Muenster"
   utter_faq/geschaefsstelle_lingen:
   - text: Ihr Ansprechpartner der Geschäftsstelle Lingen ist Michael Schnaider (it.emsland) schnaider@it-emsland.de
   utter_faq/geschaefsstelle_muenster:
