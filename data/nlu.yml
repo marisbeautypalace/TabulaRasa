@@ -125,6 +125,19 @@ nlu:
     - Wie führe ich Cloud Computing im Unternehmen ein?
     - Gibt es einen Prozess, um das Cloud Computing einzuführen?
     - Wie wird Cloud Computing im Unternehmen eingeführt?
+    - Wie führe ich eine Cloud ein?
+    - Cloud im Unternehmen einführen
+    - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor`
+    - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor?
+    - Ich suche Informationen, wie ich einen Cloud in meinem Unternehmen einführen kann.
+    - Haben Sie Informationen zur Einführung einer Cloud?
+    - Wie Einführung Cloud Unternehmen?
+    - Einführen von Cloud
+    - Cloud einführen
+    - Prozess Einführung Cloud?
+    - Wie Plane ich die Cloudeinführung?
+    - Wir planen den Neustart einer Cloud. Wie führe ich diese ein?
+    - Cloud wie einführen?
 - intent: faq/network_breakown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
