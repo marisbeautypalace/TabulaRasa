@@ -85,6 +85,11 @@ nlu:
     - Was mache ich mit meinem Server, wenn ich Cloud Computing nutze?
     - Wird zukünftig nur noch Cloud Computing genutzt oder kann ich eigene Server noch nutzen?
     - Arbeite ich später nur noch auf der Cloud?
+    - Ich kann mich nicht zwischen Cloud und Server entscheiden. Was nutze ich am besten?
+    - Server oder Cloud
+    - Nutze ich lieber die Cloud oder den Server?
+    - Was ist besser, Cloud oder Server?
+    - Ist Cloudcomputing oder Server besser?
 - intent: faq/use_of_cloud
   examples: |
     - Für wen eignet sich der Einsatz von Cloud Computing?
@@ -93,12 +98,27 @@ nlu:
     - Für wen ist Cloud Computing gut?
     - Wann ist der Einsatz einer Cloud sinnvoll?
     - Wann brauche ich ein Cloud?
+    - Wann nutze ich das Computing durch die Cloud?
+    - Wann nutze ich Cloud Computing?
+    - Was ist Cloud Computing?
+    - Cloud Computing
+    - Für wen eignet sich eine Cloud?
+    - Wann nutze ich Cloud?
+    - Wann nutze ich die Cloud?
+    - Wann nutze ich eine Cloud?
+    - Brauche ich eine Cloud
 - intent: faq/use_of_cloud_not
   examples: |
     - Für wen eignet sich der Einsatz von Cloud Computing nicht?
     - Wer nutzt Cloud Computing nicht?
     - Welche Unternehmen nutzen Cloud Computing nicht?
     - Für wen ist Cloud Computing nicht geeignet?
+    - Wann ist Cloud Computing nicht sinnvoll?
+    - Wann ist Cloud Computing nicht gut?
+    - Für wen eignet sich die Cloud nicht?
+    - Wann keine Cloud?
+    - Wann ist Cloud problematisch?
+    - Wann ist Cloud Computing problematisch?
 - intent: faq/cloud_introduction
   examples: |
     - Wie gehe ich am besten bei der Einführung von Cloud Computing vor?
