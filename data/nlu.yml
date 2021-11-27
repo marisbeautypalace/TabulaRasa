@@ -427,6 +427,7 @@ nlu:
     - wer ist mein Ansprechpartner?
     - Wer ist mein Ansprechpartner
     - Ich suche einen Ansprechpartner
+    - Ansprechpartner
 - intent: faq/geschaeftsstelle_lingen
   examples: |
     - Lingen
