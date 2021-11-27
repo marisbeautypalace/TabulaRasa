@@ -421,3 +421,16 @@ nlu:
     - Wie kann das Kompetenzzentrum meine Reederei im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum meine Werft im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum mein Unternehmen aus dem maritimen Bereich in Bezug auf Digitalisierung unterstützen?
+- intent: faq/contactperson
+  examples: |
+    - Wer ist mein Ansprechpartner?
+    - Ich hätte gerne einen persönlichen Kontakt.
+
+- intent: faq/Geschaefsstelle_Lingen
+  examples: |
+    - Lingen
+
+- intent: faq/Geschaefsstelle_Muenster
+  examples: |
+    - Münster
+
