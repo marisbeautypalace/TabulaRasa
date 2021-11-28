@@ -1,5 +1,50 @@
 version: "2.0"
 nlu:
+- synonym: Spracherkennung
+  examples: |
+    - Speech Recognition  
+    - Speech Identification 
+- synonym: Gesichtserkennung
+  examples: |
+    - Face Identification 
+    - Face Recognition  
+- synonym: Audioerkennung
+  examples: |
+    - Audio Identification 
+    - Audio Recognition  
+- synonym: Text Extraction
+  examples: |
+    - Keyphrase Extraction 
+    - Textextrahierung  
+- synonym: Language Understanding 
+  examples: |
+    - Natural language undersatnding 
+    - NLU 
+    - Natural language interpretation 
+    - NLI 
+- synonym: Language Generation  
+  examples: |
+    - Textgenerierung 
+    - Natural Language Generation  
+    - NLG 
+- synonym: Artificial neural network  
+  examples: |
+    - Neuronale Netze 
+    - NN
+    - Künstliche Neuronale Netze 
+    - KNN 
+    - Artificial neural network 
+    - ANN 
+- synonym: Machine Learning  
+  examples: |
+    - Maschinelles Lernen 
+- synonym: Deep Learning   
+  examples: |
+    - Tiefe Lernen 
+    - Mehrschichtiges Lernen  
+    - Tiefgehendes Lernen 
+
+
 - intent: hello_world
   examples: |
     - Kannst du mich begrüßen?
