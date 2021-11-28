@@ -28,8 +28,8 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: hello_world
-  - action: action_hello_world
+  - intent: get_all_events
+  - action: action_get_all_events
 
 - story: map to contact
   steps:

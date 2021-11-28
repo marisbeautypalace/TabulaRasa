@@ -538,3 +538,8 @@ nlu:
     - faq/geschaeftsstelle_muenster
     - faq/Geschaefsstelle_Muenster
     - contact/geschaeftsstelle_muenster
+- intent: get_all_events
+  examples: |
+    - Zeig mir alle Veranstaltungen
+    - Was gibt es für Veranstaltunegn
+    - Welche Veranstaltungen habt ihr?
