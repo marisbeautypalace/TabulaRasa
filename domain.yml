@@ -13,6 +13,7 @@ intents:
 - bot_challenge
 - faq
 - contact
+- get_all_events
 responses:
   utter_greet:
   - text: Moin! Wie geht es Dir?
@@ -137,6 +138,6 @@ responses:
   utter_contact/geschaeftsstelle_muenster:
   - text: Ihr Ansprechpartner der Geschäftsstelle Münster ist Sebastian Köffer (münsterLAND.digital e.V.) sk@muensterland.digital
 actions:
-- action_hello_world
+- action_get_all_events
 - utter/faq
 - utter/contact
