@@ -79,29 +79,18 @@ nlu:
     - was bist du?
     - bist du ein Bot?
 - intent: faq/cloud_or_it
-  examples:
-  - text: |
-      Was ist künstliche Intelligenz?
-  - text: |
-      Was macht die IT-Abteilung in der Zukunft?
-  - text: |
-      Brauche ich in der Zukunft eine Abteilung für IT?
-  - text: |
-      Vorteil IT-Abteilung?
-  - text: |
-      Was macht IT?
-  - text: |
-      Ist eine IT-Abteilung noch wichtig für mein Unternehmen?
-  - text: |
-      was macht die It Abteilung dann in der zuKUunft ?
-  - text: |
-      brauch ich in der Zukunft eine Abteilung für it?
-  - text: |
-      Vorteil it Abteilung?
-  - text: |
-      was macht it?
-  - text: |
-      ist eine IT Abteilung noch wichtig für mein Unternehmen?
+  examples: |
+    - Was ist künstliche Intelligenz?
+    - Was macht die IT-Abteilung in der Zukunft?
+    - Brauche ich in der Zukunft eine Abteilung für IT?
+    - Vorteil IT-Abteilung?
+    - Was macht IT?
+    - Ist eine IT-Abteilung noch wichtig für mein Unternehmen?
+    - was macht die It Abteilung dann in der zuKUunft?
+    - brauch ich in der Zukunft eine Abteilung für it?
+    - Vorteil it Abteilung?
+    - was macht it?
+    - ist eine IT Abteilung noch wichtig für mein Unternehmen?
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - Eher Cloudcomputing oder eigener Server?
@@ -533,7 +522,7 @@ nlu:
     - Wie kann das Kompetenzzentrum meine Reederei im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum meine Werft im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum mein Unternehmen aus dem maritimen Bereich in Bezug auf Digitalisierung unterstützen?
-- intent: contact_initial_question
+- intent: contact/initial_question
   examples: |
     - Wer ist mein Ansprechpartner?
     - Kontaktperson
@@ -551,46 +540,46 @@ nlu:
     - Wer ist mein Ansprechpartner
     - Ich suche einen Ansprechpartner
     - wer ist mein ansprechpartner?
-- intent: contact_geschaeftsstelle_lingen
+- intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
-    - contact_geschaeftsstelle_lingen
-- intent: contact_geschaeftsstelle_muenster
+    - contact/geschaeftsstelle_lingen
+- intent: contact/geschaeftsstelle_muenster
   examples: |
     - Münster
-    - contact_geschaeftsstelle_muenster
-- intent: contact_oeffentlichkeitsarbeit
+    - contact/geschaeftsstelle_muenster
+- intent: contact/oeffentlichkeitsarbeit
   examples: |
     - Öffentlichkeitsarbeit
-    - contact_oeffentlichkeitsarbeit
-- intent: contact_ki_osnabrueck
+    - contact/oeffentlichkeitsarbeit
+- intent: contact/ki_osnabrueck
   examples: |
     - KI Standort Osnabrück
-    - contact_ki_osnabrueck
-- intent: contact_ki_lingen
+    - contact/ki_osnabrueck
+- intent: contact/ki_lingen
   examples: |
     - KI Standort Lingen
-    - contact_ki_lingen
-- intent: contact_ki_emdenleer
+    - contact/ki_lingen
+- intent: contact/ki_emdenleer
   examples: |
     - KI Standort Emden/Leer
-    - contact_ki_emdenleer
-- intent: contact_handelsbranche
+    - contact/ki_emdenleer
+- intent: contact/handelsbranche
   examples: |
     - Handelsbranche
-    - contact_handelsbranche
-- intent: contact_handwerk
+    - contact/handelsbranche
+- intent: contact/handwerk
   examples: |
     - Handwerk
-    - contact_handwerk
-- intent: contact_agrarbranche
+    - contact/handwerk
+- intent: contact/agrarbranche
   examples: |
     - Agrarbranche
-    - contact_agrarbranche
-- intent: contact_maritimewirtschaft
+    - contact/agrarbranche
+- intent: contact/maritimewirtschaft
   examples: |
     - Maritime Wirtschaft
-    - contact_maritimewirtschaft
+    - contact/maritimewirtschaft
 - intent: get_all_events
   examples: |
     - Zeig mir alle Veranstaltungen

@@ -16,3 +16,8 @@ rules:
   steps:
   - intent: faq
   - action: utter_faq
+
+- rule: map to contact
+  steps:
+  - intent: contact
+  - action: utter_contact
