@@ -30,11 +30,63 @@ stories:
   - action: utter_greet
   - intent: get_all_events
   - action: action_get_all_events
-- story: map to contact
+- story: map to contact 1
   steps:
-  - intent: greet
-  - action: utter_greet
   - intent: contact_initial_question
   - action: utter_contact_initial_question
   - intent: contact_geschaeftsstelle_lingen
   - action: utter_contact_geschaeftsstelle_lingen
+- story: map to contact 2
+  steps:
+  - intent: contact_initial_question
+  - action: utter_contact_initial_question
+  - intent: contact_geschaeftsstelle_muenster
+  - action: utter_contact_geschaeftsstelle_muenster
+- story: map to contact 3
+  steps:
+  - intent: contact_initial_question
+  - action: utter_contact_initial_question
+  - intent: contact_contact_oeffentlichkeitsarbeit
+  - action: utter_contact_oeffentlichkeitsarbeit
+- story: map to contact 4
+  steps:
+  - intent: contact_initial_question
+  - action: utter_contact_initial_question
+  - intent: contact_ki_osnabrueck
+  - action: utter_contact_ki_osnabrueck
+- story: map to contact 5
+  steps:
+  - intent: contact_initial_question
+  - action: utter_contact_initial_question
+  - intent: contact_ki_lingen
+  - action: utter_contact_ki_lingen
+- story: map to contact 6
+  steps:
+  - intent: contact_initial_question
+  - action: utter_contact_initial_question
+  - intent: contact_ki_emdenleer
+  - action: utter_contact_ki_emdenleer
+- story: map to contact 7
+  steps:
+  - intent: contact_initial_question
+  - action: utter_contact_initial_question
+  - intent: contact_handelsbranche
+  - action: utter_contact_handelsbranche
+- story: map to contact 8
+  steps:
+  - intent: contact_initial_question
+  - action: utter_contact_initial_question
+  - intent: contact_handwerk
+  - action: utter_contact_handwerk
+- story: map to contact 9
+  steps:
+  - intent: contact_initial_question
+  - action: utter_contact_initial_question
+  - intent: contact_agrarbranche
+  - action: utter_contact_agrarbranche
+- story: map to contact 10
+  steps:
+  - intent: contact_initial_question
+  - action: utter_contact_initial_question
+  - intent: contact_maritimewirtschaft
+  - action: utter_contact_maritimewirtschaft
