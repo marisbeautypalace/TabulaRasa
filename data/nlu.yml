@@ -186,7 +186,7 @@ nlu:
     - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor?
     - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor`
     - Cloud im Unternehmen einführen
-- intent: faq/network_breakown
+- intent: faq/network_breakdown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
     - Internetausfall
@@ -237,7 +237,7 @@ nlu:
     - Wie läuft die Rückgabe von Daten bei einem Anbieterwechsel ab?
     - Gibt es spezielle Anforderungen an Datenträger für die Rückgabe von Daten bei einem Anbieterwechsel?
     - Was muss ich bei einem Anbieterwechsel beachten?
-- intent: faq/sequrity
+- intent: faq/security
   examples: |
     - Was passiert mit meinen Daten, wenn der Cloud-Anbieter insolvent geht?
     - Insolvenz meines Anbieters
@@ -431,7 +431,7 @@ nlu:
     - Wie erkennt ein Computer verschiedene Audiosignale?
     - Gibt es die Möglichkeit verschiedene Audiosignale zu verarbeiten?
     - Wie kann ich verschiedene Audiosignale verarbeiten?
-- intent: faq/dta_analytics
+- intent: faq/data_analytics
   examples: |
     - Was ist Data Analystics?
     - Wie kann ich Muster in Daten erkennen?
