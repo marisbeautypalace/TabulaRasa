@@ -79,13 +79,29 @@ nlu:
     - was bist du?
     - bist du ein Bot?
 - intent: faq/cloud_or_it
-  examples: |
-    - Was ist künstliche Intelligenz?
-    - Was macht die IT-Abteilung in der Zukunft?
-    - Brauche ich in der Zukunft eine Abteilung für IT?
-    - Vorteil IT-Abteilung?
-    - Was macht IT?
-    - Ist eine IT-Abteilung noch wichtig für mein Unternehmen?
+  examples:
+  - text: |
+      Was ist künstliche Intelligenz?
+  - text: |
+      Was macht die IT-Abteilung in der Zukunft?
+  - text: |
+      Brauche ich in der Zukunft eine Abteilung für IT?
+  - text: |
+      Vorteil IT-Abteilung?
+  - text: |
+      Was macht IT?
+  - text: |
+      Ist eine IT-Abteilung noch wichtig für mein Unternehmen?
+  - text: |
+      was macht die It Abteilung dann in der zuKUunft ?
+  - text: |
+      brauch ich in der Zukunft eine Abteilung für it?
+  - text: |
+      Vorteil it Abteilung?
+  - text: |
+      was macht it?
+  - text: |
+      ist eine IT Abteilung noch wichtig für mein Unternehmen?
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - Eher Cloudcomputing oder eigener Server?
@@ -500,6 +516,7 @@ nlu:
   examples: |
     - In welchen Bereichen kann ich zum Thema Künstliche Intelligenz Unterstützung erhalten?
     - Was bietet das Kompetenzzentrum zum Thema Künstliche Intelligenz an?
+    - Was ist Künstliche Intelligenz?
 - intent: faq/cloud_computing_topics
   examples: |
     - In welchen Bereichen kann ich zum Thema Cloud Computing Unterstützung erhalten?
@@ -533,6 +550,7 @@ nlu:
     - wer ist mein Ansprechpartner?
     - Wer ist mein Ansprechpartner
     - Ich suche einen Ansprechpartner
+    - wer ist mein ansprechpartner?
 - intent: contact_geschaeftsstelle_lingen
   examples: |
     - Lingen
