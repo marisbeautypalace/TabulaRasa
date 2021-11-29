@@ -540,6 +540,9 @@ nlu:
     - Wer ist mein Ansprechpartner
     - Ich suche einen Ansprechpartner
     - wer ist mein ansprechpartner?
+    - ich will jemandem persönlich schreiben
+    - ich brauche eine email adresse
+    - an wen kann ich mich wenden?
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
