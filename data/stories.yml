@@ -46,7 +46,7 @@ stories:
   steps:
   - intent: contact_initial_question
   - action: utter_contact_initial_question
-  - intent: contact_contact_oeffentlichkeitsarbeit
+  - intent: contact_oeffentlichkeitsarbeit
   - action: utter_contact_oeffentlichkeitsarbeit
 - story: map to contact 4
   steps:
