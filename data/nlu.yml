@@ -575,15 +575,43 @@ nlu:
 - intent: contact_geschaeftsstelle_lingen
   examples: |
     - Lingen
-    - faq/geschaeftsstelle_lingen
-    - faq/Geschaefsstelle_Lingen
     - contact_geschaeftsstelle_lingen
 - intent: contact_geschaeftsstelle_muenster
   examples: |
     - Münster
-    - faq/geschaeftsstelle_muenster
-    - faq/Geschaefsstelle_Muenster
     - contact_geschaeftsstelle_muenster
+- intent: contact_oeffentlichkeitsarbeit
+  examples: |
+    - Öffentlichkeitsarbeit
+    - contact_oeffentlichkeitsarbeit
+- intent: contact_ki_osnabrueck
+  examples: |
+    - KI Standort Osnabrück
+    - contact_ki_osnabrueck
+- intent: contact_ki_lingen
+  examples: |
+    - KI Standort Lingen
+    - contact_ki_lingen
+- intent: contact_ki_emdenleer
+  examples: |
+    - KI Standort Emden/Leer
+    - contact_ki_emdenleer
+- intent: contact_handelsbranche
+  examples: |
+    - Handelsbranche
+    - contact_handelsbranche
+- intent: contact_handwerk
+  examples: |
+    - Handwerk
+    - contact_handwerk
+- intent: contact_agrarbranche
+  examples: |
+    - Agrarbranche
+    - contact_agrarbranche
+- intent: contact_maritimewirtschaft
+  examples: |
+    - Maritime Wirtschaft
+    - contact_maritimewirtschaft
 - intent: get_all_events
   examples: |
     - Zeig mir alle Veranstaltungen
