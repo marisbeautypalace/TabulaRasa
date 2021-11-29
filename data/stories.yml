@@ -30,10 +30,11 @@ stories:
   - action: utter_greet
   - intent: get_all_events
   - action: action_get_all_events
-
 - story: map to contact
   steps:
-  - intent: contact
-  - action: utter_contact
-  - intent: contact
-  - action: utter_contact
+  - intent: greet
+  - action: utter_greet
+  - intent: contact_initial_question
+  - action: utter_contact_initial_question
+  - intent: contact_geschaeftsstelle_lingen
+  - action: utter_contact_geschaeftsstelle_lingen
