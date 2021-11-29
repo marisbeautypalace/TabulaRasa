@@ -236,7 +236,8 @@ nlu:
     - Was muss ich bei einem Anbieterwechsel beachten?
     - Wie läuft die Rückgabe von Daten bei einem Anbieterwechsel ab?
     - Gibt es spezielle Anforderungen an Datenträger für die Rückgabe von Daten bei einem Anbieterwechsel?
-
+    - Was muss ich bei einem Anbieterwechsel beachten?
+- intent: faq/security
   examples: |
     - Was passiert mit meinen Daten, wenn der Cloud-Anbieter insolvent geht?
     - Insolvenz meines Anbieters
@@ -570,7 +571,8 @@ nlu:
     - wer ist mein Ansprechpartner?
     - Wer ist mein Ansprechpartner
     - Ich suche einen Ansprechpartner
-
+    - Ansprechpartner
+- intent: contact_geschaeftsstelle_lingen
   examples: |
     - Lingen
     - contact_geschaeftsstelle_lingen
@@ -614,4 +616,4 @@ nlu:
   examples: |
     - Zeig mir alle Veranstaltungen
     - Was gibt es für Veranstaltunegn
-
+    - Welche Veranstaltungen habt ihr?
