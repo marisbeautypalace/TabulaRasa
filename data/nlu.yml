@@ -15,6 +15,7 @@ nlu:
     - Servus
     - Guten Morgen
     - Moin!
+    - hallo
 - intent: goodbye
   examples: |
     - Schönen Tag
@@ -525,6 +526,7 @@ nlu:
     - wer ist mein Ansprechpartner?
     - Wer ist mein Ansprechpartner
     - Ich suche einen Ansprechpartner
+    - wer ist mein ansprechpartner?
 - intent: contact_geschaeftsstelle_lingen
   examples: |
     - Lingen
