@@ -1,5 +1,50 @@
 version: "2.0"
 nlu:
+- synonym: Spracherkennung
+  examples: |
+    - Speech Recognition  
+    - Speech Identification 
+- synonym: Gesichtserkennung
+  examples: |
+    - Face Identification 
+    - Face Recognition  
+- synonym: Audioerkennung
+  examples: |
+    - Audio Identification 
+    - Audio Recognition  
+- synonym: Text Extraction
+  examples: |
+    - Keyphrase Extraction 
+    - Textextrahierung  
+- synonym: Language Understanding 
+  examples: |
+    - Natural language undersatnding 
+    - NLU 
+    - Natural language interpretation 
+    - NLI 
+- synonym: Language Generation  
+  examples: |
+    - Textgenerierung 
+    - Natural Language Generation  
+    - NLG 
+- synonym: Artificial neural network  
+  examples: |
+    - Neuronale Netze 
+    - NN
+    - Künstliche Neuronale Netze 
+    - KNN 
+    - Artificial neural network 
+    - ANN 
+- synonym: Machine Learning  
+  examples: |
+    - Maschinelles Lernen 
+- synonym: Deep Learning   
+  examples: |
+    - Tiefe Lernen 
+    - Mehrschichtiges Lernen  
+    - Tiefgehendes Lernen 
+
+
 - intent: hello_world
   examples: |
     - Kannst du mich begrüßen?
@@ -141,7 +186,7 @@ nlu:
     - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor?
     - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor`
     - Cloud im Unternehmen einführen
-- intent: faq/network_breakown
+- intent: faq/network_breakdown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
     - Internetausfall
@@ -191,7 +236,7 @@ nlu:
     - Was muss ich bei einem Anbieterwechsel beachten?
     - Wie läuft die Rückgabe von Daten bei einem Anbieterwechsel ab?
     - Gibt es spezielle Anforderungen an Datenträger für die Rückgabe von Daten bei einem Anbieterwechsel?
-- intent: faq/sequrity
+
   examples: |
     - Was passiert mit meinen Daten, wenn der Cloud-Anbieter insolvent geht?
     - Insolvenz meines Anbieters
@@ -385,7 +430,7 @@ nlu:
     - Wie erkennt ein Computer verschiedene Audiosignale?
     - Gibt es die Möglichkeit verschiedene Audiosignale zu verarbeiten?
     - Wie kann ich verschiedene Audiosignale verarbeiten?
-- intent: faq/dta_analytics
+- intent: faq/data_analytics
   examples: |
     - Was ist Data Analystics?
     - Wie kann ich Muster in Daten erkennen?
@@ -508,7 +553,7 @@ nlu:
     - Wie kann das Kompetenzzentrum meine Reederei im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum meine Werft im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum mein Unternehmen aus dem maritimen Bereich in Bezug auf Digitalisierung unterstützen?
-- intent: contact/initial_question
+- intent: contact_initial_question
   examples: |
     - Wer ist mein Ansprechpartner?
     - Kontaktperson
@@ -520,32 +565,53 @@ nlu:
     - Mailadresse
     - Ich benötige eine Mailadresse von einem Mitarbeiter.
     - Wen kann ich ansprechen?
+    - An wen kann ich mich wenden?
     - Ich hätte gerne einen persönlichen Kontakt.
     - wer ist mein Ansprechpartner?
     - Wer ist mein Ansprechpartner
     - Ich suche einen Ansprechpartner
-- intent: contact/geschaeftsstelle_lingen
+
   examples: |
     - Lingen
-    - faq/geschaeftsstelle_lingen
-    - faq/Geschaefsstelle_Lingen
-    - contact/geschaeftsstelle_lingen
-- intent: contact/geschaeftsstelle_muenster
+    - contact_geschaeftsstelle_lingen
+- intent: contact_geschaeftsstelle_muenster
   examples: |
     - Münster
-    - faq/geschaeftsstelle_muenster
-    - faq/Geschaefsstelle_Muenster
-    - contact/geschaeftsstelle_muenster
+    - contact_geschaeftsstelle_muenster
+- intent: contact_oeffentlichkeitsarbeit
+  examples: |
+    - Öffentlichkeitsarbeit
+    - contact_oeffentlichkeitsarbeit
+- intent: contact_ki_osnabrueck
+  examples: |
+    - KI Standort Osnabrück
+    - contact_ki_osnabrueck
+- intent: contact_ki_lingen
+  examples: |
+    - KI Standort Lingen
+    - contact_ki_lingen
+- intent: contact_ki_emdenleer
+  examples: |
+    - KI Standort Emden/Leer
+    - contact_ki_emdenleer
+- intent: contact_handelsbranche
+  examples: |
+    - Handelsbranche
+    - contact_handelsbranche
+- intent: contact_handwerk
+  examples: |
+    - Handwerk
+    - contact_handwerk
+- intent: contact_agrarbranche
+  examples: |
+    - Agrarbranche
+    - contact_agrarbranche
+- intent: contact_maritimewirtschaft
+  examples: |
+    - Maritime Wirtschaft
+    - contact_maritimewirtschaft
 - intent: get_all_events
   examples: |
     - Zeig mir alle Veranstaltungen
     - Was gibt es für Veranstaltunegn
-    - Welche Veranstaltungen habt ihr?
-- synonym: Spracherkennung
-  examples: |
-    - Speech Recognition
-    - Speech Identification
-- synonym: Gesichtserkennung
-  examples: |
-    - Face Identification
-    - Face Recognition
+

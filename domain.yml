@@ -12,7 +12,17 @@ intents:
 - mood_unhappy
 - bot_challenge
 - faq
-- contact
+- contact_initial_question
+- contact_geschaeftsstelle_lingen
+- contact_geschaeftsstelle_muenster
+- contact_oeffentlichkeitsarbeit
+- contact_ki_osnabrueck
+- contact_ki_lingen
+- contact_ki_emdenleer
+- contact_handelsbranche
+- contact_handwerk
+- contact_agrarbranche
+- contact_maritimewirtschaft
 - get_all_events
 responses:
   utter_greet:
@@ -126,18 +136,69 @@ responses:
   - text: Die Experten des Mittelstand 4.0-Kompetenzzentrums stehen kleinen und mittleren Handwerksbetrieben aus der Region Nord-West mit Rat und Tat zur Seite. Wir befähigen Handwerksbetriebe, ihr Geschäftsmodell mit einer Datenbrille zu hinterfragen und auf Zukunftsfähigkeit hin zu überprüfen.
   utter_faq/maritime_digitalization:
   - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt kleine und mittlere Unternehmen der maritimen Branche. Das Kompetenzzentrum Lingen befähigt unter anderem Reedereien, Häfen, Werften sowie Zuliefer- und Offshore-Betriebe dazu, technologisch-wirtschaftliche Potenziale zu erschließen und diese zu nutzen. Weiterhin sensibilisiert das Kompetenzzentrum für digitale, branchenspezifische Herausforderungen und begleiten Unternehmen in ihren konkreten Umsetzungsprojekten.
-  utter_contact/initial_question:
+  utter_contact_initial_question:
   - text: "Für welchen Bereich wünschen Sie einen Ansprechpartner?"
     buttons:
     - title: "Geschäftsstelle Lingen"
-      payload: "contact/geschaeftsstelle_lingen"
+      payload: "/contact_geschaeftsstelle_lingen"
     - title: "Geschäftsstelle Münster"
-      payload: "contact/geschaeftsstelle_muenster"
-  utter_contact/geschaeftsstelle_lingen:
-  - text: Ihr Ansprechpartner der Geschäftsstelle Lingen ist Michael Schnaider (it.emsland) schnaider@it-emsland.de
-  utter_contact/geschaeftsstelle_muenster:
-  - text: Ihr Ansprechpartner der Geschäftsstelle Münster ist Sebastian Köffer (münsterLAND.digital e.V.) sk@muensterland.digital
+      payload: "/contact_geschaeftsstelle_muenster"
+    - title: "Öffentlichkeitsarbeit"
+      payload: "/contact_oeffentlichkeitsarbeit"
+    - title: "KI - Standort Osnabrück"
+      payload: "/contact_ki_osnabrueck"
+    - title: "KI - Standort Lingen"
+      payload: "/contact_ki_lingen"
+    - title: "KI - Standort Emden/Leer"
+      payload: "/contact_ki_emdenleer"
+    - title: "Handelsbranche"
+      payload: "/contact_handelsbranche"
+    - title: "Handwerk"
+      payload: "/contact_handwerk"
+    - title: "Agrarbranche"
+      payload: "/contact_agrarbranche"
+    - title: "Maritime Wirtschaft"
+      payload: "/contact_maritimewirtschaft"
+  utter_contact_geschaeftsstelle_lingen:
+  - text: "Ihr Ansprechpartner der Geschäftsstelle Lingen ist Michael Schnaider (it.emsland). \n
+          E-Mail: schnaider@it-emsland.de \n
+          Telefon: +495918076981"
+  utter_contact_geschaeftsstelle_muenster:
+  - text: "Ihr Ansprechpartner der Geschäftsstelle Münster ist Sebastian Köffer (münsterLAND.digital e.V.). \n
+          E-Mail: sk@muensterland.digital \n
+          Telefon: +4925153556885"
+  utter_contact_oeffentlichkeitsarbeit:
+  - text: "Ihr Ansprechpartner für Öffentlichkeitsarbeit ist Sascha Baden (it.emsland). \n
+          E-Mail: baden@it-emsland.de \n
+          Telefon: +4959180769813"
+  utter_contact_ki_osnabrueck:
+  - text: "Ihr Ansprechpartner im Bereich KI für den Standort Osnabrück ist Prof. Dr.-Ing. Clemens Westerkamp (Mittelstand 4.0-Kompetenzzentrum Lingen). \n
+          E-Mail: c.westerkamp@hs-osnabrueck.de \n
+          Telefon: +495419693649"
+  utter_contact_ki_lingen:
+  - text: "Ihr Ansprechpartner im Bereich KI für den Standort Lingen ist Sascha Rose (Mittelstand 4.0-Kompetenzzentrum Lingen). \n
+          E-Mail: sascha.rose@hs-osnabrueck.de \n
+          Telefon: +4959180098294"
+  utter_contact_ki_emdenleer:
+  - text: "Ihr Ansprechpartner im Bereich KI für den Standort Emden/Leer ist Timo Böden (Mittelstand 4.0-Kompetenzzentrum). \n
+          E-Mail: timo.boeden@hs-emden-leer.de \n
+          Telefon: +4949192815072"
+  utter_contact_handelsbranche:
+  - text: "Ihr Ansprechpartner für die Handelsbranche ist Ann-Kristin Cordes (ERCIS). \n
+          E-Mail: cordes@ercis.uni-muenster.de \n
+          Telefon: +492518338088"
+  utter_contact_handwerk:
+  - text: "Ihr Ansprechpartner für das Handwerk ist Sebastian Köffer (münsterLAND.digital e.V.). \n
+          E-Mail: sk@muensterland.digital \n
+          Telefon: +4925153556885"
+  utter_contact_agrarbranche:
+  - text: "Ihr Ansprechpartner für die Agrarbranche ist Nikolas Neddermann (HS-Osnabrück). \n
+          E-Mail: n.neddermann@hs-osnabrueck.de \n
+          Telefon: +495419695017"
+  utter_contact_maritimewirtschaft:
+  - text: "Ihr Ansprechpartner für die Maritime Wirtschaft ist Jörg Bontjer (MARIKO gGmbH). \n
+          E-Mail: joerg.bontjer@mariko-leer.de \n
+          Telefon: +494919261185"
 actions:
 - action_get_all_events
 - utter/faq
-- utter/contact
