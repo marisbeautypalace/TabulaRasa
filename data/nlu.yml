@@ -1,50 +1,5 @@
 version: "2.0"
 nlu:
-- synonym: Spracherkennung
-  examples: |
-    - Speech Recognition  
-    - Speech Identification 
-- synonym: Gesichtserkennung
-  examples: |
-    - Face Identification 
-    - Face Recognition  
-- synonym: Audioerkennung
-  examples: |
-    - Audio Identification 
-    - Audio Recognition  
-- synonym: Text Extraction
-  examples: |
-    - Keyphrase Extraction 
-    - Textextrahierung  
-- synonym: Language Understanding 
-  examples: |
-    - Natural language undersatnding 
-    - NLU 
-    - Natural language interpretation 
-    - NLI 
-- synonym: Language Generation  
-  examples: |
-    - Textgenerierung 
-    - Natural Language Generation  
-    - NLG 
-- synonym: Artificial neural network  
-  examples: |
-    - Neuronale Netze 
-    - NN
-    - Künstliche Neuronale Netze 
-    - KNN 
-    - Artificial neural network 
-    - ANN 
-- synonym: Machine Learning  
-  examples: |
-    - Maschinelles Lernen 
-- synonym: Deep Learning   
-  examples: |
-    - Tiefe Lernen 
-    - Mehrschichtiges Lernen  
-    - Tiefgehendes Lernen 
-
-
 - intent: hello_world
   examples: |
     - Kannst du mich begrüßen?
@@ -207,9 +162,9 @@ nlu:
     - Das Internet ist nicht funktionsfähig. Was kann passieren?#
     - Was kann passieren, wenn das Internet nicht funktionsfähig ist?
     - Bin ich noch arbeitsfähig wenn das Internet ausfällt?
-    - Kann ich ohne Internet noch arbeiten? 
+    - Kann ich ohne Internet noch arbeiten?
     - Wie arbeite ich ohne Internet?
-    - Kann ich noch arbeiten, wenn das Netzweerk zusammenbricht? 
+    - Kann ich noch arbeiten, wenn das Netzweerk zusammenbricht?
     - Kann ich noch arbeiten, wenn das Internet nicht mehr funktioniert?
 - intent: faq/range_of_internet
   examples: |
@@ -221,7 +176,7 @@ nlu:
     - Wie stark muss meine Internetverbindung für Cloud Computing sein?
     - Brauche ich eine gute Bandbreite für Cloud Computing?
     - Gibt es eine vorgeschriebene Bandbreite für Cloud Computing?
-    - Welche Bandbreite benötigt mein Unternehmen? 
+    - Welche Bandbreite benötigt mein Unternehmen?
     - Welche Bandbreite benötige ich, um eine Cloud zu nutzen?
     - Wie stark muss die Internetverbindung sein?
 - intent: faq/provider_change
@@ -236,7 +191,6 @@ nlu:
     - Was muss ich bei einem Anbieterwechsel beachten?
     - Wie läuft die Rückgabe von Daten bei einem Anbieterwechsel ab?
     - Gibt es spezielle Anforderungen an Datenträger für die Rückgabe von Daten bei einem Anbieterwechsel?
-    - Was muss ich bei einem Anbieterwechsel beachten?
 - intent: faq/security
   examples: |
     - Was passiert mit meinen Daten, wenn der Cloud-Anbieter insolvent geht?
@@ -254,7 +208,7 @@ nlu:
     - Mittstand 4.0 Agentur
     - Mittelstand 4.0 Cloud
     - Cloud der Agentur Mittelstand 4.0
-    - Die Agentur 
+    - Die Agentur
     - Mittelstand 4.0
     - Aufgaben der Mittelstand 4.0 Agentur
     - Was macht die Mittelstand 4.0 Agentur?
@@ -303,7 +257,7 @@ nlu:
     - Wirstschaftsministerium
     - Beziehung zum Ministerium für Wirtschaft
     - Wie ist die Beziehung zum Bundeswirtschaftsministerium?
-    - Welche Beziehung hat die Agentur zum Bundeswirtschaftsministerium? 
+    - Welche Beziehung hat die Agentur zum Bundeswirtschaftsministerium?
     - Wie ist der Kontakt zum Bundeswirtschaftsministerium?
     - Was hat die Mittelstand 4.0-Agentur mit dem Bundeswirtschaftsministerium zutun?
 - intent: faq/mittelstand_agentur_software
@@ -317,7 +271,7 @@ nlu:
     - Könnt ihr mir einen Cloud-Anbieter empfehlen?
     - Könnt ihr mir eine Software-Lösung empfehlen?
     - Welche Software könnt ihr empfehlen?
-    - Welche Software sollte ich nutzen? 
+    - Welche Software sollte ich nutzen?
     - Welche Software würdet ihr nutzen?
     - Ich weiß nicht welche Software ich anschaffen soll.
 - intent: faq/IaaS
@@ -571,7 +525,6 @@ nlu:
     - wer ist mein Ansprechpartner?
     - Wer ist mein Ansprechpartner
     - Ich suche einen Ansprechpartner
-    - Ansprechpartner
 - intent: contact_geschaeftsstelle_lingen
   examples: |
     - Lingen
@@ -617,3 +570,45 @@ nlu:
     - Zeig mir alle Veranstaltungen
     - Was gibt es für Veranstaltunegn
     - Welche Veranstaltungen habt ihr?
+- synonym: Spracherkennung
+  examples: |
+    - Speech Recognition
+    - Speech Identification
+- synonym: Gesichtserkennung
+  examples: |
+    - Face Identification
+    - Face Recognition
+- synonym: Audioerkennung
+  examples: |
+    - Audio Identification
+    - Audio Recognition
+- synonym: Text Extraction
+  examples: |
+    - Keyphrase Extraction
+    - Textextrahierung
+- synonym: Language Understanding
+  examples: |
+    - Natural language undersatnding
+    - NLU
+    - Natural language interpretation
+    - NLI
+- synonym: Language Generation
+  examples: |
+    - Textgenerierung
+    - Natural Language Generation
+    - NLG
+- synonym: Artificial neural network
+  examples: |
+    - Neuronale Netze
+    - NN
+    - Künstliche Neuronale Netze
+    - KNN
+    - ANN
+- synonym: Machine Learning
+  examples: |
+    - Maschinelles Lernen
+- synonym: Deep Learning
+  examples: |
+    - Tiefe Lernen
+    - Mehrschichtiges Lernen
+    - Tiefgehendes Lernen
