@@ -83,20 +83,6 @@ nlu:
     - bist du ein Bot?
     - Hallo wer bist du?
     - du kannst nichts
-- intent: faq/cloud_or_it
-  examples: |
-      Was ist künstliche Intelligenz?
-      Was macht die IT-Abteilung in der Zukunft?
-      Brauche ich in der Zukunft eine Abteilung für IT?
-      Vorteil IT-Abteilung?
-      Was macht IT?
-      Ist eine IT-Abteilung noch wichtig für mein Unternehmen?
-      was macht die It Abteilung dann in der zuKUunft?
-      brauch ich in der Zukunft eine Abteilung für it?
-      Vorteil it Abteilung?
-      was macht it?
-      ist eine IT Abteilung noch wichtig für mein Unternehmen?
-      was macht die It Abteilung dann in der zuKUunft?
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - Eher Cloudcomputing oder eigener Server?
@@ -570,6 +556,7 @@ nlu:
     - Welche Computer brauche ich für künstliche Intelligenz?
     - Brauche ich besondere hardware für künstliche Intelligenz?
     - Welche Anforderungen werden an den Computer in Bezug auf künstliche Intelligenz gestellt?
+    - Was für eine Computer brauch ich für künstliche Intelligenz?
 - intent: faq/ki_topics
   examples: |
     - In welchen Bereichen kann ich zum Thema Künstliche Intelligenz Unterstützung erhalten?
@@ -710,6 +697,20 @@ nlu:
     - Gibt es neue Veranstaltungen?
     - Wann startet die nächste Veranstaltung?`
     - Wann findet die nächste Veranstaltung statt?
+- intent: faq/cloud_or_it
+  examples:
+  - text: |
+      Was ist künstliche Intelligenz?
+  - text: |
+      was macht die It Abteilung dann in der zuKUunft ?
+  - text: |
+      brauch ich in der Zukunft eine Abteilung für it?
+  - text: |
+      Vorteil it Abteilung?
+  - text: |
+      was macht it?
+  - text: |
+      ist eine IT Abteilung noch wichtig für mein Unternehmen?
 - synonym: Spracherkennung
   examples: |
     - Speech Recognition
