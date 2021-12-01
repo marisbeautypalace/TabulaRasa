@@ -249,6 +249,7 @@ nlu:
     - Wird die Mittelstand 4.0-Agentur gefördert?
     - Was kostet das Angebot der Mittelstand 4.0-Agentur?
     - Wie hoch sind die Kosten für die Leistungen der Mittelstand 4.0-Agentur?
+    - Was bietet das Kompetenzzentrum an?
 - intent: faq/mittelstand_agentur_location
   examples: |
     - Hat die Mittelstand 4.0-Agentur Cloud einen Unternehmensstandort?
@@ -485,10 +486,17 @@ nlu:
     - Ist es möglich eine Kooperation mit dem Kompetenzzentrum einzugehen?
     - Kann ich andere Unternehmen im Bereich der digitalen Transformation unterstützen?
     - wie kann ich mit dem Kompetenzzentrum kooperieren?
+    - Ich will anderen Unternehmen helfen
+    - Ich will andere Unternehmen in der digitalen Transformation unterstützen
+    - ich will anderen Unternehmen helfen
+    - Was kostet eine Kooperation?
+    - Kostet eine Kooperation mit dem Kompetenzzentrum etwas?
 - intent: faq/ki_companysize
   examples: |
     - Künstliche Intelligenz ist nur etwas für große Unternehmen. Oder nicht?
     - Ist der Einsatz von künstlicher Intelligenz in einem kleinen Unternehmen sinnvoll?
+    - Braucht mein kleines Unternehmen überhaupt Künstliche Intelligenz?
+    - Bringt meinem kleinen Unternehmen künstliche Intelligenz etwas?
 - intent: faq/ki_data
   examples: |
     - Welche Rolle spielen Daten beim Einsatz Künstlicher Intelligenz?
