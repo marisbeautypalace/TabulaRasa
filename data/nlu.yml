@@ -528,15 +528,24 @@ nlu:
     - Was für Möglichkeiten im Bereich der Digitalisierung habe ich auf meinem landwirtschaftlichen Betrieb?
     - Wozu braucht ein landwirtschaftlicher Betrieb die Digitalisierung?
     - braucht die Landwirtschaft Digitalisierung?
+    - wie kann mein landwirtschaftlicher betrieb digitaler werden?
 - intent: faq/craft_digitalization
   examples: |
     - Wie kann das Kompetenzzentrum meinem Handwerksbetrieb im Bereich Digitalisierung unterstützen?
     - braucht das Handwerk Digitalisierung?
+    - wozu braucht mein Handwerksbetrieb die Digitalisierung?
+    - wie kann mein Handwerksbetrieb digitaler werden?
 - intent: faq/maritime_digitalization
   examples: |
     - Wie kann das Kompetenzzentrum meine Reederei im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum meine Werft im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum mein Unternehmen aus dem maritimen Bereich in Bezug auf Digitalisierung unterstützen?
+    - könnt ihr meine Reederei unterstützen?
+    - könnt ihr meine werft unterstützen?
+    - wie kann meine werft digitaler werden?
+    - wie kann meine Reederei digitaler werden?
+    - braucht meine Reederei Digitalisierung?
+    - braucht meine werft Digitalisierung?
 - intent: contact/initial_question
   examples: |
     - Wer ist mein Ansprechpartner?
