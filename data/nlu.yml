@@ -518,6 +518,7 @@ nlu:
     - In welchen Bereichen kann ich zum Thema Künstliche Intelligenz Unterstützung erhalten?
     - Was bietet das Kompetenzzentrum zum Thema Künstliche Intelligenz an?
     - Was ist Künstliche Intelligenz?
+    - was bietet ihr im Bereich künstliche Intelligenz an?
 - intent: faq/cloud_computing_topics
   examples: |
     - In welchen Bereichen kann ich zum Thema Cloud Computing Unterstützung erhalten?
