@@ -509,6 +509,10 @@ nlu:
   examples: |
     - Kann man Künstliche Intelligenz auf der eigenen Unternehmens-IT laufen lassen?
     - Benötige ich spezielle Hardware für Künstliche Intelligenz?
+    - brauche ich leistungsfähigere Rechner für künstliche Intelligenz?
+    - kann ich Künstliche Intelligenz auf normalen Rechnern laufen lassen?
+    - brauche ich spezielle hardware für den Einsatz künstlicher Intelligenz?
+    - welche hardware brauche ich für künstliche Intelligenz?
 - intent: faq/ki_topics
   examples: |
     - In welchen Bereichen kann ich zum Thema Künstliche Intelligenz Unterstützung erhalten?
@@ -551,6 +555,7 @@ nlu:
     - ich will jemandem persönlich schreiben
     - ich brauche eine email adresse
     - an wen kann ich mich wenden?
+    - an wen kann ich mich persönlich wenden?
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
