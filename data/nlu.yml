@@ -84,31 +84,19 @@ nlu:
     - Hallo wer bist du?
     - du kannst nichts
 - intent: faq/cloud_or_it
-  examples:
-  - text: |
+  examples: |
       Was ist künstliche Intelligenz?
-  - text: |
       Was macht die IT-Abteilung in der Zukunft?
-  - text: |
       Brauche ich in der Zukunft eine Abteilung für IT?
-  - text: |
       Vorteil IT-Abteilung?
-  - text: |
       Was macht IT?
-  - text: |
       Ist eine IT-Abteilung noch wichtig für mein Unternehmen?
-  - text: |
       was macht die It Abteilung dann in der zuKUunft?
-  - text: |
       brauch ich in der Zukunft eine Abteilung für it?
-  - text: |
       Vorteil it Abteilung?
-  - text: |
       was macht it?
-  - text: |
       ist eine IT Abteilung noch wichtig für mein Unternehmen?
-  - text: |
-      was macht die It Abteilung dann in der zuKUunft ?
+      was macht die It Abteilung dann in der zuKUunft?
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - Eher Cloudcomputing oder eigener Server?
