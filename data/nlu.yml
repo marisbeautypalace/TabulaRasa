@@ -568,6 +568,8 @@ nlu:
     - ich brauche eine email adresse
     - an wen kann ich mich wenden?
     - an wen kann ich mich persönlich wenden?
+    - ich will jemandem eine mail schreiben
+    - ich will einen persönlichen kontakt
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
