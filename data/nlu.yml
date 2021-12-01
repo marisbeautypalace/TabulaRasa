@@ -699,17 +699,10 @@ nlu:
     - Wann findet die nächste Veranstaltung statt?
 - intent: faq/cloud_or_it
   examples:
-  - text: |
       Was ist künstliche Intelligenz?
-  - text: |
-      was macht die It Abteilung dann in der zuKUunft ?
-  - text: |
+      was macht die It Abteilung dann in der zuKUunft?
       brauch ich in der Zukunft eine Abteilung für it?
-  - text: |
-      Vorteil it Abteilung?
-  - text: |
       was macht it?
-  - text: |
       ist eine IT Abteilung noch wichtig für mein Unternehmen?
 - synonym: Spracherkennung
   examples: |
