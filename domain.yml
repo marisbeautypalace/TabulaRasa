@@ -17,7 +17,7 @@ intents:
 - get_all_events
 responses:
   utter_greet:
-  - text: "Hallo, mein Name ist KoLi. Ich bin der Chatbot vom Mittelstand 4.0-Kompetenzzentrum in Lingen. Gerne beantworte ich Ihnen Fragen zu den folgenden Themen: \n
+  - text: "Hallo, mein Name ist KoLi. Ich bin der Chatbot 🤖 vom Mittelstand 4.0-Kompetenzzentrum in Lingen. Gerne beantworte ich Ihnen Fragen zu den folgenden Themen: \n
           - Veranstaltungen \n
           - Ansprechpartner \n
           - Künstliche Intelligenz \n
@@ -33,7 +33,7 @@ responses:
   utter_goodbye:
   - text: Auf Wiedersehen und einen schönen Tag noch.
   utter_iamabot:
-  - text: Ich bin der Chatbot vom Mittelstand 4.0-Kompetenzzentrum in Lingen.
+  - text: Ich bin der Chatbot 🤖 vom Mittelstand 4.0-Kompetenzzentrum in Lingen.
   utter_out_of_scope:
   - text: Bei diesem Thema kann ich Ihnen leider nicht weiterhelfen.
   utter_please_rephrase:
@@ -151,13 +151,13 @@ responses:
     - payload: contact/ki_emdenleer
       title: KI - Standort Emden/Leer
     - payload: contact/handelsbranche
-      title: Handelsbranche
+      title: 🏬 Handelsbranche
     - payload: contact/handwerk
-      title: Handwerk
+      title: 🛠️ Handwerk
     - payload: contact/agrarbranche
-      title: Agrarbranche
+      title: 🌾 Agrarbranche
     - payload: contact/maritimewirtschaft
-      title: Maritime Wirtschaft
+      title: 🚢 Maritime Wirtschaft
     text: Für welchen Bereich wünschen Sie einen Ansprechpartner?
   utter_contact/geschaeftsstelle_lingen:
   - text: |-
