@@ -83,6 +83,11 @@ nlu:
     - bist du ein Bot?
     - Hallo wer bist du?
     - du kannst nichts
+- intent: out_of_scope
+  examples: |
+    - ich will eine Pizza bestellen
+    - was ist 1+1?
+    - wer ist Bundeskanzler?
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - Eher Cloudcomputing oder eigener Server?

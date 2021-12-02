@@ -20,6 +20,8 @@ pipeline:
 - name: ResponseSelector
   epochs: 100
   retrieval_intent: contact
+- name: FallbackClassifier
+  threshold: 0.8
 policies:
 - name: MemoizationPolicy
 - name: RulePolicy

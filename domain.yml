@@ -11,12 +11,18 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+- out_of_scope
 - faq
 - contact
 - get_all_events
 responses:
   utter_greet:
-  - text: Moin! Wie geht es Dir?
+  - text: "Hallo, mein Name ist KoLi. Ich bin der Chatbot vom Mittelstand 4.0-Kompetenzzentrum in Lingen. Gerne beantworte ich Ihnen Fragen zu den folgenden Themen: \n
+          - Veranstaltungen \n
+          - Ansprechpartner \n
+          - Künstliche Intelligenz \n
+          - Cloud-Computing \n
+          - Mittelstand 4.0-Kompetenzzentrum"
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Hier, schau Dir das mal an:'
@@ -25,9 +31,13 @@ responses:
   utter_happy:
   - text: Großartig, weiter so!
   utter_goodbye:
-  - text: Auf Wiedersehen
+  - text: Auf Wiedersehen und einen schönen Tag noch.
   utter_iamabot:
-  - text: Ich bin ein Rasa-Bot.
+  - text: Ich bin der Chatbot vom Mittelstand 4.0-Kompetenzzentrum in Lingen.
+  utter_out_of_scope:
+  - text: Bei diesem Thema kann ich Ihnen leider nicht weiterhelfen.
+  utter_please_rephrase:
+  - text: Tut mir Leid, die Frage habe ich leider nicht richtig verstanden. Könnten Sie die Frage umformulieren?
   utter_faq/cloud_or_it:
   - text: Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett (Ausnahmen sind Internetanbindung und Firewall). Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.
   utter_faq/cloudcomputing_or_ownserver:
