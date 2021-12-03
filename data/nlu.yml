@@ -88,6 +88,10 @@ nlu:
     - ich will eine Pizza bestellen
     - was ist 1+1?
     - wer ist Bundeskanzler?
+    - Kann man in Lingen schwimmen gehen?
+    - Wie heißt Mario?
+    - Wo ist Hamburg?
+    - Ich will eine Pizza bestellen
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - Eher Cloudcomputing oder eigener Server?
@@ -471,6 +475,7 @@ nlu:
     - Wie kann das menschliche Gehirn durch einen Computer nachempfunden werden?
     - Wie löst ein PC komplexe Probleme?
     - was ist ein neuronales netz?
+    - Was ist künstliche Intelligenz?
 - intent: faq/machine_learning
   examples: |
     - Was ist Machine Learning?
@@ -647,6 +652,10 @@ nlu:
     - ich will einen kontakt
     - gib mir nen kontakt
     - gib mir ne e-mail
+    - ansprechpartner
+    - wer ist mein ansprechpartner
+    - ich will eine Email Adresse
+    - ich will ne pizza
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
@@ -702,6 +711,13 @@ nlu:
     - Gibt es neue Veranstaltungen?
     - Wann startet die nächste Veranstaltung?`
     - Wann findet die nächste Veranstaltung statt?
+    - zeig mir veranstaltungen
+- intent: faq/cloud_or_it
+  examples: |
+    - brauch ich in der Zukunft eine Abteilung für it?
+    - Vorteil it Abteilung?
+    - was macht it?
+    - ist eine IT Abteilung noch wichtig für mein Unternehmen?
 - synonym: Spracherkennung
   examples: |
     - Speech Recognition
