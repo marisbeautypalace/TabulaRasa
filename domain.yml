@@ -38,8 +38,6 @@ responses:
   - text: Bei diesem Thema kann ich Ihnen leider nicht weiterhelfen.
   utter_please_rephrase:
   - text: Tut mir Leid, die Frage habe ich leider nicht richtig verstanden. Könnten Sie die Frage umformulieren?
-  utter_faq/cloud_or_it:
-  - text: Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett (Ausnahmen sind Internetanbindung und Firewall). Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.
   utter_faq/cloudcomputing_or_ownserver:
   - text: Es sind beliebige Mischungen möglich, die sich dann unter dem Sammelbegriff Hybrid Cloud zusammenfassen lassen. In den meisten Fällen ist eine schrittweise Umstellung oder der parallele Betrieb von Cloud und Nicht-Cloud-Lösungen sogar sinnvoller als ein vollständiger Wechsel in die Cloud.
   utter_faq/use_of_cloud:
