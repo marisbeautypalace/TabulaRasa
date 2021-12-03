@@ -712,12 +712,6 @@ nlu:
     - Wann startet die nächste Veranstaltung?`
     - Wann findet die nächste Veranstaltung statt?
     - zeig mir veranstaltungen
-- intent: faq/cloud_or_it
-  examples: |
-    - brauch ich in der Zukunft eine Abteilung für it?
-    - Vorteil it Abteilung?
-    - was macht it?
-    - ist eine IT Abteilung noch wichtig für mein Unternehmen?
 - synonym: Spracherkennung
   examples: |
     - Speech Recognition
