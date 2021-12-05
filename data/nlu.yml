@@ -94,6 +94,7 @@ nlu:
     - Ich will eine Pizza bestellen
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
+    - faq/cloudcomputing_or_ownserver
     - Eher Cloudcomputing oder eigener Server?
     - Muss ich auf Cloud Computing umsteigen oder soll ich meinen eigenen Server nutzen?
     - Besser einen eigenen Server nutzen oder Cloud Computing?
@@ -107,6 +108,7 @@ nlu:
     - Ist Cloudcomputing oder Server besser?
 - intent: faq/use_of_cloud
   examples: |
+    - faq/use_of_cloud
     - Für wen eignet sich der Einsatz von Cloud Computing?
     - Wer nutzt Cloud Computing?
     - Welche Unternehmen nutzen Cloud Computing?
@@ -126,6 +128,7 @@ nlu:
     - wozu cloud computing?
 - intent: faq/use_of_cloud_not
   examples: |
+    - faq/use_of_cloud_not
     - Für wen eignet sich der Einsatz von Cloud Computing nicht?
     - Wer nutzt Cloud Computing nicht?
     - Welche Unternehmen nutzen Cloud Computing nicht?
@@ -138,6 +141,7 @@ nlu:
     - Wann ist Cloud Computing problematisch?
 - intent: faq/cloud_introduction
   examples: |
+    - faq/cloud_introduction
     - Wie gehe ich am besten bei der Einführung von Cloud Computing vor?
     - Wie führe ich Cloud Computing im Unternehmen ein?
     - Gibt es einen Prozess, um das Cloud Computing einzuführen?
@@ -220,6 +224,7 @@ nlu:
     - Wie kann ich einen Datenverlust bei Insolvenz des Cloud-Anbieters absichern?
 - intent: faq/mittelstand_agentur
   examples: |
+    - faq/mittelstand_agentur
     - Was bietet die Mittelstand 4.0-Agentur Cloud an?
     - Mittstand 4.0 Agentur
     - Mittelstand 4.0 Cloud
@@ -239,6 +244,7 @@ nlu:
     - Was ist die Cloud der Mittelstand 4.0-Agentur?
 - intent: faq/mittelstand_agentur_offers
   examples: |
+    - faq/mittelstand_agentur_offers
     - Warum sind die Angebote der Mittelstand 4.0-Agentur Cloud kostenlos nutzbar?
     - Angebote kostellos nutzbar
     - kostenlose Angebote
@@ -255,7 +261,8 @@ nlu:
     - Was bietet das Kompetenzzentrum an?
 - intent: faq/mittelstand_agentur_location
   examples: |
-    - Hat die Mittelstand 4.0-Agentur Cloud einen Unternehmensstandort?
+    - faq/mittelstand_agentur_location
+    - Hat die Mittelstand 4.0-Agentur einen Unternehmensstandort?
     - Standort
     - Adresse der Agentur
     - Anschrift der Mittelstand 4.0 Agentur
@@ -269,6 +276,7 @@ nlu:
     - Wo hat die Mittelstand Agentur ihren Standort?
 - intent: faq/mittelstand_agentur_BMWi
   examples: |
+    - faq/mittelstand_agentur_BMWi
     - In welcher Beziehung steht die Agentur zum Bundeswirtschaftsministerium?
     - Bundeswirtschaftsministerium
     - Wirstschaftsministerium
@@ -279,6 +287,7 @@ nlu:
     - Was hat die Mittelstand 4.0-Agentur mit dem Bundeswirtschaftsministerium zutun?
 - intent: faq/mittelstand_agentur_software
   examples: |
+    - faq/mittelstand_agentur_software
     - Empfiehlt die Agentur Cloud-Anbieter oder Software-Lösungen?
     - SOftware
     - Softwareauswahl
@@ -293,6 +302,7 @@ nlu:
     - Ich weiß nicht welche Software ich anschaffen soll.
 - intent: faq/IaaS
   examples: |
+    - faq/IaaS
     - Was versteht man unter Infrastructure as a Service?
     - Für welche Zwecke kann ich Infrastructure as a Service nutzen?
     - Was ist Infrastructure as a Service?
@@ -303,6 +313,7 @@ nlu:
     - was ist iaas?
 - intent: faq/PaaS
   examples: |
+    - faq/PaaS
     - Was versteht man unter Platform as a Service?
     - Für welche Zwecke kann ich Platform as a Service nutzen?
     - Was ist Platform as a Service?
@@ -312,6 +323,7 @@ nlu:
     - wofür brauche ich platform as a service?`
 - intent: faq/SaaS
   examples: |
+    - faq/SaaS
     - Was versteht man unter Software as a Service?
     - Für welche Zwecke kann ich Software as a Service nutzen?
     - Was ist Software as a Service?
@@ -320,6 +332,7 @@ nlu:
     - Wozu brauche ich Software as a Service?
 - intent: faq/private_cloud
   examples: |
+    - faq/private_cloud
     - Was ist eine private Cloud?
     - Für welche Zwecke kann ich Private Cloud nutzen?
     - Was ist Private Cloud?
@@ -331,6 +344,7 @@ nlu:
     - wozu braucht man eine private Cloud?
 - intent: faq/public_cloud
   examples: |
+    - faq/public_cloud
     - Was ist eine Public Cloud?
     - Für welche Zwecke kann ich Private Cloud nutzen?
     - Was ist Private Cloud?
@@ -341,6 +355,7 @@ nlu:
     - wozu braucht man eine public cloud?
 - intent: faq/hybrid_cloud
   examples: |
+    - faq/hybrid_cloud
     - Was ist eine Hybrid Cloud?
     - Für welche Zwecke kann ich Hybrid Cloud nutzen?
     - Was ist Hybrid Cloud?
@@ -348,6 +363,7 @@ nlu:
     - wer braucht eine hybrid cloud?
 - intent: faq/community_cloud
   examples: |
+    - faq/community_cloud
     - Was ist eine Community Cloud?
     - Für welche Zwecke kann ich Community Cloud nutzen?
     - Was ist Community Cloud?
@@ -355,6 +371,7 @@ nlu:
     - was ist eine Community cloud?
 - intent: faq/onpremise_ondemand
   examples: |
+    - faq/onpremise_ondemand
     - Was ist der Unterschied zwischen On-Premise und On-Demand?
     - Für welche Zwecke nutze ich On-Premise oder On-Demand?
     - Wann nutze ich On-Premise und wann On-Demand?
@@ -362,6 +379,7 @@ nlu:
     - was ist der unterschied zwischen on Premise und on demand?
 - intent: faq/services
   examples: |
+    - faq/services
     - Was sind Dienstleistungen von Cloud Computing?
     - Welche Dienstleistungen bietet das Cloud Computing?
     - Bietet Cloud Computing Dienstleistungen an?
@@ -517,11 +535,13 @@ nlu:
     - Können Maschinendaten zur Planung von Wartungen genutzt werden?
 - intent: faq/mittelstand_agentur_support
   examples: |
+    - faq/mittelstand_agentur_support
     - Was beinhalten die Angebote vom Kompetenzzentrum?
     - Wobei kann mich das Kompetenzzentrum unterstützen?
     - was macht das Kompetenzzentrum?
 - intent: faq/mittelstand_agentur_cooperation
   examples: |
+    - faq/mittelstand_agentur_cooperation
     - Kann ich mit dem Kompetenzzentrum kooperieren?
     - Wie werde ich Kooperationspartner vom Kompetenzzentrum?
     - Ist es möglich eine Kooperation mit dem Kompetenzzentrum einzugehen?
@@ -582,6 +602,7 @@ nlu:
     - brauchen wir mit KI keine menschen mehr?
 - intent: faq/cloud_computing_topics
   examples: |
+    - faq/cloud_computing_topics
     - In welchen Bereichen kann ich zum Thema Cloud Computing Unterstützung erhalten?
     - Was bietet das Kompetenzzentrum im Bereich Cloud Computing an?
     - was bietet ihr zum Thema cloud an?
@@ -712,32 +733,32 @@ nlu:
     - zeig mir veranstaltungen
 - intent: faq/cloud_initial_question
   examples: |
+    - faq/cloud_initial_question
     - Ich habe eine Frage zur Cloud?
     - Könnt ihr mir mit einer Cloud-Anwendung helfen?
     - Wie kann ich eine Cloud nutzen? 
     - Ich bruache Hilfe mit der Cloud?
-    - faq/cloud_initial_question
 - intent: faq/cloud_as_a_service
   examples: |
+    - faq/cloud_as_a_service
     - Was ist Cloud as a Servcie? 
     - Wie kann ich Dienstleistungen in der Cloud nutzen?
     - Cloud as a Service
-    - faq/cloud_as_a_service
 - intent: faq/cloud_using
   examples: |
+    - faq/cloud_using
     - Nutzung der Cloud
     - Wie kann ich Cloud Computing nutzen?
     - Was kann die Cloud alles?
-    - faq/cloud_using
-- intent: faq/mittelstand_agentur_cloud
+- intent: faq/link_mittelstand_agentur_cloud
   examples: |
+    - faq/link_mittelstand_agentur_cloud
     - Was ist die Mittelstands 4.0 Agentur Cloud?
     - Ich habe Fragen zur Mittelstands 4.0 Agentur Cloud?
     - Mittelstands 4.0 Agentur Cloud
-    - faq/mittelstand_agentur_cloud
 - intent: faq/cloud_types
   examples: |
+    - faq/cloud_types
     - Welche Cloud Arten gibt es?
     - Gibt es unterschiedliche Clouds?
     - Cloud Arten
-    - faq/cloud_types 

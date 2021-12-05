@@ -221,7 +221,7 @@ responses:
       title: Cloud Arten
     - payload: faq/cloud_using
       title: Cloud Nutzung
-    - payload: faq/mittelstand_agentur_cloud
+    - payload: faq/link_mittelstand_agentur_cloud
       title: Mittelstand 4.0‑Agentur Cloud
     - payload: faq/cloud_as_a_service
       title: Cloud as a service
@@ -251,7 +251,7 @@ responses:
       title: On premise oder in demand?
     text: Welche Fragen haben Sie zu der Nutzung einer Cloud?
 
-  utter_faq/mittelstand_agentur_cloud:
+  utter_faq/link_mittelstand_agentur_cloud:
   - buttons:
     - payload: faq/mittelstand_agentur
       title: Was ist das?
