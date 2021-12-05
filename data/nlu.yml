@@ -15,8 +15,6 @@ nlu:
     - Servus
     - Guten Morgen
     - Moin!
-    - hallo
-    - hi
 - intent: goodbye
   examples: |
     - Schönen Tag
@@ -46,7 +44,6 @@ nlu:
     - ne
     - nö
     - nicht wirklich
-    - ich mag dich nicht
 - intent: mood_great
   examples: |
     - perfekt
@@ -81,17 +78,6 @@ nlu:
     - wer bist du?
     - was bist du?
     - bist du ein Bot?
-    - Hallo wer bist du?
-    - du kannst nichts
-- intent: out_of_scope
-  examples: |
-    - ich will eine Pizza bestellen
-    - was ist 1+1?
-    - wer ist Bundeskanzler?
-    - Kann man in Lingen schwimmen gehen?
-    - Wie heißt Mario?
-    - Wo ist Hamburg?
-    - Ich will eine Pizza bestellen
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - Eher Cloudcomputing oder eigener Server?
@@ -105,6 +91,7 @@ nlu:
     - Nutze ich lieber die Cloud oder den Server?
     - Was ist besser, Cloud oder Server?
     - Ist Cloudcomputing oder Server besser?
+    - faq/cloudcomputing_or_ownserver
 - intent: faq/use_of_cloud
   examples: |
     - Für wen eignet sich der Einsatz von Cloud Computing?
@@ -122,8 +109,7 @@ nlu:
     - Wann nutze ich die Cloud?
     - Wann nutze ich eine Cloud?
     - Brauche ich eine Cloud
-    - was macht cloud computing?
-    - wozu cloud computing?
+    - faq/use_of_cloud
 - intent: faq/use_of_cloud_not
   examples: |
     - Für wen eignet sich der Einsatz von Cloud Computing nicht?
@@ -136,6 +122,7 @@ nlu:
     - Wann keine Cloud?
     - Wann ist Cloud problematisch?
     - Wann ist Cloud Computing problematisch?
+    - faq/use_of_cloud_not
 - intent: faq/cloud_introduction
   examples: |
     - Wie gehe ich am besten bei der Einführung von Cloud Computing vor?
@@ -157,6 +144,7 @@ nlu:
     - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor?
     - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor`
     - Cloud im Unternehmen einführen
+    - faq/cloud_introduction
 - intent: faq/network_breakdown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
@@ -178,9 +166,9 @@ nlu:
     - Das Internet ist nicht funktionsfähig. Was kann passieren?#
     - Was kann passieren, wenn das Internet nicht funktionsfähig ist?
     - Bin ich noch arbeitsfähig wenn das Internet ausfällt?
-    - Kann ich ohne Internet noch arbeiten?
+    - Kann ich ohne Internet noch arbeiten? 
     - Wie arbeite ich ohne Internet?
-    - Kann ich noch arbeiten, wenn das Netzweerk zusammenbricht?
+    - Kann ich noch arbeiten, wenn das Netzweerk zusammenbricht? 
     - Kann ich noch arbeiten, wenn das Internet nicht mehr funktioniert?
 - intent: faq/range_of_internet
   examples: |
@@ -192,7 +180,7 @@ nlu:
     - Wie stark muss meine Internetverbindung für Cloud Computing sein?
     - Brauche ich eine gute Bandbreite für Cloud Computing?
     - Gibt es eine vorgeschriebene Bandbreite für Cloud Computing?
-    - Welche Bandbreite benötigt mein Unternehmen?
+    - Welche Bandbreite benötigt mein Unternehmen? 
     - Welche Bandbreite benötige ich, um eine Cloud zu nutzen?
     - Wie stark muss die Internetverbindung sein?
 - intent: faq/provider_change
@@ -207,7 +195,8 @@ nlu:
     - Was muss ich bei einem Anbieterwechsel beachten?
     - Wie läuft die Rückgabe von Daten bei einem Anbieterwechsel ab?
     - Gibt es spezielle Anforderungen an Datenträger für die Rückgabe von Daten bei einem Anbieterwechsel?
-- intent: faq/security
+    - Was muss ich bei einem Anbieterwechsel beachten?
+- intent: faq/sequrity
   examples: |
     - Was passiert mit meinen Daten, wenn der Cloud-Anbieter insolvent geht?
     - Insolvenz meines Anbieters
@@ -224,7 +213,7 @@ nlu:
     - Mittstand 4.0 Agentur
     - Mittelstand 4.0 Cloud
     - Cloud der Agentur Mittelstand 4.0
-    - Die Agentur
+    - Die Agentur 
     - Mittelstand 4.0
     - Aufgaben der Mittelstand 4.0 Agentur
     - Was macht die Mittelstand 4.0 Agentur?
@@ -237,6 +226,7 @@ nlu:
     - Was bietet die Cloud der Mittelstand 4.0-Agentur an?
     - Was sind die Aufgaben der Mittelstand 4.0-Agentur Cloud?
     - Was ist die Cloud der Mittelstand 4.0-Agentur?
+    - faq/mittelstand_agentur
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - Warum sind die Angebote der Mittelstand 4.0-Agentur Cloud kostenlos nutzbar?
@@ -252,7 +242,7 @@ nlu:
     - Wird die Mittelstand 4.0-Agentur gefördert?
     - Was kostet das Angebot der Mittelstand 4.0-Agentur?
     - Wie hoch sind die Kosten für die Leistungen der Mittelstand 4.0-Agentur?
-    - Was bietet das Kompetenzzentrum an?
+    - faq/mittelstand_agentur_offers
 - intent: faq/mittelstand_agentur_location
   examples: |
     - Hat die Mittelstand 4.0-Agentur Cloud einen Unternehmensstandort?
@@ -267,6 +257,7 @@ nlu:
     - Wo sitzen die Mitarbeiter der Mittelstand 4.0-Agentur?
     - Gibt es einen Standort der Mittelstand 4.0 Agentur?
     - Wo hat die Mittelstand Agentur ihren Standort?
+    - faq/mittelstand_agentur_location
 - intent: faq/mittelstand_agentur_BMWi
   examples: |
     - In welcher Beziehung steht die Agentur zum Bundeswirtschaftsministerium?
@@ -274,9 +265,10 @@ nlu:
     - Wirstschaftsministerium
     - Beziehung zum Ministerium für Wirtschaft
     - Wie ist die Beziehung zum Bundeswirtschaftsministerium?
-    - Welche Beziehung hat die Agentur zum Bundeswirtschaftsministerium?
+    - Welche Beziehung hat die Agentur zum Bundeswirtschaftsministerium? 
     - Wie ist der Kontakt zum Bundeswirtschaftsministerium?
     - Was hat die Mittelstand 4.0-Agentur mit dem Bundeswirtschaftsministerium zutun?
+    - faq/mittelstand_agentur_BMWi
 - intent: faq/mittelstand_agentur_software
   examples: |
     - Empfiehlt die Agentur Cloud-Anbieter oder Software-Lösungen?
@@ -288,9 +280,10 @@ nlu:
     - Könnt ihr mir einen Cloud-Anbieter empfehlen?
     - Könnt ihr mir eine Software-Lösung empfehlen?
     - Welche Software könnt ihr empfehlen?
-    - Welche Software sollte ich nutzen?
+    - Welche Software sollte ich nutzen? 
     - Welche Software würdet ihr nutzen?
     - Ich weiß nicht welche Software ich anschaffen soll.
+    - faq/mittelstand_agentur_software
 - intent: faq/IaaS
   examples: |
     - Was versteht man unter Infrastructure as a Service?
@@ -301,6 +294,7 @@ nlu:
     - was ist infrastructure as a service?
     - was ist Infrastructure as a service?
     - was ist iaas?
+    - faq/IaaS
 - intent: faq/PaaS
   examples: |
     - Was versteht man unter Platform as a Service?
@@ -309,7 +303,8 @@ nlu:
     - was ist paas?
     - wofür brauche ich paas?
     - wofür brauche ich platform as a service?
-    - wofür brauche ich platform as a service?`
+    - wofür brauche ich platform as a service?
+    - faq/PaaS
 - intent: faq/SaaS
   examples: |
     - Was versteht man unter Software as a Service?
@@ -318,6 +313,7 @@ nlu:
     - Was ist SaaS?
     - Warum Software as a Service?
     - Wozu brauche ich Software as a Service?
+    - faq/SaaS
 - intent: faq/private_cloud
   examples: |
     - Was ist eine private Cloud?
@@ -327,8 +323,7 @@ nlu:
     - Wozu braucht man eine private Cloud?
     - Wie funktioniert eine private Cloud?
     - was ist eine private Cloud?
-    - kann ich eine private cloud selbst betreiben?
-    - wozu braucht man eine private Cloud?
+    - faq/private_cloud
 - intent: faq/public_cloud
   examples: |
     - Was ist eine Public Cloud?
@@ -337,15 +332,14 @@ nlu:
     - Was ist eine public Cloud?
     - Wozu braucht man eine public Cloud?
     - pulbic CLoud?
-    - kann ich eine public cloud selbst betreiben?
-    - wozu braucht man eine public cloud?
+    - faq/public_cloud
 - intent: faq/hybrid_cloud
   examples: |
     - Was ist eine Hybrid Cloud?
     - Für welche Zwecke kann ich Hybrid Cloud nutzen?
     - Was ist Hybrid Cloud?
     - wozu braucht man hybrid cloud?
-    - wer braucht eine hybrid cloud?
+    - faq/hybrid_cloud
 - intent: faq/community_cloud
   examples: |
     - Was ist eine Community Cloud?
@@ -353,6 +347,7 @@ nlu:
     - Was ist Community Cloud?
     - wozu braucht man eine Community cloud?
     - was ist eine Community cloud?
+    - faq/community_cloud
 - intent: faq/onpremise_ondemand
   examples: |
     - Was ist der Unterschied zwischen On-Premise und On-Demand?
@@ -360,12 +355,13 @@ nlu:
     - Wann nutze ich On-Premise und wann On-Demand?
     - wann nutze ich on premise Lösungen?
     - was ist der unterschied zwischen on Premise und on demand?
+    - faq/onpremise_ondemand
 - intent: faq/services
   examples: |
     - Was sind Dienstleistungen von Cloud Computing?
     - Welche Dienstleistungen bietet das Cloud Computing?
     - Bietet Cloud Computing Dienstleistungen an?
-    - was für Dienstleistungen gibt es beim cloud computing?
+    - faq/services
 - intent: faq/speech_recognition_speech_identification
   examples: |
     - Was ist Spracherkennung?
@@ -380,7 +376,6 @@ nlu:
     - Spracherkennung
     - Wie funktioniert Spracherkennung
     - wie funktioniert spracherknnung?
-    - wie kann ich Sprache analysieren?
 - intent: faq/face_recognition_face_identification
   examples: |
     - Wofür wird Gesichtserkennung eingesetzt?
@@ -400,8 +395,6 @@ nlu:
     - Können in Videos Objekte gezählt werden?
     - Wie können Objekte in einem Bild erkannt werden?
     - wie funktioniert Bilderkennung?
-    - wie kann ich Gesichter erkennen und analysieren?
-    - wie kann ich Bilder analysieren?
 - intent: faq/audio_recognition_audio_identification
   examples: |
     - Wie können Audiosignale klassifiziert werden?
@@ -436,7 +429,6 @@ nlu:
     - Wie kann ich ein Gesamtproblem in Einzelschritte gliedern?
     - Wie funktioniert Problemlösung mit KI?
     - Was ist Problem Solving?
-    - was macht Problem solving?
 - intent: faq/language_understanding
   examples: |
     - Was ist Language Understanding?
@@ -460,38 +452,17 @@ nlu:
     - Welche Prognosen kann eine KI erstellen?
     - Wie entsteht eine Wetterprognose?
     - Wie kann eine Umsatzprognose erstellt werden?
-    - womit kann ich Vorhersagen treffen?
 - intent: faq/artificial_neural_network
   examples: |
     - Was sind Artificial neural networks?
     - Kann ein Algorithmus das menschliche Gehirn nachempfinden?
     - Wie können komplexe Probleme von einem Computer gelöst werden?
-    - Wie löst ein Computer komplexe Probleme?
-    - Neuronales Netz
-    - Kann ein Computer denken?
-    - Haben Computer ein Gehirn?
-    - Wie sieht ein Algorithmus des Gehirns aus?
-    - Wie kann das menschliche Gehirn durch einen Computer abgebildet werden?
-    - Wie kann das menschliche Gehirn durch einen Computer nachempfunden werden?
-    - Wie löst ein PC komplexe Probleme?
-    - was ist ein neuronales netz?
-    - Was ist künstliche Intelligenz?
 - intent: faq/machine_learning
   examples: |
     - Was ist Machine Learning?
     - Wie kann Wissen künstlich generiert werden?
     - Mit welcher Technik lassen Muster in Daten erkennen?
     - Kann ein Computer lernen?
-    - Lernen Computer dazu?
-    - Kann ein Computer etwas lernen?
-    - ML
-    - Wie nutze ich ML?
-    - Mit welcher Technik kann ich Muster in Datensätzen erkennen?
-    - Was ist künstliches Wissen?
-    - Wie kann man künstlich Wissen ermitteln?
-    - maschinelles Lernen
-    - was macht machine learning?
-    - wozu brauche ich machine learning?
 - intent: faq/deep_learning
   examples: |
     - Was ist Deep Learning?
@@ -502,25 +473,18 @@ nlu:
     - Was ist ein Bot?
     - Wie können sich wiederholende Aufgaben von einem Computer erledigt werden?
     - Wie kann ich mit einem Computer chatten?
-    - Wie kann ein Rechner chatten?
-    - Wie kann ich mit einem Rechner schreiben?
-    - Wer sitzt im PC und schreibt mir?
-    - Wie kann ein Computer schreiben?
-    - Wer erledigt automatisch wiederholende Aufgaben?
-    - Wie kann ich mit einem Computer schreiben?
-    - Wie kann ich mit einem Computer automatisch chatten?
 - intent: faq/predictive_maintenance
   examples: |
     - Was ist Predictive Maintenance?
     - Wie kann der Wartungsprozess effizienter gestaltet werden?
     - Wie können Wartungen vorhergesagt werden?
     - Können Maschinendaten zur Planung von Wartungen genutzt werden?
-    - was geht?
 - intent: faq/mittelstand_agentur_support
   examples: |
     - Was beinhalten die Angebote vom Kompetenzzentrum?
     - Wobei kann mich das Kompetenzzentrum unterstützen?
     - was macht das Kompetenzzentrum?
+    - faq/mittelstand_agentur_support
 - intent: faq/mittelstand_agentur_cooperation
   examples: |
     - Kann ich mit dem Kompetenzzentrum kooperieren?
@@ -528,24 +492,11 @@ nlu:
     - Ist es möglich eine Kooperation mit dem Kompetenzzentrum einzugehen?
     - Kann ich andere Unternehmen im Bereich der digitalen Transformation unterstützen?
     - wie kann ich mit dem Kompetenzzentrum kooperieren?
-    - Ich will anderen Unternehmen helfen
-    - Ich will andere Unternehmen in der digitalen Transformation unterstützen
-    - ich will anderen Unternehmen helfen
-    - Was kostet eine Kooperation?
-    - Kostet eine Kooperation mit dem Kompetenzzentrum etwas?
+    - faq/mittelstand_agentur_cooperation
 - intent: faq/ki_companysize
   examples: |
     - Künstliche Intelligenz ist nur etwas für große Unternehmen. Oder nicht?
     - Ist der Einsatz von künstlicher Intelligenz in einem kleinen Unternehmen sinnvoll?
-    - Braucht mein kleines Unternehmen überhaupt Künstliche Intelligenz?
-    - Bringt meinem kleinen Unternehmen künstliche Intelligenz etwas?
-    - Unternehmensgröße und künstliche Intelligenz
-    - Wie groß sollte mein Unternehmen für die Nutzung von KI sein?
-    - Was bringt künstliche Intelligenz einem kleinen Unternehmen?
-    - Wie groß sollte mein Unternehmen für KI sein?
-    - Brauchen kleine Unternehmen künstliche Intelligenz?
-    - Welche Größe ist für KI richtig?
-    - Wie groß sollte mein Unternehmen sein, um künstliche Intelligenz zu nutzen?
 - intent: faq/ki_data
   examples: |
     - Welche Rolle spielen Daten beim Einsatz Künstlicher Intelligenz?
@@ -558,71 +509,26 @@ nlu:
   examples: |
     - Kann man Künstliche Intelligenz auf der eigenen Unternehmens-IT laufen lassen?
     - Benötige ich spezielle Hardware für Künstliche Intelligenz?
-    - brauche ich leistungsfähigere Rechner für künstliche Intelligenz?
-    - kann ich Künstliche Intelligenz auf normalen Rechnern laufen lassen?
-    - brauche ich spezielle hardware für den Einsatz künstlicher Intelligenz?
-    - welche hardware brauche ich für künstliche Intelligenz?
-    - Welche Hardware brauche ich für künstliche Intelligenz?
-    - Welche Computer brauche ich für künstliche Intelligenz?
-    - Brauche ich besondere hardware für künstliche Intelligenz?
-    - Welche Anforderungen werden an den Computer in Bezug auf künstliche Intelligenz gestellt?
-    - Was für eine Computer brauch ich für künstliche Intelligenz?
 - intent: faq/ki_topics
   examples: |
     - In welchen Bereichen kann ich zum Thema Künstliche Intelligenz Unterstützung erhalten?
     - Was bietet das Kompetenzzentrum zum Thema Künstliche Intelligenz an?
-    - Was ist Künstliche Intelligenz?
-    - was bietet ihr im Bereich künstliche Intelligenz an?
-    - Wer nutzt künstliche Intelligenz?
-    - Wie kann ich künstliche Intelligenz im Unternehmen nutzen?
-    - Arbeitet das Kompetenzzentrum mit künstlicher Intelligenz?
-    - Wie kann ich künstliche Intelligenz nutzen?
-    - Was ist KI?
-    - Was bietet künstliche Intelligenz?
-    - Was sind ki Themen?
-    - brauchen wir mit KI keine menschen mehr?
 - intent: faq/cloud_computing_topics
   examples: |
     - In welchen Bereichen kann ich zum Thema Cloud Computing Unterstützung erhalten?
     - Was bietet das Kompetenzzentrum im Bereich Cloud Computing an?
-    - was bietet ihr zum Thema cloud an?
 - intent: faq/agriculture_digitalization
   examples: |
     - Was für Möglichkeiten im Bereich der Digitalisierung habe ich auf meinem landwirtschaftlichen Betrieb?
     - Wozu braucht ein landwirtschaftlicher Betrieb die Digitalisierung?
-    - braucht die Landwirtschaft Digitalisierung?
-    - wie kann mein landwirtschaftlicher betrieb digitaler werden?
-    - Was kann ich mit der Digitalisierung machen, wenn ich einen landwirtschaftlichen Betrieb habe?
-    - Landwirt und IT?
-    - Was kann ein Landwirt mit dem Computer machen?
-    - Digitalisierung in der Landwirtschaft?
-    - Wie viel Digitalisierung brauch ich in der Landwirtschaft?
-    - Was bringt dem Bauer die Digitalisierung?
-    - Latwirtschaft und Agra?
-    - Wie nutzen Bauern die Digitalisierung?
 - intent: faq/craft_digitalization
   examples: |
     - Wie kann das Kompetenzzentrum meinem Handwerksbetrieb im Bereich Digitalisierung unterstützen?
-    - braucht das Handwerk Digitalisierung?
-    - wozu braucht mein Handwerksbetrieb die Digitalisierung?
-    - wie kann mein Handwerksbetrieb digitaler werden?
-    - Wie arbeitet das Kompetenzzentrum mit dem Handwerk zusammen?
-    - Brauche ich als Handwerker die Digitalisierung?
-    - Wie könnte ihr mir als Handwerker bei der Digitalisierung helfen?
-    - Was kann ich als Handwerker zum Thema Digitalisierung tun?
-    - Wie unterstützt ihr das Handwerk beim Thema Digitalisierung?
-    - Digitalisierung im Handwerk
 - intent: faq/maritime_digitalization
   examples: |
     - Wie kann das Kompetenzzentrum meine Reederei im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum meine Werft im Bereich Digitalisierung unterstützen?
     - Wie kann das Kompetenzzentrum mein Unternehmen aus dem maritimen Bereich in Bezug auf Digitalisierung unterstützen?
-    - könnt ihr meine Reederei unterstützen?
-    - könnt ihr meine werft unterstützen?
-    - wie kann meine werft digitaler werden?
-    - wie kann meine Reederei digitaler werden?
-    - braucht meine Reederei Digitalisierung?
-    - braucht meine werft Digitalisierung?
 - intent: contact/initial_question
   examples: |
     - Wer ist mein Ansprechpartner?
@@ -635,122 +541,60 @@ nlu:
     - Mailadresse
     - Ich benötige eine Mailadresse von einem Mitarbeiter.
     - Wen kann ich ansprechen?
-    - An wen kann ich mich wenden?
     - Ich hätte gerne einen persönlichen Kontakt.
     - wer ist mein Ansprechpartner?
     - Wer ist mein Ansprechpartner
     - Ich suche einen Ansprechpartner
-    - wer ist mein ansprechpartner?
-    - ich will jemandem persönlich schreiben
-    - ich brauche eine email adresse
-    - an wen kann ich mich wenden?
-    - an wen kann ich mich persönlich wenden?
-    - ich will jemandem eine mail schreiben
-    - ich will einen persönlichen kontakt
-    - ich will jemanden anrufen
-    - gib mir ne telefonnummer
-    - ich will einen kontakt
-    - gib mir nen kontakt
-    - gib mir ne e-mail
-    - ansprechpartner
-    - wer ist mein ansprechpartner
-    - ich will eine Email Adresse
-    - ich will ne pizza
+    - Ansprechpartner
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
+    - faq/geschaeftsstelle_lingen
+    - faq/Geschaefsstelle_Lingen
     - contact/geschaeftsstelle_lingen
 - intent: contact/geschaeftsstelle_muenster
   examples: |
     - Münster
+    - faq/geschaeftsstelle_muenster
+    - faq/Geschaefsstelle_Muenster
     - contact/geschaeftsstelle_muenster
-- intent: contact/oeffentlichkeitsarbeit
-  examples: |
-    - Öffentlichkeitsarbeit
-    - contact/oeffentlichkeitsarbeit
-- intent: contact/ki_osnabrueck
-  examples: |
-    - KI Standort Osnabrück
-    - contact/ki_osnabrueck
-- intent: contact/ki_lingen
-  examples: |
-    - KI Standort Lingen
-    - contact/ki_lingen
-- intent: contact/ki_emdenleer
-  examples: |
-    - KI Standort Emden/Leer
-    - contact/ki_emdenleer
-- intent: contact/handelsbranche
-  examples: |
-    - Handelsbranche
-    - contact/handelsbranche
-- intent: contact/handwerk
-  examples: |
-    - Handwerk
-    - contact/handwerk
-    - Wer ist mein Ansprechpartner für das Handwerk?
-- intent: contact/agrarbranche
-  examples: |
-    - Agrarbranche
-    - contact/agrarbranche
-- intent: contact/maritimewirtschaft
-  examples: |
-    - Maritime Wirtschaft
-    - contact/maritimewirtschaft
 - intent: get_all_events
   examples: |
     - Zeig mir alle Veranstaltungen
     - Was gibt es für Veranstaltunegn
     - Welche Veranstaltungen habt ihr?
-    - Gibt es Veranstaltungen?
-    - Wann startet der Termin morgen?
-    - Gibt es einen Veranstaltungskalender?
-    - Kann ich ein Event buchen?
-    - Habt ihr Events?
-    - Ich möchte Veranstaltungen besuchen.
-    - Gibt es neue Veranstaltungen?
-    - Wann startet die nächste Veranstaltung?`
-    - Wann findet die nächste Veranstaltung statt?
-    - zeig mir veranstaltungen
-- synonym: Spracherkennung
+- intent: faq/cloud_initial_question
   examples: |
-    - Speech Recognition
-    - Speech Identification
-- synonym: Gesichtserkennung
+    - Ich habe eine Frage zur Cloud?
+    - Könnt ihr mir mit einer Cloud-Anwendung helfen?
+    - Wie kann ich eine Cloud nutzen? 
+    - Ich bruache Hilfe mit der Cloud?
+    - faq/cloud_initial_question
+
+- intent: faq/cloud_as_a_service
   examples: |
-    - Face Identification
-    - Face Recognition
-- synonym: Audioerkennung
+    - Was ist Cloud as a Servcie? 
+    - Wie kann ich Dienstleistungen in der Cloud nutzen?
+    - Cloud as a Service
+    - faq/cloud_as_a_service
+
+- intent: faq/cloud_using
   examples: |
-    - Audio Identification
-    - Audio Recognition
-- synonym: Text Extraction
+    - Nutzung der Cloud
+    - Wie kann ich Cloud Computing nutzen?
+    - Was kann die Cloud alles?
+    - faq/cloud_using
+
+- intent: faq/mittelstand_agentur_cloud
   examples: |
-    - Keyphrase Extraction
-    - Textextrahierung
-- synonym: Language Understanding
+    - Was ist die Mittelstands 4.0 Agentur Cloud?
+    - Ich habe Fragen zur Mittelstands 4.0 Agentur Cloud?
+    - Mittelstands 4.0 Agentur Cloud
+    - faq/mittelstand_agentur_cloud
+
+- intent: faq/cloud_types
   examples: |
-    - Natural language undersatnding
-    - NLU
-    - Natural language interpretation
-    - NLI
-- synonym: Language Generation
-  examples: |
-    - Textgenerierung
-    - Natural Language Generation
-    - NLG
-- synonym: Artificial neural network
-  examples: |
-    - Neuronale Netze
-    - NN
-    - Künstliche Neuronale Netze
-    - KNN
-    - ANN
-- synonym: Machine Learning
-  examples: |
-    - Maschinelles Lernen
-- synonym: Deep Learning
-  examples: |
-    - Tiefe Lernen
-    - Mehrschichtiges Lernen
-    - Tiefgehendes Lernen
+    - Welche Cloud Arten gibt es?
+    - Gibt es unterschiedliche Clouds?
+    - Cloud Arten
+    - faq/cloud_types

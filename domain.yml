@@ -54,7 +54,7 @@ responses:
   - text: Die Bandbreitenanforderungen hängen zum Teil von der Art der Anwendung und auf alle Fälle von der Anzahl der Nutzer und der Datenmenge ab, die zwischen dem Unternehmen und der Cloud (regelmäßig) übermittelt werden soll. Insofern ist hier keine allgemeingültige Antwort möglich. (Link)
   utter_faq/provider_change:
   - text: Sie sollten immer standardisierte Datenformate verwenden, da Sie diese im Falle eines Anbieterwechsels oder der Insolvenz Ihres Anbieters weiterverwenden möchten. Die Wahl des Datenträgers für die Rückgabe hängt von der Datenmenge ab, die Sie beim Anbieter gespeichert haben. (Link)
-  utter_faq/security:
+  utter_faq/sequrity:
   - text: Das hängt sehr stark davon ab, was Sie in den Nutzungsvereinbarungen mit Ihrem Anbieter vertraglich festgelegt haben. Ein Datenverlust ist daher nicht ausgeschlossen, kann aber durch entsprechende vertragliche Vereinbarungen verhindert werden. Grundsätzlich sollte man zwei Dinge absichern. (Link)
   utter_faq/mittelstand_agentur:
   - text: Die Aufgabe der Mittelstand 4.0-Agentur Cloud ist es, Multiplikatoren aus Mittelstandsverbänden, Kammern und Wirtschaftsförderungseinrichtungen beim Wissenstransfer bzgl. Cloud Computing und Smart Services in Richtung kleiner und mittelständischer Unternehmen zu unterstützen. (Link)
@@ -209,5 +209,76 @@ responses:
       Ihr Ansprechpartner für die Maritime Wirtschaft ist Jörg Bontjer (MARIKO gGmbH). 
        E-Mail: joerg.bontjer@mariko-leer.de 
        Telefon: +494919261185
+
+  utter_faq/cloud_initial_question:
+  - buttons:
+    - payload: faq/cloud_computing_topics
+      title: Cloud Angebote von IaaS
+    - payload: faq/cloud_introduction
+      title: Einführung Cloud
+    - payload: faq/cloud_types
+      title: Cloud Arten
+    - payload: faq/cloud_using
+      title: Cloud Nutzung
+    - payload: faq/mittelstand_agentur_cloud
+      title: Mittelstand 4.0‑Agentur Cloud
+    - payload: faq/cloud_as_a_service
+      title: Cloud as a service
+    - payload: faq/services
+      title: Dienstleistungen Cloud
+    text: Beim Cloud-Computing wird ein Netzwerk mehrerer verteilter externer Rechner genutzt. Quasi eine Wolke aus Rechnern. Es können IT-Infrastrukturen und Dienstleistungen genutzt werden, die nicht auf dem lokalen Rechnern vorgehalten werden müssen, sondern als Dienst gemietet werden. Was wollen Sie noch zur Cloud wissen? 
+
+  utter_faq/cloud_as_a_service:
+  - buttons:
+    - payload: faq/IaaS
+      title: Infrastructure as a Service
+    - payload: faq/PaaS
+      title: Platform as a Service
+    - payload: faq/SaaS
+      title: Software as a Service
+    text: Cloud as a service bezieht sich auf ein weites Feld von Anwednungen, die Firmen oder End-User on demand nutzen und über das Internet erreichen. Über welche Art von Cloud as Service wollen Sie mehr wissen?
+
+  utter_faq/cloud_using:
+  - buttons: 
+    - payload: faq/use_of_cloud
+      title: Warum?
+    - payload: faq/use_of_cloud_not
+      title: Probleme Cloud
+    - payload: faq/cloudcomputing_or_ownserver
+      title: Cloud oder eigener Server?
+    - payload: faq/onpremise_ondemand
+      title: On premise oder in demand?
+    text: Welche Fragen haben Sie zu der Nutzung einer Cloud?
+
+  utter_faq/mittelstand_agentur_cloud:
+  - buttons:
+    - payload: faq/mittelstand_agentur
+      title: Was ist das?
+    - payload: faq/mittelstand_agentur_support
+      title: Support
+    - payload: faq/mittelstand_agentur_BMWi
+      title: Finanzierung
+    - payload: faq/mittelstand_agentur_cooperation
+      title: Kooperation
+    - payload: faq/mittelstand_agentur_location
+      title: Partner
+    - payload: faq/mittelstand_agentur_offers
+      title: Kosten
+    - payload: faq/mittelstand_agentur_software
+      title: Software
+    text: Welche Fragen haben Sie zur Mittelstands 4.0 Agentur Cloud? 
+  
+  utter_faq/cloud_types:
+  - buttons:
+    - payload: faq/community_cloud
+      title: Community Cloud
+    - payload: faq/hybrid_cloud
+      title: Hybrid Cloud
+    - payload: private_cloud
+      title: Private Cloud
+    - payload: public_cloud
+      title: Private Cloud
+    text: Es gibte verschiedene Cloud-Arten. Über welche wollen Sie mehr wissen? 
+
 actions:
 - action_get_all_events
