@@ -558,6 +558,39 @@ nlu:
     - faq/geschaeftsstelle_muenster
     - faq/Geschaefsstelle_Muenster
     - contact/geschaeftsstelle_muenster
+- intent: contact/oeffentlichkeitsarbeit
+  examples: |
+    - Öffentlichkeitsarbeit
+    - contact/oeffentlichkeitsarbeit
+- intent: contact/ki_osnabrueck
+  examples: |
+    - KI Standort Osnabrück
+    - contact/ki_osnabrueck
+- intent: contact/ki_lingen
+  examples: |
+    - KI Standort Lingen
+    - contact/ki_lingen
+- intent: contact/ki_emdenleer
+  examples: |
+    - KI Standort Emden/Leer
+    - contact/ki_emdenleer
+- intent: contact/handelsbranche
+  examples: |
+    - Handelsbranche
+    - contact/handelsbranche
+- intent: contact/handwerk
+  examples: |
+    - Handwerk
+    - contact/handwerk
+    - Wer ist mein Ansprechpartner für das Handwerk?
+- intent: contact/agrarbranche
+  examples: |
+    - Agrarbranche
+    - contact/agrarbranche
+- intent: contact/maritimewirtschaft
+  examples: |
+    - Maritime Wirtschaft
+    - contact/maritimewirtschaft
 - intent: get_all_events
   examples: |
     - Zeig mir alle Veranstaltungen
