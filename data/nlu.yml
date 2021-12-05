@@ -386,6 +386,7 @@ nlu:
     - was für Dienstleistungen gibt es beim cloud computing?
 - intent: faq/speech_recognition_speech_identification
   examples: |
+    - faq/speech_recognition_speech_identification
     - Was ist Spracherkennung?
     - Wie kann man Sprache erkennen?
     - Wie kann ich Stimmen identifizieren?
@@ -401,6 +402,7 @@ nlu:
     - wie kann ich Sprache analysieren?
 - intent: faq/face_recognition_face_identification
   examples: |
+    - faq/face_recognition_face_identification
     - Wofür wird Gesichtserkennung eingesetzt?
     - Was ist Gesichtserkennung?
     - Wie funktioniert Gesichtserkennung?
@@ -410,6 +412,7 @@ nlu:
     - wie kann ich Gesichter erkennen?
 - intent: faq/image_recognition_image_identification
   examples: |
+    - faq/image_recognition_image_identification
     - Was ist Bilderkennung?
     - Wozu benötigt man Bilderkennung?
     - Wie kann ich Objekte auf einem Bild finden?
@@ -422,6 +425,7 @@ nlu:
     - wie kann ich Bilder analysieren?
 - intent: faq/audio_recognition_audio_identification
   examples: |
+    - faq/audio_recognition_audio_identification
     - Wie können Audiosignale klassifiziert werden?
     - Kann eine KI hören?
     - Kann ein Geräusch identifiziert werden?
@@ -431,6 +435,7 @@ nlu:
     - Wie kann ich verschiedene Audiosignale verarbeiten?
 - intent: faq/data_analytics
   examples: |
+    - faq/data_analytics
     - Was ist Data Analystics?
     - Wie kann ich Muster in Daten erkennen?
     - Wozu wird Data Analytics verwendet?
@@ -442,6 +447,7 @@ nlu:
     - was ist data analytics?
 - intent: faq/text_extraction
   examples: |
+    - faq/text_extraction
     - Wie können Entitäten in Texten erkannt werden?
     - Wie kann die Bedeutung von Wörtern erkannt werden?
     - Wie werden Begriffe in Texten extrahiert?
@@ -450,6 +456,7 @@ nlu:
     - Was macht eine Text Extraction?
 - intent: faq/problem_solving
   examples: |
+    - faq/problem_solving
     - Wie kann ich komplexe Probleme mit KI lösen?
     - Wie kann ich ein Gesamtproblem in Einzelschritte gliedern?
     - Wie funktioniert Problemlösung mit KI?
@@ -457,6 +464,7 @@ nlu:
     - was macht Problem solving?
 - intent: faq/language_understanding
   examples: |
+    - faq/language_understanding
     - Was ist Language Understanding?
     - Wie kann die Bedeutung eines Textes ermittelt werden?
     - Wie versteht KI Texte?
@@ -465,12 +473,14 @@ nlu:
     - Wie werden mehrdeutige Texte verstanden?
 - intent: faq/language_generation
   examples: |
+    - faq/language_generation
     - Wie kann ein natürlicher Text mit KI generiert werden?
     - Was ist Language Generation?
     - Kann ein natürlicher Dialog von einem Computer erzeugt werden?
     - Wie kann ein Computer einen Text natürlich formulieren?
 - intent: faq/predictive_inference
   examples: |
+    - faq/predictive_inference
     - Wie können Prognosen erstellt werden?
     - Wie können Vorhersagen getroffen werden?
     - Kann auf Basis von Vergangenheitsdaten etwas prognostiziert werden?
@@ -481,6 +491,7 @@ nlu:
     - womit kann ich Vorhersagen treffen?
 - intent: faq/artificial_neural_network
   examples: |
+    - faq/artificial_neural_network
     - Was sind Artificial neural networks?
     - Kann ein Algorithmus das menschliche Gehirn nachempfinden?
     - Wie können komplexe Probleme von einem Computer gelöst werden?
@@ -496,6 +507,7 @@ nlu:
     - Was ist künstliche Intelligenz?
 - intent: faq/machine_learning
   examples: |
+    - faq/machine_learning
     - Was ist Machine Learning?
     - Wie kann Wissen künstlich generiert werden?
     - Mit welcher Technik lassen Muster in Daten erkennen?
@@ -512,6 +524,7 @@ nlu:
     - wozu brauche ich machine learning?
 - intent: faq/deep_learning
   examples: |
+    - faq/deep_learning
     - Was ist Deep Learning?
     - Was ist der Unterschied zwischen machine learning und deep learning?
     - Was sind Schichten beim Deep Learning?
@@ -554,6 +567,7 @@ nlu:
     - Kostet eine Kooperation mit dem Kompetenzzentrum etwas?
 - intent: faq/ki_companysize
   examples: |
+    - faq/ki_companysize
     - Künstliche Intelligenz ist nur etwas für große Unternehmen. Oder nicht?
     - Ist der Einsatz von künstlicher Intelligenz in einem kleinen Unternehmen sinnvoll?
     - Braucht mein kleines Unternehmen überhaupt Künstliche Intelligenz?
@@ -567,14 +581,17 @@ nlu:
     - Wie groß sollte mein Unternehmen sein, um künstliche Intelligenz zu nutzen?
 - intent: faq/ki_data
   examples: |
+    - faq/ki_data
     - Welche Rolle spielen Daten beim Einsatz Künstlicher Intelligenz?
     - Sind Daten in Bezug auf Künstliche Intelligenz wichtig?
 - intent: faq/ki_use
   examples: |
+    - faq/ki_use
     - Wann ist der Einsatz von Künstlicher Intelligenz sinnvoll?
     - Welche Fragen sollte man sich beim Einsatz von künstlicher Intelligenz stellen?
 - intent: faq/ki_hardware
   examples: |
+    - faq/ki_hardware
     - Kann man Künstliche Intelligenz auf der eigenen Unternehmens-IT laufen lassen?
     - Benötige ich spezielle Hardware für Künstliche Intelligenz?
     - brauche ich leistungsfähigere Rechner für künstliche Intelligenz?
@@ -762,3 +779,30 @@ nlu:
     - Welche Cloud Arten gibt es?
     - Gibt es unterschiedliche Clouds?
     - Cloud Arten
+- intent: faq/ki_initial_question
+  examples: |
+    - KI
+    - Künsltiche Intelligenz
+    - Beantworte mir Fragen zu KI
+    - Was ist KI?
+    - Mehr Informationen zu KI
+
+- intent: faq/ki_modules
+  examples: |
+    - faq/ki_modules
+    - Was gibt es für KI Module?
+    - Gibt es KI Bausteine? 
+    - Welche KI Komponenten gibt es?
+
+- intent: faq/ki_basic_question
+  examples: |
+    - faq/ki_basic_question
+    - Welche Basistechnologien braucht man für KI?
+    - Was ist die Basis von KI?
+
+- intent: faq/link_ki_requirements
+  examples: |
+    - faq/link_ki_requirements
+    - Was braucht man für Voraussetzungen für KI?
+    - Welche Voraussetzungen muss mein Unternehmen erfüllen, um KI umzusetzen?
+    - Was muss erfüllt sein, dass ich KI umsetzen kann?

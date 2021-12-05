@@ -281,5 +281,63 @@ responses:
       title: Private Cloud
     text: Es gibte verschiedene Cloud-Arten. Über welche wollen Sie mehr wissen? 
 
+  utter_faq/ki_initial_question:
+  - buttons:
+    - payload: faq/ki_modules 
+      title: KI-Module
+    - payload: faq/ki_basic_question
+      title: Grundlegende Fragen
+    - payload: faq/link_ki_requirements
+      title: Nutzung KI
+    - payload: faq/ki_topics
+      title: Support Kompetenzzentrum
+    text: Als künstliche Intelligenz (eng. „artifical intelligence“) werden alle Anwendungen bezeichnet, die eine Form von Intelligenz zeigen. Haben Sie weitere Fragen zur KI?
+
+  utter_faq/ki_modules:
+  - buttons:
+    - payload: faq/speech_recognition_speech_identification
+      title: Spracherkennung
+    - payload: faq/face_recognition_face_identification
+      title: Gesichtserkennung
+    - payload: faq/image_recognition_image_identification
+      title: Bilderkennung
+    - payload: faq/audio_recognition_audio_identification
+      title: Audioerkennung
+    - payload: faq/data_analytics
+      title: Data Analytics
+    - payload: faq/text_extraction
+      title: Text Extration
+    - payload: faq/problem_solving
+      title: Problem Solving
+    - payload: faq/language_understanding
+      title: Language Understanding
+    - payload: faq/language_generation
+      title: Language Generation
+    - payload: faq/predictive_inference
+      title: Predictive Inference
+    text: Es gibt verschiedene KI-Module. Über welches Modul wollen Sie mehr erfahren?
+
+  utter_faq/ki_basic_question:
+  - buttons:
+    - payload: faq/artificial_neural_network
+      title: Künstliche neuronale Netze
+    - payload: faq/machine_learning
+      title: Maschinelles Lernen
+    - payload: faq/deep_learning
+      title: Deep Learning
+    text: Informieren Sie sich über KI Basistechnologogien
+
+  utter_faq/link_ki_requirements:
+  - buttons:
+    - payload: faq/ki_companysize
+      title: Unternhemensgröße
+    - payload: faq/ki_data
+      title: Daten
+    - payload: faq/ki_use
+      title: Wann sinnvoll?
+    - payload: faq/ki_hardware
+      title: Hardware
+    text: Informieren Sie sich über Voraussetzungen für die KI. Wählen Sie aus den folgenden Themen 
+
 actions:
 - action_get_all_events
