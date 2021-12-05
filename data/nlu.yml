@@ -515,7 +515,6 @@ nlu:
     - Wie kann der Wartungsprozess effizienter gestaltet werden?
     - Wie können Wartungen vorhergesagt werden?
     - Können Maschinendaten zur Planung von Wartungen genutzt werden?
-    - was geht?
 - intent: faq/mittelstand_agentur_support
   examples: |
     - Was beinhalten die Angebote vom Kompetenzzentrum?
@@ -655,7 +654,6 @@ nlu:
     - ansprechpartner
     - wer ist mein ansprechpartner
     - ich will eine Email Adresse
-    - ich will ne pizza
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
@@ -713,37 +711,33 @@ nlu:
     - Wann findet die nächste Veranstaltung statt?
     - zeig mir veranstaltungen
 - intent: faq/cloud_initial_question
-   examples: |
-     - Ich habe eine Frage zur Cloud?
-     - Könnt ihr mir mit einer Cloud-Anwendung helfen?
-     - Wie kann ich eine Cloud nutzen? 
-     - Ich bruache Hilfe mit der Cloud?
-     - faq/cloud_initial_question
-
- - intent: faq/cloud_as_a_service
-   examples: |
-     - Was ist Cloud as a Servcie? 
-     - Wie kann ich Dienstleistungen in der Cloud nutzen?
-     - Cloud as a Service
-     - faq/cloud_as_a_service
-
- - intent: faq/cloud_using
-   examples: |
-     - Nutzung der Cloud
-     - Wie kann ich Cloud Computing nutzen?
-     - Was kann die Cloud alles?
-     - faq/cloud_using
-
- - intent: faq/mittelstand_agentur_cloud
-   examples: |
-     - Was ist die Mittelstands 4.0 Agentur Cloud?
-     - Ich habe Fragen zur Mittelstands 4.0 Agentur Cloud?
-     - Mittelstands 4.0 Agentur Cloud
-     - faq/mittelstand_agentur_cloud
-
- - intent: faq/cloud_types
-   examples: |
-     - Welche Cloud Arten gibt es?
-     - Gibt es unterschiedliche Clouds?
-     - Cloud Arten
-     - faq/cloud_types 
+  examples: |
+    - Ich habe eine Frage zur Cloud?
+    - Könnt ihr mir mit einer Cloud-Anwendung helfen?
+    - Wie kann ich eine Cloud nutzen? 
+    - Ich bruache Hilfe mit der Cloud?
+    - faq/cloud_initial_question
+- intent: faq/cloud_as_a_service
+  examples: |
+    - Was ist Cloud as a Servcie? 
+    - Wie kann ich Dienstleistungen in der Cloud nutzen?
+    - Cloud as a Service
+    - faq/cloud_as_a_service
+- intent: faq/cloud_using
+  examples: |
+    - Nutzung der Cloud
+    - Wie kann ich Cloud Computing nutzen?
+    - Was kann die Cloud alles?
+    - faq/cloud_using
+- intent: faq/mittelstand_agentur_cloud
+  examples: |
+    - Was ist die Mittelstands 4.0 Agentur Cloud?
+    - Ich habe Fragen zur Mittelstands 4.0 Agentur Cloud?
+    - Mittelstands 4.0 Agentur Cloud
+    - faq/mittelstand_agentur_cloud
+- intent: faq/cloud_types
+  examples: |
+    - Welche Cloud Arten gibt es?
+    - Gibt es unterschiedliche Clouds?
+    - Cloud Arten
+    - faq/cloud_types 

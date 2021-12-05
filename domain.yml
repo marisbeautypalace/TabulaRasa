@@ -55,7 +55,7 @@ responses:
   - text: Die Bandbreitenanforderungen hängen zum Teil von der Art der Anwendung und auf alle Fälle von der Anzahl der Nutzer und der Datenmenge ab, die zwischen dem Unternehmen und der Cloud (regelmäßig) übermittelt werden soll. Insofern ist hier keine allgemeingültige Antwort möglich. (Link)
   utter_faq/provider_change:
   - text: Sie sollten immer standardisierte Datenformate verwenden, da Sie diese im Falle eines Anbieterwechsels oder der Insolvenz Ihres Anbieters weiterverwenden möchten. Die Wahl des Datenträgers für die Rückgabe hängt von der Datenmenge ab, die Sie beim Anbieter gespeichert haben. (Link)
-  utter_faq/sequrity:
+  utter_faq/security:
   - text: Das hängt sehr stark davon ab, was Sie in den Nutzungsvereinbarungen mit Ihrem Anbieter vertraglich festgelegt haben. Ein Datenverlust ist daher nicht ausgeschlossen, kann aber durch entsprechende vertragliche Vereinbarungen verhindert werden. Grundsätzlich sollte man zwei Dinge absichern. (Link)
   utter_faq/mittelstand_agentur:
   - text: Die Aufgabe der Mittelstand 4.0-Agentur Cloud ist es, Multiplikatoren aus Mittelstandsverbänden, Kammern und Wirtschaftsförderungseinrichtungen beim Wissenstransfer bzgl. Cloud Computing und Smart Services in Richtung kleiner und mittelständischer Unternehmen zu unterstützen. (Link)
