@@ -3,13 +3,13 @@ stories:
 - story: happy path
   steps:
   - intent: greet
-  - action: utter_greet
+  - action: utter_welcome
   - intent: mood_great
   - action: utter_happy
 - story: sad path 1
   steps:
   - intent: greet
-  - action: utter_greet
+  - action: utter_welcome
   - intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
@@ -18,7 +18,7 @@ stories:
 - story: sad path 2
   steps:
   - intent: greet
-  - action: utter_greet
+  - action: utter_welcome
   - intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
@@ -27,6 +27,6 @@ stories:
 - story: path hello world
   steps:
   - intent: greet
-  - action: utter_greet
+  - action: utter_welcome
   - intent: get_all_events
   - action: action_get_all_events
