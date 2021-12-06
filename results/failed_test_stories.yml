@@ -1,0 +1,51 @@
+version: "2.0"
+stories:
+- story: happy path 1 (./tests/test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet  # predicted: utter_welcome
+  - intent: mood_great  # predicted: nlu_fallback: amazing
+  - action: utter_happy  # predicted: action_unlikely_intent
+- story: happy path 2 (./tests/test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet  # predicted: utter_welcome
+  - intent: mood_great  # predicted: nlu_fallback: amazing
+  - action: utter_happy  # predicted: action_unlikely_intent
+  - intent: goodbye  # predicted: greet: bye-bye!
+  - action: utter_goodbye
+- story: sad path 1 (./tests/test_stories.yml)
+  steps:
+  - intent: greet  # predicted: nlu_fallback: hello
+  - action: utter_greet  # predicted: utter_welcome
+  - intent: mood_unhappy  # predicted: nlu_fallback: not good
+  - action: utter_cheer_up  # predicted: action_unlikely_intent
+  - action: utter_did_that_help
+  - intent: affirm  # predicted: nlu_fallback: yes
+  - action: utter_happy
+- story: sad path 2 (./tests/test_stories.yml)
+  steps:
+  - intent: greet  # predicted: nlu_fallback: hello
+  - action: utter_greet  # predicted: utter_welcome
+  - intent: mood_unhappy  # predicted: nlu_fallback: not good
+  - action: utter_cheer_up  # predicted: action_unlikely_intent
+  - action: utter_did_that_help
+  - intent: deny  # predicted: faq/cloudcomputing_or_ownserver: not really
+  - action: utter_goodbye  # predicted: utter_cheer_up
+- story: sad path 3 (./tests/test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet  # predicted: utter_welcome
+  - intent: mood_unhappy  # predicted: nlu_fallback: very terrible
+  - action: utter_cheer_up  # predicted: action_unlikely_intent
+  - action: utter_did_that_help
+  - intent: deny  # predicted: affirm: no
+  - action: utter_goodbye  # predicted: utter_cheer_up
+- story: say goodbye (./tests/test_stories.yml)
+  steps:
+  - intent: goodbye  # predicted: greet: bye-bye!
+  - action: utter_goodbye
+- story: bot challenge (./tests/test_stories.yml)
+  steps:
+  - intent: bot_challenge  # predicted: faq/use_of_cloud: are you a bot?
+  - action: utter_iamabot

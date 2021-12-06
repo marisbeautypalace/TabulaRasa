@@ -1,0 +1,273 @@
+version: "2.0"
+nlu:
+- intent: faq/ki_data
+  examples: |
+    - Sind Daten in Bezug auf Künstliche Intelligenz wichtig?
+- intent: faq/ki_use
+  examples: |
+    - Wann ist der Einsatz von Künstlicher Intelligenz sinnvoll?
+- intent: contact/geschaeftsstelle_lingen
+  examples: |
+    - contact/geschaeftsstelle_lingen
+- intent: contact/geschaeftsstelle_muenster
+  examples: |
+    - Münster
+- intent: contact/oeffentlichkeitsarbeit
+  examples: |
+    - Öffentlichkeitsarbeit
+- intent: contact/ki_osnabrueck
+  examples: |
+    - KI Standort Osnabrück
+- intent: contact/ki_lingen
+  examples: |
+    - KI Standort Lingen
+- intent: contact/ki_emdenleer
+  examples: |
+    - KI Standort Emden/Leer
+- intent: contact/handelsbranche
+  examples: |
+    - contact/handelsbranche
+- intent: contact/agrarbranche
+  examples: |
+    - Agrarbranche
+- intent: contact/maritimewirtschaft
+  examples: |
+    - Maritime Wirtschaft
+- intent: faq/deep_learning
+  examples: |
+    - Was ist der Unterschied zwischen machine learning und deep learning?
+- intent: contact/handwerk
+  examples: |
+    - Handwerk
+- intent: faq/language_generation
+  examples: |
+    - Kann ein natürlicher Dialog von einem Computer erzeugt werden?
+- intent: faq/predictive_maintenance
+  examples: |
+    - Wie können Wartungen vorhergesagt werden?
+- intent: faq/mittelstand_agentur_support
+  examples: |
+    - was macht das Kompetenzzentrum?
+- intent: faq/cloud_computing_topics
+  examples: |
+    - was bietet ihr zum Thema cloud an?
+- intent: faq/cloud_as_a_service
+  examples: |
+    - Was ist Cloud as a Servcie?
+- intent: faq/cloud_using
+  examples: |
+    - faq/cloud_using
+- intent: faq/link_mittelstand_agentur_cloud
+  examples: |
+    - faq/link_mittelstand_agentur_cloud
+- intent: faq/cloud_types
+  examples: |
+    - Gibt es unterschiedliche Clouds?
+- intent: faq/services
+  examples: |
+    - Welche Dienstleistungen bietet das Cloud Computing?
+- intent: faq/problem_solving
+  examples: |
+    - Was ist Problem Solving?
+- intent: faq/cloud_initial_question
+  examples: |
+    - Könnt ihr mir mit einer Cloud-Anwendung helfen?
+- intent: faq/hybrid_cloud
+  examples: |
+    - Was ist Hybrid Cloud?
+- intent: faq/community_cloud
+  examples: |
+    - Was ist Community Cloud?
+- intent: faq/onpremise_ondemand
+  examples: |
+    - Wann nutze ich On-Premise und wann On-Demand?
+- intent: faq/text_extraction
+  examples: |
+    - Wie kann die Bedeutung von Wörtern erkannt werden?
+- intent: faq/language_understanding
+  examples: |
+    - Was ist Language Understanding?
+- intent: faq/SaaS
+  examples: |
+    - Was ist Software as a Service?
+- intent: faq/face_recognition_face_identification
+  examples: |
+    - Kann man Gesichter identifizieren?
+- intent: faq/audio_recognition_audio_identification
+  examples: |
+    - Wie kann ich verschiedene Audiosignale verarbeiten?
+- intent: faq/PaaS
+  examples: |
+    - Für welche Zwecke kann ich Platform as a Service nutzen?
+- intent: faq/predictive_inference
+  examples: |
+    - Wie entsteht eine Wetterprognose?
+- intent: faq/security
+  examples: |
+    - Insolvenz des Cloudanbieters
+- intent: faq/mittelstand_agentur_BMWi
+  examples: |
+    - Was hat die Mittelstand 4.0-Agentur mit dem Bundeswirtschaftsministerium zutun?
+- intent: faq/IaaS
+  examples: |
+    - wofür kann ich infrastructure as a service nutzen?
+- intent: faq/public_cloud
+  examples: |
+    - wozu braucht man eine public cloud?
+- intent: faq/data_analytics
+  examples: |
+    - Wie lassen sich Datenanalyse effizient gestalten?
+- intent: faq/maritime_digitalization
+  examples: |
+    - braucht meine Reederei Digitalisierung?
+- intent: faq/provider_change
+  examples: |
+    - Datenträger und Datenformat für die Rückgabe der Daten
+    - Welche Datenformat und Datenträger sollte man für die Rückgabe der Daten im Falle eines Anbieterwechsels wählen?
+- intent: faq/private_cloud
+  examples: |
+    - wozu braucht man eine private Cloud?
+    - was ist eine private Cloud?
+- intent: faq/image_recognition_image_identification
+  examples: |
+    - Was ist Bilderkennung?
+    - wie kann ich Gesichter erkennen und analysieren?
+- intent: faq/bot
+  examples: |
+    - Wer sitzt im PC und schreibt mir?
+    - Was ist ein Bot?
+- intent: faq/craft_digitalization
+  examples: |
+    - Was kann ich als Handwerker zum Thema Digitalisierung tun?
+    - Wie kann das Kompetenzzentrum meinem Handwerksbetrieb im Bereich Digitalisierung unterstützen?
+- intent: faq/use_of_cloud_not
+  examples: |
+    - Für wen eignet sich der Einsatz von Cloud Computing nicht?
+    - Wann ist Cloud Computing problematisch?
+- intent: faq/range_of_internet
+  examples: |
+    - Wie stark muss die Internetverbindung sein?
+    - Gibt es eine vorgeschriebene Bandbreite für Cloud Computing?
+- intent: faq/mittelstand_agentur_cooperation
+  examples: |
+    - Kostet eine Kooperation mit dem Kompetenzzentrum etwas?
+    - Kann ich andere Unternehmen im Bereich der digitalen Transformation unterstützen?
+- intent: faq/ki_companysize
+  examples: |
+    - Wie groß sollte mein Unternehmen sein, um künstliche Intelligenz zu nutzen?
+    - Künstliche Intelligenz ist nur etwas für große Unternehmen. Oder nicht?
+- intent: faq/ki_hardware
+  examples: |
+    - kann ich Künstliche Intelligenz auf normalen Rechnern laufen lassen?
+    - Kann man Künstliche Intelligenz auf der eigenen Unternehmens-IT laufen lassen?
+    - brauche ich spezielle hardware für den Einsatz künstlicher Intelligenz?
+- intent: faq/cloudcomputing_or_ownserver
+  examples: |
+    - Eher Cloudcomputing oder eigener Server?
+    - Ist Cloudcomputing oder Server besser?
+- intent: faq/ki_topics
+  examples: |
+    - Was bietet das Kompetenzzentrum zum Thema Künstliche Intelligenz an?
+    - was bietet ihr im Bereich künstliche Intelligenz an?
+- intent: faq/agriculture_digitalization
+  examples: |
+    - Wozu braucht ein landwirtschaftlicher Betrieb die Digitalisierung?
+    - Wie viel Digitalisierung brauch ich in der Landwirtschaft?
+    - Was bringt dem Bauer die Digitalisierung?
+- intent: faq/mittelstand_agentur_location
+  examples: |
+    - faq/mittelstand_agentur_location
+    - Anschrift der Mittelstand 4.0 Agentur
+- intent: faq/mittelstand_agentur_software
+  examples: |
+    - Welche Software könnt ihr empfehlen?
+    - SOftware
+    - Empfiehlt die Agentur Cloud-Anbieter oder Software-Lösungen?
+- intent: faq/speech_recognition_speech_identification
+  examples: |
+    - Kannst du mir sagen, was Spracherkennung ist?
+    - Wie kann ich Stimmen identifizieren?
+    - Wie kann der Computer erkennen was ich spreche?
+- intent: faq/artificial_neural_network
+  examples: |
+    - Kann ein Computer denken?
+    - Was sind Artificial neural networks?
+- intent: faq/machine_learning
+  examples: |
+    - Wie nutze ich ML?
+    - was macht machine learning?
+    - Was ist künstliches Wissen?
+- intent: faq/mittelstand_agentur_offers
+  examples: |
+    - Warum kostenlos?
+    - faq/mittelstand_agentur_offers
+    - Angebote kostellos nutzbar
+- intent: faq/use_of_cloud
+  examples: |
+    - Wann nutze ich Cloud?
+    - Wann brauche ich ein Cloud?
+    - Wann ist der Einsatz einer Cloud sinnvoll?
+    - wozu cloud computing?
+- intent: faq/mittelstand_agentur
+  examples: |
+    - Mittelstand 4.0
+    - Was bietet die Cloud der Agentur an?
+    - Mittstand 4.0 Agentur
+- intent: faq/cloud_introduction
+  examples: |
+    - Wir planen den Neustart einer Cloud. Wie führe ich diese ein?
+    - Prozess Einführung Cloud?
+    - Gibt es einen Prozess, um das Cloud Computing einzuführen?
+    - Haben Sie Informationen zur Einführung einer Cloud?
+- intent: faq/network_breakdown
+  examples: |
+    - Was kann passieren, wenn das Internet nicht funktionsfähig ist?
+    - Mein Internet fällt aus.
+    - Internet läuft nicht
+    - Kann ich ohne Internet noch arbeiten?
+    - Was passiert, wenn das Internet ausfällt?
+- intent: contact/initial_question
+  examples: |
+    - Ich suche einen Ansprechpartner
+    - wer ist mein ansprechpartner
+    - an wen kann ich mich persönlich wenden?
+    - gib mir ne e-mail
+    - Wen kann ich ansprechen?
+    - ich will einen persönlichen kontakt
+- intent: hello_world
+  examples: |
+    - begrüße mich bitte
+- intent: out_of_scope
+  examples: |
+    - Ich will eine Pizza bestellen
+- intent: goodbye
+  examples: |
+    - Ciao
+- intent: affirm
+  examples: |
+    - jo
+    - ja, schon
+- intent: deny
+  examples: |
+    - niemals
+    - n
+- intent: bot_challenge
+  examples: |
+    - bist du ein mensch?
+- intent: mood_unhappy
+  examples: |
+    - ich bin traurig
+    - sehr traurig
+- intent: greet
+  examples: |
+    - Hi
+    - hallo
+- intent: mood_great
+  examples: |
+    - Gut, danke
+    - gut und dir?
+    - Gut!
+- intent: get_all_events
+  examples: |
+    - Wann findet die nächste Veranstaltung statt?
+    - Wann startet die nächste Veranstaltung?`

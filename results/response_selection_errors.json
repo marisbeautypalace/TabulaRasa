@@ -1,0 +1,234 @@
+[
+  {
+    "text": "faq/use_of_cloud_not",
+    "intent_response_key_target": "faq/use_of_cloud_not",
+    "intent_response_key_prediction": {
+      "name": "faq/use_of_cloud",
+      "confidence": 0.48486220836639404
+    }
+  },
+  {
+    "text": "faq/mittelstand_agentur",
+    "intent_response_key_target": "faq/mittelstand_agentur",
+    "intent_response_key_prediction": {
+      "name": "faq/cloud_types",
+      "confidence": 0.17668478190898895
+    }
+  },
+  {
+    "text": "Was bietet das Kompetenzzentrum an?",
+    "intent_response_key_target": "faq/mittelstand_agentur_offers",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur_cooperation",
+      "confidence": 0.3271175026893616
+    }
+  },
+  {
+    "text": "faq/mittelstand_agentur_location",
+    "intent_response_key_target": "faq/mittelstand_agentur_location",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur_offers",
+      "confidence": 0.20310373604297638
+    }
+  },
+  {
+    "text": "faq/mittelstand_agentur_BMWi",
+    "intent_response_key_target": "faq/mittelstand_agentur_BMWi",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur_offers",
+      "confidence": 0.3070281445980072
+    }
+  },
+  {
+    "text": "faq/IaaS",
+    "intent_response_key_target": "faq/IaaS",
+    "intent_response_key_prediction": {
+      "name": "faq/PaaS",
+      "confidence": 0.2158377766609192
+    }
+  },
+  {
+    "text": "was ist iaas?",
+    "intent_response_key_target": "faq/IaaS",
+    "intent_response_key_prediction": {
+      "name": "faq/PaaS",
+      "confidence": 0.4344814419746399
+    }
+  },
+  {
+    "text": "faq/SaaS",
+    "intent_response_key_target": "faq/SaaS",
+    "intent_response_key_prediction": {
+      "name": "faq/IaaS",
+      "confidence": 0.213314026594162
+    }
+  },
+  {
+    "text": "faq/private_cloud",
+    "intent_response_key_target": "faq/private_cloud",
+    "intent_response_key_prediction": {
+      "name": "faq/public_cloud",
+      "confidence": 0.24768972396850586
+    }
+  },
+  {
+    "text": "faq/public_cloud",
+    "intent_response_key_target": "faq/public_cloud",
+    "intent_response_key_prediction": {
+      "name": "faq/cloudcomputing_or_ownserver",
+      "confidence": 0.2523277997970581
+    }
+  },
+  {
+    "text": "Für welche Zwecke kann ich Private Cloud nutzen?",
+    "intent_response_key_target": "faq/public_cloud",
+    "intent_response_key_prediction": {
+      "name": "faq/private_cloud",
+      "confidence": 0.45748576521873474
+    }
+  },
+  {
+    "text": "Was ist Private Cloud?",
+    "intent_response_key_target": "faq/public_cloud",
+    "intent_response_key_prediction": {
+      "name": "faq/private_cloud",
+      "confidence": 0.5437036752700806
+    }
+  },
+  {
+    "text": "faq/mittelstand_agentur_support",
+    "intent_response_key_target": "faq/mittelstand_agentur_support",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur_offers",
+      "confidence": 0.17507700622081757
+    }
+  },
+  {
+    "text": "Was beinhalten die Angebote vom Kompetenzzentrum?",
+    "intent_response_key_target": "faq/mittelstand_agentur_support",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur_cooperation",
+      "confidence": 0.4619167745113373
+    }
+  },
+  {
+    "text": "Wobei kann mich das Kompetenzzentrum unterstützen?",
+    "intent_response_key_target": "faq/mittelstand_agentur_support",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur_cooperation",
+      "confidence": 0.5426238179206848
+    }
+  },
+  {
+    "text": "was macht das Kompetenzzentrum?",
+    "intent_response_key_target": "faq/mittelstand_agentur_support",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur_cooperation",
+      "confidence": 0.4712004065513611
+    }
+  },
+  {
+    "text": "Sind Daten in Bezug auf Künstliche Intelligenz wichtig?",
+    "intent_response_key_target": "faq/ki_data",
+    "intent_response_key_prediction": {
+      "name": "faq/ki_hardware",
+      "confidence": 0.27335262298583984
+    }
+  },
+  {
+    "text": "Wann ist der Einsatz von Künstlicher Intelligenz sinnvoll?",
+    "intent_response_key_target": "faq/ki_use",
+    "intent_response_key_prediction": {
+      "name": "faq/ki_companysize",
+      "confidence": 0.4258945882320404
+    }
+  },
+  {
+    "text": "Welche Fragen sollte man sich beim Einsatz von künstlicher Intelligenz stellen?",
+    "intent_response_key_target": "faq/ki_use",
+    "intent_response_key_prediction": {
+      "name": "faq/ki_companysize",
+      "confidence": 0.3010760247707367
+    }
+  },
+  {
+    "text": "Was ist Künstliche Intelligenz?",
+    "intent_response_key_target": "faq/ki_topics",
+    "intent_response_key_prediction": {
+      "name": "faq/artificial_neural_network",
+      "confidence": 0.37280601263046265
+    }
+  },
+  {
+    "text": "faq/cloud_computing_topics",
+    "intent_response_key_target": "faq/cloud_computing_topics",
+    "intent_response_key_prediction": {
+      "name": "faq/onpremise_ondemand",
+      "confidence": 0.14528895914554596
+    }
+  },
+  {
+    "text": "faq/cloud_initial_question",
+    "intent_response_key_target": "faq/cloud_initial_question",
+    "intent_response_key_prediction": {
+      "name": "faq/cloud_using",
+      "confidence": 0.1924324333667755
+    }
+  },
+  {
+    "text": "Wie kann ich eine Cloud nutzen?",
+    "intent_response_key_target": "faq/cloud_initial_question",
+    "intent_response_key_prediction": {
+      "name": "faq/use_of_cloud",
+      "confidence": 0.299762099981308
+    }
+  },
+  {
+    "text": "faq/cloud_as_a_service",
+    "intent_response_key_target": "faq/cloud_as_a_service",
+    "intent_response_key_prediction": {
+      "name": "faq/PaaS",
+      "confidence": 0.16445516049861908
+    }
+  },
+  {
+    "text": "Wie kann ich Dienstleistungen in der Cloud nutzen?",
+    "intent_response_key_target": "faq/cloud_as_a_service",
+    "intent_response_key_prediction": {
+      "name": "faq/cloudcomputing_or_ownserver",
+      "confidence": 0.3168518841266632
+    }
+  },
+  {
+    "text": "Wie kann ich Cloud Computing nutzen?",
+    "intent_response_key_target": "faq/cloud_using",
+    "intent_response_key_prediction": {
+      "name": "faq/use_of_cloud",
+      "confidence": 0.5376826524734497
+    }
+  },
+  {
+    "text": "Was ist die Mittelstands 4.0 Agentur Cloud?",
+    "intent_response_key_target": "faq/link_mittelstand_agentur_cloud",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur",
+      "confidence": 0.6249091029167175
+    }
+  },
+  {
+    "text": "Ich habe Fragen zur Mittelstands 4.0 Agentur Cloud?",
+    "intent_response_key_target": "faq/link_mittelstand_agentur_cloud",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur",
+      "confidence": 0.3595806360244751
+    }
+  },
+  {
+    "text": "Mittelstands 4.0 Agentur Cloud",
+    "intent_response_key_target": "faq/link_mittelstand_agentur_cloud",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur",
+      "confidence": 0.6762351393699646
+    }
+  }
+]
