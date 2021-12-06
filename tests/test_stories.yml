@@ -1,91 +1,174 @@
-#### This file contains tests to evaluate that your bot behaves as expected.
-#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
-
+version: "2.0"
 stories:
 - story: happy path 1
   steps:
-  - user: |
+  - intent: greet
+    user: |-
       hello there!
-    intent: greet
   - action: utter_greet
-  - user: |
+  - intent: mood_great
+    user: |-
       amazing
-    intent: mood_great
   - action: utter_happy
-
 - story: happy path 2
   steps:
-  - user: |
+  - intent: greet
+    user: |-
       hello there!
-    intent: greet
   - action: utter_greet
-  - user: |
+  - intent: mood_great
+    user: |-
       amazing
-    intent: mood_great
   - action: utter_happy
-  - user: |
+  - intent: goodbye
+    user: |-
       bye-bye!
-    intent: goodbye
   - action: utter_goodbye
-
 - story: sad path 1
   steps:
-  - user: |
+  - intent: greet
+    user: |-
       hello
-    intent: greet
   - action: utter_greet
-  - user: |
+  - intent: mood_unhappy
+    user: |-
       not good
-    intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
-  - user: |
+  - intent: affirm
+    user: |-
       yes
-    intent: affirm
   - action: utter_happy
-
 - story: sad path 2
   steps:
-  - user: |
+  - intent: greet
+    user: |-
       hello
-    intent: greet
   - action: utter_greet
-  - user: |
+  - intent: mood_unhappy
+    user: |-
       not good
-    intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
-  - user: |
+  - intent: deny
+    user: |-
       not really
-    intent: deny
   - action: utter_goodbye
-
 - story: sad path 3
   steps:
-  - user: |
+  - intent: greet
+    user: |-
       hi
-    intent: greet
   - action: utter_greet
-  - user: |
+  - intent: mood_unhappy
+    user: |-
       very terrible
-    intent: mood_unhappy
   - action: utter_cheer_up
   - action: utter_did_that_help
-  - user: |
+  - intent: deny
+    user: |-
       no
-    intent: deny
   - action: utter_goodbye
-
 - story: say goodbye
   steps:
-  - user: |
+  - intent: goodbye
+    user: |-
       bye-bye!
-    intent: goodbye
   - action: utter_goodbye
-
 - story: bot challenge
   steps:
-  - user: |
+  - intent: bot_challenge
+    user: |-
       are you a bot?
-    intent: bot_challenge
   - action: utter_iamabot
+- story: Story from Conversation ID 97c73529bc0d4de58f51ce0bd4261a6f
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was ist Spracherkennung?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      ich habe eine frage zur cloud
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/use_of_cloud_not
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      ich will jemanden kontaktieren
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/agrarbranche
+  - action: utter_contact
+- story: Story from Conversation ID 7c09df599a4441a6baebcab77f28bdc4
+  steps:
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_welcome
+  - intent: nlu_fallback
+    user: |-
+      was für Veranstaltungen bietet ihr an?
+  - action: utter_please_rephrase
+  - intent: get_all_events
+    user: |-
+      was gibt es für Veranstaltungen?
+  - action: action_event_selection
+  - intent: Events_Timeframe
+    user: |-
+      /Events_Timeframe
+  - action: action_get_events_for_timeframe_selection
+  - intent: Events_Timeframe_Selection
+    user: |-
+      /Events_Timeframe_Selection{"timeframe_selection":"30"}
+  - slot_was_set:
+    - timeframe_selection: '30'
+  - action: action_get_events_for_timeframe
+- story: Story from Conversation ID 29ed6b2c986e40b5911ad3250e8ee887
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: nlu_fallback
+    user: |-
+      Wie geht es dir?
+  - action: utter_please_rephrase
+  - intent: chitchat
+    user: |-
+      du bist schlecht
+  - action: utter_chitchat
+  - intent: bot_challenge
+    user: |-
+      wer bist du?
+  - action: utter_iamabot
+  - intent: mood_unhappy
+    user: |-
+      mir geht es schlecht
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+    user: |-
+      ja
+  - action: utter_happy
+- story: Story from Conversation ID 89f489ca71634314804598701fa8519a
+  steps:
+  - intent: chitchat
+    user: |-
+      was kannst du alles?
+  - action: utter_chitchat
+  - intent: chitchat
+    user: |-
+      bist du bereit?
+  - action: utter_chitchat
+  - intent: chitchat
+    user: |-
+      du bist super
+  - action: utter_chitchat
