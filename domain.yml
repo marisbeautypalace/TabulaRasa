@@ -21,6 +21,16 @@ intents:
 - Events_Timeframe
 - Events_Timeframe_Selection
 - Events_Category_Selection
+entities:
+- timeframe_selection
+- category_selection
+slots:
+  timeframe_selection:
+    type: text
+    influence_conversation: true
+  category_selection:
+    type: text
+    influence_conversation: true
 responses:
   utter_welcome:
   - text: |-
@@ -37,7 +47,7 @@ responses:
   - text: Guten Tag! Wie kann ich Ihnen helfen?
   utter_chitchat/bot_bad:
   - text: Ich kann weiter trainiert werden, um besser zu werden. Meine Entwickler werden dies laufend machen.
-  - text: Durch kontinuierliches Feedback kann ich besser werden. 
+  - text: Durch kontinuierliches Feedback kann ich besser werden.
   utter_chitchat/bot_clever:
   - text: Danke für das Feedback. Ich versuche ständig besser zu werden.
   utter_chitchat/bot_ready:
@@ -239,7 +249,6 @@ responses:
       Ihr Ansprechpartner für die Maritime Wirtschaft ist Jörg Bontjer (MARIKO gGmbH). 
        E-Mail: joerg.bontjer@mariko-leer.de 
        Telefon: +494919261185
-
   utter_faq/cloud_initial_question:
   - buttons:
     - payload: faq/cloud_computing_topics
@@ -256,8 +265,7 @@ responses:
       title: Cloud as a service
     - payload: faq/services
       title: Dienstleistungen Cloud
-    text: Beim Cloud-Computing wird ein Netzwerk mehrerer verteilter externer Rechner genutzt. Quasi eine Wolke aus Rechnern. Es können IT-Infrastrukturen und Dienstleistungen genutzt werden, die nicht auf dem lokalen Rechnern vorgehalten werden müssen, sondern als Dienst gemietet werden. Was wollen Sie noch zur Cloud wissen? 
-
+    text: Beim Cloud-Computing wird ein Netzwerk mehrerer verteilter externer Rechner genutzt. Quasi eine Wolke aus Rechnern. Es können IT-Infrastrukturen und Dienstleistungen genutzt werden, die nicht auf dem lokalen Rechnern vorgehalten werden müssen, sondern als Dienst gemietet werden. Was wollen Sie noch zur Cloud wissen?
   utter_faq/cloud_as_a_service:
   - buttons:
     - payload: faq/IaaS
@@ -267,9 +275,8 @@ responses:
     - payload: faq/SaaS
       title: Software as a Service
     text: Cloud as a service bezieht sich auf ein weites Feld von Anwednungen, die Firmen oder End-User on demand nutzen und über das Internet erreichen. Über welche Art von Cloud as Service wollen Sie mehr wissen?
-
   utter_faq/cloud_using:
-  - buttons: 
+  - buttons:
     - payload: faq/use_of_cloud
       title: Warum?
     - payload: faq/use_of_cloud_not
@@ -279,7 +286,6 @@ responses:
     - payload: faq/onpremise_ondemand
       title: On premise oder in demand?
     text: Welche Fragen haben Sie zu der Nutzung einer Cloud?
-
   utter_faq/link_mittelstand_agentur_cloud:
   - buttons:
     - payload: faq/mittelstand_agentur
@@ -296,8 +302,7 @@ responses:
       title: Kosten
     - payload: faq/mittelstand_agentur_software
       title: Software
-    text: Welche Fragen haben Sie zur Mittelstands 4.0 Agentur Cloud? 
-  
+    text: Welche Fragen haben Sie zur Mittelstands 4.0 Agentur Cloud?
   utter_faq/cloud_types:
   - buttons:
     - payload: faq/community_cloud
@@ -308,11 +313,10 @@ responses:
       title: Private Cloud
     - payload: public_cloud
       title: Private Cloud
-    text: Es gibte verschiedene Cloud-Arten. Über welche wollen Sie mehr wissen? 
-
+    text: Es gibte verschiedene Cloud-Arten. Über welche wollen Sie mehr wissen?
   utter_faq/ki_initial_question:
   - buttons:
-    - payload: faq/ki_modules 
+    - payload: faq/ki_modules
       title: KI-Module
     - payload: faq/ki_basic_question
       title: Grundlegende Fragen
@@ -321,7 +325,6 @@ responses:
     - payload: faq/ki_topics
       title: Support Kompetenzzentrum
     text: Als künstliche Intelligenz (eng. „artifical intelligence“) werden alle Anwendungen bezeichnet, die eine Form von Intelligenz zeigen. Haben Sie weitere Fragen zur KI?
-
   utter_faq/ki_modules:
   - buttons:
     - payload: faq/speech_recognition_speech_identification
@@ -345,7 +348,6 @@ responses:
     - payload: faq/predictive_inference
       title: Predictive Inference
     text: Es gibt verschiedene KI-Module. Über welches Modul wollen Sie mehr erfahren?
-
   utter_faq/ki_basic_question:
   - buttons:
     - payload: faq/artificial_neural_network
@@ -355,7 +357,6 @@ responses:
     - payload: faq/deep_learning
       title: Deep Learning
     text: Informieren Sie sich über KI Basistechnologogien
-
   utter_faq/link_ki_requirements:
   - buttons:
     - payload: faq/ki_companysize
@@ -366,8 +367,7 @@ responses:
       title: Wann sinnvoll?
     - payload: faq/ki_hardware
       title: Hardware
-    text: Informieren Sie sich über Voraussetzungen für die KI. Wählen Sie aus den folgenden Themen 
-
+    text: Informieren Sie sich über Voraussetzungen für die KI. Wählen Sie aus den folgenden Themen
 actions:
 - action_get_all_events
 - action_get_events_for_timeframe
@@ -375,11 +375,3 @@ actions:
 - action_event_selection
 - action_get_events_for_timeframe_selection
 - action_get_events_for_category_selection
-entities:
-  - timeframe_selection
-  - category_selection
-slots:
-  timeframe_selection:
-    type: text
-  category_selection:
-    type: text

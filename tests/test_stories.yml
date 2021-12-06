@@ -172,3 +172,17 @@ stories:
     user: |-
       du bist super
   - action: utter_chitchat
+- story: Story from Conversation ID f7d6ad99929642418d54a2816e7b17ec
+  steps:
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_welcome
+  - intent: chitchat
+    user: |-
+      kannst du mir Veranstaltungen zeigen?
+  - action: utter_chitchat
+  - intent: chitchat
+    user: |-
+      die Antwort war falsch
+  - action: utter_chitchat

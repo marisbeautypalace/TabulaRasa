@@ -84,7 +84,7 @@ nlu:
     - bist du eine reale Person?
     - erzähl mir etwas über dich
     - was ist deine Persönlichkeit?
-    - wer zur Hölle bist du? 
+    - wer zur Hölle bist du?
 - intent: chitchat/bot_bad
   examples: |
     - du kannst nichts
@@ -123,6 +123,7 @@ nlu:
     - wobei kannst du mir helfen?
     - was für Fragen kannst du beantworten?
     - Was kannst du?
+    - was kannst du alles?
 - intent: out_of_scope
   examples: |
     - ich will eine Pizza bestellen
@@ -132,6 +133,7 @@ nlu:
     - Wie heißt Mario?
     - Wo ist Hamburg?
     - Ich will eine Pizza bestellen
+    - ich will ne pizza
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - faq/cloudcomputing_or_ownserver
@@ -393,6 +395,7 @@ nlu:
     - pulbic CLoud?
     - kann ich eine public cloud selbst betreiben?
     - wozu braucht man eine public cloud?
+    - public_cloud
 - intent: faq/hybrid_cloud
   examples: |
     - faq/hybrid_cloud
@@ -440,6 +443,7 @@ nlu:
     - Wie funktioniert Spracherkennung
     - wie funktioniert spracherknnung?
     - wie kann ich Sprache analysieren?
+    - was ist Spracherkennung?
 - intent: faq/face_recognition_face_identification
   examples: |
     - faq/face_recognition_face_identification
@@ -732,6 +736,8 @@ nlu:
     - ansprechpartner
     - wer ist mein ansprechpartner
     - ich will eine Email Adresse
+    - ich will jemanden kontaktieren
+    - Nenne mir einen Kontakt
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
@@ -778,12 +784,16 @@ nlu:
     - faq/cloud_initial_question
     - Ich habe eine Frage zur Cloud?
     - Könnt ihr mir mit einer Cloud-Anwendung helfen?
-    - Wie kann ich eine Cloud nutzen? 
+    - Wie kann ich eine Cloud nutzen?
     - Ich bruache Hilfe mit der Cloud?
+    - ich habe eine frage zur cloud
+    - ich will etwas zu cloud wissen
+    - Beantworte mir eine Frage zur Cloud
+    - Cloud
 - intent: faq/cloud_as_a_service
   examples: |
     - faq/cloud_as_a_service
-    - Was ist Cloud as a Servcie? 
+    - Was ist Cloud as a Servcie?
     - Wie kann ich Dienstleistungen in der Cloud nutzen?
     - Cloud as a Service
 - intent: faq/cloud_using
@@ -811,55 +821,42 @@ nlu:
     - Beantworte mir Fragen zu KI
     - Was ist KI?
     - Mehr Informationen zu KI
-
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
     - Was gibt es für KI Module?
-    - Gibt es KI Bausteine? 
+    - Gibt es KI Bausteine?
     - Welche KI Komponenten gibt es?
-
 - intent: faq/ki_basic_question
   examples: |
     - faq/ki_basic_question
     - Welche Basistechnologien braucht man für KI?
     - Was ist die Basis von KI?
-
 - intent: faq/link_ki_requirements
   examples: |
     - faq/link_ki_requirements
     - Was braucht man für Voraussetzungen für KI?
     - Welche Voraussetzungen muss mein Unternehmen erfüllen, um KI umzusetzen?
     - Was muss erfüllt sein, dass ich KI umsetzen kann?
-
 - intent: get_all_events
   examples: |
     - Zeig mir Veranstaltungen
     - Was gibt es für Veranstaltunegn
     - Welche Veranstaltungen habt ihr?
     - Veranstaltungen
-
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
     - Alle Veranstaltungen
     - jede Veranstaltung
     - Alle
-
 - intent: Events_Category
   examples: |
     - Zeig mir Kategorien
     - Unterteilung nach Kategorie
     - Veranstaltunen nach Kategorie
-
 - intent: Events_Timeframe
   examples: |
     - Nach Zeitraum
     - Zeitpunkt
     - Veranstaltungen nach Zeitpunkt
-
-- intent: Events_Timeframe_Selection
-  examples: |
-
-- intent: Events_Category_Selection
-  examples: |
