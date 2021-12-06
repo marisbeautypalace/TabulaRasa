@@ -1,10 +1,5 @@
 version: "2.0"
 nlu:
-- intent: hello_world
-  examples: |
-    - Kannst du mich begrüßen?
-    - begrüße mich bitte
-    - sag mir Hallo
 - intent: greet
   examples: |
     - Hallo
@@ -17,6 +12,9 @@ nlu:
     - Moin!
     - hallo
     - hi
+    - Kannst du mich begrüßen?
+    - begrüße mich bitte
+    - sag mir Hallo
 - intent: goodbye
   examples: |
     - Schönen Tag
@@ -82,7 +80,49 @@ nlu:
     - was bist du?
     - bist du ein Bot?
     - Hallo wer bist du?
+    - warum bist du hier?
+    - bist du eine reale Person?
+    - erzähl mir etwas über dich
+    - was ist deine Persönlichkeit?
+    - wer zur Hölle bist du? 
+- intent: chitchat/bot_bad
+  examples: |
     - du kannst nichts
+    - du bist schlecht
+    - unfähig
+    - unnötig
+    - unnütz
+    - mies
+    - grausam
+    - nicht gut
+    - Zeitverschwendung
+    - du nervst
+    - langweilig
+- intent: chitchat/bot_clever
+  examples: |
+    - du bist super
+    - clever
+    - schlau
+    - du weißt richtig viel
+    - du bist intelligent
+    - smart
+    - qualifiziert
+- intent: chitchat/bot_ready
+  examples: |
+    - bist du bereit?
+    - kann ich dir Fragen stellen?
+    - können wir starten?
+    - bist du jetzt fertig?
+- intent: chitchat/bot_wrong
+  examples: |
+    - die Antwort war falsch
+    - die antwort war nicht richtig
+    - du hast mir nicht geholfen
+- intent: chitchat/bot_infos
+  examples: |
+    - wobei kannst du mir helfen?
+    - was für Fragen kannst du beantworten?
+    - Was kannst du?
 - intent: out_of_scope
   examples: |
     - ich will eine Pizza bestellen

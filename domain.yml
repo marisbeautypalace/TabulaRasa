@@ -3,7 +3,6 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- hello_world
 - greet
 - goodbye
 - affirm
@@ -12,6 +11,7 @@ intents:
 - mood_unhappy
 - bot_challenge
 - out_of_scope
+- chitchat
 - faq
 - contact
 - get_all_events
@@ -26,17 +26,41 @@ responses:
        - Cloud-Computing 
        - Mittelstand 4.0-Kompetenzzentrum
       Wobei kann ich Ihnen helfen?
+  utter_greet:
+  - text: Hallo, wie kann ich Ihnen helfen?
+  - text: Hi! Wie kann ich Ihnen helfen?
+  - text: Guten Tag! Wie kann ich Ihnen helfen?
+  utter_chitchat/bot_bad:
+  - text: Ich kann weiter trainiert werden, um besser zu werden. Meine Entwickler werden dies laufend machen.
+  - text: Durch kontinuierliches Feedback kann ich besser werden. 
+  utter_chitchat/bot_clever:
+  - text: Danke für das Feedback. Ich versuche ständig besser zu werden.
+  utter_chitchat/bot_ready:
+  - text: Ich bin bereit, wie kann ich Ihnen helfen?
+  utter_chitchat/bot_wrong:
+  - text: Tut mir Leid, falls ich Sie falsch verstanden habe.
+  - text: Ich lerne kontinuierlich dazu. Manchmal kommt es vor, dass ich Fragen falsch interpretiere.
+  utter_chitchat/bot_infos:
+  - text: |-
+      Gerne beantworte ich Ihnen Fragen zu den folgenden Themen: 
+       - Veranstaltungen 
+       - Ansprechpartner 
+       - Künstliche Intelligenz 
+       - Cloud-Computing 
+       - Mittelstand 4.0-Kompetenzzentrum
+      Wobei kann ich Ihnen helfen?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Hier, schau Dir das mal an:'
+    text: 'Das tut mir Leid. Hier, schauen Sie sich das mal an:'
   utter_did_that_help:
-  - text: Hat das geholfen?
+  - text: Hat Ihnen das geholfen?
   utter_happy:
-  - text: Großartig, weiter so!
+  - text: Großartig, das freut mich zu hören!
   utter_goodbye:
   - text: Auf Wiedersehen und einen schönen Tag noch.
   utter_iamabot:
   - text: Ich bin der Chatbot 🤖 vom Mittelstand 4.0-Kompetenzzentrum in Lingen.
+  - text: Ich bin keine reale Person, ich bin ein virtueller Chatbot 🤖 vom Mittelstand 4.0-Kompetenzzentrum in Lingen.
   utter_out_of_scope:
   - text: Bei diesem Thema kann ich Ihnen leider nicht weiterhelfen.
   utter_please_rephrase:

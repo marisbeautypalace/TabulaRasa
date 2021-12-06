@@ -8,6 +8,11 @@ rules:
   - intent: greet
   - action: utter_welcome
 
+- rule: greet the user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
@@ -27,6 +32,11 @@ rules:
   steps:
   - intent: contact
   - action: utter_contact
+
+- rule: map to chitchat
+  steps:
+  - intent: chitchat
+  - action: utter_chitchat
 
 - rule: out-of-scope
   steps:
