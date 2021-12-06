@@ -773,21 +773,6 @@ nlu:
   examples: |
     - Maritime Wirtschaft
     - contact/maritimewirtschaft
-- intent: get_all_events
-  examples: |
-    - Zeig mir alle Veranstaltungen
-    - Was gibt es für Veranstaltunegn
-    - Welche Veranstaltungen habt ihr?
-    - Gibt es Veranstaltungen?
-    - Wann startet der Termin morgen?
-    - Gibt es einen Veranstaltungskalender?
-    - Kann ich ein Event buchen?
-    - Habt ihr Events?
-    - Ich möchte Veranstaltungen besuchen.
-    - Gibt es neue Veranstaltungen?
-    - Wann startet die nächste Veranstaltung?`
-    - Wann findet die nächste Veranstaltung statt?
-    - zeig mir veranstaltungen
 - intent: faq/cloud_initial_question
   examples: |
     - faq/cloud_initial_question
@@ -846,3 +831,35 @@ nlu:
     - Was braucht man für Voraussetzungen für KI?
     - Welche Voraussetzungen muss mein Unternehmen erfüllen, um KI umzusetzen?
     - Was muss erfüllt sein, dass ich KI umsetzen kann?
+
+- intent: get_all_events
+  examples: |
+    - Zeig mir Veranstaltungen
+    - Was gibt es für Veranstaltunegn
+    - Welche Veranstaltungen habt ihr?
+    - Veranstaltungen
+
+- intent: Events_All
+  examples: |
+    - Zeig mir alle Events
+    - Alle Veranstaltungen
+    - jede Veranstaltung
+    - Alle
+
+- intent: Events_Category
+  examples: |
+    - Zeig mir Kategorien
+    - Unterteilung nach Kategorie
+    - Veranstaltunen nach Kategorie
+
+- intent: Events_Timeframe
+  examples: |
+    - Nach Zeitraum
+    - Zeitpunkt
+    - Veranstaltungen nach Zeitpunkt
+
+- intent: Events_Timeframe_Selection
+  examples: |
+
+- intent: Events_Category_Selection
+  examples: |

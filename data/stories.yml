@@ -24,9 +24,25 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
-- story: path hello world
+- story: general events path
   steps:
   - intent: greet
   - action: utter_welcome
   - intent: get_all_events
+  - action: action_event_selection
+- story: get all events path
+  steps:
+  - intent: Events_All
   - action: action_get_all_events
+- story: get all events Category path
+  steps:
+  - intent: Events_Category
+  - action: action_get_events_for_category_selection
+  - intent: Events_Category_Selection
+  - action: action_get_events_for_category 
+- story: get all events Timeframe path
+  steps:
+  - intent: Events_Timeframe
+  - action: action_get_events_for_timeframe_selection
+  - intent: Events_Timeframe_Selection
+  - action: action_get_events_for_timeframe

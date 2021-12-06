@@ -5,41 +5,117 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 
-# This is a simple example for a custom action which utters "Hello World!"
-
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from processing import eventProcessing
 
-url = "http://kompetenzzentrum-lingen.digital/wp-json/tribe/events/v1/events"
+URL = "http://kompetenzzentrum-lingen.digital/wp-json/tribe/events/v1/events"
 
-# class ActionHelloWorld(Action):
-#
-#     def name(self) -> Text:
-#         return "action_hello_world"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="Hello World!")
-#
-#         return []
-
-class ActionGetAllEvents(Action):
+class actionEventSelection(Action):
 
     def name(self) -> Text:
-        return "action_get_all_events"
+        return "action_event_selection"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        countAllEvents = eventProcessing.getAllEvents(url)
-        dispatcher.utter_message(text="Hier sehen Sie alle Veranstaltungen:")
-        dispatcher.utter_message(text=f"{countAllEvents}")
+        
+        buttons=[
+            {"payload":"/Events_All", "title": "Anzeigen aller Veranstaltungen"},
+            {"payload":"/Events_Category", "title": "Veranstaltungen nach Kategorie filtern"},
+            {"payload":"/Events_Timeframe", "title": "Veranstaltungen nach Zeitraum filtern"}
+        ]
+
+        dispatcher.utter_message(text="Wir haben unterschiedliche Veranstaltungs- und Workshop-Angebote. Nach welchen Kriterien sollen die Veranstaltungen gefiltert werden?", buttons=buttons)
+        
 
         return []
 
 
+class ActionGetAllEvents(Action):
+    def name(self) -> Text:
+        return "action_get_all_events"
+    
+    async def run(self, dispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        dfAllEvents = eventProcessing.getAllEvents(URL)
+        carousel = eventProcessing.dfToCarousel(dfAllEvents)
 
+        dispatcher.utter_message(attachment=carousel)        
+
+        return []
+
+class ActionGetEventsForCategory(Action):
+    def name(self) -> Text:
+        return "action_get_events_for_category"
+    
+    async def run(self, dispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        slot = tracker.get_slot("category_selection")
+        
+        dfAllEvents = eventProcessing.getAllEvents(URL)
+        dfEventsForCategory = eventProcessing.getEventsForCategorie(dfAllEvents, slot)
+        carousel = eventProcessing.dfToCarousel(dfEventsForCategory)
+
+        dispatcher.utter_message(attachment=carousel)
+
+        return []
+
+class ActionGetEventsForCategorySelection(Action):
+    def name(self) -> Text:
+        return "action_get_events_for_category_selection"
+    
+    async def run(self, dispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        
+        dfAllEvents = eventProcessing.getAllEvents(URL)
+        setOfCategories = eventProcessing.setOfCategories(dfAllEvents)
+
+        buttons = []
+
+        for category in setOfCategories:
+            slot = '{"category_selection":' + '"' + category + '"' + '}'
+            buttons.append({"payload": '/Events_Category_Selection'+slot, "title": category})
+        
+        dispatcher.utter_message(text="Nach welcher Kategorie soll gefiltert werden?", buttons=buttons)
+
+        return []
+
+
+class ActionGetEventsForTimeframe(Action):
+    def name(self) -> Text:
+        return "action_get_events_for_timeframe"
+    
+    async def run(self, dispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        slot = tracker.get_slot("timeframe_selection")
+        k = int(slot)
+
+        dfAllEvents = eventProcessing.getAllEvents(URL)
+        dfEventsForTimeframe = eventProcessing.getEventsForTimeframe(dfAllEvents, k)
+        carousel = eventProcessing.dfToCarousel(dfEventsForTimeframe)
+
+        dispatcher.utter_message(attachment=carousel)        
+
+        return []
+
+class ActionGetEventsForTimeframeSelection(Action):
+
+    def name(self) -> Text:
+        return "action_get_events_for_timeframe_selection"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        buttons=[
+            {"payload": '/Events_Timeframe_Selection{"timeframe_selection":"7"}', "title": "In den nächsten 7 Tagen"},
+            {"payload": '/Events_Timeframe_Selection{"timeframe_selection":"30"}', "title": "In den nächsten 30 Tagen"},
+            {"payload": '/Events_Timeframe_Selection{"timeframe_selection":"60"}', "title": "In den nächsten 60 Tagen"},
+        ]
+
+        dispatcher.utter_message(text="Nach welchem Zeitraum soll gefiltert werden?", buttons=buttons)
+        
+
+        return []

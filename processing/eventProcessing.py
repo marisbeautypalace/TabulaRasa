@@ -7,13 +7,15 @@ import urllib.request
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
+FORMAT_DATE = "%Y-%m-%d %H:%M:%S"
+
 '''
 Scraping for a url of the kompetenzzentrum lingen (json format)
 IN: url = unique identifier used to locate the event resource of the kompetenzzentrum lingen on the internet
 OUT: dfallEvents = dataframe which contains all events of the kompetenzzentrum lingen
 '''
-def getAllEvents(url):
-    response = urllib.request.urlopen(url)
+def getAllEvents(URL):
+    response = urllib.request.urlopen(URL)
     data_json = json.loads(response.read())
 
     events = []
@@ -67,11 +69,11 @@ IN: df = dataframe for processing
     categorie = category to which df is processed
 OUT: df = dataframe that contains events for a specific categorie
 '''
-def getEventsForCategorie(df, categorie):
+def getEventsForCategorie(df, category):
     checkedEvents = []
 
     for column in df['categories']:
-        if categorie in column:
+        if category in column:
             checkedEvents.append(True)
         else:
             checkedEvents.append(False)
@@ -105,3 +107,36 @@ def getEventsForCost(df, limit):
             df = df.drop(i)
 
     return df
+
+def categoriesToString(categories):
+    stringCategorie = ""
+    for i in categories:
+        stringCategorie = stringCategorie + i + ' | '
+    return stringCategorie[:-2]
+
+def wrapDate(date):
+    return dt.datetime.strptime(date, FORMAT_DATE)
+
+def printDate(start, end):
+    return start.strftime("%d.%m.%Y, %H:%M") + ' bis ' + end.strftime("%H:%M") + ' Uhr | '
+
+def dfToCarousel(df):
+    carousel = { "type": "template", "payload": { "template_type": "generic", "elements": [] } }
+
+    for index, row in df.iterrows():
+        title, url, image = row['title'], row['url'], row['image']
+        categories = categoriesToString(row['categories'])
+        wrappedStartDate = wrapDate(row['start_date'])
+        wrappedEndDate = wrapDate(row['end_date'])
+        subtitle = (printDate(wrappedStartDate, wrappedEndDate) + categories)
+        carousel["payload"]["elements"].append({ "title": title, "subtitle": subtitle, "image_url": image, "buttons": [{ "title": "Zur Anmeldung", "url": url, "type": "web_url" }] })
+    return carousel
+
+
+def setOfCategories(df):
+    listOfCategories = []
+    for element in df['categories']:
+        listOfCategories = listOfCategories + element
+
+    setOfCategories = set(listOfCategories)
+    return setOfCategories

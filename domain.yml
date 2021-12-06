@@ -16,6 +16,11 @@ intents:
 - contact
 - get_all_events
 - nlu_fallback
+- Events_All
+- Events_Category
+- Events_Timeframe
+- Events_Timeframe_Selection
+- Events_Category_Selection
 responses:
   utter_welcome:
   - text: |-
@@ -365,3 +370,16 @@ responses:
 
 actions:
 - action_get_all_events
+- action_get_events_for_timeframe
+- action_get_events_for_category
+- action_event_selection
+- action_get_events_for_timeframe_selection
+- action_get_events_for_category_selection
+entities:
+  - timeframe_selection
+  - category_selection
+slots:
+  timeframe_selection:
+    type: text
+  category_selection:
+    type: text
