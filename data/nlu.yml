@@ -16,6 +16,7 @@ nlu:
     - begrüße mich bitte
     - sag mir Hallo
     - was geht?
+    - Guten Abend
 - intent: goodbye
   examples: |
     - Schönen Tag
@@ -87,6 +88,9 @@ nlu:
     - erzähl mir etwas über dich
     - was ist deine Persönlichkeit?
     - wer zur Hölle bist du?
+    - Bist du ein Roboter?
+    - Was bist du?
+    - Bist du ein Bot?
 - intent: chitchat/bot_bad
   examples: |
     - du kannst nichts
@@ -115,6 +119,7 @@ nlu:
     - kann ich dir Fragen stellen?
     - können wir starten?
     - bist du jetzt fertig?
+    - Kann ich dir eine Frage stellen?
 - intent: chitchat/bot_wrong
   examples: |
     - die Antwort war falsch
@@ -130,6 +135,10 @@ nlu:
     - Was kannst du?
     - was kannst du alles?
     - was kannst du?
+    - Wobei kannst du mir helfen?
+    - Was kann ich dich fragen?
+    - Was für Fragen beantwortest du?
+    - Wie kannst Du mir helfen?
 - intent: chitchat/bot_howareyou
   examples: |
     - wie geht es dir?
@@ -150,6 +159,12 @@ nlu:
     - ich danke dir
     - ich danke ihnen
     - dankeschön
+    - Dankeschön!
+    - Danke für diese Information
+    - Danke
+    - Toll, danke!
+    - Danke, das hat geholfen.
+    - vielen Dank#
 - intent: out_of_scope
   examples: |
     - ich will eine Pizza bestellen
@@ -174,6 +189,7 @@ nlu:
     - Nutze ich lieber die Cloud oder den Server?
     - Was ist besser, Cloud oder Server?
     - Ist Cloudcomputing oder Server besser?
+    - Nutze ich zukünftig nur noch eine Cloud?
 - intent: faq/use_of_cloud
   examples: |
     - faq/use_of_cloud
@@ -194,6 +210,7 @@ nlu:
     - Brauche ich eine Cloud
     - was macht cloud computing?
     - wozu cloud computing?
+    - Was kann eine Cloud?
 - intent: faq/use_of_cloud_not
   examples: |
     - faq/use_of_cloud_not
@@ -229,6 +246,8 @@ nlu:
     - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor?
     - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor`
     - Cloud im Unternehmen einführen
+    - Ich suche Informationen zum Thema Cloud
+    - Wie führe ich eine Cloud in meinem unternehmen ein?
 - intent: faq/network_breakdown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
@@ -256,6 +275,7 @@ nlu:
     - Wie arbeite ich ohne Internet?
     - Kann ich noch arbeiten, wenn das Netzweerk zusammenbricht?
     - Kann ich noch arbeiten, wenn das Internet nicht mehr funktioniert?
+    - Was passiert bei einem Netzwerkausfall?
 - intent: faq/range_of_internet
   examples: |
     - Welche Bandbreite benötige ich, um Cloud Computing nutzen zu können?
@@ -269,6 +289,7 @@ nlu:
     - Welche Bandbreite benötigt mein Unternehmen?
     - Welche Bandbreite benötige ich, um eine Cloud zu nutzen?
     - Wie stark muss die Internetverbindung sein?
+    - Welche Bandbreite brauche ich?
 - intent: faq/provider_change
   examples: |
     - Welche Datenformat und Datenträger sollte man für die Rückgabe der Daten im Falle eines Anbieterwechsels wählen?
@@ -313,6 +334,7 @@ nlu:
     - Was bietet die Cloud der Mittelstand 4.0-Agentur an?
     - Was sind die Aufgaben der Mittelstand 4.0-Agentur Cloud?
     - Was ist die Cloud der Mittelstand 4.0-Agentur?
+    - Was bietet die Mittelstand Agentur an?
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -356,6 +378,7 @@ nlu:
     - Welche Beziehung hat die Agentur zum Bundeswirtschaftsministerium?
     - Wie ist der Kontakt zum Bundeswirtschaftsministerium?
     - Was hat die Mittelstand 4.0-Agentur mit dem Bundeswirtschaftsministerium zutun?
+    - Welche Beziehung habt ihr zum Wirtschaftsministerium?
 - intent: faq/mittelstand_agentur_software
   examples: |
     - faq/mittelstand_agentur_software
@@ -371,6 +394,7 @@ nlu:
     - Welche Software sollte ich nutzen?
     - Welche Software würdet ihr nutzen?
     - Ich weiß nicht welche Software ich anschaffen soll.
+    - Welche Software sollte ich mir anschaffen?
 - intent: faq/IaaS
   examples: |
     - faq/IaaS
@@ -413,6 +437,7 @@ nlu:
     - was ist eine private Cloud?
     - kann ich eine private cloud selbst betreiben?
     - wozu braucht man eine private Cloud?
+    - Wofür nutze ich eine private Cloud?
 - intent: faq/public_cloud
   examples: |
     - faq/public_cloud
@@ -698,6 +723,7 @@ nlu:
     - In welchen Bereichen kann ich zum Thema Cloud Computing Unterstützung erhalten?
     - Was bietet das Kompetenzzentrum im Bereich Cloud Computing an?
     - was bietet ihr zum Thema cloud an?
+    - Informationen zu Cloud
 - intent: faq/agriculture_digitalization
   examples: |
     - Was für Möglichkeiten im Bereich der Digitalisierung habe ich auf meinem landwirtschaftlichen Betrieb?
@@ -775,6 +801,8 @@ nlu:
     - ich will jemanden kontaktieren
     - Nenne mir einen Kontakt
     - ich will einen ansprechpartner
+    - Ich suche einen Ansprechpartner für Münster
+    - Das freut mich. Ich suche einen Ansprechpartner.
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
