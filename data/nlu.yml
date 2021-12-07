@@ -124,6 +124,24 @@ nlu:
     - was für Fragen kannst du beantworten?
     - Was kannst du?
     - was kannst du alles?
+- intent: chitchat/bot_howareyou
+  examples: |
+    - wie geht es dir?
+    - geht es dir gut?
+    - wie geht es ihnen?
+    - wie fühlen sie sich?
+    - wie fühlst du dich?
+- intent: chitchat/bot_thanks
+  examples: |
+    - danke
+    - danke für die Informationen
+    - danke für die Infos
+    - ich bedanke mich
+    - vielen Dank
+    - danke für Information
+    - ich danke dir
+    - ich danke ihnen
+    - dankeschön
 - intent: out_of_scope
   examples: |
     - ich will eine Pizza bestellen
@@ -208,6 +226,8 @@ nlu:
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
     - Internetausfall
     - Netzwerkausfall
+    - Ausfall vom Internet
+    - was wenn Internet weg?
     - Ausfall des Netzwerks
     - Breakdown des Internets
     - Keine Funktion des Internets
@@ -259,6 +279,7 @@ nlu:
     - Insolvenz meines Anbieters
     - Insolvenz des Cloud Anbieters
     - Insolvenz des Cloudanbieters
+    - Sicherheit meiner daten
     - Datenverlust bei Insolvenz des Anbieters
     - Verliere ich meine Daten, wenn der Anbieter insolent ist?
     - Was passiet mit meinen Daten bei einer Insolvenz des Anbieters?
@@ -419,6 +440,7 @@ nlu:
     - Für welche Zwecke nutze ich On-Premise oder On-Demand?
     - Wann nutze ich On-Premise und wann On-Demand?
     - wann nutze ich on premise Lösungen?
+    - wann nutze ich on demand lösungen?
     - was ist der unterschied zwischen on Premise und on demand?
 - intent: faq/services
   examples: |
@@ -427,6 +449,7 @@ nlu:
     - Welche Dienstleistungen bietet das Cloud Computing?
     - Bietet Cloud Computing Dienstleistungen an?
     - was für Dienstleistungen gibt es beim cloud computing?
+    - was sind services von cloud computing?
 - intent: faq/speech_recognition_speech_identification
   examples: |
     - faq/speech_recognition_speech_identification
@@ -734,6 +757,11 @@ nlu:
     - gib mir nen kontakt
     - gib mir ne e-mail
     - ansprechpartner
+    - Kontakt
+    - Telefon
+    - Telefonnummer
+    - Mail Adresse
+    - E-Mail
     - wer ist mein ansprechpartner
     - ich will eine Email Adresse
     - ich will jemanden kontaktieren
@@ -742,30 +770,37 @@ nlu:
   examples: |
     - Lingen
     - contact/geschaeftsstelle_lingen
+    - Wer ist mein Ansprechpartner für die Geschäftsstelle Lingen?
 - intent: contact/geschaeftsstelle_muenster
   examples: |
     - Münster
     - contact/geschaeftsstelle_muenster
+    - Wer ist mein Ansprechpartner für die Geschäftsstelle Münster?
 - intent: contact/oeffentlichkeitsarbeit
   examples: |
     - Öffentlichkeitsarbeit
     - contact/oeffentlichkeitsarbeit
+    - Wer ist mein Ansprechpartner für die Öffentlichkeitsarbeit?
 - intent: contact/ki_osnabrueck
   examples: |
     - KI Standort Osnabrück
     - contact/ki_osnabrueck
+    - Wer ist mein Ansprechpartner für KI am Standort Osnabrück?
 - intent: contact/ki_lingen
   examples: |
     - KI Standort Lingen
     - contact/ki_lingen
+    - Wer ist mein Ansprechpartner für KI am Standort Lingen?
 - intent: contact/ki_emdenleer
   examples: |
     - KI Standort Emden/Leer
     - contact/ki_emdenleer
+    - Wer ist mein Ansprechpartner für KI am Standort Emden/Leer?
 - intent: contact/handelsbranche
   examples: |
     - Handelsbranche
     - contact/handelsbranche
+    - Wer ist mein Ansprechpartner für die Handelsbranche?
 - intent: contact/handwerk
   examples: |
     - Handwerk
@@ -775,10 +810,12 @@ nlu:
   examples: |
     - Agrarbranche
     - contact/agrarbranche
+    - Wer ist mein Ansprechpartner für die Agrarbranche?
 - intent: contact/maritimewirtschaft
   examples: |
     - Maritime Wirtschaft
     - contact/maritimewirtschaft
+    - Wer ist mein Ansprechpartner für die Maritime Wirtschaft?
 - intent: faq/cloud_initial_question
   examples: |
     - faq/cloud_initial_question

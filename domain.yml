@@ -64,6 +64,10 @@ responses:
        - Cloud-Computing 
        - Mittelstand 4.0-Kompetenzzentrum
       Wobei kann ich Ihnen helfen?
+  utter_chitchat/bot_howareyou:
+  - text: Danke der Nachfrage, mir geht es gut.
+  utter_chitchat/bot_thanks:
+  - text: Gern geschehen. Ich hoffe ich konnte Ihnen weiterhelfen. Falls Sie weitere Fragen haben, können Sie diese gerne stellen. Ich versuche sie zu beantworten.
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Das tut mir Leid. Hier, schauen Sie sich das mal an:'
@@ -256,16 +260,16 @@ responses:
     - payload: faq/cloud_introduction
       title: Einführung Cloud
     - payload: faq/cloud_types
-      title: Cloud Arten
+      title: Cloud-Arten
     - payload: faq/cloud_using
-      title: Cloud Nutzung
+      title: Cloud-Nutzung
     - payload: faq/link_mittelstand_agentur_cloud
       title: Mittelstand 4.0‑Agentur Cloud
     - payload: faq/cloud_as_a_service
-      title: Cloud as a service
+      title: Cloud as a Service
     - payload: faq/services
       title: Dienstleistungen Cloud
-    text: Beim Cloud-Computing wird ein Netzwerk mehrerer verteilter externer Rechner genutzt. Quasi eine Wolke aus Rechnern. Es können IT-Infrastrukturen und Dienstleistungen genutzt werden, die nicht auf dem lokalen Rechnern vorgehalten werden müssen, sondern als Dienst gemietet werden. Was wollen Sie noch zur Cloud wissen?
+    text: Beim Cloud-Computing wird ein Netzwerk mehrerer verteilter externer Rechner genutzt. Quasi eine Wolke aus Rechnern. Es können IT-Infrastrukturen und Dienstleistungen genutzt werden, die nicht auf den lokalen Rechnern vorgehalten werden müssen, sondern als Dienst gemietet werden. Was möchten Sie noch zur Cloud wissen?
   utter_faq/cloud_as_a_service:
   - buttons:
     - payload: faq/IaaS
@@ -274,17 +278,17 @@ responses:
       title: Platform as a Service
     - payload: faq/SaaS
       title: Software as a Service
-    text: Cloud as a service bezieht sich auf ein weites Feld von Anwednungen, die Firmen oder End-User on demand nutzen und über das Internet erreichen. Über welche Art von Cloud as Service wollen Sie mehr wissen?
+    text: Cloud as a Service bezieht sich auf ein weites Feld von Anwendungen, die Firmen oder End-User on demand nutzen und über das Internet erreichen. Über welche Art von Cloud as Service möchten Sie mehr wissen?
   utter_faq/cloud_using:
   - buttons:
     - payload: faq/use_of_cloud
-      title: Warum?
+      title: Gründe für Cloud
     - payload: faq/use_of_cloud_not
-      title: Probleme Cloud
+      title: Probleme einer Cloud
     - payload: faq/cloudcomputing_or_ownserver
       title: Cloud oder eigener Server?
     - payload: faq/onpremise_ondemand
-      title: On premise oder in demand?
+      title: On premise oder on demand?
     text: Welche Fragen haben Sie zu der Nutzung einer Cloud?
   utter_faq/link_mittelstand_agentur_cloud:
   - buttons:
@@ -302,7 +306,7 @@ responses:
       title: Kosten
     - payload: faq/mittelstand_agentur_software
       title: Software
-    text: Welche Fragen haben Sie zur Mittelstands 4.0 Agentur Cloud?
+    text: Welche Fragen haben Sie zur Mittelstand 4.0-Agentur Cloud?
   utter_faq/cloud_types:
   - buttons:
     - payload: faq/community_cloud
@@ -312,8 +316,8 @@ responses:
     - payload: private_cloud
       title: Private Cloud
     - payload: public_cloud
-      title: Private Cloud
-    text: Es gibte verschiedene Cloud-Arten. Über welche wollen Sie mehr wissen?
+      title: Public Cloud
+    text: Es gibt verschiedene Cloud-Arten. Über welche möchten Sie mehr wissen?
   utter_faq/ki_initial_question:
   - buttons:
     - payload: faq/ki_modules
@@ -324,7 +328,7 @@ responses:
       title: Nutzung KI
     - payload: faq/ki_topics
       title: Support Kompetenzzentrum
-    text: Als künstliche Intelligenz (eng. „artifical intelligence“) werden alle Anwendungen bezeichnet, die eine Form von Intelligenz zeigen. Haben Sie weitere Fragen zur KI?
+    text: Als künstliche Intelligenz (eng. „artificical intelligence“) werden alle Anwendungen bezeichnet, die eine Form von Intelligenz zeigen. Haben Sie weitere Fragen zur KI?
   utter_faq/ki_modules:
   - buttons:
     - payload: faq/speech_recognition_speech_identification
@@ -338,7 +342,7 @@ responses:
     - payload: faq/data_analytics
       title: Data Analytics
     - payload: faq/text_extraction
-      title: Text Extration
+      title: Text Extraction
     - payload: faq/problem_solving
       title: Problem Solving
     - payload: faq/language_understanding
@@ -347,7 +351,7 @@ responses:
       title: Language Generation
     - payload: faq/predictive_inference
       title: Predictive Inference
-    text: Es gibt verschiedene KI-Module. Über welches Modul wollen Sie mehr erfahren?
+    text: Es gibt verschiedene KI-Module. Über welches Modul möchten Sie mehr erfahren?
   utter_faq/ki_basic_question:
   - buttons:
     - payload: faq/artificial_neural_network
@@ -356,18 +360,18 @@ responses:
       title: Maschinelles Lernen
     - payload: faq/deep_learning
       title: Deep Learning
-    text: Informieren Sie sich über KI Basistechnologogien
+    text: Informieren Sie sich über grundlegende KI-Technologien.
   utter_faq/link_ki_requirements:
   - buttons:
     - payload: faq/ki_companysize
-      title: Unternhemensgröße
+      title: Unternehmensgröße
     - payload: faq/ki_data
       title: Daten
     - payload: faq/ki_use
-      title: Wann sinnvoll?
+      title: Einsatz
     - payload: faq/ki_hardware
       title: Hardware
-    text: Informieren Sie sich über Voraussetzungen für die KI. Wählen Sie aus den folgenden Themen
+    text: Informieren Sie sich über Voraussetzungen für die KI.
 actions:
 - action_get_all_events
 - action_get_events_for_timeframe
