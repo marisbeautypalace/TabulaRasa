@@ -15,6 +15,7 @@ nlu:
     - Kannst du mich begrüßen?
     - begrüße mich bitte
     - sag mir Hallo
+    - was geht?
 - intent: goodbye
   examples: |
     - Schönen Tag
@@ -25,6 +26,7 @@ nlu:
     - Bis dann
     - Bis bald
     - Ciao
+    - tschüss
 - intent: affirm
   examples: |
     - ja
@@ -118,12 +120,16 @@ nlu:
     - die Antwort war falsch
     - die antwort war nicht richtig
     - du hast mir nicht geholfen
+    - das habe ich nicht gefragt
+    - die antwort war falsch
+    - falsche antwort
 - intent: chitchat/bot_infos
   examples: |
     - wobei kannst du mir helfen?
     - was für Fragen kannst du beantworten?
     - Was kannst du?
     - was kannst du alles?
+    - was kannst du?
 - intent: chitchat/bot_howareyou
   examples: |
     - wie geht es dir?
@@ -768,6 +774,7 @@ nlu:
     - ich will eine Email Adresse
     - ich will jemanden kontaktieren
     - Nenne mir einen Kontakt
+    - ich will einen ansprechpartner
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
@@ -829,6 +836,12 @@ nlu:
     - ich will etwas zu cloud wissen
     - Beantworte mir eine Frage zur Cloud
     - Cloud
+    - cloud
+    - Ich habe eine Frage zur Cloud
+    - Beantworte mir Fragen zur Cloud
+    - Ich habe eine Frage zu Cloud
+    - Was macht die Cloud?
+    - was macht cloud?
 - intent: faq/cloud_as_a_service
   examples: |
     - faq/cloud_as_a_service
@@ -860,6 +873,7 @@ nlu:
     - Beantworte mir Fragen zu KI
     - Was ist KI?
     - Mehr Informationen zu KI
+    - Küstliche inteligenz
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
@@ -883,6 +897,22 @@ nlu:
     - Was gibt es für Veranstaltunegn
     - Welche Veranstaltungen habt ihr?
     - Veranstaltungen
+    - welche veranstaltungen habt ihr?
+    - kannst du mir Veranstaltungen zeigen?
+    - was gibt es für Veranstaltungen?
+    - was für Veranstaltungen bietet ihr an?
+    - Welche veranstaltungen gibt es
+    - welche veranstaltungen gibt es?
+    - kannst du mir alle veranstaltungen zeigen
+    - zeig mir veranstaltungen
+    - Gibt es einen Veranstaltungskalender?
+    - Kann ich ein Event buchen?
+    - Habt ihr Events?
+    - Ich möchte Veranstaltungen besuchen.
+    - Gibt es neue Veranstaltungen?
+    - Wann startet die nächste Veranstaltung?`
+    - Wann findet die nächste Veranstaltung statt?
+    - Gibt es Veranstaltungen?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
