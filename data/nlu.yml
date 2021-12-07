@@ -131,6 +131,8 @@ nlu:
     - wie geht es ihnen?
     - wie fühlen sie sich?
     - wie fühlst du dich?
+    - wie gehts?
+    - Wie geht es dir?
 - intent: chitchat/bot_thanks
   examples: |
     - danke

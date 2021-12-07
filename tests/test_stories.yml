@@ -186,3 +186,25 @@ stories:
     user: |-
       die Antwort war falsch
   - action: utter_chitchat
+- story: Story from Conversation ID 6e8dddb450184ef6892f70dc66cb079f
+  steps:
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      cloud
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/link_mittelstand_agentur_cloud
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/mittelstand_agentur_location
+  - action: utter_faq
+  - intent: chitchat
+    user: |-
+      danke
+  - action: utter_chitchat
