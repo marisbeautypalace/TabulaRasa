@@ -233,6 +233,7 @@ nlu:
     - wozu cloud computing?
     - Was kann eine Cloud?
     - Für wen eignet sich der Einsatz von Cloud?
+    - Für wen eignet sich der Einsatz vom Cloud Computing?
 - intent: faq/use_of_cloud_not
   examples: |
     - faq/use_of_cloud_not
@@ -769,6 +770,7 @@ nlu:
     - Was bietet künstliche Intelligenz?
     - Was sind ki Themen?
     - brauchen wir mit KI keine menschen mehr?
+    - Künstliche Intelligenz
 - intent: faq/cloud_computing_topics
   examples: |
     - faq/cloud_computing_topics
@@ -965,6 +967,7 @@ nlu:
     - Was ist KI?
     - Mehr Informationen zu KI
     - Küstliche inteligenz
+    - Ki
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
@@ -1006,6 +1009,8 @@ nlu:
     - Wann startet die nächste Veranstaltung?`
     - Wann findet die nächste Veranstaltung statt?
     - Gibt es Veranstaltungen?
+    - Welche Veranstaltungen gibt es`?
+    - Was gibt es für veranstaltungen?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
