@@ -233,6 +233,7 @@ nlu:
     - wozu cloud computing?
     - Was kann eine Cloud?
     - Für wen eignet sich der Einsatz von Cloud?
+    - Für wen eignet sich der Einsatz vom Cloud Computing?
 - intent: faq/use_of_cloud_not
   examples: |
     - faq/use_of_cloud_not
