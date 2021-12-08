@@ -494,6 +494,9 @@ nlu:
     - kann ich eine public cloud selbst betreiben?
     - wozu braucht man eine public cloud?
     - public_cloud
+    - public cloud
+    - öffentliche Cloud
+    - Wofür nutzt man die öffentliche Cloud?
 - intent: faq/hybrid_cloud
   examples: |
     - faq/hybrid_cloud
@@ -545,6 +548,8 @@ nlu:
     - wie funktioniert spracherknnung?
     - wie kann ich Sprache analysieren?
     - was ist Spracherkennung?
+    - Und was ist Spracherkennung?
+    - Wie kann menschliche Sprache künstlich verarbeitet werden?
 - intent: faq/face_recognition_face_identification
   examples: |
     - faq/face_recognition_face_identification
@@ -650,6 +655,7 @@ nlu:
     - Wie löst ein PC komplexe Probleme?
     - was ist ein neuronales netz?
     - Was ist künstliche Intelligenz?
+    - Wie kann ein menschliches Gehirn durch einen Computer abgebildet werden?
 - intent: faq/machine_learning
   examples: |
     - faq/machine_learning
@@ -797,6 +803,8 @@ nlu:
     - Wie unterstützt ihr das Handwerk beim Thema Digitalisierung?
     - Digitalisierung im Handwerk
     - Wie arbeitet ihr mit dem Handwerk zusammen?
+    - Arbeiten Sie mit dem Handwerk zusammen?
+    - Arbeiten Sie mit dem Handwerk zusammen=
 - intent: faq/maritime_digitalization
   examples: |
     - Wie kann das Kompetenzzentrum meine Reederei im Bereich Digitalisierung unterstützen?
@@ -808,6 +816,7 @@ nlu:
     - wie kann meine Reederei digitaler werden?
     - braucht meine Reederei Digitalisierung?
     - braucht meine werft Digitalisierung?
+    - Wie arbeiten sie mit dem maritimen Bereich zusammen?
 - intent: contact/initial_question
   examples: |
     - Wer ist mein Ansprechpartner?
@@ -902,6 +911,7 @@ nlu:
     - Maritime Wirtschaft
     - contact/maritimewirtschaft
     - Wer ist mein Ansprechpartner für die Maritime Wirtschaft?
+    - Wie können Sie meiner Werft helfen?
 - intent: faq/cloud_initial_question
   examples: |
     - faq/cloud_initial_question
@@ -919,6 +929,8 @@ nlu:
     - Ich habe eine Frage zu Cloud
     - Was macht die Cloud?
     - was macht cloud?
+    - Ichformationen Cloud
+    - Ich suche Informationen zur Cloud
 - intent: faq/cloud_as_a_service
   examples: |
     - faq/cloud_as_a_service
@@ -944,6 +956,7 @@ nlu:
     - Gibt es unterschiedliche Clouds?
     - Cloud Arten
     - Welche Cloud-Arten gibt Es?
+    - Welche Arten von Cloud gibt es?
 - intent: faq/ki_initial_question
   examples: |
     - KI
@@ -958,6 +971,8 @@ nlu:
     - Was gibt es für KI Module?
     - Gibt es KI Bausteine?
     - Welche KI Komponenten gibt es?
+    - Ich suche Informationen zur KI
+    - Welche KI Inhalte gibt es?
 - intent: faq/ki_basic_question
   examples: |
     - faq/ki_basic_question
