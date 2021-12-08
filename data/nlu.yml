@@ -175,6 +175,19 @@ nlu:
     - Wo ist Hamburg?
     - Ich will eine Pizza bestellen
     - ich will ne pizza
+- intent: faq/cloud_or_it
+  examples: |
+    - Wenn ich künftig alles in der Cloud mache, wozu brauche ich meine IT-Abteilung noch?
+    - Was macht die IT-Abteilung in der Zukunft?
+    - Brauche ich noch eine IT Abteilung?
+    - Vorteile IT Abteilung
+    - Was macht die IT?
+    - Was macht die IT-Abteilung in der Zukunft?
+    - Brauche ich zukünftig eine Abteilung für IT wenn ich mit einer Cloud arbeite?
+    - Ist eine IT Abteilung wichtig für das Unternehmen? 
+    - Wie wichtig ist eine IT Abteilung wenn man eine Cloud nutzt?
+    - Cloud und IT-Abteilung
+    - Nutzung Cloud und IT-Abteilung
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - faq/cloudcomputing_or_ownserver
