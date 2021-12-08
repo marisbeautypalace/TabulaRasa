@@ -1,0 +1,690 @@
+[
+  {
+    "text": "Kannst du mich begrüßen?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "hello_world",
+      "confidence": 0.8830656409263611
+    }
+  },
+  {
+    "text": "begrüße mich bitte",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "hello_world",
+      "confidence": 0.9876208901405334
+    }
+  },
+  {
+    "text": "sag mir Hallo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "hello_world",
+      "confidence": 0.9357616305351257
+    }
+  },
+  {
+    "text": "was geht?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9211564064025879
+    }
+  },
+  {
+    "text": "erzähl mir etwas über dich",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7611230611801147
+    }
+  },
+  {
+    "text": "was ist deine Persönlichkeit?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.7182798385620117
+    }
+  },
+  {
+    "text": "du kannst nichts",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9968411922454834
+    }
+  },
+  {
+    "text": "du bist schlecht",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.996556282043457
+    }
+  },
+  {
+    "text": "unfähig",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4362519085407257
+    }
+  },
+  {
+    "text": "unnötig",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7130614519119263
+    }
+  },
+  {
+    "text": "unnütz",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.5147945880889893
+    }
+  },
+  {
+    "text": "mies",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6757614016532898
+    }
+  },
+  {
+    "text": "grausam",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7543596625328064
+    }
+  },
+  {
+    "text": "nicht gut",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9956092238426208
+    }
+  },
+  {
+    "text": "Zeitverschwendung",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9791069626808167
+    }
+  },
+  {
+    "text": "du nervst",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9981849789619446
+    }
+  },
+  {
+    "text": "langweilig",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6430025696754456
+    }
+  },
+  {
+    "text": "Nicht so schlimm",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.788637638092041
+    }
+  },
+  {
+    "text": "du bist super",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9964556694030762
+    }
+  },
+  {
+    "text": "clever",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9886490702629089
+    }
+  },
+  {
+    "text": "schlau",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6035016775131226
+    }
+  },
+  {
+    "text": "du weißt richtig viel",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9938493371009827
+    }
+  },
+  {
+    "text": "du bist intelligent",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9981330037117004
+    }
+  },
+  {
+    "text": "smart",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.959572970867157
+    }
+  },
+  {
+    "text": "qualifiziert",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9990761876106262
+    }
+  },
+  {
+    "text": "bist du bereit?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9947459101676941
+    }
+  },
+  {
+    "text": "kann ich dir Fragen stellen?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9596035480499268
+    }
+  },
+  {
+    "text": "können wir starten?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9925701022148132
+    }
+  },
+  {
+    "text": "bist du jetzt fertig?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9929304122924805
+    }
+  },
+  {
+    "text": "Kann ich dir eine Frage stellen?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9899329543113708
+    }
+  },
+  {
+    "text": "die Antwort war falsch",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9125012755393982
+    }
+  },
+  {
+    "text": "die antwort war nicht richtig",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.8251699805259705
+    }
+  },
+  {
+    "text": "du hast mir nicht geholfen",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9022656679153442
+    }
+  },
+  {
+    "text": "das habe ich nicht gefragt",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.47229984402656555
+    }
+  },
+  {
+    "text": "die antwort war falsch",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9125012755393982
+    }
+  },
+  {
+    "text": "falsche antwort",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3465219736099243
+    }
+  },
+  {
+    "text": "das war mist",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7155941128730774
+    }
+  },
+  {
+    "text": "wobei kannst du mir helfen?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.44415417313575745
+    }
+  },
+  {
+    "text": "was für Fragen kannst du beantworten?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9798941016197205
+    }
+  },
+  {
+    "text": "Was kannst du?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.958184003829956
+    }
+  },
+  {
+    "text": "was kannst du alles?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9254538416862488
+    }
+  },
+  {
+    "text": "was kannst du?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.958184003829956
+    }
+  },
+  {
+    "text": "Wobei kannst du mir helfen?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.44415417313575745
+    }
+  },
+  {
+    "text": "Was kann ich dich fragen?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9734022617340088
+    }
+  },
+  {
+    "text": "Was für Fragen beantwortest du?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5382684469223022
+    }
+  },
+  {
+    "text": "Wie kannst Du mir helfen?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.6762507557868958
+    }
+  },
+  {
+    "text": "Welche Fragen kannst du mir beantworten?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9401071071624756
+    }
+  },
+  {
+    "text": "Schön. Wobei kannst du mir helfen?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.7481350302696228
+    }
+  },
+  {
+    "text": "Welche Fragen kannst Du beantworten?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.8559767007827759
+    }
+  },
+  {
+    "text": "wie geht es dir?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.19952130317687988
+    }
+  },
+  {
+    "text": "geht es dir gut?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9747191667556763
+    }
+  },
+  {
+    "text": "wie geht es ihnen?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.5110608339309692
+    }
+  },
+  {
+    "text": "wie fühlen sie sich?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.965995728969574
+    }
+  },
+  {
+    "text": "wie fühlst du dich?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9141871929168701
+    }
+  },
+  {
+    "text": "wie gehts?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9802817106246948
+    }
+  },
+  {
+    "text": "Wie geht es dir?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.19952130317687988
+    }
+  },
+  {
+    "text": "Wie geht es dir`",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7020882964134216
+    }
+  },
+  {
+    "text": "danke",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5147875547409058
+    }
+  },
+  {
+    "text": "danke für die Informationen",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9998601078987122
+    }
+  },
+  {
+    "text": "danke für die Infos",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9987118244171143
+    }
+  },
+  {
+    "text": "ich bedanke mich",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6379203200340271
+    }
+  },
+  {
+    "text": "vielen Dank",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.5363287329673767
+    }
+  },
+  {
+    "text": "danke für Information",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9808544516563416
+    }
+  },
+  {
+    "text": "ich danke dir",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.2961656451225281
+    }
+  },
+  {
+    "text": "ich danke ihnen",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "contact",
+      "confidence": 0.4520954191684723
+    }
+  },
+  {
+    "text": "dankeschön",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6844892501831055
+    }
+  },
+  {
+    "text": "Dankeschön!",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7531929016113281
+    }
+  },
+  {
+    "text": "Danke für diese Information",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9994835257530212
+    }
+  },
+  {
+    "text": "Danke",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5147875547409058
+    }
+  },
+  {
+    "text": "Toll, danke!",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9709997177124023
+    }
+  },
+  {
+    "text": "Danke, das hat geholfen.",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9754929542541504
+    }
+  },
+  {
+    "text": "vielen Dank#",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.6872062683105469
+    }
+  },
+  {
+    "text": "Danke!",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8381661772727966
+    }
+  },
+  {
+    "text": "Das hat geholfen danke",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.7393434047698975
+    }
+  },
+  {
+    "text": "KI",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5326143503189087
+    }
+  },
+  {
+    "text": "Zeig mir alle Events",
+    "intent": "Events_All",
+    "intent_prediction": {
+      "name": "get_all_events",
+      "confidence": 0.9965965747833252
+    }
+  },
+  {
+    "text": "Alle Veranstaltungen",
+    "intent": "Events_All",
+    "intent_prediction": {
+      "name": "get_all_events",
+      "confidence": 0.9953410625457764
+    }
+  },
+  {
+    "text": "jede Veranstaltung",
+    "intent": "Events_All",
+    "intent_prediction": {
+      "name": "get_all_events",
+      "confidence": 0.9349974393844604
+    }
+  },
+  {
+    "text": "Alle",
+    "intent": "Events_All",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.751054584980011
+    }
+  },
+  {
+    "text": "Zeig mir Kategorien",
+    "intent": "Events_Category",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.3436588644981384
+    }
+  },
+  {
+    "text": "Unterteilung nach Kategorie",
+    "intent": "Events_Category",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.8277258276939392
+    }
+  },
+  {
+    "text": "Veranstaltunen nach Kategorie",
+    "intent": "Events_Category",
+    "intent_prediction": {
+      "name": "get_all_events",
+      "confidence": 0.8146787285804749
+    }
+  },
+  {
+    "text": "Nach Zeitraum",
+    "intent": "Events_Timeframe",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6525253653526306
+    }
+  },
+  {
+    "text": "Zeitpunkt",
+    "intent": "Events_Timeframe",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.5106351375579834
+    }
+  },
+  {
+    "text": "Veranstaltungen nach Zeitpunkt",
+    "intent": "Events_Timeframe",
+    "intent_prediction": {
+      "name": "get_all_events",
+      "confidence": 0.9911630749702454
+    }
+  },
+  {
+    "text": "Gibt es eine Anschrift?",
+    "intent": "contact",
+    "intent_prediction": {
+      "name": "get_all_events",
+      "confidence": 0.4821741580963135
+    }
+  }
+]
