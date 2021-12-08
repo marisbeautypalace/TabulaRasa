@@ -111,7 +111,7 @@ responses:
   utter_faq/mittelstand_agentur_BMWi:
   - text: Die Agentur ist ein Bundesprojekt und wird mit öffentlichen Mitteln des Bundesministeriums für Wirtschaft und Energie gefördert. Die Projektpartner (Fraunhofer IAO, it.emsland und Hochschule Osnabrück) bilden gemeinsam die Mittelstand 4.0-Agentur Cloud und sind für die Umsetzung des Projekts verantwortlich.
   utter_faq/mittelstand_agentur_software:
-  - text: Nein. Die Agentur Cloud wird mit öffentlichen Geldern gefördert und ist angehalten, neutral aufzutreten. Sollten doch einmal Namen von Cloud-Anbietern oder Software-Lösungen fallen, sind diese beispielhaft dargestellt. Es werden keine Marktteilnehmer oder Produkte bevorzugt.
+  - text: Die Agentur Cloud wird mit öffentlichen Geldern gefördert und ist angehalten, neutral aufzutreten. Sollten doch einmal Namen von Cloud-Anbietern oder Software-Lösungen fallen, sind diese beispielhaft dargestellt. Es werden keine Marktteilnehmer oder Produkte bevorzugt.
   utter_faq/IaaS:
   - text: IaaS (Infrastructure as a Service) ist die unterste Ebene der Cloud-Modelle. In diesem Bereich wird vom Anwender virtuelle Hardware als Infrastruktur beim Cloud-Service-Provider (CSP) gemietet und in die unternehmensinterne IT-Landschaft integriert. Klassische Beispiele sind Speicherplatz, Rechenleistung oder Netzwerkbandbreite.
   utter_faq/PaaS:
