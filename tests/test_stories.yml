@@ -464,3 +464,21 @@ stories:
     user: |-
       Wie kann man mit der Agentur kooperieren?
   - action: utter_faq
+- story: Story from Conversation ID 14227d95fb6d4e34bbf79ec5bedfde87
+  steps:
+  - intent: faq
+    user: |-
+      Wie kann ich eine Cloud nutzen?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/cloud_as_a_service
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/PaaS
+  - action: utter_faq
+  - intent: chitchat
+    user: |-
+      Danke
+  - action: utter_chitchat

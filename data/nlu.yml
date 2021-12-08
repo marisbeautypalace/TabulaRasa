@@ -173,6 +173,7 @@ nlu:
     - Danke, das hat geholfen.
     - vielen Dank#
     - Danke!
+    - Das hat geholfen danke
 - intent: out_of_scope
   examples: |
     - ich will eine Pizza bestellen
@@ -246,6 +247,7 @@ nlu:
     - Wann ist Cloud problematisch?
     - Wann ist Cloud Computing problematisch?
     - Und für wen eignet sich der Einsatz von Cloud nicht?
+    - Wann ist eine Cloud nicht gut?
 - intent: faq/cloud_introduction
   examples: |
     - faq/cloud_introduction
@@ -272,6 +274,7 @@ nlu:
     - Wie führe ich eine Cloud in meinem unternehmen ein?
     - Wie führe ich eine Cloud in meinem Unternehmen ein?
     - Ich suche Informationen zu Cloud Computing
+    - Ich möchte eine Cloud in meinem Unternehmen einführen
 - intent: faq/network_breakdown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
@@ -301,6 +304,7 @@ nlu:
     - Kann ich noch arbeiten, wenn das Internet nicht mehr funktioniert?
     - Was passiert bei einem Netzwerkausfall?
     - Ist mein Unternehmen bei einem Netzwerkzusammenbruch noch arbeitsfähig?
+    - Was passiert wenn mein Internet ausfällt?
 - intent: faq/range_of_internet
   examples: |
     - Welche Bandbreite benötige ich, um Cloud Computing nutzen zu können?
@@ -316,6 +320,7 @@ nlu:
     - Wie stark muss die Internetverbindung sein?
     - Welche Bandbreite brauche ich?
     - Welche Bandbreite benötige ich für die Cloud Nutzung?
+    - Welche Bandbreite brauche ich für Cloud?
 - intent: faq/provider_change
   examples: |
     - Welche Datenformat und Datenträger sollte man für die Rückgabe der Daten im Falle eines Anbieterwechsels wählen?
@@ -382,6 +387,7 @@ nlu:
     - Wie hoch sind die Kosten für die Leistungen der Mittelstand 4.0-Agentur?
     - Was bietet das Kompetenzzentrum an?
     - Sind die Angebote der Agentur kostenlos nutzbar?
+    - Sind die Angebote der Agentur kostenlos?
 - intent: faq/mittelstand_agentur_location
   examples: |
     - faq/mittelstand_agentur_location
@@ -400,6 +406,8 @@ nlu:
     - Hat die Agentur einen Unternehmenssitz?
     - Wo hat die Agentur ihren Hauptsitz?
     - Ich suche Informationen zur Mittelstand 4.0 Agentur
+    - Wie lautet die Adresse der Agentur?
+    - Ich habe Fragen zur Agentur 4.0
 - intent: faq/mittelstand_agentur_BMWi
   examples: |
     - faq/mittelstand_agentur_BMWi
@@ -412,6 +420,7 @@ nlu:
     - Wie ist der Kontakt zum Bundeswirtschaftsministerium?
     - Was hat die Mittelstand 4.0-Agentur mit dem Bundeswirtschaftsministerium zutun?
     - Welche Beziehung habt ihr zum Wirtschaftsministerium?
+    - Was macht ihr mit dem Bundesministerium für Wirtschaft?
 - intent: faq/mittelstand_agentur_software
   examples: |
     - faq/mittelstand_agentur_software
@@ -701,6 +710,7 @@ nlu:
     - ich will anderen Unternehmen helfen
     - Was kostet eine Kooperation?
     - Kostet eine Kooperation mit dem Kompetenzzentrum etwas?
+    - Wie kann man mit der Agentur kooperieren?
 - intent: faq/ki_companysize
   examples: |
     - faq/ki_companysize
@@ -786,6 +796,7 @@ nlu:
     - Was kann ich als Handwerker zum Thema Digitalisierung tun?
     - Wie unterstützt ihr das Handwerk beim Thema Digitalisierung?
     - Digitalisierung im Handwerk
+    - Wie arbeitet ihr mit dem Handwerk zusammen?
 - intent: faq/maritime_digitalization
   examples: |
     - Wie kann das Kompetenzzentrum meine Reederei im Bereich Digitalisierung unterstützen?
@@ -840,6 +851,7 @@ nlu:
     - Ich suche einen Ansprechpartner für Münster
     - Das freut mich. Ich suche einen Ansprechpartner.
     - Wer sind meine Ansprechpartner?
+    - Gibt es dort Ansprechpartner?
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
