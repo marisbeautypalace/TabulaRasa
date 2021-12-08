@@ -1,9 +1,657 @@
 {
+  "chitchat/bot_wrong": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "": 7
+    }
+  },
+  "contact/agrarbranche": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3,
+    "confused_with": {
+      "contact/ki_osnabrueck": 1
+    }
+  },
+  "faq/community_cloud": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "faq/machine_learning": {
+    "precision": 1.0,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9655172413793104,
+    "support": 15,
+    "confused_with": {
+      "faq/cloudcomputing_or_ownserver": 1
+    }
+  },
+  "faq/deep_learning": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
+    "confused_with": {
+      "faq/cloud_using": 1
+    }
+  },
+  "faq/mittelstand_agentur_support": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "faq/mittelstand_agentur_cooperation": 3,
+      "faq/mittelstand_agentur_offers": 1
+    }
+  },
+  "faq/bot": {
+    "precision": 0.625,
+    "recall": 1.0,
+    "f1-score": 0.7692307692307693,
+    "support": 10,
+    "confused_with": {}
+  },
+  "contact/handwerk": {
+    "precision": 0.42857142857142855,
+    "recall": 1.0,
+    "f1-score": 0.6,
+    "support": 3,
+    "confused_with": {}
+  },
+  "faq/cloud_using": {
+    "precision": 0.21428571428571427,
+    "recall": 0.75,
+    "f1-score": 0.3333333333333333,
+    "support": 4,
+    "confused_with": {
+      "faq/use_of_cloud": 1
+    }
+  },
+  "faq/problem_solving": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "faq/cloud_types": 1
+    }
+  },
+  "faq/ki_hardware": {
+    "precision": 0.8461538461538461,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.8799999999999999,
+    "support": 12,
+    "confused_with": {
+      "faq/cloudcomputing_or_ownserver": 1
+    }
+  },
+  "faq/link_ki_requirements": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "faq/cloudcomputing_or_ownserver": 1,
+      "faq/ki_companysize": 1,
+      "faq/bot": 1
+    }
+  },
+  "faq/onpremise_ondemand": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 7,
+    "confused_with": {}
+  },
+  "faq/mittelstand_agentur_offers": {
+    "precision": 0.8421052631578947,
+    "recall": 0.9411764705882353,
+    "f1-score": 0.8888888888888888,
+    "support": 17,
+    "confused_with": {
+      "faq/mittelstand_agentur_cooperation": 1
+    }
+  },
+  "faq/speech_recognition_speech_identification": {
+    "precision": 1.0,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.9375,
+    "support": 17,
+    "confused_with": {
+      "faq/cloud_using": 1,
+      "faq/bot": 1
+    }
+  },
+  "faq/security": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 11,
+    "confused_with": {
+      "faq/bot": 1
+    }
+  },
+  "faq/audio_recognition_audio_identification": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {
+      "faq/cloud_using": 1
+    }
+  },
+  "faq/ki_data": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 3,
+    "confused_with": {
+      "faq/cloudcomputing_or_ownserver": 1,
+      "faq/ki_hardware": 1
+    }
+  },
+  "faq/language_generation": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "faq/cloud_using": 1
+    }
+  },
+  "faq/ki_topics": {
+    "precision": 0.6875,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.7857142857142857,
+    "support": 12,
+    "confused_with": {
+      "faq/artificial_neural_network": 1
+    }
+  },
+  "chitchat/bot_bad": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {
+      "": 12
+    }
+  },
   "faq/image_recognition_image_identification": {
     "precision": 1.0,
     "recall": 0.9090909090909091,
     "f1-score": 0.9523809523809523,
     "support": 11,
+    "confused_with": {
+      "faq/cloud_using": 1
+    }
+  },
+  "contact/initial_question": {
+    "precision": 0.9767441860465116,
+    "recall": 1.0,
+    "f1-score": 0.988235294117647,
+    "support": 42,
+    "confused_with": {}
+  },
+  "faq/link_mittelstand_agentur_cloud": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "faq/mittelstand_agentur": 3
+    }
+  },
+  "faq/predictive_maintenance": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "contact/oeffentlichkeitsarbeit": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3,
+    "confused_with": {
+      "contact/handwerk": 1
+    }
+  },
+  "faq/ki_modules": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "faq/ki_companysize": 4,
+      "faq/use_of_cloud": 1,
+      "faq/cloudcomputing_or_ownserver": 1
+    }
+  },
+  "faq/cloudcomputing_or_ownserver": {
+    "precision": 0.5454545454545454,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.6857142857142856,
+    "support": 13,
+    "confused_with": {
+      "faq/use_of_cloud": 1
+    }
+  },
+  "faq/provider_change": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "faq/mittelstand_agentur_cooperation": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 12,
+    "confused_with": {}
+  },
+  "faq/cloud_as_a_service": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "faq/PaaS": 1,
+      "faq/cloudcomputing_or_ownserver": 1
+    }
+  },
+  "faq/mittelstand_agentur_location": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 18,
+    "confused_with": {
+      "faq/mittelstand_agentur": 2,
+      "faq/mittelstand_agentur_cooperation": 1
+    }
+  },
+  "faq/mittelstand_agentur_BMWi": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 11,
+    "confused_with": {
+      "faq/mittelstand_agentur_offers": 1
+    }
+  },
+  "contact/ki_lingen": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3,
+    "confused_with": {
+      "contact/ki_osnabrueck": 1
+    }
+  },
+  "faq/mittelstand_agentur_software": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "faq/language_understanding": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 7,
+    "confused_with": {
+      "faq/cloud_types": 1
+    }
+  },
+  "faq/use_of_cloud_not": {
+    "precision": 1.0,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.9600000000000001,
+    "support": 13,
+    "confused_with": {
+      "faq/use_of_cloud": 1
+    }
+  },
+  "faq/cloud_initial_question": {
+    "precision": 0.8888888888888888,
+    "recall": 0.47058823529411764,
+    "f1-score": 0.6153846153846153,
+    "support": 17,
+    "confused_with": {
+      "faq/use_of_cloud": 6,
+      "faq/services": 1
+    }
+  },
+  "chitchat/bot_infos": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {
+      "": 12
+    }
+  },
+  "chitchat/bot_ready": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "": 5
+    }
+  },
+  "faq/use_of_cloud": {
+    "precision": 0.4634146341463415,
+    "recall": 0.95,
+    "f1-score": 0.6229508196721312,
+    "support": 20,
+    "confused_with": {
+      "faq/cloud_initial_question": 1
+    }
+  },
+  "contact/ki_emdenleer": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "faq/hybrid_cloud": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "faq/predictive_inference": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "faq/cloudcomputing_or_ownserver": 1
+    }
+  },
+  "chitchat/bot_howareyou": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "": 8
+    }
+  },
+  "faq/maritime_digitalization": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "faq/ki_topics": 1
+    }
+  },
+  "faq/ki_use": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "faq/ki_companysize": 2,
+      "faq/cloudcomputing_or_ownserver": 1
+    }
+  },
+  "chitchat/bot_thanks": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 17,
+    "confused_with": {
+      "": 17
+    }
+  },
+  "faq/artificial_neural_network": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "faq/cloud_using": 1
+    }
+  },
+  "faq/services": {
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.7692307692307692,
+    "support": 6,
+    "confused_with": {
+      "faq/use_of_cloud": 1
+    }
+  },
+  "faq/craft_digitalization": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
+  "contact/geschaeftsstelle_muenster": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3,
+    "confused_with": {
+      "contact/handwerk": 1
+    }
+  },
+  "contact/ki_osnabrueck": {
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1-score": 0.7499999999999999,
+    "support": 3,
+    "confused_with": {}
+  },
+  "faq/cloud_computing_topics": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5,
+    "confused_with": {
+      "faq/onpremise_ondemand": 1,
+      "faq/cloud_introduction": 1
+    }
+  },
+  "faq/cloud_introduction": {
+    "precision": 0.92,
+    "recall": 0.92,
+    "f1-score": 0.92,
+    "support": 25,
+    "confused_with": {
+      "faq/use_of_cloud": 2
+    }
+  },
+  "chitchat/bot_clever": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "": 7
+    }
+  },
+  "faq/SaaS": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 7,
+    "confused_with": {
+      "faq/IaaS": 1
+    }
+  },
+  "faq/text_extraction": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 7,
+    "confused_with": {
+      "faq/cloud_types": 1
+    }
+  },
+  "faq/cloud_types": {
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1-score": 0.7499999999999999,
+    "support": 6,
+    "confused_with": {}
+  },
+  "faq/ki_companysize": {
+    "precision": 0.5789473684210527,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.7096774193548387,
+    "support": 12,
+    "confused_with": {
+      "faq/cloudcomputing_or_ownserver": 1
+    }
+  },
+  "faq/private_cloud": {
+    "precision": 0.8461538461538461,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.8799999999999999,
+    "support": 12,
+    "confused_with": {
+      "faq/public_cloud": 1
+    }
+  },
+  "faq/PaaS": {
+    "precision": 0.7272727272727273,
+    "recall": 1.0,
+    "f1-score": 0.8421052631578948,
+    "support": 8,
+    "confused_with": {}
+  },
+  "faq/mittelstand_agentur": {
+    "precision": 0.7307692307692307,
+    "recall": 0.95,
+    "f1-score": 0.8260869565217392,
+    "support": 20,
+    "confused_with": {
+      "faq/cloud_types": 1
+    }
+  },
+  "faq/range_of_internet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "faq/IaaS": {
+    "precision": 0.875,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.823529411764706,
+    "support": 9,
+    "confused_with": {
+      "faq/PaaS": 2
+    }
+  },
+  "contact/maritimewirtschaft": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
+    "confused_with": {
+      "contact/initial_question": 1
+    }
+  },
+  "faq/face_recognition_face_identification": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {
+      "faq/cloud_using": 1
+    }
+  },
+  "faq/public_cloud": {
+    "precision": 0.875,
+    "recall": 0.5384615384615384,
+    "f1-score": 0.6666666666666667,
+    "support": 13,
+    "confused_with": {
+      "faq/use_of_cloud": 3,
+      "faq/private_cloud": 2
+    }
+  },
+  "contact/geschaeftsstelle_lingen": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3,
+    "confused_with": {
+      "contact/handwerk": 1
+    }
+  },
+  "faq/cloud_or_it": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10,
+    "confused_with": {
+      "faq/use_of_cloud": 6,
+      "faq/mittelstand_agentur_cooperation": 1,
+      "faq/services": 1
+    }
+  },
+  "faq/agriculture_digitalization": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "contact/handelsbranche": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3,
+    "confused_with": {
+      "contact/handwerk": 1
+    }
+  },
+  "faq/ki_basic_question": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "faq/ki_topics": 2,
+      "faq/cloud_using": 1
+    }
+  },
+  "faq/network_breakdown": {
+    "precision": 1.0,
+    "recall": 0.9642857142857143,
+    "f1-score": 0.9818181818181818,
+    "support": 28,
+    "confused_with": {
+      "faq/bot": 1
+    }
+  },
+  "faq/data_analytics": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
     "confused_with": {
       "faq/cloud_using": 1
     }
@@ -19,665 +667,22 @@
       "faq/ki_hardware": 1
     }
   },
-  "contact/maritimewirtschaft": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "faq/link_ki_requirements": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 4,
-    "confused_with": {
-      "faq/cloudcomputing_or_ownserver": 1,
-      "faq/ki_companysize": 1,
-      "faq/bot": 1
-    }
-  },
-  "contact/geschaeftsstelle_muenster": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 3,
-    "confused_with": {
-      "contact/handwerk": 1
-    }
-  },
-  "faq/link_mittelstand_agentur_cloud": {
-    "precision": 1.0,
-    "recall": 0.25,
-    "f1-score": 0.4,
-    "support": 4,
-    "confused_with": {
-      "faq/mittelstand_agentur": 3
-    }
-  },
-  "faq/artificial_neural_network": {
-    "precision": 0.9285714285714286,
-    "recall": 0.9285714285714286,
-    "f1-score": 0.9285714285714286,
-    "support": 14,
-    "confused_with": {
-      "faq/cloud_using": 1
-    }
-  },
-  "faq/audio_recognition_audio_identification": {
-    "precision": 1.0,
-    "recall": 0.875,
-    "f1-score": 0.9333333333333333,
-    "support": 8,
-    "confused_with": {
-      "faq/cloud_using": 1
-    }
-  },
-  "faq/language_understanding": {
-    "precision": 1.0,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.923076923076923,
-    "support": 7,
-    "confused_with": {
-      "faq/cloud_types": 1
-    }
-  },
-  "faq/mittelstand_agentur_cooperation": {
-    "precision": 0.6666666666666666,
-    "recall": 1.0,
-    "f1-score": 0.8,
-    "support": 12,
-    "confused_with": {}
-  },
-  "contact/ki_osnabrueck": {
-    "precision": 0.6,
-    "recall": 1.0,
-    "f1-score": 0.7499999999999999,
-    "support": 3,
-    "confused_with": {}
-  },
-  "faq/cloud_using": {
-    "precision": 0.21428571428571427,
-    "recall": 0.75,
-    "f1-score": 0.3333333333333333,
-    "support": 4,
-    "confused_with": {
-      "faq/use_of_cloud": 1
-    }
-  },
-  "faq/community_cloud": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "contact/ki_emdenleer": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "faq/ki_use": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 3,
-    "confused_with": {
-      "faq/ki_companysize": 2,
-      "faq/cloudcomputing_or_ownserver": 1
-    }
-  },
-  "faq/provider_change": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 11,
-    "confused_with": {}
-  },
-  "faq/onpremise_ondemand": {
-    "precision": 0.875,
-    "recall": 1.0,
-    "f1-score": 0.9333333333333333,
-    "support": 7,
-    "confused_with": {}
-  },
-  "faq/cloud_initial_question": {
-    "precision": 0.8888888888888888,
-    "recall": 0.5333333333333333,
-    "f1-score": 0.6666666666666667,
-    "support": 15,
-    "confused_with": {
-      "faq/use_of_cloud": 4,
-      "faq/services": 1
-    }
-  },
-  "faq/cloud_or_it": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 10,
-    "confused_with": {
-      "faq/use_of_cloud": 6,
-      "faq/mittelstand_agentur_cooperation": 1,
-      "faq/services": 1
-    }
-  },
-  "chitchat/bot_ready": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 5,
-    "confused_with": {
-      "": 5
-    }
-  },
-  "faq/ki_data": {
-    "precision": 1.0,
-    "recall": 0.3333333333333333,
-    "f1-score": 0.5,
-    "support": 3,
-    "confused_with": {
-      "faq/cloudcomputing_or_ownserver": 1,
-      "faq/ki_hardware": 1
-    }
-  },
-  "faq/mittelstand_agentur_support": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 4,
-    "confused_with": {
-      "faq/mittelstand_agentur_cooperation": 3,
-      "faq/mittelstand_agentur_offers": 1
-    }
-  },
-  "faq/text_extraction": {
-    "precision": 1.0,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.923076923076923,
-    "support": 7,
-    "confused_with": {
-      "faq/cloud_types": 1
-    }
-  },
-  "faq/use_of_cloud": {
-    "precision": 0.5277777777777778,
-    "recall": 0.95,
-    "f1-score": 0.6785714285714285,
-    "support": 20,
-    "confused_with": {
-      "faq/cloud_initial_question": 1
-    }
-  },
-  "faq/face_recognition_face_identification": {
-    "precision": 1.0,
-    "recall": 0.875,
-    "f1-score": 0.9333333333333333,
-    "support": 8,
-    "confused_with": {
-      "faq/cloud_using": 1
-    }
-  },
-  "faq/ki_hardware": {
-    "precision": 0.8461538461538461,
-    "recall": 0.9166666666666666,
-    "f1-score": 0.8799999999999999,
-    "support": 12,
-    "confused_with": {
-      "faq/cloudcomputing_or_ownserver": 1
-    }
-  },
-  "faq/range_of_internet": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 14,
-    "confused_with": {}
-  },
-  "contact/oeffentlichkeitsarbeit": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 3,
-    "confused_with": {
-      "contact/handwerk": 1
-    }
-  },
-  "faq/SaaS": {
-    "precision": 1.0,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.923076923076923,
-    "support": 7,
-    "confused_with": {
-      "faq/IaaS": 1
-    }
-  },
-  "faq/mittelstand_agentur_software": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 15,
-    "confused_with": {}
-  },
-  "faq/mittelstand_agentur_BMWi": {
-    "precision": 1.0,
-    "recall": 0.9090909090909091,
-    "f1-score": 0.9523809523809523,
-    "support": 11,
-    "confused_with": {
-      "faq/mittelstand_agentur_offers": 1
-    }
-  },
-  "chitchat/bot_bad": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 12,
-    "confused_with": {
-      "": 12
-    }
-  },
-  "faq/problem_solving": {
-    "precision": 1.0,
-    "recall": 0.8333333333333334,
-    "f1-score": 0.9090909090909091,
-    "support": 6,
-    "confused_with": {
-      "faq/cloud_types": 1
-    }
-  },
-  "faq/cloud_types": {
-    "precision": 0.5555555555555556,
-    "recall": 1.0,
-    "f1-score": 0.7142857142857143,
-    "support": 5,
-    "confused_with": {}
-  },
-  "faq/ki_modules": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 4,
-    "confused_with": {
-      "faq/ki_companysize": 2,
-      "faq/use_of_cloud": 1,
-      "faq/cloudcomputing_or_ownserver": 1
-    }
-  },
-  "faq/predictive_maintenance": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "faq/machine_learning": {
-    "precision": 1.0,
-    "recall": 0.9333333333333333,
-    "f1-score": 0.9655172413793104,
-    "support": 15,
-    "confused_with": {
-      "faq/cloudcomputing_or_ownserver": 1
-    }
-  },
-  "faq/language_generation": {
-    "precision": 1.0,
-    "recall": 0.8,
-    "f1-score": 0.888888888888889,
-    "support": 5,
-    "confused_with": {
-      "faq/cloud_using": 1
-    }
-  },
-  "faq/deep_learning": {
-    "precision": 1.0,
-    "recall": 0.75,
-    "f1-score": 0.8571428571428571,
-    "support": 4,
-    "confused_with": {
-      "faq/cloud_using": 1
-    }
-  },
-  "contact/handwerk": {
-    "precision": 0.42857142857142855,
-    "recall": 1.0,
-    "f1-score": 0.6,
-    "support": 3,
-    "confused_with": {}
-  },
-  "faq/cloud_as_a_service": {
-    "precision": 1.0,
-    "recall": 0.5,
-    "f1-score": 0.6666666666666666,
-    "support": 4,
-    "confused_with": {
-      "faq/PaaS": 1,
-      "faq/cloudcomputing_or_ownserver": 1
-    }
-  },
-  "faq/craft_digitalization": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 11,
-    "confused_with": {}
-  },
-  "chitchat/bot_infos": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 12,
-    "confused_with": {
-      "": 12
-    }
-  },
-  "faq/cloud_introduction": {
-    "precision": 0.92,
-    "recall": 0.92,
-    "f1-score": 0.92,
-    "support": 25,
-    "confused_with": {
-      "faq/use_of_cloud": 2
-    }
-  },
-  "faq/ki_companysize": {
-    "precision": 0.6470588235294118,
-    "recall": 0.9166666666666666,
-    "f1-score": 0.7586206896551724,
-    "support": 12,
-    "confused_with": {
-      "faq/cloudcomputing_or_ownserver": 1
-    }
-  },
-  "chitchat/bot_howareyou": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 8,
-    "confused_with": {
-      "": 8
-    }
-  },
-  "faq/cloudcomputing_or_ownserver": {
-    "precision": 0.5454545454545454,
-    "recall": 0.9230769230769231,
-    "f1-score": 0.6857142857142856,
-    "support": 13,
-    "confused_with": {
-      "faq/use_of_cloud": 1
-    }
-  },
-  "faq/use_of_cloud_not": {
-    "precision": 1.0,
-    "recall": 0.9230769230769231,
-    "f1-score": 0.9600000000000001,
-    "support": 13,
-    "confused_with": {
-      "faq/use_of_cloud": 1
-    }
-  },
-  "faq/security": {
-    "precision": 1.0,
-    "recall": 0.9090909090909091,
-    "f1-score": 0.9523809523809523,
-    "support": 11,
-    "confused_with": {
-      "faq/bot": 1
-    }
-  },
-  "faq/IaaS": {
-    "precision": 0.875,
-    "recall": 0.7777777777777778,
-    "f1-score": 0.823529411764706,
-    "support": 9,
-    "confused_with": {
-      "faq/PaaS": 2
-    }
-  },
-  "faq/data_analytics": {
-    "precision": 1.0,
-    "recall": 0.9,
-    "f1-score": 0.9473684210526316,
-    "support": 10,
-    "confused_with": {
-      "faq/cloud_using": 1
-    }
-  },
-  "contact/initial_question": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 42,
-    "confused_with": {}
-  },
-  "faq/predictive_inference": {
-    "precision": 1.0,
-    "recall": 0.8888888888888888,
-    "f1-score": 0.9411764705882353,
-    "support": 9,
-    "confused_with": {
-      "faq/cloudcomputing_or_ownserver": 1
-    }
-  },
-  "faq/mittelstand_agentur_offers": {
-    "precision": 0.8421052631578947,
-    "recall": 0.9411764705882353,
-    "f1-score": 0.8888888888888888,
-    "support": 17,
-    "confused_with": {
-      "faq/mittelstand_agentur_cooperation": 1
-    }
-  },
-  "chitchat/bot_clever": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 7,
-    "confused_with": {
-      "": 7
-    }
-  },
-  "faq/maritime_digitalization": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 9,
-    "confused_with": {}
-  },
-  "faq/PaaS": {
-    "precision": 0.7272727272727273,
-    "recall": 1.0,
-    "f1-score": 0.8421052631578948,
-    "support": 8,
-    "confused_with": {}
-  },
-  "faq/network_breakdown": {
-    "precision": 1.0,
-    "recall": 0.9642857142857143,
-    "f1-score": 0.9818181818181818,
-    "support": 28,
-    "confused_with": {
-      "faq/bot": 1
-    }
-  },
-  "faq/mittelstand_agentur_location": {
-    "precision": 1.0,
-    "recall": 0.7777777777777778,
-    "f1-score": 0.8750000000000001,
-    "support": 18,
-    "confused_with": {
-      "faq/mittelstand_agentur": 2,
-      "faq/mittelstand_agentur_cooperation": 1
-    }
-  },
-  "chitchat/bot_wrong": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 7,
-    "confused_with": {
-      "": 7
-    }
-  },
-  "faq/speech_recognition_speech_identification": {
-    "precision": 1.0,
-    "recall": 0.9333333333333333,
-    "f1-score": 0.9655172413793104,
-    "support": 15,
-    "confused_with": {
-      "faq/cloud_using": 1
-    }
-  },
-  "faq/mittelstand_agentur": {
-    "precision": 0.7307692307692307,
-    "recall": 0.95,
-    "f1-score": 0.8260869565217392,
-    "support": 20,
-    "confused_with": {
-      "faq/cloud_types": 1
-    }
-  },
-  "faq/bot": {
-    "precision": 0.6666666666666666,
-    "recall": 1.0,
-    "f1-score": 0.8,
-    "support": 10,
-    "confused_with": {}
-  },
-  "faq/private_cloud": {
-    "precision": 0.8461538461538461,
-    "recall": 0.9166666666666666,
-    "f1-score": 0.8799999999999999,
-    "support": 12,
-    "confused_with": {
-      "faq/public_cloud": 1
-    }
-  },
-  "faq/services": {
-    "precision": 0.7142857142857143,
-    "recall": 0.8333333333333334,
-    "f1-score": 0.7692307692307692,
-    "support": 6,
-    "confused_with": {
-      "faq/use_of_cloud": 1
-    }
-  },
-  "faq/cloud_computing_topics": {
-    "precision": 1.0,
-    "recall": 0.6,
-    "f1-score": 0.7499999999999999,
-    "support": 5,
-    "confused_with": {
-      "faq/onpremise_ondemand": 1,
-      "faq/cloud_introduction": 1
-    }
-  },
-  "faq/agriculture_digitalization": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 12,
-    "confused_with": {}
-  },
-  "contact/geschaeftsstelle_lingen": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 3,
-    "confused_with": {
-      "contact/handwerk": 1
-    }
-  },
-  "faq/ki_topics": {
-    "precision": 0.7333333333333333,
-    "recall": 0.9166666666666666,
-    "f1-score": 0.8148148148148148,
-    "support": 12,
-    "confused_with": {
-      "faq/artificial_neural_network": 1
-    }
-  },
-  "contact/handelsbranche": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 3,
-    "confused_with": {
-      "contact/handwerk": 1
-    }
-  },
-  "faq/public_cloud": {
-    "precision": 0.875,
-    "recall": 0.7,
-    "f1-score": 0.7777777777777777,
-    "support": 10,
-    "confused_with": {
-      "faq/private_cloud": 2,
-      "faq/cloudcomputing_or_ownserver": 1
-    }
-  },
-  "faq/ki_basic_question": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 3,
-    "confused_with": {
-      "faq/ki_topics": 2,
-      "faq/cloud_using": 1
-    }
-  },
-  "faq/hybrid_cloud": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
-    "confused_with": {}
-  },
-  "chitchat/bot_thanks": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 17,
-    "confused_with": {
-      "": 17
-    }
-  },
-  "contact/ki_lingen": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 3,
-    "confused_with": {
-      "contact/ki_osnabrueck": 1
-    }
-  },
-  "contact/agrarbranche": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 3,
-    "confused_with": {
-      "contact/ki_osnabrueck": 1
-    }
-  },
   "micro avg": {
-    "precision": 0.8531684698608965,
-    "recall": 0.772027972027972,
-    "f1-score": 0.8105726872246696,
-    "support": 715
+    "precision": 0.8413897280966768,
+    "recall": 0.763013698630137,
+    "f1-score": 0.800287356321839,
+    "support": 730
   },
   "macro avg": {
-    "precision": 0.7322969928565088,
-    "recall": 0.7014473667027845,
-    "f1-score": 0.6970099728070425,
-    "support": 715
+    "precision": 0.7297440446527335,
+    "recall": 0.6932828660847236,
+    "f1-score": 0.6901465349116145,
+    "support": 730
   },
   "weighted avg": {
-    "precision": 0.7706637313987549,
-    "recall": 0.772027972027972,
-    "f1-score": 0.7585609817372868,
-    "support": 715
+    "precision": 0.7660295298129692,
+    "recall": 0.763013698630137,
+    "f1-score": 0.7495292465945474,
+    "support": 730
   }
 }

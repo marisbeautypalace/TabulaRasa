@@ -177,6 +177,26 @@ stories:
   - action: utter_faq
   - intent: chitchat  # predicted: nlu_fallback: Danke
   - action: utter_chitchat  # predicted: action_default_fallback
+- story: Story from Conversation ID 215f9e6b1f054a5eaffe869997728a90 (./tests/test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: faq
+  - action: utter_faq
+  - intent: faq
+  - action: utter_faq
+  - intent: chitchat  # predicted: nlu_fallback: Danke
+  - action: utter_chitchat  # predicted: action_default_fallback
+- story: Story from Conversation ID db7b03506c9345c39c7e33e4ce94f190 (./tests/test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: faq
+  - action: utter_faq
+  - intent: chitchat  # predicted: nlu_fallback: danke
+  - action: utter_chitchat  # predicted: action_default_fallback
+  - intent: chitchat  # predicted: nlu_fallback: falsche antwort
+  - action: utter_chitchat  # predicted: action_default_fallback
 - story: happy path 2 (./tests/test_stories.yml)
   steps:
   - intent: greet
@@ -185,6 +205,72 @@ stories:
   - action: utter_happy  # predicted: action_unlikely_intent
   - intent: goodbye  # predicted: greet: bye-bye!
   - action: utter_goodbye
+- story: Story from Conversation ID 8b68f482455b405f82a93e899f434a01 (./tests/test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: chitchat  # predicted: nlu_fallback: Wie geht es dir?
+  - action: utter_chitchat  # predicted: action_default_fallback
+  - intent: contact
+  - action: utter_contact
+  - intent: contact
+  - action: utter_contact
+- story: Story from Conversation ID 7f8b887eb0f047f59894900fe44f1401 (./tests/test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: chitchat  # predicted: nlu_fallback: Wie geht es dir?
+  - action: utter_chitchat  # predicted: action_default_fallback
+  - intent: contact
+  - action: utter_contact
+  - intent: contact
+  - action: utter_contact
+  - intent: mood_great
+  - action: utter_happy  # predicted: action_unlikely_intent
+- story: Story from Conversation ID 06f7d0af631c473d86de818f86f75852 (./tests/test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: faq
+  - action: utter_faq
+  - intent: chitchat  # predicted: nlu_fallback: Danke
+  - action: utter_chitchat  # predicted: action_default_fallback
+- story: Story from Conversation ID a2cad53ac4f14f62841dbfe7a8520390 (./tests/test_stories.yml)
+  steps:
+  - intent: chitchat  # predicted: nlu_fallback: Wie kannst Du mir helfen?
+  - action: utter_chitchat  # predicted: action_default_fallback
+  - intent: contact
+  - action: utter_contact
+  - intent: contact
+  - action: utter_contact
+  - intent: chitchat  # predicted: nlu_fallback: Danke
+  - action: utter_chitchat  # predicted: action_default_fallback
+- story: Story from Conversation ID e0346fb6afb84f6cbd27a5fb80125d42 (./tests/test_stories.yml)
+  steps:
+  - intent: chitchat  # predicted: nlu_fallback: Was für Fragen beantwortest du?
+  - action: utter_chitchat  # predicted: action_default_fallback
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: chitchat  # predicted: nlu_fallback: Wie geht es dir?
+  - action: utter_chitchat  # predicted: action_default_fallback
+  - intent: faq
+  - action: utter_faq
+  - intent: faq
+  - action: utter_faq
+  - intent: faq
+  - action: utter_faq
+  - intent: chitchat  # predicted: nlu_fallback: Danke
+  - action: utter_chitchat  # predicted: action_default_fallback
+- story: Story from Conversation ID 38865f11836440a6a32dd1233d7b960f (./tests/test_stories.yml)
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - intent: chitchat  # predicted: nlu_fallback: vielen Dank#
+  - action: utter_chitchat  # predicted: action_default_fallback
 - story: sad path 1 (./tests/test_stories.yml)
   steps:
   - intent: greet  # predicted: nlu_fallback: hello

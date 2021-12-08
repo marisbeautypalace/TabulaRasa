@@ -792,6 +792,30 @@
     }
   },
   {
+    "text": "public cloud",
+    "intent_response_key_target": "faq/public_cloud",
+    "intent_response_key_prediction": {
+      "name": "faq/use_of_cloud",
+      "confidence": 0.3804095685482025
+    }
+  },
+  {
+    "text": "öffentliche Cloud",
+    "intent_response_key_target": "faq/public_cloud",
+    "intent_response_key_prediction": {
+      "name": "faq/use_of_cloud",
+      "confidence": 0.5865306854248047
+    }
+  },
+  {
+    "text": "Wofür nutzt man die öffentliche Cloud?",
+    "intent_response_key_target": "faq/public_cloud",
+    "intent_response_key_prediction": {
+      "name": "faq/use_of_cloud",
+      "confidence": 0.13544750213623047
+    }
+  },
+  {
     "text": "was sind services von cloud computing?",
     "intent_response_key_target": "faq/services",
     "intent_response_key_prediction": {
@@ -805,6 +829,14 @@
     "intent_response_key_prediction": {
       "name": "faq/cloud_using",
       "confidence": 0.16039158403873444
+    }
+  },
+  {
+    "text": "Wie kann menschliche Sprache künstlich verarbeitet werden?",
+    "intent_response_key_target": "faq/speech_recognition_speech_identification",
+    "intent_response_key_prediction": {
+      "name": "faq/bot",
+      "confidence": 0.2535097599029541
     }
   },
   {
@@ -1016,6 +1048,14 @@
     }
   },
   {
+    "text": "Wie arbeiten sie mit dem maritimen Bereich zusammen?",
+    "intent_response_key_target": "faq/maritime_digitalization",
+    "intent_response_key_prediction": {
+      "name": "faq/ki_topics",
+      "confidence": 0.1698668897151947
+    }
+  },
+  {
     "text": "Wer ist mein Ansprechpartner für die Geschäftsstelle Lingen?",
     "intent_response_key_target": "contact/geschaeftsstelle_lingen",
     "intent_response_key_prediction": {
@@ -1061,6 +1101,14 @@
     "intent_response_key_prediction": {
       "name": "contact/ki_osnabrueck",
       "confidence": 0.22951294481754303
+    }
+  },
+  {
+    "text": "Wie können Sie meiner Werft helfen?",
+    "intent_response_key_target": "contact/maritimewirtschaft",
+    "intent_response_key_prediction": {
+      "name": "contact/initial_question",
+      "confidence": 1.0
     }
   },
   {
@@ -1117,6 +1165,22 @@
     "intent_response_key_prediction": {
       "name": "faq/use_of_cloud",
       "confidence": 0.2667573094367981
+    }
+  },
+  {
+    "text": "Ichformationen Cloud",
+    "intent_response_key_target": "faq/cloud_initial_question",
+    "intent_response_key_prediction": {
+      "name": "faq/use_of_cloud",
+      "confidence": 0.6469290256500244
+    }
+  },
+  {
+    "text": "Ich suche Informationen zur Cloud",
+    "intent_response_key_target": "faq/cloud_initial_question",
+    "intent_response_key_prediction": {
+      "name": "faq/use_of_cloud",
+      "confidence": 0.28967878222465515
     }
   },
   {
@@ -1245,6 +1309,22 @@
     "intent_response_key_prediction": {
       "name": "faq/ki_companysize",
       "confidence": 0.2725023329257965
+    }
+  },
+  {
+    "text": "Ich suche Informationen zur KI",
+    "intent_response_key_target": "faq/ki_modules",
+    "intent_response_key_prediction": {
+      "name": "faq/ki_companysize",
+      "confidence": 0.23362880945205688
+    }
+  },
+  {
+    "text": "Welche KI Inhalte gibt es?",
+    "intent_response_key_target": "faq/ki_modules",
+    "intent_response_key_prediction": {
+      "name": "faq/ki_companysize",
+      "confidence": 0.20149533450603485
     }
   },
   {

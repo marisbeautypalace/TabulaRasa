@@ -592,6 +592,14 @@
     }
   },
   {
+    "text": "Wie können Sie meiner Werft helfen?",
+    "intent": "contact",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999988079071045
+    }
+  },
+  {
     "text": "KI",
     "intent": "faq",
     "intent_prediction": {
