@@ -17,6 +17,7 @@ nlu:
     - sag mir Hallo
     - was geht?
     - Guten Abend
+    - Guten tag
 - intent: goodbye
   examples: |
     - Schönen Tag
@@ -104,6 +105,7 @@ nlu:
     - Zeitverschwendung
     - du nervst
     - langweilig
+    - Nicht so schlimm
 - intent: chitchat/bot_clever
   examples: |
     - du bist super
@@ -128,6 +130,7 @@ nlu:
     - das habe ich nicht gefragt
     - die antwort war falsch
     - falsche antwort
+    - das war mist
 - intent: chitchat/bot_infos
   examples: |
     - wobei kannst du mir helfen?
@@ -139,6 +142,9 @@ nlu:
     - Was kann ich dich fragen?
     - Was für Fragen beantwortest du?
     - Wie kannst Du mir helfen?
+    - Welche Fragen kannst du mir beantworten?
+    - Schön. Wobei kannst du mir helfen?
+    - Welche Fragen kannst Du beantworten?
 - intent: chitchat/bot_howareyou
   examples: |
     - wie geht es dir?
@@ -148,6 +154,7 @@ nlu:
     - wie fühlst du dich?
     - wie gehts?
     - Wie geht es dir?
+    - Wie geht es dir`
 - intent: chitchat/bot_thanks
   examples: |
     - danke
@@ -165,6 +172,7 @@ nlu:
     - Toll, danke!
     - Danke, das hat geholfen.
     - vielen Dank#
+    - Danke!
 - intent: out_of_scope
   examples: |
     - ich will eine Pizza bestellen
@@ -182,9 +190,8 @@ nlu:
     - Brauche ich noch eine IT Abteilung?
     - Vorteile IT Abteilung
     - Was macht die IT?
-    - Was macht die IT-Abteilung in der Zukunft?
     - Brauche ich zukünftig eine Abteilung für IT wenn ich mit einer Cloud arbeite?
-    - Ist eine IT Abteilung wichtig für das Unternehmen? 
+    - Ist eine IT Abteilung wichtig für das Unternehmen?
     - Wie wichtig ist eine IT Abteilung wenn man eine Cloud nutzt?
     - Cloud und IT-Abteilung
     - Nutzung Cloud und IT-Abteilung
@@ -224,6 +231,7 @@ nlu:
     - was macht cloud computing?
     - wozu cloud computing?
     - Was kann eine Cloud?
+    - Für wen eignet sich der Einsatz von Cloud?
 - intent: faq/use_of_cloud_not
   examples: |
     - faq/use_of_cloud_not
@@ -237,6 +245,7 @@ nlu:
     - Wann keine Cloud?
     - Wann ist Cloud problematisch?
     - Wann ist Cloud Computing problematisch?
+    - Und für wen eignet sich der Einsatz von Cloud nicht?
 - intent: faq/cloud_introduction
   examples: |
     - faq/cloud_introduction
@@ -261,6 +270,8 @@ nlu:
     - Cloud im Unternehmen einführen
     - Ich suche Informationen zum Thema Cloud
     - Wie führe ich eine Cloud in meinem unternehmen ein?
+    - Wie führe ich eine Cloud in meinem Unternehmen ein?
+    - Ich suche Informationen zu Cloud Computing
 - intent: faq/network_breakdown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
@@ -289,6 +300,7 @@ nlu:
     - Kann ich noch arbeiten, wenn das Netzweerk zusammenbricht?
     - Kann ich noch arbeiten, wenn das Internet nicht mehr funktioniert?
     - Was passiert bei einem Netzwerkausfall?
+    - Ist mein Unternehmen bei einem Netzwerkzusammenbruch noch arbeitsfähig?
 - intent: faq/range_of_internet
   examples: |
     - Welche Bandbreite benötige ich, um Cloud Computing nutzen zu können?
@@ -303,6 +315,7 @@ nlu:
     - Welche Bandbreite benötige ich, um eine Cloud zu nutzen?
     - Wie stark muss die Internetverbindung sein?
     - Welche Bandbreite brauche ich?
+    - Welche Bandbreite benötige ich für die Cloud Nutzung?
 - intent: faq/provider_change
   examples: |
     - Welche Datenformat und Datenträger sollte man für die Rückgabe der Daten im Falle eines Anbieterwechsels wählen?
@@ -315,6 +328,7 @@ nlu:
     - Was muss ich bei einem Anbieterwechsel beachten?
     - Wie läuft die Rückgabe von Daten bei einem Anbieterwechsel ab?
     - Gibt es spezielle Anforderungen an Datenträger für die Rückgabe von Daten bei einem Anbieterwechsel?
+    - welchen Datenträger benötige ich für einen Anbieterwechsel?
 - intent: faq/security
   examples: |
     - Was passiert mit meinen Daten, wenn der Cloud-Anbieter insolvent geht?
@@ -327,6 +341,7 @@ nlu:
     - Was passiet mit meinen Daten bei einer Insolvenz des Anbieters?
     - Sind meine Daten im Falle einer Insolvenz des Cloud-Anbieters verloren?
     - Wie kann ich einen Datenverlust bei Insolvenz des Cloud-Anbieters absichern?
+    - Was passiert mit meinen Daten wenn mein Anbieter insolvent geht?
 - intent: faq/mittelstand_agentur
   examples: |
     - faq/mittelstand_agentur
@@ -348,6 +363,7 @@ nlu:
     - Was sind die Aufgaben der Mittelstand 4.0-Agentur Cloud?
     - Was ist die Cloud der Mittelstand 4.0-Agentur?
     - Was bietet die Mittelstand Agentur an?
+    - Was ist die Mittelstand 4.0 Cloud?
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -365,6 +381,7 @@ nlu:
     - Was kostet das Angebot der Mittelstand 4.0-Agentur?
     - Wie hoch sind die Kosten für die Leistungen der Mittelstand 4.0-Agentur?
     - Was bietet das Kompetenzzentrum an?
+    - Sind die Angebote der Agentur kostenlos nutzbar?
 - intent: faq/mittelstand_agentur_location
   examples: |
     - faq/mittelstand_agentur_location
@@ -380,6 +397,9 @@ nlu:
     - Wo sitzen die Mitarbeiter der Mittelstand 4.0-Agentur?
     - Gibt es einen Standort der Mittelstand 4.0 Agentur?
     - Wo hat die Mittelstand Agentur ihren Standort?
+    - Hat die Agentur einen Unternehmenssitz?
+    - Wo hat die Agentur ihren Hauptsitz?
+    - Ich suche Informationen zur Mittelstand 4.0 Agentur
 - intent: faq/mittelstand_agentur_BMWi
   examples: |
     - faq/mittelstand_agentur_BMWi
@@ -408,6 +428,7 @@ nlu:
     - Welche Software würdet ihr nutzen?
     - Ich weiß nicht welche Software ich anschaffen soll.
     - Welche Software sollte ich mir anschaffen?
+    - Könnte ihr eine Software empfehlen?
 - intent: faq/IaaS
   examples: |
     - faq/IaaS
@@ -451,6 +472,7 @@ nlu:
     - kann ich eine private cloud selbst betreiben?
     - wozu braucht man eine private Cloud?
     - Wofür nutze ich eine private Cloud?
+    - private_cloud
 - intent: faq/public_cloud
   examples: |
     - faq/public_cloud
@@ -471,6 +493,7 @@ nlu:
     - Was ist Hybrid Cloud?
     - wozu braucht man hybrid cloud?
     - wer braucht eine hybrid cloud?
+    - Wofür brauche ich eine hybride Cloud?
 - intent: faq/community_cloud
   examples: |
     - faq/community_cloud
@@ -816,6 +839,7 @@ nlu:
     - ich will einen ansprechpartner
     - Ich suche einen Ansprechpartner für Münster
     - Das freut mich. Ich suche einen Ansprechpartner.
+    - Wer sind meine Ansprechpartner?
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
@@ -907,6 +931,7 @@ nlu:
     - Welche Cloud Arten gibt es?
     - Gibt es unterschiedliche Clouds?
     - Cloud Arten
+    - Welche Cloud-Arten gibt Es?
 - intent: faq/ki_initial_question
   examples: |
     - KI
@@ -970,3 +995,6 @@ nlu:
     - Nach Zeitraum
     - Zeitpunkt
     - Veranstaltungen nach Zeitpunkt
+- intent: contact
+  examples: |
+    - Gibt es eine Anschrift?

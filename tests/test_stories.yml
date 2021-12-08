@@ -208,3 +208,259 @@ stories:
     user: |-
       danke
   - action: utter_chitchat
+- story: Story from Conversation ID 4f806e3e4f4a40098b5c580a6e82f13f
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: contact
+    user: |-
+      Ich suche einen Ansprechpartner
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/geschaeftsstelle_lingen
+  - action: utter_contact
+  - intent: chitchat
+    user: |-
+      Danke!
+  - action: utter_chitchat
+  - intent: chitchat
+    user: |-
+      Welche Fragen kannst Du beantworten?
+  - action: utter_chitchat
+  - intent: faq
+    user: |-
+      Cloud Computing
+  - action: utter_faq
+- story: Story from Conversation ID ac16e658839f494d9ac6d73ca3af48ff
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: bot_challenge
+    user: |-
+      Bist du ein Bot?
+  - action: utter_iamabot
+  - intent: chitchat
+    user: |-
+      Wobei kannst du mir helfen?
+  - action: utter_chitchat
+  - intent: faq
+    user: |-
+      Welche Bandbreite benötige ich für die Cloud Nutzung?
+  - action: utter_faq
+  - intent: chitchat
+    user: |-
+      Danke
+  - action: utter_chitchat
+  - intent: faq
+    user: |-
+      Ist mein Unternehmen bei einem Netzwerkzusammenbruch noch arbeitsfähig?
+  - action: utter_faq
+- story: Story from Conversation ID 33acd56ff5414dbfbefa045945c03198
+  steps:
+  - intent: greet
+    user: |-
+      Moin
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Wie führe ich eine Cloud in meinem Unternehmen ein?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Für wen eignet sich der Einsatz von Cloud?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Und für wen eignet sich der Einsatz von Cloud nicht?
+  - action: utter_faq
+  - intent: chitchat
+    user: |-
+      Danke
+  - action: utter_chitchat
+- story: Story from Conversation ID 35a8ab68e6b648229e60a89baf6435d6
+  steps:
+  - intent: faq
+    user: |-
+      Was passiert mit meinen Daten wenn mein Anbieter insolvent geht?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      welchen Datenträger benötige ich für einen Anbieterwechsel?
+  - action: utter_faq
+  - intent: chitchat
+    user: |-
+      Danke
+  - action: utter_chitchat
+- story: Story from Conversation ID 1b750f0a6a2b4ae49d711a16f5d21080
+  steps:
+  - intent: bot_challenge
+    user: |-
+      Bist du ein Bot?
+  - action: utter_iamabot
+  - intent: chitchat
+    user: |-
+      Du bist kacke
+  - action: utter_chitchat
+- story: Story from Conversation ID 8829fc5a502d4b32b807074eea7eb445
+  steps:
+  - intent: chitchat
+    user: |-
+      Wie geht es dir`
+  - action: utter_chitchat
+  - intent: chitchat
+    user: |-
+      Schön. Wobei kannst du mir helfen?
+  - action: utter_chitchat
+  - intent: faq
+    user: |-
+      Ich suche Informationen zur Mittelstand 4.0 Agentur
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      Wer sind meine Ansprechpartner?
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/geschaeftsstelle_muenster
+  - action: utter_contact
+  - intent: chitchat
+    user: |-
+      Danke
+  - action: utter_chitchat
+  - intent: faq
+    user: |-
+      Sind die Angebote der Agentur kostenlos nutzbar?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      In welcher Beziehung steht die Agentur zum Bundeswirtschaftsministerium?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Könnte ihr eine Software empfehlen?
+  - action: utter_faq
+  - intent: chitchat
+    user: |-
+      Danke!
+  - action: utter_chitchat
+- story: Story from Conversation ID ba0f4997622748ed89bdd4b6f34f94eb
+  steps:
+  - intent: greet
+    user: |-
+      Guten tag
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Wo hat die Agentur ihren Hauptsitz?
+  - action: utter_faq
+  - intent: nlu_fallback
+    user: |-
+      Gibt es eine Anschrift?
+  - action: utter_please_rephrase
+  - intent: faq
+    user: |-
+      Hat die Agentur einen Unternehmenssitz?
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      Wer ist mein Ansprechpartner?
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/handelsbranche
+  - action: utter_contact
+  - intent: chitchat
+    user: |-
+      Danke!
+  - action: utter_chitchat
+- story: Story from Conversation ID 827a2512cac04c0a91336720bf8f0e9b
+  steps:
+  - intent: faq
+    user: |-
+      Was ist die Mittelstand 4.0 Cloud?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Welche Cloud-Arten gibt Es?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      private_cloud
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wofür brauche ich eine hybride Cloud?
+  - action: utter_faq
+  - intent: chitchat
+    user: |-
+      Danke
+  - action: utter_chitchat
+- story: Story from Conversation ID 5b90ac1604e647ea99e7a1c1bfcc305e
+  steps:
+  - intent: faq
+    user: |-
+      Ich möchte eine Cloud in meinem Unternehmen einführen
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Für wen eignet sich eine Cloud?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wann ist eine Cloud nicht gut?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Welche Bandbreite brauche ich für Cloud?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was passiert wenn mein Internet ausfällt?
+  - action: utter_faq
+  - intent: chitchat
+    user: |-
+      Das hat geholfen danke
+  - action: utter_chitchat
+- story: Story from Conversation ID 56201d2699ba4b1d9c9b1c9eeb52aae4
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Ich habe Fragen zur Agentur 4.0
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Sind die Angebote der Agentur kostenlos?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was macht ihr mit dem Bundesministerium für Wirtschaft?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wie lautet die Adresse der Agentur?
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      Gibt es dort Ansprechpartner?
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/maritimewirtschaft
+  - action: utter_contact
+  - intent: faq
+    user: |-
+      Wie arbeitet ihr mit dem Handwerk zusammen?
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wie kann man mit der Agentur kooperieren?
+  - action: utter_faq
