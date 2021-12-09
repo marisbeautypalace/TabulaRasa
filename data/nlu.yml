@@ -165,9 +165,9 @@ nlu:
     - Wo ist Hamburg?
     - Ich will eine Pizza bestellen
     - ich will ne pizza
-- intent: botrating/morequestions
+- intent: botrating/initial_question
   examples: |
-    - botrating/morequestions
+    - botrating/initial_question
     - ich möchte das Gespräch beenden
     - danke
     - danke für die Informationen
@@ -186,42 +186,23 @@ nlu:
     - vielen Dank#
     - Danke!
     - Das hat geholfen danke
-- intent: botrating/morequestions_yes
+- intent: botrating/more_questions_yes
   examples: |
-    - botrating/morequestions_yes
+    - botrating/more_questions_yes
     - Ja
-- intent: botrating/morequestions_no
+- intent: botrating/i_dont_have_questions
   examples: |
-    - botrating/morequestions_no
+    - botrating/i_dont_have_questions
     - Nein
-- intent: botrating/rating_1star
+- intent: botrating/rating_bad
   examples: |
-    - botrating/rating_1star
-    - 1 Stern
-- intent: botrating/rating_2stars
+    - botrating/rating_bad
+- intent: botrating/rating_good
   examples: |
-    - botrating/rating_2stars
-    - 2 Sterne
-- intent: botrating/rating_3stars
+    - botrating/rating_good
+- intent: botrating/rating_bad_reason
   examples: |
-    - botrating/rating_3stars
-    - 3 Sterne
-- intent: botrating/rating_4stars
-  examples: |
-    - botrating/rating_4stars
-    - 4 Sterne
-- intent: botrating/rating_5stars
-  examples: |
-    - botrating/rating_5stars
-    - 5 Sterne
-- intent: botrating/rating_1star_reason
-  examples: |
-    - botrating/rating_1star_reason
-    - schlechter service
-    - konntest meine fragen nicht beantworten
-- intent: botrating/rating_2stars_reason
-  examples: |
-    - botrating/rating_2stars_reason
+    - botrating/rating_bad_reason
     - schlechter service
     - konntest meine fragen nicht beantworten
 - intent: faq/cloud_or_it

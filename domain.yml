@@ -84,14 +84,14 @@ responses:
   - text: Bei diesem Thema kann ich Ihnen leider nicht weiterhelfen.
   utter_please_rephrase:
   - text: Tut mir Leid, die Frage habe ich leider nicht richtig verstanden. Könnten Sie die Frage umformulieren?
-  utter_botrating/morequestions:
+  utter_botrating/initial_question:
   - buttons:
-    - payload: botrating/morequestions_yes
+    - payload: botrating/more_questions_yes
       title: Ja
-    - payload: botrating/morequestions_no
+    - payload: botrating/i_dont_have_questions
       title: Nein
     text: Haben Sie weitere Fragen an mich?
-  utter_botrating/morequestions_yes:
+  utter_botrating/more_questions_yes:
   - text: |-
       Gerne beantworte ich Ihnen weitere Fragen zu den folgenden Themen: 
        - Veranstaltungen 
@@ -100,32 +100,24 @@ responses:
        - Cloud-Computing 
        - Mittelstand 4.0-Kompetenzzentrum
       Wobei kann ich Ihnen weiterhelfen?
-  utter_botrating/morequestions_no:
+  utter_botrating/i_dont_have_questions:
   - buttons:
-    - payload: botrating/rating_1star
+    - payload: botrating/rating_bad
       title: ⭐
-    - payload: botrating/rating_2stars
+    - payload: botrating/rating_bad
       title: ⭐⭐
-    - payload: botrating/rating_3stars
+    - payload: botrating/rating_good
       title: ⭐⭐⭐
-    - payload: botrating/rating_4stars
+    - payload: botrating/rating_good
       title: ⭐⭐⭐⭐
-    - payload: botrating/rating_5stars
+    - payload: botrating/rating_good
       title: ⭐⭐⭐⭐⭐
     text: In Ordnung. Ich hoffe, dass ich all Ihre Fragen zufriedenstellend beantworten konnte. Ich wäre Ihnen sehr dankbar, wenn Sie den Service mit diesem Chatbot kurz bewerten würden. Vielen Dank!
-  utter_botrating/rating_1star:
+  utter_botrating/rating_bad:
   - text: Vielen Dank für Ihr Feedback. Könnten Sie Ihre Bewertung kurz begründen?
-  utter_botrating/rating_2stars:
-  - text: Vielen Dank für Ihr Feedback. Könnten Sie Ihre Bewertung kurz begründen?
-  utter_botrating/rating_3stars:
+  utter_botrating/rating_good:
   - text: Vielen Dank für Ihr Feedback und einen schönen Tag noch.
-  utter_botrating/rating_4stars:
-  - text: Vielen Dank für Ihr Feedback und einen schönen Tag noch.
-  utter_botrating/rating_5stars:
-  - text: Vielen Dank für Ihr Feedback und einen schönen Tag noch.
-  utter_botrating/rating_1star_reason:
-  - text: Danke für Ihre ausführliche Antwort und einen schönen Tag noch.
-  utter_botrating/rating_2stars_reason:
+  utter_botrating/rating_bad_reason:
   - text: Danke für Ihre ausführliche Antwort und einen schönen Tag noch.
   utter_faq/cloud_or_it:
   - text: Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett; Ausnahmen sind Internetanbindung und Firewall. Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.
