@@ -102,15 +102,15 @@ responses:
   utter_botrating/morequestions_no:
   - buttons:
     - payload: botrating/rating_1star
-      title: 1 Stern ⭐
+      title: ⭐
     - payload: botrating/rating_2stars
-      title: 2 Sterne⭐⭐
+      title: ⭐⭐
     - payload: botrating/rating_3stars
-      title: 3 Sterne ⭐⭐⭐
+      title: ⭐⭐⭐
     - payload: botrating/rating_4stars
-      title: 4 Sterne ⭐⭐⭐⭐
+      title: ⭐⭐⭐⭐
     - payload: botrating/rating_5stars
-      title: 5 Sterne ⭐⭐⭐⭐⭐
+      title: ⭐⭐⭐⭐⭐
     text: In Ordnung. Ich hoffe, dass ich all Ihre Fragen zufriedenstellend beantworten konnte. Ich wäre Ihnen sehr dankbar, wenn Sie den Service mit diesem Chatbot kurz bewerten würden. Vielen Dank!
   utter_botrating/rating_1star:
   - text: Vielen Dank für Ihr Feedback. Könnten Sie Ihre Bewertung kurz begründen?

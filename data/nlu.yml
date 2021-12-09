@@ -167,6 +167,7 @@ nlu:
     - ich will ne pizza
 - intent: botrating/morequestions
   examples: |
+    - botrating/morequestions
     - ich möchte das Gespräch beenden
     - danke
     - danke für die Informationen
@@ -215,10 +216,12 @@ nlu:
     - 5 Sterne
 - intent: botrating/rating_1star_reason
   examples: |
+    - botrating/rating_1star_reason
     - schlechter service
     - konntest meine fragen nicht beantworten
 - intent: botrating/rating_2stars_reason
   examples: |
+    - botrating/rating_2stars_reason
     - schlechter service
     - konntest meine fragen nicht beantworten
 - intent: faq/cloud_or_it
