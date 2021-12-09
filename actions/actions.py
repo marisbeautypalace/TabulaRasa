@@ -120,20 +120,20 @@ class ActionGetEventsForTimeframeSelection(Action):
 
         return []
 
-class ActionShowHyperlinkInUtter(Action):
+# class ActionShowHyperlinkInUtter(Action):
 
-    def name(self) -> Text:
-        return "action_show_hyperlink_in_utter"
+#     def name(self) -> Text:
+#         return "action_show_hyperlink_in_utter"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#     def run(self, dispatcher: CollectingDispatcher,
+#             tracker: Tracker,
+#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
-        Link-FAQ="https://kicc-prozesse.digital/faq/"
-        dispatcher.utter_template("utter_use_of_cloud", tracker, link=Link-FAQ)
+#         Link-FAQ="https://kicc-prozesse.digital/faq/"
+#         dispatcher.utter_template("utter_use_of_cloud", tracker, link=Link-FAQ)
         
 
-        return []
+#         return []
 
 import datetime
 from rasa_sdk.events import ReminderScheduled

@@ -34,18 +34,21 @@ stories:
   steps:
   - intent: Events_All
   - action: action_get_all_events
+  - action: action_set_reminder
 - story: get all events Category path
   steps:
   - intent: Events_Category
   - action: action_get_events_for_category_selection
   - intent: Events_Category_Selection
   - action: action_get_events_for_category
+  - action: action_set_reminder
 - story: get all events Timeframe path
   steps:
   - intent: Events_Timeframe
   - action: action_get_events_for_timeframe_selection
   - intent: Events_Timeframe_Selection
   - action: action_get_events_for_timeframe
+  - action: action_set_reminder
 #- story: user has more questions
 #  steps:
 #  - intent: botrating/morequestions

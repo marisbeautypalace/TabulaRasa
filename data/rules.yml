@@ -7,13 +7,11 @@ rules:
   steps:
   - intent: greet
   - action: utter_welcome
-  - action: action_set_reminder
 
 - rule: greet the user
   steps:
   - intent: greet
   - action: utter_greet
-  - action: action_set_reminder
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
@@ -60,8 +58,10 @@ rules:
   steps:
   - intent: out_of_scope
   - action: utter_out_of_scope
+  - action: action_set_reminder
 
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
   steps:
   - intent: nlu_fallback
   - action: utter_please_rephrase
+  - action: action_set_reminder
