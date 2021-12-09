@@ -89,21 +89,21 @@ responses:
   utter_faq/cloudcomputing_or_ownserver:
   - text: Es sind beliebige Mischungen möglich, die sich dann unter dem Sammelbegriff Hybrid Cloud zusammenfassen lassen. In den meisten Fällen ist eine schrittweise Umstellung oder der parallele Betrieb von Cloud und Nicht-Cloud-Lösungen sogar sinnvoller als ein vollständiger Wechsel in die Cloud.
   utter_faq/use_of_cloud:
-  - text: Cloud Computing eignet sich für Unternehmen, die mithilfe Ihrer IT flexibel auf Kundenanforderungen eingehen möchten. Auch für diejenigen, die nicht größere Beträge in Servertechnik investieren möchten, könnte Cloud Computing interessant sein. [ ] {link}
-  utter_faq/use_of_cloud_not:
-  - text: Problematisch wird die Cloud immer dann, wenn die Netzwerkanbindung nicht in ausreichendem Maße gewährleistet ist. Neben einer grundsätzlich schlechten Breitbandverbindung betrifft es vor allem Außendienstmitarbeiter mit schlechter Mobilfunkanbindung. (Link)
+  - text: "Cloud Computing eignet sich für Unternehmen, die mithilfe Ihrer IT flexibel auf Kundenanforderungen eingehen möchten. Auch für diejenigen, die nicht größere Beträge in Servertechnik investieren möchten, könnte Cloud Computing interessant sein. Mehr Infomationen finden Sie [hier](https://kicc-prozesse.digital/faq/)."
+    utter_faq/use_of_cloud_not:
+  - text: Problematisch wird die Cloud immer dann, wenn die Netzwerkanbindung nicht in ausreichendem Maße gewährleistet ist. Neben einer grundsätzlich schlechten Breitbandverbindung betrifft es vor allem Außendienstmitarbeiter mit schlechter Mobilfunkanbindung. Mehr Infomationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/cloud_introduction:
   - text: Beginnen Sie mit dem Kurzleitfaden „Auswahl und Einführung von Cloud-Lösungen“.
   utter_faq/network_breakdown:
-  - text: Unternehmen sollten sich schon jetzt die Frage stellen, ob sie arbeitsfähig wären, wenn das Internet ausfällt. Allein die Kommunikation und der Datentransfer über E-Mail oder die IP-Telefonie sind abhängig von einer funktionierenden Internetleitung. Diese Frage stellt sich also nicht erst, wenn man auf Cloud Computing umsattelt. (Link)
+  - text: Unternehmen sollten sich schon jetzt die Frage stellen, ob sie arbeitsfähig wären, wenn das Internet ausfällt. Allein die Kommunikation und der Datentransfer über E-Mail oder die IP-Telefonie sind abhängig von einer funktionierenden Internetleitung. Diese Frage stellt sich also nicht erst, wenn man auf Cloud Computing umsattelt. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/range_of_internet:
-  - text: Die Bandbreitenanforderungen hängen zum Teil von der Art der Anwendung und auf alle Fälle von der Anzahl der Nutzer und der Datenmenge ab, die zwischen dem Unternehmen und der Cloud (regelmäßig) übermittelt werden soll. Insofern ist hier keine allgemeingültige Antwort möglich. (Link)
+  - text: Die Bandbreitenanforderungen hängen zum Teil von der Art der Anwendung und auf alle Fälle von der Anzahl der Nutzer und der Datenmenge ab, die zwischen dem Unternehmen und der Cloud (regelmäßig) übermittelt werden soll. Insofern ist hier keine allgemeingültige Antwort möglich. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/provider_change:
-  - text: Sie sollten immer standardisierte Datenformate verwenden, da Sie diese im Falle eines Anbieterwechsels oder der Insolvenz Ihres Anbieters weiterverwenden möchten. Die Wahl des Datenträgers für die Rückgabe hängt von der Datenmenge ab, die Sie beim Anbieter gespeichert haben. (Link)
+  - text: Sie sollten immer standardisierte Datenformate verwenden, da Sie diese im Falle eines Anbieterwechsels oder der Insolvenz Ihres Anbieters weiterverwenden möchten. Die Wahl des Datenträgers für die Rückgabe hängt von der Datenmenge ab, die Sie beim Anbieter gespeichert haben. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/security:
-  - text: Das hängt sehr stark davon ab, was Sie in den Nutzungsvereinbarungen mit Ihrem Anbieter vertraglich festgelegt haben. Ein Datenverlust ist daher nicht ausgeschlossen, kann aber durch entsprechende vertragliche Vereinbarungen verhindert werden. Grundsätzlich sollte man zwei Dinge absichern. (Link)
+  - text: Das hängt sehr stark davon ab, was Sie in den Nutzungsvereinbarungen mit Ihrem Anbieter vertraglich festgelegt haben. Ein Datenverlust ist daher nicht ausgeschlossen, kann aber durch entsprechende vertragliche Vereinbarungen verhindert werden. Grundsätzlich sollte man zwei Dinge absichern. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/mittelstand_agentur:
-  - text: Die Aufgabe der Mittelstand 4.0-Agentur Cloud ist es, Multiplikatoren aus Mittelstandsverbänden, Kammern und Wirtschaftsförderungseinrichtungen beim Wissenstransfer bzgl. Cloud Computing und Smart Services in Richtung kleiner und mittelständischer Unternehmen zu unterstützen. (Link)
+  - text: Die Aufgabe der Mittelstand 4.0-Agentur Cloud ist es, Multiplikatoren aus Mittelstandsverbänden, Kammern und Wirtschaftsförderungseinrichtungen beim Wissenstransfer bzgl. Cloud Computing und Smart Services in Richtung kleiner und mittelständischer Unternehmen zu unterstützen. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/mittelstand_agentur_offers:
   - text: Die Agentur ist ein Bundesprojekt und wird mit öffentlichen Mitteln des Bundesministeriums für Wirtschaft und Energie gefördert. Aus diesem Grund werden die Angebote kostenlos angeboten.
   utter_faq/mittelstand_agentur_location:
@@ -115,17 +115,17 @@ responses:
   utter_faq/IaaS:
   - text: IaaS (Infrastructure as a Service) ist die unterste Ebene der Cloud-Modelle. In diesem Bereich wird vom Anwender virtuelle Hardware als Infrastruktur beim Cloud-Service-Provider (CSP) gemietet und in die unternehmensinterne IT-Landschaft integriert. Klassische Beispiele sind Speicherplatz, Rechenleistung oder Netzwerkbandbreite.
   utter_faq/PaaS:
-  - text: PaaS (Platform as a Service) ist die mittlere Ebene der Cloud-Modelle. Der Anwender hat keinen oder nur eingeschränkten Zugriff auf die Administration der Hardware. Im Kern wird vom Anbieter eine Computer-Plattform zur Verfügung gestellt, welche für die Entwicklung von Webanwendungen und kompletten Entwicklungsumgebungen genutzt wird. (Link)
+  - text: PaaS (Platform as a Service) ist die mittlere Ebene der Cloud-Modelle. Der Anwender hat keinen oder nur eingeschränkten Zugriff auf die Administration der Hardware. Im Kern wird vom Anbieter eine Computer-Plattform zur Verfügung gestellt, welche für die Entwicklung von Webanwendungen und kompletten Entwicklungsumgebungen genutzt wird. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/SaaS:
-  - text: SaaS (Software as a Service) ist die oberste Ebene der Cloud-Modelle. In diesem Bereich werden fertige Softwarelösungen in Form von Anwendungen für den Nutzer bereitgestellt. Die Verantwortung für die Wartung, Software-Updates und die Verwaltung von Lizenzen obliegt vollständig dem Provider. Klassische Beispiele sind Office 365, Google Apps und iCloud Apps. (Link)
+  - text: SaaS (Software as a Service) ist die oberste Ebene der Cloud-Modelle. In diesem Bereich werden fertige Softwarelösungen in Form von Anwendungen für den Nutzer bereitgestellt. Die Verantwortung für die Wartung, Software-Updates und die Verwaltung von Lizenzen obliegt vollständig dem Provider. Klassische Beispiele sind Office 365, Google Apps und iCloud Apps. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/private_cloud:
-  - text: Die private Wolke (Cloud) ist eine unternehmenseigene Cloud-Umgebung, welche gezielt für die eigene Institution sowie ggf. Geschäftspartner, Kunden und Lieferanten betrieben wird. Die Organisation und der Betrieb kann von dem Unternehmen selbst oder von einem Dritten geführt werden. (Link)
+  - text: Die private Wolke (Cloud) ist eine unternehmenseigene Cloud-Umgebung, welche gezielt für die eigene Institution sowie ggf. Geschäftspartner, Kunden und Lieferanten betrieben wird. Die Organisation und der Betrieb kann von dem Unternehmen selbst oder von einem Dritten geführt werden. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/public_cloud:
-  - text: Die öffentliche Wolke (Cloud) ist eine vom Provider betriebene und i.d.R. über das Internet bereitgestellte Cloud-Umgebung. Die bereitgestellte Infrastruktur wird von einer beliebigen Anzahl an Kunden anteilig gemietet. Die vom Kunden erworbenen Nutzungsrechte umfassen beispielsweise die Miete von standardisierten Anwendungs- und Infrastruktur-Services. (Link)
+  - text: Die öffentliche Wolke (Cloud) ist eine vom Provider betriebene und i.d.R. über das Internet bereitgestellte Cloud-Umgebung. Die bereitgestellte Infrastruktur wird von einer beliebigen Anzahl an Kunden anteilig gemietet. Die vom Kunden erworbenen Nutzungsrechte umfassen beispielsweise die Miete von standardisierten Anwendungs- und Infrastruktur-Services. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/hybrid_cloud:
-  - text: Die gemischte Wolke (Cloud) ist eine Mischform bestehend aus einer möglichen Kombination von Private Cloud, Public Cloud und traditioneller IT. Die verschiedenen, für sich individuellen Infrastrukturen, können über standardisierte Schnittstellen miteinander kommunizieren. (Link)
+  - text: Die gemischte Wolke (Cloud) ist eine Mischform bestehend aus einer möglichen Kombination von Private Cloud, Public Cloud und traditioneller IT. Die verschiedenen, für sich individuellen Infrastrukturen, können über standardisierte Schnittstellen miteinander kommunizieren. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/community_cloud:
-  - text: Die gemeinschaftliche Wolke (Cloud) ist ein Zusammenschluss von mehreren Unternehmen der gleichen Branche oder Interessengemeinschaft, welche aus ihren privaten Cloud-Lösungen eine Community Cloud formen. Der Zugriff ist auf die Mitglieder des Interessenverbands beschränkt. (Link)
+  - text: Die gemeinschaftliche Wolke (Cloud) ist ein Zusammenschluss von mehreren Unternehmen der gleichen Branche oder Interessengemeinschaft, welche aus ihren privaten Cloud-Lösungen eine Community Cloud formen. Der Zugriff ist auf die Mitglieder des Interessenverbands beschränkt. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/onpremise_ondemand:
   - text: Bei der Auslagerung von IT-Dienstleistungen in die Cloud wird häufig von Software-on-Demand gesprochen. Im Vergleich zu dem On-Premise-Nutzungsmodell, bei welchem der Nutzer die Lizenz für ein Computerprogramm erwirbt und dieses selbst auf der eigenen Hardware betreibt, wird bei der On-Demand-Lösung die Software und damit verbundene Lizenzen beim Anbieter betrieben und je nach Bedarf hoch- oder herunterskaliert.
   utter_faq/services:
@@ -381,4 +381,3 @@ actions:
 - action_event_selection
 - action_get_events_for_timeframe_selection
 - action_get_events_for_category_selection
-- action_show_hyperlink_in_utter
