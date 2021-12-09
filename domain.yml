@@ -133,7 +133,7 @@ responses:
   - text: Es sind beliebige Mischungen möglich, die sich dann unter dem Sammelbegriff Hybrid Cloud zusammenfassen lassen. In den meisten Fällen ist eine schrittweise Umstellung oder der parallele Betrieb von Cloud und Nicht-Cloud-Lösungen sogar sinnvoller als ein vollständiger Wechsel in die Cloud.
   utter_faq/use_of_cloud:
   - text: "Cloud Computing eignet sich für Unternehmen, die mithilfe Ihrer IT flexibel auf Kundenanforderungen eingehen möchten. Auch für diejenigen, die nicht größere Beträge in Servertechnik investieren möchten, könnte Cloud Computing interessant sein. Mehr Infomationen finden Sie [hier](https://kicc-prozesse.digital/faq/)."
-    utter_faq/use_of_cloud_not:
+  utter_faq/use_of_cloud_not:
   - text: Problematisch wird die Cloud immer dann, wenn die Netzwerkanbindung nicht in ausreichendem Maße gewährleistet ist. Neben einer grundsätzlich schlechten Breitbandverbindung betrifft es vor allem Außendienstmitarbeiter mit schlechter Mobilfunkanbindung. Mehr Infomationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/cloud_introduction:
   - text: Beginnen Sie mit dem Kurzleitfaden „Auswahl und Einführung von Cloud-Lösungen“.
