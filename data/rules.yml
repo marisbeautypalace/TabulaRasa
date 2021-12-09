@@ -38,6 +38,11 @@ rules:
   - intent: chitchat
   - action: utter_chitchat
 
+- rule: map to rating path
+  steps:
+  - intent: botrating
+  - action: utter_botrating
+
 - rule: out-of-scope
   steps:
   - intent: out_of_scope

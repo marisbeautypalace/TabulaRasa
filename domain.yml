@@ -12,6 +12,7 @@ intents:
 - bot_challenge
 - out_of_scope
 - chitchat
+- botrating
 - faq
 - contact
 - get_all_events
@@ -66,8 +67,6 @@ responses:
       Wobei kann ich Ihnen helfen?
   utter_chitchat/bot_howareyou:
   - text: Danke der Nachfrage, mir geht es gut.
-  utter_chitchat/bot_thanks:
-  - text: Gern geschehen. Ich hoffe ich konnte Ihnen weiterhelfen. Falls Sie weitere Fragen haben, können Sie diese gerne stellen. Ich versuche sie zu beantworten.
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Das tut mir Leid. Hier, schauen Sie sich das mal an:'
@@ -84,6 +83,49 @@ responses:
   - text: Bei diesem Thema kann ich Ihnen leider nicht weiterhelfen.
   utter_please_rephrase:
   - text: Tut mir Leid, die Frage habe ich leider nicht richtig verstanden. Könnten Sie die Frage umformulieren?
+  utter_botrating/morequestions:
+  - buttons:
+    - payload: botrating/morequestions_yes
+      title: Ja
+    - payload: botrating/morequestions_no
+      title: Nein
+    text: Haben Sie weitere Fragen an mich?
+  utter_botrating/morequestions_yes:
+  - text: |-
+      Gerne beantworte ich Ihnen weitere Fragen zu den folgenden Themen: 
+       - Veranstaltungen 
+       - Ansprechpartner 
+       - Künstliche Intelligenz 
+       - Cloud-Computing 
+       - Mittelstand 4.0-Kompetenzzentrum
+      Wobei kann ich Ihnen weiterhelfen?
+  utter_botrating/morequestions_no:
+  - buttons:
+    - payload: botrating/rating_1star
+      title: 1 Stern ⭐
+    - payload: botrating/rating_2stars
+      title: 2 Sterne⭐⭐
+    - payload: botrating/rating_3stars
+      title: 3 Sterne ⭐⭐⭐
+    - payload: botrating/rating_4stars
+      title: 4 Sterne ⭐⭐⭐⭐
+    - payload: botrating/rating_5stars
+      title: 5 Sterne ⭐⭐⭐⭐⭐
+    text: In Ordnung. Ich hoffe, dass ich all Ihre Fragen zufriedenstellend beantworten konnte. Ich wäre Ihnen sehr dankbar, wenn Sie den Service mit diesem Chatbot kurz bewerten würden. Vielen Dank!
+  utter_botrating/rating_1star:
+  - text: Vielen Dank für Ihr Feedback. Könnten Sie Ihre Bewertung kurz begründen?
+  utter_botrating/rating_2stars:
+  - text: Vielen Dank für Ihr Feedback. Könnten Sie Ihre Bewertung kurz begründen?
+  utter_botrating/rating_3stars:
+  - text: Vielen Dank für Ihr Feedback und einen schönen Tag noch.
+  utter_botrating/rating_4stars:
+  - text: Vielen Dank für Ihr Feedback und einen schönen Tag noch.
+  utter_botrating/rating_5stars:
+  - text: Vielen Dank für Ihr Feedback und einen schönen Tag noch.
+  utter_botrating/rating_1star_reason:
+  - text: Danke für Ihre ausführliche Antwort und einen schönen Tag noch.
+  utter_botrating/rating_2stars_reason:
+  - text: Danke für Ihre ausführliche Antwort und einen schönen Tag noch.
   utter_faq/cloud_or_it:
   - text: Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett; Ausnahmen sind Internetanbindung und Firewall. Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.
   utter_faq/cloudcomputing_or_ownserver:

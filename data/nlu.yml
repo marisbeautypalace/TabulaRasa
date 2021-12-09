@@ -155,8 +155,19 @@ nlu:
     - wie gehts?
     - Wie geht es dir?
     - Wie geht es dir`
-- intent: chitchat/bot_thanks
+- intent: out_of_scope
   examples: |
+    - ich will eine Pizza bestellen
+    - was ist 1+1?
+    - wer ist Bundeskanzler?
+    - Kann man in Lingen schwimmen gehen?
+    - Wie heißt Mario?
+    - Wo ist Hamburg?
+    - Ich will eine Pizza bestellen
+    - ich will ne pizza
+- intent: botrating/morequestions
+  examples: |
+    - ich möchte das Gespräch beenden
     - danke
     - danke für die Informationen
     - danke für die Infos
@@ -174,16 +185,42 @@ nlu:
     - vielen Dank#
     - Danke!
     - Das hat geholfen danke
-- intent: out_of_scope
+- intent: botrating/morequestions_yes
   examples: |
-    - ich will eine Pizza bestellen
-    - was ist 1+1?
-    - wer ist Bundeskanzler?
-    - Kann man in Lingen schwimmen gehen?
-    - Wie heißt Mario?
-    - Wo ist Hamburg?
-    - Ich will eine Pizza bestellen
-    - ich will ne pizza
+    - botrating/morequestions_yes
+    - Ja
+- intent: botrating/morequestions_no
+  examples: |
+    - botrating/morequestions_no
+    - Nein
+- intent: botrating/rating_1star
+  examples: |
+    - botrating/rating_1star
+    - 1 Stern
+- intent: botrating/rating_2stars
+  examples: |
+    - botrating/rating_2stars
+    - 2 Sterne
+- intent: botrating/rating_3stars
+  examples: |
+    - botrating/rating_3stars
+    - 3 Sterne
+- intent: botrating/rating_4stars
+  examples: |
+    - botrating/rating_4stars
+    - 4 Sterne
+- intent: botrating/rating_5stars
+  examples: |
+    - botrating/rating_5stars
+    - 5 Sterne
+- intent: botrating/rating_1star_reason
+  examples: |
+    - schlechter service
+    - konntest meine fragen nicht beantworten
+- intent: botrating/rating_2stars_reason
+  examples: |
+    - schlechter service
+    - konntest meine fragen nicht beantworten
 - intent: faq/cloud_or_it
   examples: |
     - Wenn ich künftig alles in der Cloud mache, wozu brauche ich meine IT-Abteilung noch?
