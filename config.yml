@@ -23,6 +23,9 @@ pipeline:
 - name: ResponseSelector
   epochs: 100
   retrieval_intent: chitchat
+- name: ResponseSelector
+  epochs: 100
+  retrieval_intent: botrating
 - name: FallbackClassifier
   threshold: 0.8
 policies:
