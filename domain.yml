@@ -424,3 +424,5 @@ actions:
 - action_event_selection
 - action_get_events_for_timeframe_selection
 - action_get_events_for_category_selection
+- action_set_reminder
+- action_react_to_reminder
