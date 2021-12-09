@@ -7,41 +7,54 @@ rules:
   steps:
   - intent: greet
   - action: utter_welcome
+  - action: action_set_reminder
 
 - rule: greet the user
   steps:
   - intent: greet
   - action: utter_greet
+  - action: action_set_reminder
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
+  - action: action_set_reminder
 
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+  - action: action_set_reminder
 
 - rule: map to faq
   steps:
   - intent: faq
   - action: utter_faq
+  - action: action_set_reminder
 
 - rule: map to contact
   steps:
   - intent: contact
   - action: utter_contact
+  - action: action_set_reminder
 
 - rule: map to chitchat
   steps:
   - intent: chitchat
   - action: utter_chitchat
+  - action: action_set_reminder
 
 - rule: map to rating path
   steps:
   - intent: botrating
   - action: utter_botrating
+
+- rule: trigger 'action_react_to_reminder' for 'EXTERNAL_reminder'
+  steps:
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_botrating/morequestions
 
 - rule: out-of-scope
   steps:

@@ -13,6 +13,7 @@ intents:
 - out_of_scope
 - chitchat
 - botrating
+- EXTERNAL_reminder
 - faq
 - contact
 - get_all_events

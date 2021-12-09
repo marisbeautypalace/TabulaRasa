@@ -134,3 +134,48 @@ class ActionShowHyperlinkInUtter(Action):
         
 
         return []
+
+import datetime
+from rasa_sdk.events import ReminderScheduled
+from rasa_sdk import Action
+
+class ActionSetReminder(Action):
+    """Schedules a reminder for 15 seconds of no interaction"""
+
+    def name(self) -> Text:
+        return "action_set_reminder"
+
+    async def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+
+        date = datetime.datetime.now() + datetime.timedelta(seconds=15)
+
+        reminder = ReminderScheduled(
+            "EXTERNAL_reminder",
+            trigger_date_time=date,
+            name="my_reminder",
+            kill_on_user_message=True,
+        )
+
+        return [reminder]
+
+class ActionReactToReminder(Action):
+    """Reminds the user to rate the bot after conversation."""
+
+    def name(self) -> Text:
+        return "action_react_to_reminder"
+
+    async def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(f"Sie haben seit 15 Sekunden keine neue Nachricht eingegeben.")
+
+        return []
