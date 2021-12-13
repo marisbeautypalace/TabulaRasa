@@ -126,7 +126,7 @@ from rasa_sdk.events import ReminderScheduled
 from rasa_sdk import Action
 
 class ActionSetReminder(Action):
-    """Schedules a reminder for 15 seconds of no interaction"""
+    """Schedules a reminder for 20 seconds of no interaction"""
 
     def name(self) -> Text:
         return "action_set_reminder"
@@ -138,11 +138,15 @@ class ActionSetReminder(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
 
-        date = datetime.datetime.now() + datetime.timedelta(seconds=15)
+        # dispatcher.utter_message("I will remind you in 20 seconds.")
+        
+        date = datetime.datetime.now() + datetime.timedelta(seconds=20)
+        # entities = tracker.latest_message.get("entities")
 
         reminder = ReminderScheduled(
             "EXTERNAL_reminder",
             trigger_date_time=date,
+            # entities=entities,
             name="my_reminder",
             kill_on_user_message=True,
         )
@@ -162,6 +166,6 @@ class ActionReactToReminder(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(f"Sie haben seit 15 Sekunden keine neue Nachricht eingegeben.")
+        dispatcher.utter_message(f"Sie haben seit einiger Zeit keine neue Nachricht eingegeben.")
 
         return []

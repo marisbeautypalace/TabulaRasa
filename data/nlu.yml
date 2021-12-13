@@ -186,25 +186,24 @@ nlu:
     - vielen Dank#
     - Danke!
     - Das hat geholfen danke
-- intent: botrating/more_questions_yes
+- intent: botrating/want_more_information
   examples: |
-    - botrating/more_questions_yes
-    - Ja
-- intent: botrating/i_dont_have_questions
+    - botrating/want_more_information
+    - want_more_information
+- intent: botrating/you_helped_enough
   examples: |
-    - botrating/i_dont_have_questions
-    - Nein
-- intent: botrating/rating_bad
+    - botrating/you_helped_enough
+    - you_helped_enough
+- intent: botrating/user_stars_rating
   examples: |
-    - botrating/rating_bad
-- intent: botrating/rating_good
+    - botrating/user_stars_rating
+    - user_stars_rating
+    - rating
+    - stars
+- intent: botrating/answer_to_feedback
   examples: |
-    - botrating/rating_good
-- intent: botrating/rating_bad_reason
-  examples: |
-    - botrating/rating_bad_reason
-    - schlechter service
-    - konntest meine fragen nicht beantworten
+    - gerne
+    - gern geschehen
 - intent: faq/cloud_or_it
   examples: |
     - Wenn ich künftig alles in der Cloud mache, wozu brauche ich meine IT-Abteilung noch?
@@ -871,6 +870,7 @@ nlu:
     - gib mir ne e-mail
     - ansprechpartner
     - Kontakt
+    - Anschrift
     - Telefon
     - Telefonnummer
     - Mail Adresse
@@ -1048,6 +1048,3 @@ nlu:
     - Nach Zeitraum
     - Zeitpunkt
     - Veranstaltungen nach Zeitpunkt
-- intent: contact
-  examples: |
-    - Gibt es eine Anschrift?

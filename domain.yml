@@ -86,12 +86,12 @@ responses:
   - text: Tut mir Leid, die Frage habe ich leider nicht richtig verstanden. Könnten Sie die Frage umformulieren?
   utter_botrating/initial_question:
   - buttons:
-    - payload: botrating/more_questions_yes
+    - payload: botrating/want_more_information
       title: Ja
-    - payload: botrating/i_dont_have_questions
+    - payload: botrating/you_helped_enough
       title: Nein
     text: Haben Sie weitere Fragen an mich?
-  utter_botrating/more_questions_yes:
+  utter_botrating/want_more_information:
   - text: |-
       Gerne beantworte ich Ihnen weitere Fragen zu den folgenden Themen: 
        - Veranstaltungen 
@@ -99,26 +99,24 @@ responses:
        - Künstliche Intelligenz 
        - Cloud-Computing 
        - Mittelstand 4.0-Kompetenzzentrum
-      Wobei kann ich Ihnen weiterhelfen?
-  utter_botrating/i_dont_have_questions:
+      Wobei kann ich Ihnen noch weiterhelfen?
+  utter_botrating/you_helped_enough:
   - buttons:
-    - payload: botrating/rating_bad
+    - payload: botrating/user_stars_rating
       title: ⭐
-    - payload: botrating/rating_bad
+    - payload: botrating/user_stars_rating
       title: ⭐⭐
-    - payload: botrating/rating_good
+    - payload: botrating/user_stars_rating
       title: ⭐⭐⭐
-    - payload: botrating/rating_good
+    - payload: botrating/user_stars_rating
       title: ⭐⭐⭐⭐
-    - payload: botrating/rating_good
+    - payload: botrating/user_stars_rating
       title: ⭐⭐⭐⭐⭐
     text: In Ordnung. Ich hoffe, dass ich all Ihre Fragen zufriedenstellend beantworten konnte. Ich wäre Ihnen sehr dankbar, wenn Sie den Service mit diesem Chatbot kurz bewerten würden. Vielen Dank!
-  utter_botrating/rating_bad:
-  - text: Vielen Dank für Ihr Feedback. Könnten Sie Ihre Bewertung kurz begründen?
-  utter_botrating/rating_good:
+  utter_botrating/user_stars_rating:
   - text: Vielen Dank für Ihr Feedback und einen schönen Tag noch.
-  utter_botrating/rating_bad_reason:
-  - text: Danke für Ihre ausführliche Antwort und einen schönen Tag noch.
+  utter_botrating/answer_to_feedback:
+  - text: Ich hoffe wir sehen uns demnächst wieder!
   utter_faq/cloud_or_it:
   - text: Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett; Ausnahmen sind Internetanbindung und Firewall. Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.
   utter_faq/cloudcomputing_or_ownserver:
