@@ -206,6 +206,8 @@ responses:
   - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt kleine und mittlere Unternehmen der maritimen Branche. Das Kompetenzzentrum Lingen befähigt unter anderem Reedereien, Häfen, Werften sowie Zuliefer- und Offshore-Betriebe dazu, technologisch-wirtschaftliche Potenziale zu erschließen und diese zu nutzen. Weiterhin sensibilisiert das Kompetenzzentrum für digitale, branchenspezifische Herausforderungen und begleiten Unternehmen in ihren konkreten Umsetzungsprojekten.
   utter_contact/initial_question:
   - buttons:
+    - payload: contact/allgemeiner_kontakt
+      title: Allgemeiner Kontakt
     - payload: contact/geschaeftsstelle_lingen
       title: Geschäftsstelle Lingen
     - payload: contact/geschaeftsstelle_muenster
@@ -227,6 +229,11 @@ responses:
     - payload: contact/maritimewirtschaft
       title: 🚢 Maritime Wirtschaft
     text: Für welchen Bereich wünschen Sie einen Ansprechpartner?
+  utter_contact/allgemeiner_kontakt:
+  - text: |-
+      Sie erreichen das Kompetenzzentrum über folgende Kontaktdaten.
+       E-Mail: info@it-emsland.de
+       Telefon: +495918076980
   utter_contact/geschaeftsstelle_lingen:
   - text: |-
       Ihr Ansprechpartner der Geschäftsstelle Lingen ist Michael Schnaider (it.emsland). 

@@ -123,7 +123,6 @@ nlu:
   examples: |
     - botrating/initial_question
     - ich möchte das Gespräch beenden
-##  Hier noch ENDE/BEENDEN etc einbauen?
     - danke
     - danke für die Informationen
     - danke für die Infos
@@ -683,7 +682,6 @@ nlu:
 - intent: faq/mittelstand_agentur_support
   examples: |
     - faq/mittelstand_agentur_support
-    - 
     - Was beinhalten die Angebote vom Kompetenzzentrum?
     - Wobei kann mich das Kompetenzzentrum unterstützen?
     - was macht das Kompetenzzentrum?
@@ -868,6 +866,12 @@ nlu:
     - Gibt es dort Ansprechpartner?
     - Zum Support weiterleiten
     - Support notwendig
+- intent: contact/allgemeiner_kontakt
+  examples: |
+    - Allgemein
+    - Allgemeiner Kontakt
+    - Allgemeiner Ansprechpartner
+    - contact/allgemeiner_kontakt
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - Lingen
