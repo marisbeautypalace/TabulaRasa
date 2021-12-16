@@ -5,10 +5,6 @@ session_config:
 intents:
 - greet
 - goodbye
-- affirm
-- deny
-- mood_great
-- mood_unhappy
 - bot_challenge
 - out_of_scope
 - chitchat
@@ -68,13 +64,6 @@ responses:
       Wobei kann ich Ihnen helfen?
   utter_chitchat/bot_howareyou:
   - text: Danke der Nachfrage, mir geht es gut.
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Das tut mir Leid. Hier, schauen Sie sich das mal an:'
-  utter_did_that_help:
-  - text: Hat Ihnen das geholfen?
-  utter_happy:
-  - text: Großartig, das freut mich zu hören!
   utter_goodbye:
   - text: Auf Wiedersehen und einen schönen Tag noch.
   utter_iamabot:
@@ -138,7 +127,7 @@ responses:
   utter_faq/mittelstand_agentur:
   - text: Die Aufgabe der Mittelstand 4.0-Agentur Cloud ist es, Multiplikatoren aus Mittelstandsverbänden, Kammern und Wirtschaftsförderungseinrichtungen beim Wissenstransfer bzgl. Cloud Computing und Smart Services in Richtung kleiner und mittelständischer Unternehmen zu unterstützen. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/mittelstand_agentur_offers:
-  - text: Die Agentur ist ein Bundesprojekt und wird mit öffentlichen Mitteln des Bundesministeriums für Wirtschaft und Energie gefördert. Aus diesem Grund werden die Angebote kostenlos angeboten.
+  - text: Die Agentur ist ein Bundesprojekt und wird mit öffentlichen Mitteln des Bundesministeriums für Wirtschaft und Energie gefördert. Aus diesem Grund werden die Angebote sowie Veranstaltungen kostenlos angeboten.
   utter_faq/mittelstand_agentur_location:
   - text: Die Agentur setzt sich aus den drei Partnern zusammen. Dem Fraunhofer IAO (Stuttgart), der it.emsland (Lingen) und der Hochschule Osnabrück (Campus Lingen). Die Projektmitarbeiter sitzen an den Standorten ihrer jeweiligen Organisation.
   utter_faq/mittelstand_agentur_BMWi:
@@ -299,7 +288,7 @@ responses:
     - payload: faq/cloud_using
       title: Cloud-Nutzung
     - payload: faq/link_mittelstand_agentur_cloud
-      title: Mittelstand 4.0‑Agentur Cloud
+      title: Mittelstand 4.0-Agentur Cloud
     - payload: faq/cloud_as_a_service
       title: Cloud as a Service
     - payload: faq/services
