@@ -738,3 +738,53 @@ stories:
     user: |-
       Welche Software sollte ich mir anschaffen?
   - action: utter_faq
+- story: Story from Conversation ID 8c9d44b9590444cd972caa6460afe632
+  steps:
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      ki
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/ki_basic_question
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/deep_learning
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: botrating
+    user: |-
+      ok
+  - action: utter_botrating
+  - intent: botrating
+    user: |-
+      botrating/you_helped_enough
+  - action: utter_botrating
+  - intent: botrating
+    user: |-
+      botrating/want_more_information
+  - action: utter_botrating
+  - intent: contact
+    user: |-
+      ansprechpartner
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/agrarbranche
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: botrating
+    user: |-
+      okay
+  - action: utter_botrating
+  - intent: botrating
+    user: |-
+      botrating/you_helped_enough
