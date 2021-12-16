@@ -119,6 +119,7 @@ nlu:
     - Wo ist Hamburg?
     - Pizza bestellen
     - Unternehmenskultur
+    - Projekte
 - intent: botrating/initial_question
   examples: |
     - botrating/initial_question
@@ -171,10 +172,10 @@ nlu:
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - faq/cloudcomputing_or_ownserver
-    - Cloud
-    - Server
     - Eher Cloudcomputing oder eigener Server?
     - Cloud oder Server
+    - Vorteile Cloud
+    - Vorteile Server
     - Muss ich auf Cloud Computing umsteigen oder soll ich meinen eigenen Server nutzen?
     - Besser einen eigenen Server nutzen oder Cloud Computing?
     - Was mache ich mit meinem Server, wenn ich Cloud Computing nutze?
@@ -189,8 +190,8 @@ nlu:
 - intent: faq/use_of_cloud
   examples: |
     - faq/use_of_cloud
-    - Cloud
-    - Cloud Computing
+    - Cloud Einsatz
+    - Cloud Computing Einsatz
     - Für wen eignet sich der Einsatz von Cloud Computing?
     - Wer nutzt Cloud Computing?
     - Welche Unternehmen nutzen Cloud Computing?
@@ -717,9 +718,9 @@ nlu:
 - intent: faq/ki_data
   examples: |
     - faq/ki_data
-    - KI
+    - KI Daten
     - Daten
-    - künstliche Intelligenz
+    - künstliche Intelligenz Daten
     - Daten für künstliche Intelligenz
     - Datenverfügbarkeit
     - Qualität der Daten
@@ -730,25 +731,24 @@ nlu:
 - intent: faq/ki_use
   examples: |
     - faq/ki_use
-    - künstliche Intelligentz
-    - KI
+    - künstliche Intelligenz Nutzung
+    - KI Nutzung
     - Wie nutze ich KI?
     - Warum künstliche Intelligenz
     - Warum brauche ich KI
-    - Einsatz künstliche Intelligentz
+    - Einsatz künstliche Intelligenz
     - Einsatzzweck ki
-    - Für wen eignet sich der Einsatz von künstlicher Intelligentz?
-    - Wer nutzt künstliche Intelligentz?
-    - Welche Unternehmen nutzen künstliche Intelligentz?
-    - Für wen ist künstliche Intelligentz gut?
-    - Wann nutze ich eine künstliche Intelligentz?
+    - Für wen eignet sich der Einsatz von künstlicher Intelligenz?
+    - Wer nutzt künstliche Intelligenz?
+    - Welche Unternehmen nutzen künstliche Intelligenz?
+    - Für wen ist künstliche Intelligenz gut?
+    - Wann nutze ich eine künstliche Intelligenz?
     - Wann ist der Einsatz von Künstlicher Intelligenz sinnvoll?
     - Welche Fragen sollte man sich beim Einsatz von künstlicher Intelligenz stellen?
 - intent: faq/ki_hardware
   examples: |
     - faq/ki_hardware
-    - künstliche Intelligentz
-    - KI
+    - künstliche Intelligenz Hardware
     - Hardware KI
     - KI Voraussetzungen
     - Künstliche Intelligenz Voraussetzungen
@@ -764,8 +764,8 @@ nlu:
     - Was für eine Computer brauch ich für künstliche Intelligenz?
 - intent: faq/ki_topics
   examples: |
-    - KI
-    - Künstliche Intelligenz
+    - KI Themen
+    - Künstliche Intelligenz Themen
     - In welchen Bereichen kann ich zum Thema künstliche Intelligenz Unterstützung erhalten?
     - Was bietet das Kompetenzzentrum zum Thema künstliche Intelligenz an?
     - Was bietet ihr im Bereich künstliche Intelligenz an?
@@ -776,7 +776,7 @@ nlu:
 - intent: faq/cloud_computing_topics
   examples: |
     - faq/cloud_computing_topics
-    - cloud computing
+    - cloud computing Themen
     - In welchen Bereichen kann ich zum Thema Cloud Computing Unterstützung erhalten?
     - Was bietet das Kompetenzzentrum im Bereich Cloud Computing an?
     - Was bietet ihr zum Thema cloud an?
