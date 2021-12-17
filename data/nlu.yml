@@ -143,10 +143,12 @@ nlu:
   examples: |
     - botrating/want_more_information
     - want_more_information
+    - want more information
 - intent: botrating/you_helped_enough
   examples: |
     - botrating/you_helped_enough
     - you_helped_enough
+    - you helped enough
 - intent: botrating/user_stars_rating
   examples: |
     - botrating/user_stars_rating
@@ -917,7 +919,6 @@ nlu:
     - Ansprechpartner für die Handelsbranche
 - intent: contact/handwerk
   examples: |
-    - Handwerk
     - Kontakt Handwerk
     - contact/handwerk
     - Ansprechpartner für das Handwerk

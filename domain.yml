@@ -412,3 +412,4 @@ actions:
 - action_get_events_for_category_selection
 - action_set_reminder
 - action_react_to_reminder
+- utter_botrating
