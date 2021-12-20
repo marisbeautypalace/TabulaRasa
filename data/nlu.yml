@@ -159,6 +159,180 @@ nlu:
   examples: |
     - gerne
     - gern geschehen
+#Agentur
+- intent: faq/mittelstand_agentur_cloud_ki
+  examples: |
+    - faq/mittelstand_agentur_cloud_ki
+    - Wie unterstützt mich das Mittelstand 4.0-Kompetenzzentrum Lingen zum Thema Cloud und künstliche Intelligenz?
+    - Was bietet die Mittelstand 4.0-Agentur an?
+    - Mittstand 4.0 Agentur
+    - Die Agentur
+    - Mittelstand 4.0
+    - Aufgaben der Mittelstand 4.0 Agentur
+    - Was macht die Mittelstand 4.0 Agentur?
+    - Was sind die Aufgaben der Agentur?
+    - Was sind die Aufgaben der Mittelstand 4.0 Agentur?
+    - Was macht die Agentur?
+    - Was bietet die Agentur an?
+    - Was sind die Aufgaben der Mittelstand 4.0-Agentur?
+    - Was bietet die Mittelstand Agentur an?
+- intent: faq/mittelstand_agentur_offers
+  examples: |
+    - faq/mittelstand_agentur_offers
+    - Angebote der Agentur
+    - Angebote des Kompetenzzentrums
+    - An wen richten sich die Angebote?
+    - Für wen sind die Angebote?
+    - Wer nutzt die Angebote der Agentur?
+    - Wer nutzt die Angebote des Kompetenzzentrums?
+    - An wen richten sich die Angebote des Kompetenzzentrums Lingen?
+    - Für wen sind die Angebote des Kompetenzzentrums geeignet? 
+- intent: faq/mittelstand_agentur_free_offers
+  examples: |
+    - faq/mittelstand_agentur_free_offers
+    - Warum sind die Angebote der Mittelstand 4.0-Agentur Cloud kostenlos nutzbar?
+    - Angebote kostenlos nutzbar
+    - kostenlose Angebote
+    - kostenlos nutzbar
+    - Kosten für Angebote
+    - Kosten der Veranstaltung
+    - Warum kostenlos?
+    - Warum Angebote kostenlos?
+    - Warum sind die Angebote kostenlos?
+    - Wie hoch sind die Kosten für die Angebote der Agentur?
+    - Was kosten die Angebote der Mittelstand 4.0 Agentur?
+    - Wird die Mittelstand 4.0-Agentur gefördert?
+    - Was kostet das Angebot der Mittelstand 4.0-Agentur?
+    - Wie hoch sind die Kosten für die Leistungen der Mittelstand 4.0-Agentur?
+    - Was bietet das Kompetenzzentrum an?
+    - Sind die Angebote der Agentur kostenlos nutzbar?
+    - Sind die Angebote der Agentur kostenlos?
+- intent: faq/mittelstand_agentur_location
+  examples: |
+    - faq/mittelstand_agentur_location
+    - Hat die Mittelstand 4.0-Agentur einen Unternehmensstandort?
+    - Standort
+    - Adresse der Agentur
+    - Anschrift der Mittelstand 4.0 Agentur
+    - Unternehmenssitz
+    - Standort der Agentur
+    - Adresse der Mittelstand 4.0 Agentur
+    - Wie ist die Mittelstand 4.0-Agentur zusammengesetzt?
+    - WO arbeiten die Mitarbeiter der Mittelstand 4.0 Agentur?
+    - Wo sitzen die Mitarbeiter der Mittelstand 4.0-Agentur?
+    - Gibt es einen Standort der Mittelstand 4.0 Agentur?
+    - Wo hat die Mittelstand Agentur ihren Standort?
+    - Hat die Agentur einen Unternehmenssitz?
+    - Wo hat die Agentur ihren Hauptsitz?
+    - Ich suche Informationen zur Mittelstand 4.0 Agentur
+    - Wie lautet die Adresse der Agentur?
+    - Ich habe Fragen zur Agentur 4.0
+- intent: faq/mittelstand_agentur_BMWi
+  examples: |
+    - faq/mittelstand_agentur_BMWi
+    - In welcher Beziehung steht die Agentur zum Bundeswirtschaftsministerium?
+    - Bundeswirtschaftsministerium
+    - Wirstschaftsministerium
+    - Beziehung zum Ministerium für Wirtschaft
+    - Wie ist die Beziehung zum Bundeswirtschaftsministerium?
+    - Welche Beziehung hat die Agentur zum Bundeswirtschaftsministerium?
+    - Wie ist der Kontakt zum Bundeswirtschaftsministerium?
+    - Was hat die Mittelstand 4.0-Agentur mit dem Bundeswirtschaftsministerium zutun?
+    - Welche Beziehung habt ihr zum Wirtschaftsministerium?
+    - Was macht ihr mit dem Bundesministerium für Wirtschaft?
+- intent: faq/mittelstand_agentur_software
+  examples: |
+    - faq/mittelstand_agentur_software
+    - Software
+    - Anbieter
+    - Softwareauswahl
+    - Softwareempfehlungen
+    - Software empfehlen
+    - Anbieter empfehlen
+    - Anbieter nennen
+    - Welche Software sollte ich anschaffen?
+    - Könnt ihr mir einen Cloud-Anbieter empfehlen?
+    - Könnt ihr mir eine Software-Lösung empfehlen?
+    - Welche Software könnt ihr empfehlen?
+    - Welche Software sollte ich nutzen?
+    - Welche Software würdet ihr nutzen?
+    - Ich weiß nicht welche Software ich anschaffen soll.
+    - Welche Software sollte ich mir anschaffen?
+    - Könnte ihr eine Software empfehlen?
+    - Empfiehlt die Agentur Cloud Anbieter oder Software-Lösungen?
+#Cloud Computing
+- intent: faq/cloud_computing
+  examples: |
+    - Was ist Cloud Computing? 
+    - Was ist Cloud? 
+    - Cloud
+    - Cloud Computing
+- intent: faq/cloud_provider
+  examples: |
+    - Wer ist der Cloud Provider? 
+    - Wer stellt die Cloud zur Verfüfung?
+    - Wer bietet die Cloud an? 
+    - Wird die Cloud durch ein externes Unternehmen angeboten?
+- intent: faq/cloud_storage
+  examples: |
+    - Cloud Speicher
+    - Cloud Storage
+    - Speichern in der Cloud
+    - Was ist Cloud Speicher?
+    - In der Cloud speichern
+    - Daten in der Cloud speichern
+    - Speicher der Cloud nutzen
+    - Storage der Cloud nutzen
+    - Wie kann ich Daten in der Cloud speichern?
+    - Wie kann ich etwas in der Cloud abspeichern?
+- intent: faq/cloud_virtualization
+  examples: |
+    - Was ist Virtualisierung?
+    - Virtualisierung
+    - virtueller Computer
+    - virtuelle Maschine
+    - gleichzeitige Nutzung von Computern
+    - gemeinsame Nutzung von Ressourchen
+    - gemeinsame Nutzung von Rechenkapazitäten
+    - Rechenkapazität gemeinsam nutzen
+    - Wie kann man Rechenkapazität gemeinsam nutzen?
+    - Wie können Ressourcen gebündelt werden?
+- intent: faq/cloud_security
+  examples: |
+    - Was ist Cloud Security?
+    - Sicherheit und Cloud
+    - Sicherheit in der Cloud
+    - Wie wird die Sicherheit in der Cloud gewährleistet?
+- intent: faq/cloud_data_intelligence
+  examples: |
+    - Was ist Data Intelligence?
+    - Umgang mit gesammelten Daten
+    - Umgang mit Daten aus dem Unternehmen
+    - Wer verarbeite ich gesammelte Daten meines Unternehmens?
+    - Wie kann mit gesammtelten Daten im Unternhemnen umgegangen werden? 
+    - Was mache ich mit gesammelten Daten im Unternehmen?
+- intent: faq/cloud_business_intelligence
+  examples: |
+    - Was ist Business Intelligence?
+    - Reporting aus Unternehmensdaten
+    - automatischer Report
+    - Daten smart analysieren
+    - intelligente Analyse von Daten
+    - Automatisierung des Controllings
+    - Wie kann man Daten elektronisch analysieren? 
+    - Wie kann ich Daten intelligent analysieren? 
+    - Wie werden Daten aus meinem Unternehmen smart analysiert?
+    - Wie kann ich Daten automatisch analysieren? 
+    - Kann man aus Betriebsdaten einen automatischen Report erstellen?
+- intent: faq/cloud_multi
+  examples: |
+    - Was ist eine Multi-Cloud?
+    - Wie können Dienster von verschiedenen Anbietern kombiniert werden?
+    - Kombination von Plattformen und Services
+    - Cloud von mehreren Anbietern
+    - Wie kann ich Flexibilität im Bereich Cloud erreichen?
+    - Flexibilität und Cloud
+    - flexible Cloud
 - intent: faq/cloud_or_it
   examples: |
     - Wenn ich künftig alles in der Cloud mache, wozu brauche ich meine IT-Abteilung noch?
@@ -316,101 +490,7 @@ nlu:
     - Sind meine Daten im Falle einer Insolvenz des Cloud-Anbieters verloren?
     - Wie kann ich einen Datenverlust bei Insolvenz des Cloud-Anbieters absichern?
     - Was passiert mit meinen Daten wenn mein Anbieter insolvent geht?
-- intent: faq/mittelstand_agentur
-  examples: |
-    - faq/mittelstand_agentur
-    - Was bietet die Mittelstand 4.0-Agentur Cloud an?
-    - Mittstand 4.0 Agentur
-    - Mittelstand 4.0 Cloud
-    - Cloud der Agentur Mittelstand 4.0
-    - Die Agentur
-    - Mittelstand 4.0
-    - Aufgaben der Mittelstand 4.0 Agentur
-    - Was macht die Mittelstand 4.0 Agentur?
-    - Was sind die Aufgaben der Agentur?
-    - Was sind die Aufgaben der Mittelstand 4.0 Agentur?
-    - Was macht die Agentur?
-    - Was bietet die Agentur an?
-    - Was bietet die Cloud der Agentur an?
-    - Was bieten die Cloud an?
-    - Was bietet die Cloud der Mittelstand 4.0-Agentur an?
-    - Was sind die Aufgaben der Mittelstand 4.0-Agentur Cloud?
-    - Was ist die Cloud der Mittelstand 4.0-Agentur?
-    - Was bietet die Mittelstand Agentur an?
-    - Was ist die Mittelstand 4.0 Cloud?
-- intent: faq/mittelstand_agentur_offers
-  examples: |
-    - faq/mittelstand_agentur_offers
-    - Warum sind die Angebote der Mittelstand 4.0-Agentur Cloud kostenlos nutzbar?
-    - Angebote kostenlos nutzbar
-    - kostenlose Angebote
-    - kostenlos nutzbar
-    - Kosten für Angebote
-    - Kosten der Veranstaltung
-    - Warum kostenlos?
-    - Warum Angebote kostenlos?
-    - Warum sind die Angebote kostenlos?
-    - Wie hoch sind die Kosten für die Angebote der Agentur?
-    - Was kosten die Angebote der Mittelstand 4.0 Agentur?
-    - Wird die Mittelstand 4.0-Agentur gefördert?
-    - Was kostet das Angebot der Mittelstand 4.0-Agentur?
-    - Wie hoch sind die Kosten für die Leistungen der Mittelstand 4.0-Agentur?
-    - Was bietet das Kompetenzzentrum an?
-    - Sind die Angebote der Agentur kostenlos nutzbar?
-    - Sind die Angebote der Agentur kostenlos?
-- intent: faq/mittelstand_agentur_location
-  examples: |
-    - faq/mittelstand_agentur_location
-    - Hat die Mittelstand 4.0-Agentur einen Unternehmensstandort?
-    - Standort
-    - Adresse der Agentur
-    - Anschrift der Mittelstand 4.0 Agentur
-    - Unternehmenssitz
-    - Standort der Agentur
-    - Adresse der Mittelstand 4.0 Agentur
-    - Wie ist die Mittelstand 4.0-Agentur zusammengesetzt?
-    - WO arbeiten die Mitarbeiter der Mittelstand 4.0 Agentur?
-    - Wo sitzen die Mitarbeiter der Mittelstand 4.0-Agentur?
-    - Gibt es einen Standort der Mittelstand 4.0 Agentur?
-    - Wo hat die Mittelstand Agentur ihren Standort?
-    - Hat die Agentur einen Unternehmenssitz?
-    - Wo hat die Agentur ihren Hauptsitz?
-    - Ich suche Informationen zur Mittelstand 4.0 Agentur
-    - Wie lautet die Adresse der Agentur?
-    - Ich habe Fragen zur Agentur 4.0
-- intent: faq/mittelstand_agentur_BMWi
-  examples: |
-    - faq/mittelstand_agentur_BMWi
-    - In welcher Beziehung steht die Agentur zum Bundeswirtschaftsministerium?
-    - Bundeswirtschaftsministerium
-    - Wirstschaftsministerium
-    - Beziehung zum Ministerium für Wirtschaft
-    - Wie ist die Beziehung zum Bundeswirtschaftsministerium?
-    - Welche Beziehung hat die Agentur zum Bundeswirtschaftsministerium?
-    - Wie ist der Kontakt zum Bundeswirtschaftsministerium?
-    - Was hat die Mittelstand 4.0-Agentur mit dem Bundeswirtschaftsministerium zutun?
-    - Welche Beziehung habt ihr zum Wirtschaftsministerium?
-    - Was macht ihr mit dem Bundesministerium für Wirtschaft?
-- intent: faq/mittelstand_agentur_software
-  examples: |
-    - faq/mittelstand_agentur_software
-    - Software
-    - Anbieter
-    - Softwareauswahl
-    - Softwareempfehlungen
-    - Software empfehlen
-    - Anbieter empfehlen
-    - Anbieter nennen
-    - Welche Software sollte ich anschaffen?
-    - Könnt ihr mir einen Cloud-Anbieter empfehlen?
-    - Könnt ihr mir eine Software-Lösung empfehlen?
-    - Welche Software könnt ihr empfehlen?
-    - Welche Software sollte ich nutzen?
-    - Welche Software würdet ihr nutzen?
-    - Ich weiß nicht welche Software ich anschaffen soll.
-    - Welche Software sollte ich mir anschaffen?
-    - Könnte ihr eine Software empfehlen?
-    - Empfiehlt die Agentur Cloud Anbieter oder Software-Lösungen?
+
 - intent: faq/IaaS
   examples: |
     - faq/IaaS

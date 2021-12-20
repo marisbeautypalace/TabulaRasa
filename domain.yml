@@ -106,6 +106,10 @@ responses:
   - text: Vielen Dank für Ihr Feedback und einen schönen Tag noch.
   utter_botrating/answer_to_feedback:
   - text: Ich hoffe wir sehen uns demnächst wieder!
+  utter_faq/cloud_computing:
+  - text: Das Cloud Computing ist eine Bereitstellung der IT-Infrastruktur (Speicherplatz, Zugriff auf Daten und Programme, Netzwerkdienste, Analyse und vieles mehr) als Dienstleistung über das Internet. Kapazitäten sind beliebig skalierbar und passen sich so der jeweiligen Auslastung an.
+  utter_faq/cloud_provider:
+  - text: Ein Cloud Provider ist ein externer Anbieter, der eine Cloud-basierte Plattform der verschiedene Dienst, wie Infrastruktur, Cloud-Services, Cloud-Server und Speicherdienste anbietet.
   utter_faq/cloud_or_it:
   - text: Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett; Ausnahmen sind Internetanbindung und Firewall. Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.
   utter_faq/cloudcomputing_or_ownserver:
@@ -124,9 +128,11 @@ responses:
   - text: Sie sollten immer standardisierte Datenformate verwenden, da Sie diese im Falle eines Anbieterwechsels oder der Insolvenz Ihres Anbieters weiterverwenden möchten. Die Wahl des Datenträgers für die Rückgabe hängt von der Datenmenge ab, die Sie beim Anbieter gespeichert haben. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/security:
   - text: Das hängt sehr stark davon ab, was Sie in den Nutzungsvereinbarungen mit Ihrem Anbieter vertraglich festgelegt haben. Ein Datenverlust ist daher nicht ausgeschlossen, kann aber durch entsprechende vertragliche Vereinbarungen verhindert werden. Grundsätzlich sollte man zwei Dinge absichern. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
-  utter_faq/mittelstand_agentur:
-  - text: Die Aufgabe der Mittelstand 4.0-Agentur Cloud ist es, Multiplikatoren aus Mittelstandsverbänden, Kammern und Wirtschaftsförderungseinrichtungen beim Wissenstransfer bzgl. Cloud Computing und Smart Services in Richtung kleiner und mittelständischer Unternehmen zu unterstützen. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+  utter_faq/mittelstand_agentur_cloud_it:
+  - text: Der Mittelstand 4.0- Kompetenzzentrum Lingen unterstützt KMU in den Regionen Weser-Ems und Münsterland bei der Entwicklung datengetriebener Geschäftsmodelle von der Idee bis zu Umsetzung. Das Kompetenzzentrum bietet kostenlose Beratungsgespräche an zur Überprüfung der Zukunftsfähigkeit des eigenen Geschäftsmodells, sowie Vorträge zu digitalen Themen und Trends. [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/mittelstand_agentur_offers:
+  - text: Das Angebot richtet sich an kleine und mittelständische Unternehmen in den Regionen Weser-Ems und Münsterland.
+  utter_faq/mittelstand_agentur_free_offers:
   - text: Die Agentur ist ein Bundesprojekt und wird mit öffentlichen Mitteln des Bundesministeriums für Wirtschaft und Energie gefördert. Aus diesem Grund werden die Angebote sowie Veranstaltungen kostenlos angeboten.
   utter_faq/mittelstand_agentur_location:
   - text: Die Agentur setzt sich aus den drei Partnern zusammen. Dem Fraunhofer IAO (Stuttgart), der it.emsland (Lingen) und der Hochschule Osnabrück (Campus Lingen). Die Projektmitarbeiter sitzen an den Standorten ihrer jeweiligen Organisation.
@@ -141,15 +147,27 @@ responses:
   utter_faq/SaaS:
   - text: SaaS (Software as a Service) ist die oberste Ebene der Cloud-Modelle. In diesem Bereich werden fertige Softwarelösungen in Form von Anwendungen für den Nutzer bereitgestellt. Die Verantwortung für die Wartung, Software-Updates und die Verwaltung von Lizenzen obliegt vollständig dem Provider. Klassische Beispiele sind Office 365, Google Apps und iCloud Apps. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/private_cloud:
-  - text: Die private Wolke (Cloud) ist eine unternehmenseigene Cloud-Umgebung, welche gezielt für die eigene Institution sowie ggf. Geschäftspartner, Kunden und Lieferanten betrieben wird. Die Organisation und der Betrieb kann von dem Unternehmen selbst oder von einem Dritten geführt werden. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+  - text: Die private Cloud ist eine unternehmenseigene Cloud-Umgebung, welche gezielt für die eigene Institution betrieben wird. Sie kann vor Ort im eigenen Rechenzentrum installiert oder von Drittanbietern bereitgestellt werden. Sie ermöglicht Unternehmen, eine individuelle, auf die hausinternen Geschäftsprozesse zugeschnittene IT-Betriebsumgebung zu etablieren, ist jedoch meistens auch mit mehr Kosten verbunden. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/public_cloud:
-  - text: Die öffentliche Wolke (Cloud) ist eine vom Provider betriebene und i.d.R. über das Internet bereitgestellte Cloud-Umgebung. Die bereitgestellte Infrastruktur wird von einer beliebigen Anzahl an Kunden anteilig gemietet. Die vom Kunden erworbenen Nutzungsrechte umfassen beispielsweise die Miete von standardisierten Anwendungs- und Infrastruktur-Services. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+  - text: Die Public Cloud sind IT-Dienste, die im öffentlichen Netz angeboten werden. Die Anbieter stellen gratis oder über ein nutzungsabhängiges Zahlungsmodell Anwendungen und Speicherplatz zur Verfügung. Die Nutzer besitzen aufgrund des Mietverhältnisses ein temporäres Nutzungsrecht. Bekannte Anbieter sind Amazon Web Services, Microsoft Azure, IBM Cloud und Google Cloud Plattform. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/hybrid_cloud:
-  - text: Die gemischte Wolke (Cloud) ist eine Mischform bestehend aus einer möglichen Kombination von Private Cloud, Public Cloud und traditioneller IT. Die verschiedenen, für sich individuellen Infrastrukturen, können über standardisierte Schnittstellen miteinander kommunizieren. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+  - text: Die hybride Cloud ist eine Mischform, die die öffentliche und private Cloud verbindet und Dienste im Haus und in der Cloud nutzt. Die verschiedenen, für sich individuellen Infrastrukturen, können über standardisierte Schnittstellen miteinander kommunizieren. Es ermöglicht die Vorteile der verschiedenen Umgebungen zu vereinen und miteinander zu kombinieren. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/community_cloud:
-  - text: Die gemeinschaftliche Wolke (Cloud) ist ein Zusammenschluss von mehreren Unternehmen der gleichen Branche oder Interessengemeinschaft, welche aus ihren privaten Cloud-Lösungen eine Community Cloud formen. Der Zugriff ist auf die Mitglieder des Interessenverbands beschränkt. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+  - text: Die Community Cloud ist ein Zusammenschluss von mehreren Unternehmen der gleichen Branche oder Interessengemeinschaft, welche aus ihren privaten Cloud-Lösungen eine Community Cloud formen. Der Zugriff ist auf die Mitglieder beschränkt. Die Form bietet sich überall dort an, wo sich Anforderungen aus Sicht der Unternehmen überschneiden und die Nutzung einer gemeinsamen Infrastruktur gewollt ist. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/onpremise_ondemand:
   - text: Bei der Auslagerung von IT-Dienstleistungen in die Cloud wird häufig von Software-on-Demand gesprochen. Im Vergleich zu dem On-Premise-Nutzungsmodell, bei welchem der Nutzer die Lizenz für ein Computerprogramm erwirbt und dieses selbst auf der eigenen Hardware betreibt, wird bei der On-Demand-Lösung die Software und damit verbundene Lizenzen beim Anbieter betrieben und je nach Bedarf hoch- oder herunterskaliert.
+  utter_faq/cloud_storage:
+  - text: Der Cloud Speicher ist ein Cloud-Computing Modell, bei dem die Daten im Internet über den Cloud-Anbieter speichert. Er wird als Service verwaltet und betrieben und mit Just-in-Time Kapazität und entsprechenden Kosten bereitgestellt, so dass keine eigene Datenspeicherinfrastruktur gekauft oder verwaltet werden müssen. Durch die Flexibilität, globale Skalierbarkeit und Dauerhaftigkeit kann jederzeit und überall auf die Daten zugreifen.    
+  utter_faq/cloud_virtualization:
+  - text: Virtualisierung ist ein Grundbaustein des Cloud Computing, da dort die gemeinsame Nutzung von Ressourcen, beispielsweise Rechenkapazität durch viele Anwender möglich ist. Ein Cloud Anbieter kann beispielsweise nicht für jeden Kunden einen eigenen Rechner bereitstellen, sondern nur eine virtuelle Maschine. 
+  utter_faq/cloud_security:
+  - text: Cloud Security bezieht sich auf die breite Palette von Richtlinien, Technologien, Anwendungen und Kontrollen, die zum Schutz von Daten, virtualisierten IP, Diensten und der zugehörigen Infrastruktur des Cloud Computing eingesetzt werden. Sie ist ein Teilbereich der Computersicherheit, der Netzwerksicherheit und vor allem in der Informationssicherheit. 
+  utter_faq/cloud_data_intelligence:
+  - text: Data Intelligence bezeichnet einen wertschöpfungs-orientierten Umgang mit gesammelten Daten aus dem Betrieb. Diese Informationen werden anhand von Data Intelligence in zweckmäßiger Weise für das Unternehmen aufbereitet und verarbeitet. Dadurch können Mehrwert und Wettbewerbsvorteile für das Unternehmen generiert werden.
+  utter_faq/cloud_business_intelligence:
+  - text: Business Intelligence (BI) sind Verfahren oder Prozesse, welche der elektronischen Analyse von Daten dienen. In der Praxis versteht man BI als eine Automatisierung des Reportings (Berichtswesens) und des Controllings. Mit bestimmten Software-Lösungen sind Unternehmen in der Lage relevante Daten zu sammeln, auszuwerten und anschließend für operative und strategische Entscheidungen zu nutzen. 
+  utter_faq/cloud_multi:
+  - text: Multi-Cloud kombiniert mehrere Cloud-Anbieter, Plattformen oder Services in einer Umgebung oder Architektur. Eine Multi-Cloud-Strategie reduziert die Abhängigkeit von einem einzigen Anbieter, schützt Ihre Cloud-Services vor Ausfällen, lässt Sie Ihre Architektur an Ihre Anforderungen anpassen und gibt Ihnen die Flexibilität, bei sich ändernden Anforderungen die Lösung zu wechseln. 
   utter_faq/services:
   - text: Dienstleistungen von Cloud Computing sind sehr vielfältig und können folgendes beispielsweise beinhalten. Informationssicherheit, Performance der Dienstleistung, integrationsfähigkeit an die IT-Landschaft des Kunden, niedrige Kosten, keine Technologiehürden, niedriger Einführungsaufwand, Berücksichtigung der Compliance-Anforderungen, Pay-per-Use, gute Help-Desk Strukturen und Support, virtuelles Training, Notfallpläne, flexible Gestaltung von Service Level Agreements.
   utter_faq/speech_recognition_speech_identification:
@@ -333,7 +351,7 @@ responses:
       title: Kooperation
     - payload: faq/mittelstand_agentur_location
       title: Partner
-    - payload: faq/mittelstand_agentur_offers
+    - payload: faq/mittelstand_agentur_free_offers
       title: Kosten
     - payload: faq/mittelstand_agentur_software
       title: Software
