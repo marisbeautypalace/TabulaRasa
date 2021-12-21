@@ -918,7 +918,7 @@ nlu:
 - intent: faq/korpus
   examples: |
     - Korpus
-    - Was ist ein  Korpus?
+    - Was ist ein Korpus?
 - intent: faq/m2m_comunication
   examples: |
     - Machine to Machine Comunication
@@ -928,7 +928,7 @@ nlu:
 - intent: faq/mensch_maschine_interaktion
   examples: |
     - Mensch-Maschine-Interaktion
-    - Was ist Mensch-Maschine-Interkation?
+    - Was ist Mensch-Maschine-Interaktion?
     - Wie interagieren Mensch und Maschine?
     - Informationsaustausch zwischen Mensch und Maschine
     - Wie findet der Informationsaustausch zwischen Mensch und Maschine statt? 
@@ -1300,7 +1300,7 @@ nlu:
 - intent: faq/ki_initial_question
   examples: |
     - KI
-    - Künsltiche Intelligenz
+    - Künstliche Intelligenz
     - Was ist künstliche Intelligenz?
     - Was kannst du mir zu künstliche Intelligenz sagen?
     - erste Schritte künstliche Intelligenz
