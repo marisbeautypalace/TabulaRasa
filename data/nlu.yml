@@ -290,6 +290,27 @@ nlu:
     - Welche Software sollte ich mir anschaffen?
     - Könnte ihr eine Software empfehlen?
     - Empfiehlt die Agentur Cloud Anbieter oder Software-Lösungen?
+- intent: faq/mittelstand_agentur_support
+  examples: |
+    - faq/mittelstand_agentur_support
+    - Was beinhalten die Angebote vom Kompetenzzentrum?
+    - Wobei kann mich das Kompetenzzentrum unterstützen?
+    - was macht das Kompetenzzentrum?
+- intent: faq/mittelstand_agentur_cooperation
+  examples: |
+    - faq/mittelstand_agentur_cooperation
+    - Kooperation
+    - Kooperation mit Kompetenzzentrum
+    - Kann ich mit dem Kompetenzzentrum kooperieren?
+    - Wie werde ich Kooperationspartner vom Kompetenzzentrum?
+    - Ist es möglich eine Kooperation mit dem Kompetenzzentrum einzugehen?
+    - Kann ich andere Unternehmen im Bereich der digitalen Transformation unterstützen?
+    - wie kann ich mit dem Kompetenzzentrum kooperieren?
+    - Ich will anderen Unternehmen helfen.
+    - Ich will andere Unternehmen in der digitalen Transformation unterstützen.
+    - Was kostet eine Kooperation?
+    - Kostet eine Kooperation mit dem Kompetenzzentrum etwas?
+    - Wie kann man mit der Agentur kooperieren?
 #Cloud Computing
 - intent: faq/cloud_computing
   examples: |
@@ -303,6 +324,51 @@ nlu:
     - Wer stellt die Cloud zur Verfüfung?
     - Wer bietet die Cloud an? 
     - Wird die Cloud durch ein externes Unternehmen angeboten?
+- intent: faq/private_cloud
+  examples: |
+    - faq/private_cloud
+    - private Cloud
+    - Für welche Zwecke kann ich Private Cloud nutzen?
+    - Was ist Private Cloud?
+    - Wozu braucht man eine private Cloud?
+    - Wie funktioniert eine private Cloud?
+    - was ist eine private Cloud?
+    - kann ich eine private cloud selbst betreiben?
+    - Wofür nutze ich eine private Cloud?
+- intent: faq/public_cloud
+  examples: |
+    - faq/public_cloud
+    - public
+    - Public Cloud
+    - öffentliche Cloud
+    - Was ist eine Public Cloud?
+    - Für welche Zwecke kann ich Private Cloud nutzen?
+    - Was ist eine public Cloud?
+    - Wozu braucht man eine public Cloud?
+    - kann ich eine public cloud selbst betreiben?
+    - Wofür nutzt man die öffentliche Cloud?
+- intent: faq/hybrid_cloud
+  examples: |
+    - faq/hybrid_cloud
+    - hybride Cloud
+    - Was ist eine Hybrid Cloud?
+    - Für welche Zwecke kann ich Hybrid Cloud nutzen?
+    - Was ist Hybrid Cloud?
+    - wozu braucht man hybrid cloud?
+    - wer braucht eine hybrid cloud?
+    - Wofür brauche ich eine hybride Cloud?
+- intent: faq/community_cloud
+  examples: |
+    - faq/community_cloud
+    - community Cloud
+    - gemeinschaftliche Cloud
+    - Zusammenschluss von Cloud
+    - community cloud nutzen
+    - mehrere Unternehmen nutzen eine Cloud
+    - Was ist eine Community Cloud?
+    - Für welche Zwecke kann ich Community Cloud nutzen?
+    - Was ist Community Cloud?
+    - wozu braucht man eine Community cloud?
 - intent: faq/cloud_storage
   examples: |
     - Cloud Speicher
@@ -363,6 +429,63 @@ nlu:
     - Wie kann ich Flexibilität im Bereich Cloud erreichen?
     - Flexibilität und Cloud
     - flexible Cloud
+- intent: faq/IaaS
+  examples: |
+    - faq/IaaS
+    - Was versteht man unter Infrastructure as a Service?
+    - Für welche Zwecke kann ich Infrastructure as a Service nutzen?
+    - Was ist Infrastructure as a Service?
+    - wofür kann ich iaas nutzen?
+    - wofür kann ich infrastructure as a service nutzen?
+    - was ist iaas?
+- intent: faq/PaaS
+  examples: |
+    - faq/PaaS
+    - Platform as a Service
+    - PaaS
+    - Was versteht man unter Platform as a Service?
+    - Für welche Zwecke kann ich Platform as a Service nutzen?
+    - Was ist Platform as a Service?
+    - was ist paas?
+    - wofür brauche ich paas?
+    - wofür brauche ich platform as a service?
+- intent: faq/SaaS
+  examples: |
+    - faq/SaaS
+    - Software as a Service
+    - SaaS
+    - Was versteht man unter Software as a Service?
+    - Für welche Zwecke kann ich Software as a Service nutzen?
+    - Was ist Software as a Service?
+    - Was ist SaaS?
+    - Warum Software as a Service?
+    - Wozu brauche ich Software as a Service?
+- intent: faq/onpremise_ondemand
+  examples: |
+    - faq/onpremise_ondemand
+    - on premise
+    - on-premise
+    - on demand
+    - on-demand
+    - on premise oder on demand
+    - Was ist der Unterschied zwischen On-Premise und On-Demand?
+    - Für welche Zwecke nutze ich On-Premise oder On-Demand?
+    - Wann nutze ich On-Premise und wann On-Demand?
+    - wann nutze ich on premise Lösungen?
+    - wann nutze ich on demand lösungen?
+    - was ist der unterschied zwischen on Premise und on demand?
+- intent: faq/services
+  examples: |
+    - faq/services
+    - Dienstleistungen Cloud Computing
+    - Service Cloud
+    - Dienstleistung Cloud
+    - Was sind Dienstleistungen von Cloud Computing?
+    - Welche Dienstleistungen bietet das Cloud Computing?
+    - Bietet Cloud Computing Dienstleistungen an?
+    - was für Dienstleistungen gibt es beim cloud computing?
+    - was sind Services von cloud computing?
+#Cloud Computing Fragen
 - intent: faq/cloud_or_it
   examples: |
     - Wenn ich künftig alles in der Cloud mache, wozu brauche ich meine IT-Abteilung noch?
@@ -432,11 +555,13 @@ nlu:
 - intent: faq/cloud_introduction
   examples: |
     - faq/cloud_introduction
-    - Cloud einführen
+    - Was sind die ersten Schritte zur Einführung einer Cloud-Lösung?
+    - Cloud-Lösungen einführen
+    - ersten Schritte Cloud Einführung
     - Wie gehe ich am besten bei der Einführung von Cloud Computing vor?
     - Wie führe ich Cloud Computing im Unternehmen ein?
     - Gibt es einen Prozess, um das Cloud Computing einzuführen?
-    - Wie wird Cloud Computing im Unternehmen eingeführt?
+    - Wie werden Cloud Lösungen im Unternehmen eingeführt?
     - Cloud Einführung?
     - Wie Plane ich die Cloudeinführung?
     - Cloud wie einführen?
@@ -448,9 +573,8 @@ nlu:
     - Prozess Einführung Cloud?
     - Wir planen den Neustart einer Cloud
     - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor?
-    - Cloud im Unternehmen einführen
-    - Ich suche Informationen zum Thema Cloud
-    - Ich möchte eine Cloud in meinem Unternehmen einführen
+    - Cloud-Lösungen im Unternehmen einführen
+    - Ich möchte eine Cloud-Lösung in meinem Unternehmen einführen
 - intent: faq/network_breakdown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
@@ -507,7 +631,7 @@ nlu:
     - Wie läuft die Rückgabe von Daten bei einem Anbieterwechsel ab?
     - Gibt es spezielle Anforderungen an Datenträger für die Rückgabe von Daten bei einem Anbieterwechsel?
     - welchen Datenträger benötige ich für einen Anbieterwechsel?
-- intent: faq/security
+- intent: faq/cloud_insolvent
   examples: |
     - Was passiert mit meinen Daten, wenn der Cloud-Anbieter insolvent geht?
     - Insolvenz meines Anbieters
@@ -520,108 +644,48 @@ nlu:
     - Sind meine Daten im Falle einer Insolvenz des Cloud-Anbieters verloren?
     - Wie kann ich einen Datenverlust bei Insolvenz des Cloud-Anbieters absichern?
     - Was passiert mit meinen Daten wenn mein Anbieter insolvent geht?
-
-- intent: faq/IaaS
+- intent: faq/cloud_benefits
   examples: |
-    - faq/IaaS
-    - Was versteht man unter Infrastructure as a Service?
-    - Für welche Zwecke kann ich Infrastructure as a Service nutzen?
-    - Was ist Infrastructure as a Service?
-    - wofür kann ich iaas nutzen?
-    - wofür kann ich infrastructure as a service nutzen?
-    - was ist iaas?
-- intent: faq/PaaS
+    - Welche zentralen Vorteile bringt Cloud Computing meinem Unternehmen?
+    - Vorteile Cloud
+    - Vorteile Cloud Computing
+    - Cloud positiv und gut
+    - Welche Vorteile hat Cloud Computing?
+    - Was bringt Cloud Computing meinem Unternehmen?
+    - Was ist gut an Cloud Computing?
+    - Wieso ist die Nutzung einer Cloud gut?
+    - Vorteile von Cloud Computing im Mittelstand
+- intent: faq/cloud_or_outsourcing
   examples: |
-    - faq/PaaS
-    - Platform as a Service
-    - PaaS
-    - Was versteht man unter Platform as a Service?
-    - Für welche Zwecke kann ich Platform as a Service nutzen?
-    - Was ist Platform as a Service?
-    - was ist paas?
-    - wofür brauche ich paas?
-    - wofür brauche ich platform as a service?
-- intent: faq/SaaS
+    - Wie unterscheidet sich Cloud Computing zu klassischen Outsourcing Diensten?
+    - Unterschied zwischen Cloud und Outsourcing-Diensten
+- intent: faq/cloud_application_area
+  examples: |     
+    - Was sind typische Einsatzgebiete von Cloud Computing?
+    - Einsatzgebiete Cloud Computing
+    - typischer Einsatz von Cloud
+- intent: faq/cloud_businessmodel
   examples: |
-    - faq/SaaS
-    - Software as a Service
-    - SaaS
-    - Was versteht man unter Software as a Service?
-    - Für welche Zwecke kann ich Software as a Service nutzen?
-    - Was ist Software as a Service?
-    - Was ist SaaS?
-    - Warum Software as a Service?
-    - Wozu brauche ich Software as a Service?
-- intent: faq/private_cloud
-  examples: |
-    - faq/private_cloud
-    - private Cloud
-    - Für welche Zwecke kann ich Private Cloud nutzen?
-    - Was ist Private Cloud?
-    - Wozu braucht man eine private Cloud?
-    - Wie funktioniert eine private Cloud?
-    - was ist eine private Cloud?
-    - kann ich eine private cloud selbst betreiben?
-    - Wofür nutze ich eine private Cloud?
-- intent: faq/public_cloud
-  examples: |
-    - faq/public_cloud
-    - public
-    - Public Cloud
-    - öffentliche Cloud
-    - Was ist eine Public Cloud?
-    - Für welche Zwecke kann ich Private Cloud nutzen?
-    - Was ist eine public Cloud?
-    - Wozu braucht man eine public Cloud?
-    - kann ich eine public cloud selbst betreiben?
-    - Wofür nutzt man die öffentliche Cloud?
-- intent: faq/hybrid_cloud
-  examples: |
-    - faq/hybrid_cloud
-    - hybride Cloud
-    - Was ist eine Hybrid Cloud?
-    - Für welche Zwecke kann ich Hybrid Cloud nutzen?
-    - Was ist Hybrid Cloud?
-    - wozu braucht man hybrid cloud?
-    - wer braucht eine hybrid cloud?
-    - Wofür brauche ich eine hybride Cloud?
-- intent: faq/community_cloud
-  examples: |
-    - faq/community_cloud
-    - community Cloud
-    - gemeinschaftliche Cloud
-    - Zusammenschluss von Cloud
-    - community cloud nutzen
-    - mehrere Unternehmen nutzen eine Cloud
-    - Was ist eine Community Cloud?
-    - Für welche Zwecke kann ich Community Cloud nutzen?
-    - Was ist Community Cloud?
-    - wozu braucht man eine Community cloud?
-- intent: faq/onpremise_ondemand
-  examples: |
-    - faq/onpremise_ondemand
-    - on premise
-    - on-premise
-    - on demand
-    - on-demand
-    - on premise oder on demand
-    - Was ist der Unterschied zwischen On-Premise und On-Demand?
-    - Für welche Zwecke nutze ich On-Premise oder On-Demand?
-    - Wann nutze ich On-Premise und wann On-Demand?
-    - wann nutze ich on premise Lösungen?
-    - wann nutze ich on demand lösungen?
-    - was ist der unterschied zwischen on Premise und on demand?
-- intent: faq/services
-  examples: |
-    - faq/services
-    - Dienstleistungen Cloud Computing
-    - Service Cloud
-    - Dienstleistung Cloud
-    - Was sind Dienstleistungen von Cloud Computing?
-    - Welche Dienstleistungen bietet das Cloud Computing?
-    - Bietet Cloud Computing Dienstleistungen an?
-    - was für Dienstleistungen gibt es beim cloud computing?
-    - was sind Services von cloud computing?
+    - Wie beeinflusst die Cloud mein Business Modell?
+    - Cloud und Geschäftsmodell
+    - Cloud Computing und Business Modell
+    - Beeinflusst die Cloud mein Business Modell? 
+    - Einfluss der Cloud auf mein Geschäftsmodell
+    - Wie wird mein Geschäftsmodell durch die Cloud beeinflusst?
+    - Welchen Einfluss nimmt die Cloud auf mein heutige Geschäftsmodell?
+- intent: faq/cloud_company_size
+  examples: |     
+    - Ist Cloud nur etwas für Großunternehmen oder können Unternehmen mit Cloud-Anwendungen auch mit kleinerem Budget umsetzen?
+    - Cloud nur für große Unternehmen
+    - Cloud auch für kleine Unternehmen
+    - Cloud Computing im Klein- und Mittelstand
+    - Unternehmensgröße für Cloud Computing?
+    - Mitarbeiteranzahl für Cloud
+    - Ab welche Unternehmensgröße kann ich Cloud Computing nutzen?
+    - Wie groß sollte mein Unternehmen für die Nutzung einer Cloud sein?
+    - Cloud als Unternehmen im Mittelstand?
+    - Cloud als Kleinunternehmen?
+#Künstliche Intelligenz
 - intent: faq/speech_recognition_speech_identification
   examples: |
     - faq/speech_recognition_speech_identification
@@ -674,6 +738,32 @@ nlu:
     - Wie erkennt ein Computer verschiedene Audiosignale?
     - Gibt es die Möglichkeit verschiedene Audiosignale zu verarbeiten?
     - Wie kann ich verschiedene Audiosignale verarbeiten?
+- intent: faq/pattern_recognition
+  examples: |
+    - Wie können Muster automatisch erkannt werden?
+    - Mustererkennung
+    - Mustererkennung in Daten
+    - Wie kann ich Muster in Daten erkennen?
+    - Wie kann ich Muster in Daten ermitteln?
+    - Muster in Daten erkennen
+    - Was sind Beispiele für die Mustererkennung?
+- intent: faq/natural_language_processing
+  examples: |
+    - Maschinelle Sprachverarbeitung
+    - Sprachverarbeitung
+    - Automatische Sprachverarbeitung
+    - Wie kann die menschliche Sprache automatisch verarbeitet werden?
+    - Was ist Natural Language Processing?
+    - Was ist maschinelle Spracherkennung?
+- intent: faq/adversarial_learning
+  examples: |
+    - Gegnerisches Lernen
+    - Adversarial learning
+    - Was ist gegnerisches Lernen? 
+    - Was ist asversarial learning?
+    - Modell durch Angriffe bewusst trainieren
+    - Modell durch Angriffe lernen
+    - Wie kann ein Modell gezielt durch falsche Ergebnisse lernen?
 - intent: faq/data_analytics
   examples: |
     - faq/data_analytics
@@ -748,6 +838,13 @@ nlu:
     - was ist ein neuronales netz?
     - Was ist künstliche Intelligenz?
     - Wie kann ein menschliches Gehirn durch einen Computer abgebildet werden?
+- intent: faq/model
+  examples: |
+    - Modell
+    - Model
+    - Modell im Bereich des maschinellen Lernens
+    - Was ist ein Modell?
+    - Was beschreibt ein Modell?
 - intent: faq/machine_learning
   examples: |
     - faq/machine_learning
@@ -773,6 +870,91 @@ nlu:
     - Was ist Deep Learning?
     - Was ist der Unterschied zwischen machine learning und deep learning?
     - Was sind Schichten beim Deep Learning?
+- intent: faq/supervised_learning
+  examples: |
+    - Supervised learning
+    - überwachtes Lernen
+    - Was ist supervised learning? 
+    - Was ist überwachtes lernen? 
+    - Was beschreibt die Methode Supervised Learning?
+- intent: faq/reinforcement_learning
+  examples: |
+    - Reinforcement learning
+    - Bestärkendes Lernen
+    - Was ist reinforcement learning? 
+    - Was ist bestärkendes lernen? 
+    - Was beschreibt die Methode Reinforcement Learning?
+- intent: faq/unsupervised_learning
+  examples: |
+    - Unsupervised learning
+    - Unüberwachtes Lernen
+    - Was ist unsupervised learning? 
+    - Was ist unüberwachtes lernen? 
+    - Was beschreibt die Methode Unupervised Learning?
+- intent: faq/algorithmus
+  examples: |
+    - Algorithmus
+    - Was ist ein Algorithmus?
+- intent: faq/lernalgorithmus
+  examples: |
+    - Lernalgorithmus
+    - Was ist ein Lernalgorithmus? 
+- intent: faq/assistenzsysteme
+  examples: |
+    - Assistenzsystem
+    - Was ist ein Assistenzsystem?
+- intent: faq/autonome_systeme
+  examples: |
+    - Autonome Systems
+    - Was sind autonome Systeme?
+- intent: faq/automatisierungsstufe
+  examples: |
+    - Automatisierungsstufe
+    - Was ist die Automatisierungsstufe?
+- intent: faq/ferngesteuertes_system
+  examples: |
+    - Ferngesteuertes System
+    - Was ist ein ferngesteuertes System?
+- intent: faq/korpus
+  examples: |
+    - Korpus
+    - Was ist ein  Korpus?
+- intent: faq/m2m_comunication
+  examples: |
+    - Machine to Machine Comunication
+    - Maschine-Maschine-Kommunikation
+    - Was ist M2M-Kommunikation? 
+    - Wie kommunizieren zwei Maschinen?
+- intent: faq/mensch_maschine_interaktion
+  examples: |
+    - Mensch-Maschine-Interaktion
+    - Was ist Mensch-Maschine-Interkation?
+    - Wie interagieren Mensch und Maschine?
+    - Informationsaustausch zwischen Mensch und Maschine
+    - Wie findet der Informationsaustausch zwischen Mensch und Maschine statt? 
+- intent: faq/big_data
+  examples: |
+    - Big Data
+    - Was ist Big Data?
+    - Wie können große Datenmengen verarbeitet werden? 
+    - Wie werden sehr große Datenmenege verwaltet und ausgewertet?
+- intent: faq/data_mining
+  examples: |
+    - Data Mining
+    - Was ist Data Mining?
+    - Wie können Zusammenhänge und Trends in vorhandenen Daten erkannt werden?
+- intent: faq/internet_of_things
+  examples: |
+    - Internet of Things
+    - Internet der Dinge
+    - Was ist Internet of Things?
+    - Was ist das Internet der Dinge? 
+    - Vernetzung von Geräten zum Datenaustausch
+    - Wie können verschiedenen Geräte Daten austasuchen?
+- intent: faq/smart_data
+  examples: |
+    - Smart Data
+    - Was ist Smart Data?  
 - intent: faq/bot
   examples: |
     - Was ist ein Bot?
@@ -792,27 +974,6 @@ nlu:
     - Wie kann der Wartungsprozess effizienter gestaltet werden?
     - Wie können Wartungen vorhergesagt werden?
     - Können Maschinendaten zur Planung von Wartungen genutzt werden?
-- intent: faq/mittelstand_agentur_support
-  examples: |
-    - faq/mittelstand_agentur_support
-    - Was beinhalten die Angebote vom Kompetenzzentrum?
-    - Wobei kann mich das Kompetenzzentrum unterstützen?
-    - was macht das Kompetenzzentrum?
-- intent: faq/mittelstand_agentur_cooperation
-  examples: |
-    - faq/mittelstand_agentur_cooperation
-    - Kooperation
-    - Kooperation mit Kompetenzzentrum
-    - Kann ich mit dem Kompetenzzentrum kooperieren?
-    - Wie werde ich Kooperationspartner vom Kompetenzzentrum?
-    - Ist es möglich eine Kooperation mit dem Kompetenzzentrum einzugehen?
-    - Kann ich andere Unternehmen im Bereich der digitalen Transformation unterstützen?
-    - wie kann ich mit dem Kompetenzzentrum kooperieren?
-    - Ich will anderen Unternehmen helfen.
-    - Ich will andere Unternehmen in der digitalen Transformation unterstützen.
-    - Was kostet eine Kooperation?
-    - Kostet eine Kooperation mit dem Kompetenzzentrum etwas?
-    - Wie kann man mit der Agentur kooperieren?
 - intent: faq/ki_companysize
   examples: |
     - faq/ki_companysize
@@ -885,6 +1046,54 @@ nlu:
     - Wie kann ich künstliche Intelligenz im Unternehmen nutzen?
     - Arbeitet das Kompetenzzentrum mit künstlicher Intelligenz?
     - Wie kann ich künstliche Intelligenz nutzen?
+- intent: faq/ki_benefits
+  examples: |
+    - Welche zentralen Vorteile bringt künstliche Intelligenz meinem Unternehmen?
+    - Vorteile künstliche Intelligenz
+    - Vorteile KI
+    - künstliche Intelligenz positiv und gut
+    - Welche Vorteile hat KI?
+    - Was bringt KI meinem Unternehmen?
+    - Was ist gut an küntlicher Intelligenz?
+    - Wieso ist die Nutzung einer KI gut?
+    - Vorteile von künstlicher Intelligenz im Mittelstand
+- intent: faq/ki_application
+  examples: |
+    - Was sind die relevantesten KI-Anwendungen? 
+    - relevante Anwendungen von künstlicher Intelligenz
+    - wichtige Anwendungen von KI 
+- intent: faq/use_of_ki
+  examples: |
+    - Was sind typische Einsatzgebiete von künstlicher Intelligenz?
+    - Einsatzgebiete künstliche Intelligenz
+    - typische Einsatzzwecke von KI
+    - Einsatz von KI
+- intent: faq/ki_businessmodel
+  examples: |
+    - Wie beeinflusst künstliche Intelligenz mein Geschäftsmodell?
+    - Einfluss von künstlicher Intelligenz auf mein Geschäftsmodell
+    - Einfluss auf das Businessmodel von KI
+- intent: faq/ki_amount_of_data
+  examples: |
+    - Wie viele Daten müssen vorliegen, um KI-Anwendungen zu nutzen? 
+    - Wie viele Daten brauche ich für KI-Anwendungen? 
+    - Wie groß muss die Datenmenge für künstliche Intelligenz?
+    - Beenötige ich viele Daten, um KI-Anwendungen zu nutzen? 
+    - große Datenmengen für künstliche Intelligenz
+- intent: faq/ki_acceptance
+  examples: |
+    - Wie erreichen Unternehmen Akzeptanz für KI-Anwendungen bei ihren Mitarbeitern?
+    - Wie schaffe ich Akzeptanz für künstliche Intelligenz? 
+    - Akzeptanz für KI schaffen
+    - Akzeptanz für künstliche Intelligenz schaffen
+    - Mitarbeiter sollen KI-Anwendungen akzeptieren
+- intent: faq/ki_support
+  examples: |
+    - Wo können Unternehmen unterstützung zur Einführung von künstlicher Intelligenz erhalten?
+    - Wo erhalte ich Unterstützung zum Thema KI?
+    - Unterstützung bei der Einführung von KI
+    - Unterstützung küsntliche Intelligenz
+    - Support bei KI-Anwendungen
 - intent: faq/cloud_computing_topics
   examples: |
     - faq/cloud_computing_topics
@@ -1092,6 +1301,7 @@ nlu:
   examples: |
     - KI
     - Künsltiche Intelligenz
+    - Was ist künstliche Intelligenz?
     - Was kannst du mir zu künstliche Intelligenz sagen?
     - erste Schritte künstliche Intelligenz
     - KI einführen
