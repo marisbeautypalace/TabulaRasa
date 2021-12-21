@@ -25,3 +25,22 @@ stories:
   - intent: Events_Timeframe_Selection
   - action: action_get_events_for_timeframe
   - action: action_set_reminder
+- story: botrating affirm path
+  steps:
+  - intent: rating_initial_question
+  - action: utter_rating_initial_question
+  - intent: affirm
+  - action: utter_rating_want_more_information
+- story: botrating deny path
+  steps:
+  - intent: rating_initial_question
+  - action: utter_rating_initial_question
+  - intent: deny
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+  - action: action_receive_rating
+
+# - story: badpath deny -> funktioniert komischerweise nicht (ist in Dauerschleife und geht auch nach inital_question und Buttonauswahl nicht zum Rating-Pfad)
+#   steps:
+#   - intent: deny
+#   - action: utter_please_rephrase

@@ -5,10 +5,14 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 
+import datetime
+from datetime import datetime, timedelta
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from processing import eventProcessing
+from rasa_sdk.events import SlotSet
+from rasa_sdk.events import ReminderScheduled
 
 URL = "http://kompetenzzentrum-lingen.digital/wp-json/tribe/events/v1/events"
 
@@ -27,7 +31,7 @@ class actionEventSelection(Action):
             {"payload":"/Events_Timeframe", "title": "Veranstaltungen nach Zeitraum filtern"}
         ]
 
-        dispatcher.utter_message(text="Wir haben unterschiedliche Veranstaltungs- und Workshop-Angebote. Nach welchen Kriterien sollen die Veranstaltungen gefiltert werden?", buttons=buttons)
+        dispatcher.utter_message(response="utter_event_selection", buttons=buttons)
         
 
         return []
@@ -78,7 +82,7 @@ class ActionGetEventsForCategorySelection(Action):
             slot = '{"category_selection":' + '"' + category + '"' + '}'
             buttons.append({"payload": '/Events_Category_Selection'+slot, "title": category})
         
-        dispatcher.utter_message(text="Nach welcher Kategorie soll gefiltert werden?", buttons=buttons)
+        dispatcher.utter_message(response="utter_events_category_selection", buttons=buttons)
 
         return []
 
@@ -115,15 +119,11 @@ class ActionGetEventsForTimeframeSelection(Action):
             {"payload": '/Events_Timeframe_Selection{"timeframe_selection":"60"}', "title": "In den nächsten 60 Tagen"},
         ]
 
-        dispatcher.utter_message(text="Nach welchem Zeitraum soll gefiltert werden?", buttons=buttons)
+        dispatcher.utter_message(response="utter_events_timeframe_selection", buttons=buttons)
         
 
         return []
 
-
-import datetime
-from rasa_sdk.events import ReminderScheduled
-from rasa_sdk import Action
 
 class ActionSetReminder(Action):
     """Schedules a reminder for 20 seconds of no interaction"""
@@ -140,7 +140,7 @@ class ActionSetReminder(Action):
 
         # dispatcher.utter_message("I will remind you in 20 seconds.")
         
-        date = datetime.datetime.now() + datetime.timedelta(seconds=20)
+        date = datetime.now() + timedelta(seconds=20)
         # entities = tracker.latest_message.get("entities")
 
         reminder = ReminderScheduled(
@@ -166,6 +166,42 @@ class ActionReactToReminder(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(f"Sie haben seit einiger Zeit keine neue Nachricht eingegeben.")
+        dispatcher.utter_message(response="utter_no_user_message")
 
         return []
+
+class ActionReceiveRating(Action):
+
+    def name(self) -> Text:
+        return "action_receive_rating"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+       rating = tracker.latest_message['text']
+       dispatcher.utter_message(response="utter_rating_thanks")
+       
+       file = open("ratings.csv", "a")
+       file.write(str(rating) + ";" + str(datetime.now()) + "\n")
+       file.close()
+
+       return [SlotSet("rating_selection",rating)]
+
+
+class ActionSayRating(Action):
+
+    def name(self) -> Text:
+        return "action_say_rating"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+       rating = tracker.get_slot("rating_selection")
+       if not rating:
+           dispatcher.utter_message(response="utter_no_rating_specified")
+       else:
+           dispatcher.utter_message(response="utter_repeat_rating_for_user", rating_selection=rating)
+       
+       return []

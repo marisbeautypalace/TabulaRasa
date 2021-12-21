@@ -42,16 +42,16 @@ rules:
   - action: action_set_reminder
   - action: utter_chitchat
   
-- rule: map to rating path
-  steps:
-  - intent: botrating
-  - action: utter_botrating
-
 - rule: trigger 'action_react_to_reminder' for 'EXTERNAL_reminder'
   steps:
   - intent: EXTERNAL_reminder
   - action: action_react_to_reminder
-  - action: utter_botrating/initial_question
+  - action: utter_rating_initial_question
+
+- rule: give the user his rating when he asks for it
+  steps:
+  - intent: rating_user_ask_rating
+  - action: action_say_rating
 
 - rule: out-of-scope
   steps:

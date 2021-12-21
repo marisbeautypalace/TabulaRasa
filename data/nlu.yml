@@ -120,9 +120,28 @@ nlu:
     - Pizza bestellen
     - Unternehmenskultur
     - Projekte
-- intent: botrating/initial_question
+- intent: affirm
   examples: |
-    - botrating/initial_question
+    - ja
+    - jo
+    - klar
+    - genau
+    - auf jeden fall
+    - jau
+    - j
+    - ja, schon
+- intent: deny
+  examples: |
+    - nein
+    - n
+    - niemals
+    - ich glaube nicht
+    - ne
+    - nö
+    - nicht wirklich
+- intent: rating_initial_question
+  examples: |
+    - rating_initial_question
     - ich möchte das Gespräch beenden
     - danke
     - danke für die Informationen
@@ -139,26 +158,37 @@ nlu:
     - Das hat geholfen danke
     - ok
     - okay
-- intent: botrating/want_more_information
+    - Ende
+    - Cancel
+    - Neustart
+    - Restart
+    - Stop
+    - Stopp
+    - Restart
+    - Reboot
+- intent: rating_want_more_information
   examples: |
-    - botrating/want_more_information
+    - rating_want_more_information
     - want_more_information
     - want more information
-- intent: botrating/you_helped_enough
+- intent: rating_you_helped_enough
   examples: |
-    - botrating/you_helped_enough
+    - rating_you_helped_enough
     - you_helped_enough
     - you helped enough
-- intent: botrating/user_stars_rating
+- intent: rating_user_stars_rating
   examples: |
-    - botrating/user_stars_rating
-    - user_stars_rating
-    - rating
-    - stars
-- intent: botrating/answer_to_feedback
+    - 1 Stern
+    - 2 Sterne
+    - 3 Sterne
+    - 4 Sterne
+    - 5 Sterne
+- intent: rating_user_ask_rating
   examples: |
-    - gerne
-    - gern geschehen
+    - Wie viele Sterne habe ich gegeben?
+    - Wie war meine Bewertung?
+    - Meine Bewertung
+    - Wie viele Stars habe ich gegeben?
 #Agentur
 - intent: faq/mittelstand_agentur_cloud_ki
   examples: |

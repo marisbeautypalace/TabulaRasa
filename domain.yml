@@ -8,7 +8,13 @@ intents:
 - bot_challenge
 - out_of_scope
 - chitchat
-- botrating
+- affirm
+- deny
+- rating_initial_question
+- rating_want_more_information
+- rating_you_helped_enough
+- rating_user_stars_rating
+- rating_user_ask_rating
 - EXTERNAL_reminder
 - faq
 - contact
@@ -22,11 +28,15 @@ intents:
 entities:
 - timeframe_selection
 - category_selection
+- rating_selection
 slots:
   timeframe_selection:
     type: text
     influence_conversation: true
   category_selection:
+    type: text
+    influence_conversation: true
+  rating_selection:
     type: text
     influence_conversation: true
 responses:
@@ -73,14 +83,16 @@ responses:
   - text: Bei diesem Thema kann ich Ihnen leider nicht weiterhelfen.
   utter_please_rephrase:
   - text: Tut mir Leid, die Frage habe ich leider nicht richtig verstanden. Könnten Sie die Frage umformulieren?
-  utter_botrating/initial_question:
+  utter_no_user_message:
+  - text: Sie haben seit einiger Zeit keine neue Nachricht eingegeben.
+  utter_rating_initial_question:
   - buttons:
-    - payload: botrating/want_more_information
+    - payload: ja
       title: Ja
-    - payload: botrating/you_helped_enough
+    - payload: nein
       title: Nein
     text: Haben Sie weitere Fragen an mich?
-  utter_botrating/want_more_information:
+  utter_rating_want_more_information:
   - text: |-
       Gerne beantworte ich Ihnen weitere Fragen zu den folgenden Themen: 
        - Veranstaltungen 
@@ -89,23 +101,25 @@ responses:
        - Cloud-Computing 
        - Mittelstand 4.0-Kompetenzzentrum
       Wobei kann ich Ihnen noch weiterhelfen?
-  utter_botrating/you_helped_enough:
+  utter_rating_you_helped_enough:
   - buttons:
-    - payload: botrating/user_stars_rating
+    - payload: 1 Stern
       title: ⭐
-    - payload: botrating/user_stars_rating
+    - payload: 2 Sterne
       title: ⭐⭐
-    - payload: botrating/user_stars_rating
+    - payload: 3 Sterne
       title: ⭐⭐⭐
-    - payload: botrating/user_stars_rating
+    - payload: 4 Sterne
       title: ⭐⭐⭐⭐
-    - payload: botrating/user_stars_rating
+    - payload: 5 Sterne
       title: ⭐⭐⭐⭐⭐
-    text: In Ordnung. Ich hoffe, dass ich all Ihre Fragen zufriedenstellend beantworten konnte. Ich wäre Ihnen sehr dankbar, wenn Sie den Service mit diesem Chatbot kurz bewerten würden. Vielen Dank!
-  utter_botrating/user_stars_rating:
+    text: In Ordnung. Ich hoffe, dass ich all Ihre Fragen zufriedenstellend beantworten konnte. Ich wäre Ihnen sehr dankbar, wenn Sie den Service mit diesem Chatbot kurz bewerten würden. Sie haben die Möglichkeit entweder die Sterne-Bewertung auszuwählen oder ein qualitatives Feedback über das Textfeld zu hinterlassen. Vielen Dank!
+  utter_rating_thanks:
   - text: Vielen Dank für Ihr Feedback und einen schönen Tag noch.
-  utter_botrating/answer_to_feedback:
-  - text: Ich hoffe wir sehen uns demnächst wieder!
+  utter_no_rating_specified:
+  - text: Sie haben bisher noch keine Bewertung hinterlassen.
+  utter_repeat_rating_for_user:
+  - text: Ihre Bewertung war '{rating_selection}'. Vielen Dank!
   utter_faq/cloud_computing:
   - text: Das Cloud Computing ist eine Bereitstellung der IT-Infrastruktur (Speicherplatz, Zugriff auf Daten und Programme, Netzwerkdienste, Analyse und vieles mehr) als Dienstleistung über das Internet. Kapazitäten sind beliebig skalierbar und passen sich so der jeweiligen Auslastung an.
   utter_faq/cloud_provider:
@@ -129,7 +143,7 @@ responses:
   utter_faq/security:
   - text: Das hängt sehr stark davon ab, was Sie in den Nutzungsvereinbarungen mit Ihrem Anbieter vertraglich festgelegt haben. Ein Datenverlust ist daher nicht ausgeschlossen, kann aber durch entsprechende vertragliche Vereinbarungen verhindert werden. Grundsätzlich sollte man zwei Dinge absichern. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/mittelstand_agentur_cloud_it:
-  - text: Der Mittelstand 4.0- Kompetenzzentrum Lingen unterstützt KMU in den Regionen Weser-Ems und Münsterland bei der Entwicklung datengetriebener Geschäftsmodelle von der Idee bis zu Umsetzung. Das Kompetenzzentrum bietet kostenlose Beratungsgespräche an zur Überprüfung der Zukunftsfähigkeit des eigenen Geschäftsmodells, sowie Vorträge zu digitalen Themen und Trends. [hier](https://kicc-prozesse.digital/faq/).
+  - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt KMU in den Regionen Weser-Ems und Münsterland bei der Entwicklung datengetriebener Geschäftsmodelle von der Idee bis zu Umsetzung. Das Kompetenzzentrum bietet kostenlose Beratungsgespräche an zur Überprüfung der Zukunftsfähigkeit des eigenen Geschäftsmodells, sowie Vorträge zu digitalen Themen und Trends. [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/mittelstand_agentur_offers:
   - text: Das Angebot richtet sich an kleine und mittelständische Unternehmen in den Regionen Weser-Ems und Münsterland.
   utter_faq/mittelstand_agentur_free_offers:
@@ -421,6 +435,12 @@ responses:
     - payload: faq/ki_hardware
       title: Hardware
     text: Informieren Sie sich über Voraussetzungen für die KI.
+  utter_event_selection:
+  - text: Wir haben unterschiedliche Veranstaltungs- und Workshop-Angebote. Nach welchen Kriterien sollen die Veranstaltungen gefiltert werden?
+  utter_events_category_selection:
+  - text: Nach welcher Kategorie soll gefiltert werden?
+  utter_events_timeframe_selection:
+  - text: Nach welchem Zeitraum soll gefiltert werden?
 actions:
 - action_get_all_events
 - action_get_events_for_timeframe
@@ -430,4 +450,5 @@ actions:
 - action_get_events_for_category_selection
 - action_set_reminder
 - action_react_to_reminder
-- utter_botrating
+- action_receive_rating
+- action_say_rating
