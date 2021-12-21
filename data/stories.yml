@@ -39,8 +39,11 @@ stories:
   - action: utter_rating_you_helped_enough
   - intent: rating_user_stars_rating
   - action: action_receive_rating
-
-# - story: badpath deny -> funktioniert komischerweise nicht (ist in Dauerschleife und geht auch nach inital_question und Buttonauswahl nicht zum Rating-Pfad)
-#   steps:
-#   - intent: deny
-#   - action: utter_please_rephrase
+- story: badpath deny
+  steps:
+  - intent: deny
+  - action: utter_cant_help
+- story: badpath affirm
+  steps:
+  - intent: affirm
+  - action: utter_cant_help

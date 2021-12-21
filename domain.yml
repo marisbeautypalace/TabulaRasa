@@ -83,6 +83,8 @@ responses:
   - text: Bei diesem Thema kann ich Ihnen leider nicht weiterhelfen.
   utter_please_rephrase:
   - text: Tut mir Leid, die Frage habe ich leider nicht richtig verstanden. Könnten Sie die Frage umformulieren?
+  utter_cant_help:
+  - text: Tut mir Leid, die Frage habe ich leider nicht richtig verstanden. Könnten Sie die Frage umformulieren?
   utter_no_user_message:
   - text: Sie haben seit einiger Zeit keine neue Nachricht eingegeben.
   utter_rating_initial_question:
