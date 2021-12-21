@@ -5,8 +5,8 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 
-import datetime
-from datetime import datetime, timedelta
+import datetime as dt
+from datetime import timedelta
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
@@ -140,7 +140,7 @@ class ActionSetReminder(Action):
 
         # dispatcher.utter_message("I will remind you in 20 seconds.")
         
-        date = datetime.now() + timedelta(seconds=20)
+        date = dt.now() + timedelta(seconds=20)
         # entities = tracker.latest_message.get("entities")
 
         reminder = ReminderScheduled(
@@ -183,7 +183,7 @@ class ActionReceiveRating(Action):
        dispatcher.utter_message(response="utter_rating_thanks")
        
        file = open("ratings.csv", "a")
-       file.write(str(rating) + ";" + str(datetime.now()) + "\n")
+       file.write(str(rating) + ";" + str(dt.now()) + "\n")
        file.close()
 
        return [SlotSet("rating_selection",rating)]
