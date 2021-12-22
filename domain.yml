@@ -73,7 +73,7 @@ responses:
        - Mittelstand 4.0-Kompetenzzentrum
       Wobei kann ich Ihnen helfen?
   utter_chitchat/bot_howareyou:
-  - text: Danke der Nachfrage, mir geht es gut.
+  - text: Danke der Nachfrage, mir geht es gut!
   utter_goodbye:
   - text: Auf Wiedersehen und einen schönen Tag noch.
   utter_iamabot:
