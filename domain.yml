@@ -53,6 +53,7 @@ responses:
   - text: Hallo, wie kann ich Ihnen helfen?
   - text: Hi! Wie kann ich Ihnen helfen?
   - text: Guten Tag! Wie kann ich Ihnen helfen?
+  #chitchat
   utter_chitchat/bot_bad:
   - text: Ich kann weiter trainiert werden, um besser zu werden. Meine Entwickler werden dies laufend machen.
   - text: Durch kontinuierliches Feedback kann ich besser werden.
@@ -85,6 +86,7 @@ responses:
   - text: Tut mir Leid, die Frage habe ich leider nicht richtig verstanden. Könnten Sie die Frage umformulieren?
   utter_cant_help:
   - text: Tut mir Leid, die Frage habe ich leider nicht richtig verstanden. Könnten Sie die Frage umformulieren?
+  #rating
   utter_no_user_message:
   - text: Sie haben seit einiger Zeit keine neue Nachricht eingegeben.
   utter_rating_initial_question:
@@ -122,28 +124,7 @@ responses:
   - text: Sie haben bisher noch keine Bewertung hinterlassen.
   utter_repeat_rating_for_user:
   - text: Ihre Bewertung war '{rating_selection}'. Vielen Dank!
-  utter_faq/cloud_computing:
-  - text: Das Cloud Computing ist eine Bereitstellung der IT-Infrastruktur (Speicherplatz, Zugriff auf Daten und Programme, Netzwerkdienste, Analyse und vieles mehr) als Dienstleistung über das Internet. Kapazitäten sind beliebig skalierbar und passen sich so der jeweiligen Auslastung an.
-  utter_faq/cloud_provider:
-  - text: Ein Cloud Provider ist ein externer Anbieter, der eine Cloud-basierte Plattform der verschiedene Dienst, wie Infrastruktur, Cloud-Services, Cloud-Server und Speicherdienste anbietet.
-  utter_faq/cloud_or_it:
-  - text: Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett; Ausnahmen sind Internetanbindung und Firewall. Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.
-  utter_faq/cloudcomputing_or_ownserver:
-  - text: Es sind beliebige Mischungen möglich, die sich dann unter dem Sammelbegriff Hybrid Cloud zusammenfassen lassen. In den meisten Fällen ist eine schrittweise Umstellung oder der parallele Betrieb von Cloud und Nicht-Cloud-Lösungen sogar sinnvoller als ein vollständiger Wechsel in die Cloud.
-  utter_faq/use_of_cloud:
-  - text: Cloud Computing eignet sich für Unternehmen, die mithilfe Ihrer IT flexibel auf Kundenanforderungen eingehen möchten. Auch für diejenigen, die nicht größere Beträge in Servertechnik investieren möchten, könnte Cloud Computing interessant sein. Mehr Infomationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
-  utter_faq/use_of_cloud_not:
-  - text: Problematisch wird die Cloud immer dann, wenn die Netzwerkanbindung nicht in ausreichendem Maße gewährleistet ist. Neben einer grundsätzlich schlechten Breitbandverbindung betrifft es vor allem Außendienstmitarbeiter mit schlechter Mobilfunkanbindung. Mehr Infomationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
-  utter_faq/cloud_introduction:
-  - text: Beginnen Sie mit dem Kurzleitfaden „Auswahl und Einführung von Cloud-Lösungen“.
-  utter_faq/network_breakdown:
-  - text: Unternehmen sollten sich schon jetzt die Frage stellen, ob sie arbeitsfähig wären, wenn das Internet ausfällt. Allein die Kommunikation und der Datentransfer über E-Mail oder die IP-Telefonie sind abhängig von einer funktionierenden Internetleitung. Diese Frage stellt sich also nicht erst, wenn man auf Cloud Computing umsattelt. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
-  utter_faq/range_of_internet:
-  - text: Die Bandbreitenanforderungen hängen zum Teil von der Art der Anwendung und auf alle Fälle von der Anzahl der Nutzer und der Datenmenge ab, die zwischen dem Unternehmen und der Cloud (regelmäßig) übermittelt werden soll. Insofern ist hier keine allgemeingültige Antwort möglich. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
-  utter_faq/provider_change:
-  - text: Sie sollten immer standardisierte Datenformate verwenden, da Sie diese im Falle eines Anbieterwechsels oder der Insolvenz Ihres Anbieters weiterverwenden möchten. Die Wahl des Datenträgers für die Rückgabe hängt von der Datenmenge ab, die Sie beim Anbieter gespeichert haben. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
-  utter_faq/security:
-  - text: Das hängt sehr stark davon ab, was Sie in den Nutzungsvereinbarungen mit Ihrem Anbieter vertraglich festgelegt haben. Ein Datenverlust ist daher nicht ausgeschlossen, kann aber durch entsprechende vertragliche Vereinbarungen verhindert werden. Grundsätzlich sollte man zwei Dinge absichern. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+  #Mittelstand-Agentur
   utter_faq/mittelstand_agentur_cloud_ki:
   - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt KMU in den Regionen Weser-Ems und Münsterland bei der Entwicklung datengetriebener Geschäftsmodelle von der Idee bis zu Umsetzung. Das Kompetenzzentrum bietet kostenlose Beratungsgespräche an zur Überprüfung der Zukunftsfähigkeit des eigenen Geschäftsmodells, sowie Vorträge zu digitalen Themen und Trends. [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/mittelstand_agentur_offers:
@@ -161,8 +142,6 @@ responses:
   utter_faq/mittelstand_agentur_cooperation:
   - text: Eine Kooperation mit dem Mittelstand 4.0-Kompetenzzentrum Lingen ist kostenlos. Außerdem kümmern wir uns um die Umsetzung der Veranstaltungen, sowohl digital als auch in Präsenz. Seien Sie als Wegbegleiter dabei und helfen Sie KMU bei ihrem digitalen Neustart oder Aufbruch. Füllen Sie dazu das Kontaktformular unter folgendem Link aus. https://kompetenzzentrum-lingen.digital/kooperationen
 #Cloud Computing
-  utter_faq/cloud_computing:
-  - text: Das Cloud Computing ist eine Bereitstellung der IT-Infrastruktur (Speicherplatz, Zugriff auf Daten und Programme, Netzwerkdienste, Analyse und vieles mehr) als Dienstleistung über das Internet. Kapazitäten sind beliebig skalierbar und passen sich so der jeweiligen Auslastung an.
   utter_faq/cloud_provider:
   - text: Ein Cloud Provider ist ein externer Anbieter, der eine Cloud-basierte Plattform der verschiedene Dienst, wie Infrastruktur, Cloud-Services, Cloud-Server und Speicherdienste anbietet.
   utter_faq/IaaS:
@@ -205,7 +184,7 @@ responses:
   utter_faq/use_of_cloud_not:
   - text: Problematisch wird die Cloud immer dann, wenn die Netzwerkanbindung nicht in ausreichendem Maße gewährleistet ist. Neben einer grundsätzlich schlechten Breitbandverbindung betrifft es vor allem Außendienstmitarbeiter mit schlechter Mobilfunkanbindung. Mehr Infomationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/cloud_introduction:
-  - text: Im ersten Schritt sollte jedes Unternehmen individuell klären, wie die Potenziale von Cloud genutzt werden können. Als nächstes gilt zu bestimmen, ob ein Mehrwert  gegeben ist und ob die technische Vorrausetzungen vorhanden sind. Anschließend sollte ein geeigneter Anbieter zur Umsetzung gefunden werden. Zur Unterstützung können Unternehmen auf das kostenlose Beratungsangebot vom Kompetenzzentrum zurückgreifen. 
+  - text: Im ersten Schritt sollte jedes Unternehmen individuell klären, wie die Potenziale von Cloud genutzt werden können. Als nächstes gilt zu bestimmen, ob ein Mehrwert gegeben ist und ob die technische Vorrausetzungen vorhanden sind. Anschließend sollte ein geeigneter Anbieter zur Umsetzung gefunden werden. Zur Unterstützung können Unternehmen auf das kostenlose Beratungsangebot vom Kompetenzzentrum zurückgreifen. 
   utter_faq/network_breakdown:
   - text: Unternehmen sollten sich schon jetzt die Frage stellen, ob sie arbeitsfähig wären, wenn das Internet ausfällt. Allein die Kommunikation und der Datentransfer über E-Mail oder die IP-Telefonie sind abhängig von einer funktionierenden Internetleitung. Diese Frage stellt sich also nicht erst, wenn man auf Cloud Computing umsattelt. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/range_of_internet:
@@ -269,8 +248,6 @@ responses:
   - text: Unter Predictive Maintenance versteht man einen proaktiven Wartungsvorgang, der auf die einer permanenten Überwachung und Auswertung von Maschinen- und Prozessdaten basiert. Ziel ist es den zukünftigen Wartungsbedarf vorherzusagen und dadurch Störungen zu vermeiden.
   utter_faq/ki_companysize:
   - text: Die Größe von Unternehmen ist für den Einsatz Künstlicher Intelligenz nicht ausschlaggebend. Künstliche Intelligenz kann auch von kleinen Unternehmen jedweder Branche genutzt werden und ist für viele Unternehmensbereiche interessant. Häufig reicht bereits einfache IT-Infrastruktur aus, um KI-Anwendungen gewinnbringend einsetzen zu können. Entscheidend sind die Prozesse und deren datenbasierten Möglichkeiten im Unternehmen.
-  utter_faq/ki_data:
-  - text: Künstliche Intelligenz kann nur mit Daten arbeiten, sie spielen also eine essenzielle Rolle. Dabei ist nicht nur die Datenverfügbarkeit entscheidend, sondern auch die Qualität und Menge. Je mehr Daten zur Verfügung stehen, umso besser. Je besser deren Qualität ist, umso besser. Die Daten können sowohl aus dem Unternehmen selbst als auch von externen Quellen stammen.
   utter_faq/ki_use:
   - text: Zunächst sollte der Einsatzzweck von Künstlicher Intelligenz genau definiert werden. Was soll erreicht werden? Welche Prozesse sollen verbessert werden? Basierend auf diesen Fragen kann ein sinnvolles Einsatzszenario von Künstlicher Intelligenz im eigenen Unternehmen entwickelt werden.
   utter_faq/ki_hardware:
@@ -407,23 +384,50 @@ responses:
       Ihr Ansprechpartner für die Maritime Wirtschaft ist Jörg Bontjer (MARIKO gGmbH). 
        E-Mail: joerg.bontjer@mariko-leer.de 
        Telefon: +494919261185
+  utter_faq/mittelstand_agentur_initial_question:
+  - buttons:
+    - payload: faq/mittelstand_agentur_cloud_ki
+      title: Was ist das?
+    - payload: faq/mittelstand_agentur_offers
+      title: Zielgruppe
+    - payload: faq/mittelstand_agentur_free_offers
+      title: Kosten
+    - payload: faq/mittelstand_agentur_location
+      title: Standort
+    - payload: faq/mittelstand_agentur_BMWi
+      title: Finanzierung
+    - payload: faq/mittelstand_agentur_software
+      title: Software
+    - payload: faq/mittelstand_agentur_support
+      title: Unterstützung
+    - payload: faq/mittelstand_agentur_cooperation
+      title: Kooperation
+    - payload: contact/initial_question
+      title: Ansprechpartner
+    text: Welche Frage haben Sie zum Mittelstand 4.0-Kompetenzzentrum Lingen?
   utter_faq/cloud_initial_question:
   - buttons:
     - payload: faq/cloud_computing_topics
-      title: Cloud Angebote von IaaS
+      title: Unterstützung des Kompetenzzentrums
     - payload: faq/cloud_introduction
       title: Einführung Cloud
     - payload: faq/cloud_types
       title: Cloud-Arten
     - payload: faq/cloud_using
       title: Cloud-Nutzung
-    - payload: faq/link_mittelstand_agentur_cloud
-      title: Mittelstand 4.0-Agentur Cloud
     - payload: faq/cloud_as_a_service
       title: Cloud as a Service
     - payload: faq/services
-      title: Dienstleistungen Cloud
-    text: Beim Cloud-Computing wird ein Netzwerk mehrerer verteilter externer Rechner genutzt. Quasi eine Wolke aus Rechnern. Es können IT-Infrastrukturen und Dienstleistungen genutzt werden, die nicht auf den lokalen Rechnern vorgehalten werden müssen, sondern als Dienst gemietet werden. Was möchten Sie noch zur Cloud wissen?
+      title: Dienstleistungen Cloud Computing
+    - payload: faq/cloud_security
+      title: Sicherheit
+    - payload: faq/cloud_benefits
+      title: Vorteile
+    - payload: faq/cloud_businessmodel
+      title: Einfluss auf Geschäftsmodell
+    - payload: faq/cloud_company_size
+      title: Unternehmensgröße
+    text: Das Cloud Computing ist eine Bereitstellung der IT-Infrastruktur (Speicherplatz, Zugriff auf Daten und Programme, Netzwerkdienste, Analyse und vieles mehr) als Dienstleistung über das Internet. Kapazitäten sind beliebig skalierbar und passen sich so der jeweiligen Auslastung an. Was möchten Sie noch zur Cloud wissen?
   utter_faq/cloud_as_a_service:
   - buttons:
     - payload: faq/IaaS
@@ -443,46 +447,53 @@ responses:
       title: Cloud oder eigener Server?
     - payload: faq/onpremise_ondemand
       title: On premise oder on demand?
+    - payload: faq/cloud_data_intelligence
+      title: Umgang mit Daten
+    - payload: faq/cloud_business_intelligence
+      title: Analyse von Daten
+    - payload: faq/cloud_storage
+      title: Cloud Speicher
+    - payload: faq/cloud_virtualization
+      title: Cloud Virtualisierung
+    - payload: faq/cloud_application_area
+      title: Anwendungsbeispiele
     text: Welche Fragen haben Sie zu der Nutzung einer Cloud?
-  utter_faq/link_mittelstand_agentur_cloud:
-  - buttons:
-    - payload: faq/mittelstand_agentur
-      title: Was ist das?
-    - payload: faq/mittelstand_agentur_support
-      title: Support
-    - payload: faq/mittelstand_agentur_BMWi
-      title: Finanzierung
-    - payload: faq/mittelstand_agentur_cooperation
-      title: Kooperation
-    - payload: faq/mittelstand_agentur_location
-      title: Partner
-    - payload: faq/mittelstand_agentur_free_offers
-      title: Kosten
-    - payload: faq/mittelstand_agentur_software
-      title: Software
-    text: Welche Fragen haben Sie zur Mittelstand 4.0-Agentur Cloud?
   utter_faq/cloud_types:
   - buttons:
     - payload: faq/community_cloud
       title: Community Cloud
     - payload: faq/hybrid_cloud
       title: Hybrid Cloud
-    - payload: private_cloud
+    - payload: faq/private_cloud
       title: Private Cloud
-    - payload: public_cloud
+    - payload: faq/public_cloud
       title: Public Cloud
+    - payload: faq/cloud_multi
+      title: Multi Cloud
     text: Es gibt verschiedene Cloud-Arten. Über welche möchten Sie mehr wissen?
   utter_faq/ki_initial_question:
   - buttons:
     - payload: faq/ki_modules
       title: KI-Module
     - payload: faq/ki_basic_question
-      title: Grundlegende Fragen
+      title: Grundlegende KI-Technologien
     - payload: faq/link_ki_requirements
-      title: Nutzung KI
+      title: Voraussetzungen KI
     - payload: faq/ki_topics
-      title: Support Kompetenzzentrum
-    text: Bei der Künstlichen Intelligenz versucht man menschliches Lernen und Denken auf den Computer zu übertragen. Kognitive Kompetenzen wie beispielsweise strategisches Denken und sprachliche Fähigkeiten sollen imitiert werden.  Haben Sie weitere Fragen zur KI?
+      title: Unterstützung des Kompetenzzentrums
+    - payload: faq/ki_introduction
+      title: Einführung KI
+    - payload: faq/use_of_ki
+      title: Einsatzgebiete KI
+    - payload: faq/ki_application
+      title: Anwendungen KI
+    - payload: faq/ki_benefits
+      title: Vorteile
+    - payload: faq/ki_businessmodel
+      title: Einfluss auf Geschäftsmodell
+    - payload: faq/ki_support
+      title: Förderungen
+    text: Bei der Künstlichen Intelligenz versucht man menschliches Lernen und Denken auf den Computer zu übertragen. Kognitive Kompetenzen wie beispielsweise strategisches Denken und sprachliche Fähigkeiten sollen imitiert werden. Haben Sie weitere Fragen zur KI?
   utter_faq/ki_modules:
   - buttons:
     - payload: faq/speech_recognition_speech_identification
@@ -493,12 +504,16 @@ responses:
       title: Bilderkennung
     - payload: faq/audio_recognition_audio_identification
       title: Audioerkennung
+    - payload: faq/pattern_recognition
+      title: Mustererkennung
     - payload: faq/data_analytics
       title: Data Analytics
     - payload: faq/text_extraction
       title: Text Extraction
     - payload: faq/problem_solving
       title: Problem Solving
+    - payload: faq/natural_language_processing
+      title: Natural Language Processing
     - payload: faq/language_understanding
       title: Language Understanding
     - payload: faq/language_generation
@@ -511,21 +526,31 @@ responses:
     - payload: faq/artificial_neural_network
       title: Künstliche neuronale Netze
     - payload: faq/machine_learning
-      title: Maschinelles Lernen
+      title: Machine Learning
     - payload: faq/deep_learning
       title: Deep Learning
+    - payload: faq/adversarial_learning
+      title: Adversarial Learning
+    - payload: faq/supervised_learning
+      title: Supervised Learning
+    - payload: faq/reinforcement_learning
+      title: Reinforcement Learning
+    - payload: faq/unsupervised_learning
+      title: Unsupervised Learning
     text: Informieren Sie sich über grundlegende KI-Technologien.
   utter_faq/link_ki_requirements:
   - buttons:
     - payload: faq/ki_companysize
       title: Unternehmensgröße
-    - payload: faq/ki_data
+    - payload: faq/ki_amount_of_data
       title: Daten
     - payload: faq/ki_use
       title: Einsatz
     - payload: faq/ki_hardware
       title: Hardware
-    text: Informieren Sie sich über Voraussetzungen für die KI.
+    - payload: faq/ki_acceptance
+      title: Akzeptanz
+    text: Informieren Sie sich über Voraussetzungen für KI.
   utter_event_selection:
   - text: Wir haben unterschiedliche Veranstaltungs- und Workshop-Angebote. Nach welchen Kriterien sollen die Veranstaltungen gefiltert werden?
   utter_events_category_selection:

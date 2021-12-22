@@ -45,6 +45,7 @@ nlu:
     - Bist du ein Roboter?
     - Was bist du?
     - Bist du ein Bot?
+#chitchat
 - intent: chitchat/bot_bad
   examples: |
     - du kannst nichts
@@ -139,6 +140,7 @@ nlu:
     - ne
     - nö
     - nicht wirklich
+#rating
 - intent: rating_initial_question
   examples: |
     - rating_initial_question
@@ -190,14 +192,24 @@ nlu:
     - Meine Bewertung
     - Wie viele Stars habe ich gegeben?
 #Agentur
+- intent: faq/mittelstand_agentur_initial_question
+  examples: |
+    - faq/mittelstand_agentur_initial_question
+    - Mittstand 4.0 Agentur
+    - Die Agentur
+    - Mittelstand 4.0
+    - Kompetenzzentrum
+    - Kompetenzzentrum Lingen
+    - Agentur Lingen
 - intent: faq/mittelstand_agentur_cloud_ki
   examples: |
     - faq/mittelstand_agentur_cloud_ki
     - Wie unterstützt mich das Mittelstand 4.0-Kompetenzzentrum Lingen zum Thema Cloud und künstliche Intelligenz?
     - Was bietet die Mittelstand 4.0-Agentur an?
-    - Mittstand 4.0 Agentur
-    - Die Agentur
-    - Mittelstand 4.0
+    - Angebote der Agentur
+    - ich will mein Unternehmen digitalisieren
+    - Informationen zur Digitalisierung
+    - Angebote des Kompetenzzentrums
     - Aufgaben der Mittelstand 4.0 Agentur
     - Was macht die Mittelstand 4.0 Agentur?
     - Was sind die Aufgaben der Agentur?
@@ -209,12 +221,11 @@ nlu:
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
-    - Angebote der Agentur
-    - Angebote des Kompetenzzentrums
     - An wen richten sich die Angebote?
     - Für wen sind die Angebote?
     - Wer nutzt die Angebote der Agentur?
     - Wer nutzt die Angebote des Kompetenzzentrums?
+    - Wer kann die Angebote nutzen?
     - An wen richten sich die Angebote des Kompetenzzentrums Lingen?
     - Für wen sind die Angebote des Kompetenzzentrums geeignet? 
 - intent: faq/mittelstand_agentur_free_offers
@@ -234,7 +245,6 @@ nlu:
     - Wird die Mittelstand 4.0-Agentur gefördert?
     - Was kostet das Angebot der Mittelstand 4.0-Agentur?
     - Wie hoch sind die Kosten für die Leistungen der Mittelstand 4.0-Agentur?
-    - Was bietet das Kompetenzzentrum an?
     - Sind die Angebote der Agentur kostenlos nutzbar?
     - Sind die Angebote der Agentur kostenlos?
 - intent: faq/mittelstand_agentur_location
@@ -254,6 +264,7 @@ nlu:
     - Wo hat die Mittelstand Agentur ihren Standort?
     - Hat die Agentur einen Unternehmenssitz?
     - Wo hat die Agentur ihren Hauptsitz?
+    - Projektmitarbeiter
     - Ich suche Informationen zur Mittelstand 4.0 Agentur
     - Wie lautet die Adresse der Agentur?
     - Ich habe Fragen zur Agentur 4.0
@@ -312,18 +323,10 @@ nlu:
     - Kostet eine Kooperation mit dem Kompetenzzentrum etwas?
     - Wie kann man mit der Agentur kooperieren?
 #Cloud Computing
-- intent: faq/cloud_computing
-  examples: |
-    - Was ist Cloud Computing? 
-    - Was ist Cloud? 
-    - Cloud
-    - Cloud Computing
 - intent: faq/cloud_provider
   examples: |
     - Wer ist der Cloud Provider? 
-    - Wer stellt die Cloud zur Verfüfung?
-    - Wer bietet die Cloud an? 
-    - Wird die Cloud durch ein externes Unternehmen angeboten?
+    - Cloud Provider
 - intent: faq/private_cloud
   examples: |
     - faq/private_cloud
@@ -342,7 +345,6 @@ nlu:
     - Public Cloud
     - öffentliche Cloud
     - Was ist eine Public Cloud?
-    - Für welche Zwecke kann ich Private Cloud nutzen?
     - Was ist eine public Cloud?
     - Wozu braucht man eine public Cloud?
     - kann ich eine public cloud selbst betreiben?
@@ -371,6 +373,7 @@ nlu:
     - wozu braucht man eine Community cloud?
 - intent: faq/cloud_storage
   examples: |
+    - faq/cloud_storage
     - Cloud Speicher
     - Cloud Storage
     - Speichern in der Cloud
@@ -383,6 +386,7 @@ nlu:
     - Wie kann ich etwas in der Cloud abspeichern?
 - intent: faq/cloud_virtualization
   examples: |
+    - faq/cloud_virtualization
     - Was ist Virtualisierung?
     - Virtualisierung
     - virtueller Computer
@@ -395,12 +399,14 @@ nlu:
     - Wie können Ressourcen gebündelt werden?
 - intent: faq/cloud_security
   examples: |
+    - faq/cloud_security
     - Was ist Cloud Security?
     - Sicherheit und Cloud
     - Sicherheit in der Cloud
     - Wie wird die Sicherheit in der Cloud gewährleistet?
 - intent: faq/cloud_data_intelligence
   examples: |
+    - faq/cloud_data_intelligence
     - Was ist Data Intelligence?
     - Umgang mit gesammelten Daten
     - Umgang mit Daten aus dem Unternehmen
@@ -409,6 +415,7 @@ nlu:
     - Was mache ich mit gesammelten Daten im Unternehmen?
 - intent: faq/cloud_business_intelligence
   examples: |
+    - faq/cloud_business_intelligence
     - Was ist Business Intelligence?
     - Reporting aus Unternehmensdaten
     - automatischer Report
@@ -422,6 +429,7 @@ nlu:
     - Kann man aus Betriebsdaten einen automatischen Report erstellen?
 - intent: faq/cloud_multi
   examples: |
+    - faq/cloud_multi
     - Was ist eine Multi-Cloud?
     - Wie können Dienster von verschiedenen Anbietern kombiniert werden?
     - Kombination von Plattformen und Services
@@ -432,6 +440,8 @@ nlu:
 - intent: faq/IaaS
   examples: |
     - faq/IaaS
+    - Infrastructure as a Service
+    - IaaS
     - Was versteht man unter Infrastructure as a Service?
     - Für welche Zwecke kann ich Infrastructure as a Service nutzen?
     - Was ist Infrastructure as a Service?
@@ -465,6 +475,8 @@ nlu:
     - faq/onpremise_ondemand
     - on premise
     - on-premise
+    - on prem
+    - on-prem
     - on demand
     - on-demand
     - on premise oder on demand
@@ -488,6 +500,7 @@ nlu:
 #Cloud Computing Fragen
 - intent: faq/cloud_or_it
   examples: |
+    - faq/cloud_or_it
     - Wenn ich künftig alles in der Cloud mache, wozu brauche ich meine IT-Abteilung noch?
     - Was macht die IT-Abteilung in der Zukunft?
     - Brauche ich noch eine IT Abteilung?
@@ -646,6 +659,7 @@ nlu:
     - Was passiert mit meinen Daten wenn mein Anbieter insolvent geht?
 - intent: faq/cloud_benefits
   examples: |
+    - faq/cloud_benefits
     - Welche zentralen Vorteile bringt Cloud Computing meinem Unternehmen?
     - Vorteile Cloud
     - Vorteile Cloud Computing
@@ -661,11 +675,13 @@ nlu:
     - Unterschied zwischen Cloud und Outsourcing-Diensten
 - intent: faq/cloud_application_area
   examples: |     
+    - faq/cloud_application_area
     - Was sind typische Einsatzgebiete von Cloud Computing?
     - Einsatzgebiete Cloud Computing
     - typischer Einsatz von Cloud
 - intent: faq/cloud_businessmodel
   examples: |
+    - faq/cloud_businessmodel
     - Wie beeinflusst die Cloud mein Business Modell?
     - Cloud und Geschäftsmodell
     - Cloud Computing und Business Modell
@@ -675,6 +691,7 @@ nlu:
     - Welchen Einfluss nimmt die Cloud auf mein heutige Geschäftsmodell?
 - intent: faq/cloud_company_size
   examples: |     
+    - faq/cloud_company_size
     - Ist Cloud nur etwas für Großunternehmen oder können Unternehmen mit Cloud-Anwendungen auch mit kleinerem Budget umsetzen?
     - Cloud nur für große Unternehmen
     - Cloud auch für kleine Unternehmen
@@ -740,6 +757,7 @@ nlu:
     - Wie kann ich verschiedene Audiosignale verarbeiten?
 - intent: faq/pattern_recognition
   examples: |
+    - faq/pattern_recognition
     - Wie können Muster automatisch erkannt werden?
     - Mustererkennung
     - Mustererkennung in Daten
@@ -749,6 +767,7 @@ nlu:
     - Was sind Beispiele für die Mustererkennung?
 - intent: faq/natural_language_processing
   examples: |
+    - faq/natural_language_processing
     - Maschinelle Sprachverarbeitung
     - Sprachverarbeitung
     - Automatische Sprachverarbeitung
@@ -757,10 +776,11 @@ nlu:
     - Was ist maschinelle Spracherkennung?
 - intent: faq/adversarial_learning
   examples: |
+    - faq/adversarial_learning
     - Gegnerisches Lernen
     - Adversarial learning
     - Was ist gegnerisches Lernen? 
-    - Was ist asversarial learning?
+    - Was ist adversarial learning?
     - Modell durch Angriffe bewusst trainieren
     - Modell durch Angriffe lernen
     - Wie kann ein Modell gezielt durch falsche Ergebnisse lernen?
@@ -800,7 +820,7 @@ nlu:
     - Was ist Language Understanding?
     - Wie kann die Bedeutung eines Textes ermittelt werden?
     - Wie versteht KI Texte?
-    - Wie versteht eine  KI  Texte?
+    - Wie versteht eine KI Texte?
     - Können Beziehungen in Texten erkannt werden?
     - Wie werden mehrdeutige Texte verstanden?
 - intent: faq/language_generation
@@ -872,6 +892,7 @@ nlu:
     - Was sind Schichten beim Deep Learning?
 - intent: faq/supervised_learning
   examples: |
+    - faq/supervised_learning
     - Supervised learning
     - überwachtes Lernen
     - Was ist supervised learning? 
@@ -879,6 +900,7 @@ nlu:
     - Was beschreibt die Methode Supervised Learning?
 - intent: faq/reinforcement_learning
   examples: |
+    - faq/reinforcement_learning
     - Reinforcement learning
     - Bestärkendes Lernen
     - Was ist reinforcement learning? 
@@ -886,6 +908,7 @@ nlu:
     - Was beschreibt die Methode Reinforcement Learning?
 - intent: faq/unsupervised_learning
   examples: |
+    - faq/unsupervised_learning
     - Unsupervised learning
     - Unüberwachtes Lernen
     - Was ist unsupervised learning? 
@@ -1010,7 +1033,6 @@ nlu:
     - Warum künstliche Intelligenz
     - Warum brauche ich KI
     - Einsatz künstliche Intelligenz
-    - Einsatzzweck ki
     - Für wen eignet sich der Einsatz von künstlicher Intelligenz?
     - Wer nutzt künstliche Intelligenz?
     - Welche Unternehmen nutzen künstliche Intelligenz?
@@ -1037,6 +1059,7 @@ nlu:
     - Was für eine Computer brauch ich für künstliche Intelligenz?
 - intent: faq/ki_topics
   examples: |
+    - faq/ki_topics
     - KI Themen
     - Künstliche Intelligenz Themen
     - In welchen Bereichen kann ich zum Thema künstliche Intelligenz Unterstützung erhalten?
@@ -1048,6 +1071,7 @@ nlu:
     - Wie kann ich künstliche Intelligenz nutzen?
 - intent: faq/ki_benefits
   examples: |
+    - faq/ki_benefits
     - Welche zentralen Vorteile bringt künstliche Intelligenz meinem Unternehmen?
     - Vorteile künstliche Intelligenz
     - Vorteile KI
@@ -1059,22 +1083,27 @@ nlu:
     - Vorteile von künstlicher Intelligenz im Mittelstand
 - intent: faq/ki_application
   examples: |
+    - faq/ki_application
     - Was sind die relevantesten KI-Anwendungen? 
     - relevante Anwendungen von künstlicher Intelligenz
     - wichtige Anwendungen von KI 
 - intent: faq/use_of_ki
   examples: |
+    - faq/use_of_ki
     - Was sind typische Einsatzgebiete von künstlicher Intelligenz?
     - Einsatzgebiete künstliche Intelligenz
     - typische Einsatzzwecke von KI
+    - Einsatzzwecke
     - Einsatz von KI
 - intent: faq/ki_businessmodel
   examples: |
+    - faq/ki_businessmodel
     - Wie beeinflusst künstliche Intelligenz mein Geschäftsmodell?
     - Einfluss von künstlicher Intelligenz auf mein Geschäftsmodell
     - Einfluss auf das Businessmodel von KI
 - intent: faq/ki_amount_of_data
   examples: |
+    - faq/ki_amount_of_data
     - Wie viele Daten müssen vorliegen, um KI-Anwendungen zu nutzen? 
     - Wie viele Daten brauche ich für KI-Anwendungen? 
     - Wie groß muss die Datenmenge für künstliche Intelligenz?
@@ -1082,6 +1111,7 @@ nlu:
     - große Datenmengen für künstliche Intelligenz
 - intent: faq/ki_acceptance
   examples: |
+    - faq/ki_acceptance
     - Wie erreichen Unternehmen Akzeptanz für KI-Anwendungen bei ihren Mitarbeitern?
     - Wie schaffe ich Akzeptanz für künstliche Intelligenz? 
     - Akzeptanz für KI schaffen
@@ -1089,6 +1119,7 @@ nlu:
     - Mitarbeiter sollen KI-Anwendungen akzeptieren
 - intent: faq/ki_support
   examples: |
+    - faq/ki_support
     - Wo können Unternehmen unterstützung zur Einführung von künstlicher Intelligenz erhalten?
     - Wo erhalte ich Unterstützung zum Thema KI?
     - Unterstützung bei der Einführung von KI
@@ -1283,12 +1314,6 @@ nlu:
     - Nutzung der Cloud
     - Wie kann ich Cloud Computing nutzen?
     - Was kann die Cloud?
-- intent: faq/link_mittelstand_agentur_cloud
-  examples: |
-    - faq/link_mittelstand_agentur_cloud
-    - Was ist die Mittelstands 4.0 Agentur Cloud?
-    - Ich habe Fragen zur Mittelstands 4.0 Agentur Cloud?
-    - Mittelstands 4.0 Agentur Cloud
 - intent: faq/cloud_types
   examples: |
     - faq/cloud_types
