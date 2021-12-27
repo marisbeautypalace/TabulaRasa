@@ -14,6 +14,8 @@ nlu:
     - Sag mir Hallo
     - begrüße mich bitte
     - Kannst du mich begrüßen?
+    - hallo
+    - Moin!
 - intent: goodbye
   examples: |
     - Schönen Tag
@@ -45,7 +47,6 @@ nlu:
     - Bist du ein Roboter?
     - Was bist du?
     - Bist du ein Bot?
-#chitchat
 - intent: chitchat/bot_bad
   examples: |
     - du kannst nichts
@@ -60,6 +61,7 @@ nlu:
     - du nervst
     - langweilig
     - Nicht so schlimm
+    - Du bist scheiße
 - intent: chitchat/bot_clever
   examples: |
     - du bist super
@@ -140,7 +142,6 @@ nlu:
     - ne
     - nö
     - nicht wirklich
-#rating
 - intent: rating_initial_question
   examples: |
     - rating_initial_question
@@ -166,7 +167,6 @@ nlu:
     - Restart
     - Stop
     - Stopp
-    - Restart
     - Reboot
 - intent: rating_want_more_information
   examples: |
@@ -191,7 +191,6 @@ nlu:
     - Wie war meine Bewertung?
     - Meine Bewertung
     - Wie viele Stars habe ich gegeben?
-#Agentur
 - intent: faq/mittelstand_agentur_initial_question
   examples: |
     - faq/mittelstand_agentur_initial_question
@@ -201,6 +200,8 @@ nlu:
     - Kompetenzzentrum
     - Kompetenzzentrum Lingen
     - Agentur Lingen
+    - kompetenzzentrum
+    - Was bietet das Kompetenzzentrum an?
 - intent: faq/mittelstand_agentur_cloud_ki
   examples: |
     - faq/mittelstand_agentur_cloud_ki
@@ -227,7 +228,7 @@ nlu:
     - Wer nutzt die Angebote des Kompetenzzentrums?
     - Wer kann die Angebote nutzen?
     - An wen richten sich die Angebote des Kompetenzzentrums Lingen?
-    - Für wen sind die Angebote des Kompetenzzentrums geeignet? 
+    - Für wen sind die Angebote des Kompetenzzentrums geeignet?
 - intent: faq/mittelstand_agentur_free_offers
   examples: |
     - faq/mittelstand_agentur_free_offers
@@ -322,10 +323,9 @@ nlu:
     - Was kostet eine Kooperation?
     - Kostet eine Kooperation mit dem Kompetenzzentrum etwas?
     - Wie kann man mit der Agentur kooperieren?
-#Cloud Computing
 - intent: faq/cloud_provider
   examples: |
-    - Wer ist der Cloud Provider? 
+    - Wer ist der Cloud Provider?
     - Cloud Provider
 - intent: faq/private_cloud
   examples: |
@@ -338,6 +338,7 @@ nlu:
     - was ist eine private Cloud?
     - kann ich eine private cloud selbst betreiben?
     - Wofür nutze ich eine private Cloud?
+    - was ist eine private cloud?
 - intent: faq/public_cloud
   examples: |
     - faq/public_cloud
@@ -411,7 +412,7 @@ nlu:
     - Umgang mit gesammelten Daten
     - Umgang mit Daten aus dem Unternehmen
     - Wer verarbeite ich gesammelte Daten meines Unternehmens?
-    - Wie kann mit gesammtelten Daten im Unternhemnen umgegangen werden? 
+    - Wie kann mit gesammtelten Daten im Unternhemnen umgegangen werden?
     - Was mache ich mit gesammelten Daten im Unternehmen?
 - intent: faq/cloud_business_intelligence
   examples: |
@@ -422,10 +423,10 @@ nlu:
     - Daten smart analysieren
     - intelligente Analyse von Daten
     - Automatisierung des Controllings
-    - Wie kann man Daten elektronisch analysieren? 
-    - Wie kann ich Daten intelligent analysieren? 
+    - Wie kann man Daten elektronisch analysieren?
+    - Wie kann ich Daten intelligent analysieren?
     - Wie werden Daten aus meinem Unternehmen smart analysiert?
-    - Wie kann ich Daten automatisch analysieren? 
+    - Wie kann ich Daten automatisch analysieren?
     - Kann man aus Betriebsdaten einen automatischen Report erstellen?
 - intent: faq/cloud_multi
   examples: |
@@ -448,6 +449,7 @@ nlu:
     - wofür kann ich iaas nutzen?
     - wofür kann ich infrastructure as a service nutzen?
     - was ist iaas?
+    - was ist Infrastructure as a service?
 - intent: faq/PaaS
   examples: |
     - faq/PaaS
@@ -497,7 +499,6 @@ nlu:
     - Bietet Cloud Computing Dienstleistungen an?
     - was für Dienstleistungen gibt es beim cloud computing?
     - was sind Services von cloud computing?
-#Cloud Computing Fragen
 - intent: faq/cloud_or_it
   examples: |
     - faq/cloud_or_it
@@ -511,6 +512,7 @@ nlu:
     - Wie wichtig ist eine IT Abteilung wenn man eine Cloud nutzt?
     - Cloud und IT-Abteilung
     - Nutzung Cloud und IT-Abteilung
+    - Brauche ich eine Cloud
 - intent: faq/cloudcomputing_or_ownserver
   examples: |
     - faq/cloudcomputing_or_ownserver
@@ -588,6 +590,9 @@ nlu:
     - Ich möchte eine Cloud in meinem Unternehmen einführen. Wie gehe ich dabei vor?
     - Cloud-Lösungen im Unternehmen einführen
     - Ich möchte eine Cloud-Lösung in meinem Unternehmen einführen
+    - Cloud im Unternehmen einführen
+    - Cloud einführen
+    - Ich möchte eine Cloud in meinem Unternehmen einführen
 - intent: faq/network_breakdown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
@@ -674,7 +679,7 @@ nlu:
     - Wie unterscheidet sich Cloud Computing zu klassischen Outsourcing Diensten?
     - Unterschied zwischen Cloud und Outsourcing-Diensten
 - intent: faq/cloud_application_area
-  examples: |     
+  examples: |
     - faq/cloud_application_area
     - Was sind typische Einsatzgebiete von Cloud Computing?
     - Einsatzgebiete Cloud Computing
@@ -685,12 +690,12 @@ nlu:
     - Wie beeinflusst die Cloud mein Business Modell?
     - Cloud und Geschäftsmodell
     - Cloud Computing und Business Modell
-    - Beeinflusst die Cloud mein Business Modell? 
+    - Beeinflusst die Cloud mein Business Modell?
     - Einfluss der Cloud auf mein Geschäftsmodell
     - Wie wird mein Geschäftsmodell durch die Cloud beeinflusst?
     - Welchen Einfluss nimmt die Cloud auf mein heutige Geschäftsmodell?
 - intent: faq/cloud_company_size
-  examples: |     
+  examples: |
     - faq/cloud_company_size
     - Ist Cloud nur etwas für Großunternehmen oder können Unternehmen mit Cloud-Anwendungen auch mit kleinerem Budget umsetzen?
     - Cloud nur für große Unternehmen
@@ -702,7 +707,6 @@ nlu:
     - Wie groß sollte mein Unternehmen für die Nutzung einer Cloud sein?
     - Cloud als Unternehmen im Mittelstand?
     - Cloud als Kleinunternehmen?
-#Künstliche Intelligenz
 - intent: faq/speech_recognition_speech_identification
   examples: |
     - faq/speech_recognition_speech_identification
@@ -779,7 +783,7 @@ nlu:
     - faq/adversarial_learning
     - Gegnerisches Lernen
     - Adversarial learning
-    - Was ist gegnerisches Lernen? 
+    - Was ist gegnerisches Lernen?
     - Was ist adversarial learning?
     - Modell durch Angriffe bewusst trainieren
     - Modell durch Angriffe lernen
@@ -895,24 +899,24 @@ nlu:
     - faq/supervised_learning
     - Supervised learning
     - überwachtes Lernen
-    - Was ist supervised learning? 
-    - Was ist überwachtes lernen? 
+    - Was ist supervised learning?
+    - Was ist überwachtes lernen?
     - Was beschreibt die Methode Supervised Learning?
 - intent: faq/reinforcement_learning
   examples: |
     - faq/reinforcement_learning
     - Reinforcement learning
     - Bestärkendes Lernen
-    - Was ist reinforcement learning? 
-    - Was ist bestärkendes lernen? 
+    - Was ist reinforcement learning?
+    - Was ist bestärkendes lernen?
     - Was beschreibt die Methode Reinforcement Learning?
 - intent: faq/unsupervised_learning
   examples: |
     - faq/unsupervised_learning
     - Unsupervised learning
     - Unüberwachtes Lernen
-    - Was ist unsupervised learning? 
-    - Was ist unüberwachtes lernen? 
+    - Was ist unsupervised learning?
+    - Was ist unüberwachtes lernen?
     - Was beschreibt die Methode Unupervised Learning?
 - intent: faq/algorithmus
   examples: |
@@ -921,7 +925,7 @@ nlu:
 - intent: faq/lernalgorithmus
   examples: |
     - Lernalgorithmus
-    - Was ist ein Lernalgorithmus? 
+    - Was ist ein Lernalgorithmus?
 - intent: faq/assistenzsysteme
   examples: |
     - Assistenzsystem
@@ -946,7 +950,7 @@ nlu:
   examples: |
     - Machine to Machine Comunication
     - Maschine-Maschine-Kommunikation
-    - Was ist M2M-Kommunikation? 
+    - Was ist M2M-Kommunikation?
     - Wie kommunizieren zwei Maschinen?
 - intent: faq/mensch_maschine_interaktion
   examples: |
@@ -954,12 +958,12 @@ nlu:
     - Was ist Mensch-Maschine-Interaktion?
     - Wie interagieren Mensch und Maschine?
     - Informationsaustausch zwischen Mensch und Maschine
-    - Wie findet der Informationsaustausch zwischen Mensch und Maschine statt? 
+    - Wie findet der Informationsaustausch zwischen Mensch und Maschine statt?
 - intent: faq/big_data
   examples: |
     - Big Data
     - Was ist Big Data?
-    - Wie können große Datenmengen verarbeitet werden? 
+    - Wie können große Datenmengen verarbeitet werden?
     - Wie werden sehr große Datenmenege verwaltet und ausgewertet?
 - intent: faq/data_mining
   examples: |
@@ -971,13 +975,13 @@ nlu:
     - Internet of Things
     - Internet der Dinge
     - Was ist Internet of Things?
-    - Was ist das Internet der Dinge? 
+    - Was ist das Internet der Dinge?
     - Vernetzung von Geräten zum Datenaustausch
     - Wie können verschiedenen Geräte Daten austasuchen?
 - intent: faq/smart_data
   examples: |
     - Smart Data
-    - Was ist Smart Data?  
+    - Was ist Smart Data?
 - intent: faq/bot
   examples: |
     - Was ist ein Bot?
@@ -1084,9 +1088,9 @@ nlu:
 - intent: faq/ki_application
   examples: |
     - faq/ki_application
-    - Was sind die relevantesten KI-Anwendungen? 
+    - Was sind die relevantesten KI-Anwendungen?
     - relevante Anwendungen von künstlicher Intelligenz
-    - wichtige Anwendungen von KI 
+    - wichtige Anwendungen von KI
 - intent: faq/use_of_ki
   examples: |
     - faq/use_of_ki
@@ -1104,16 +1108,16 @@ nlu:
 - intent: faq/ki_amount_of_data
   examples: |
     - faq/ki_amount_of_data
-    - Wie viele Daten müssen vorliegen, um KI-Anwendungen zu nutzen? 
-    - Wie viele Daten brauche ich für KI-Anwendungen? 
+    - Wie viele Daten müssen vorliegen, um KI-Anwendungen zu nutzen?
+    - Wie viele Daten brauche ich für KI-Anwendungen?
     - Wie groß muss die Datenmenge für künstliche Intelligenz?
-    - Beenötige ich viele Daten, um KI-Anwendungen zu nutzen? 
+    - Beenötige ich viele Daten, um KI-Anwendungen zu nutzen?
     - große Datenmengen für künstliche Intelligenz
 - intent: faq/ki_acceptance
   examples: |
     - faq/ki_acceptance
     - Wie erreichen Unternehmen Akzeptanz für KI-Anwendungen bei ihren Mitarbeitern?
-    - Wie schaffe ich Akzeptanz für künstliche Intelligenz? 
+    - Wie schaffe ich Akzeptanz für künstliche Intelligenz?
     - Akzeptanz für KI schaffen
     - Akzeptanz für künstliche Intelligenz schaffen
     - Mitarbeiter sollen KI-Anwendungen akzeptieren
@@ -1218,6 +1222,9 @@ nlu:
     - Gibt es dort Ansprechpartner?
     - Zum Support weiterleiten
     - Support notwendig
+    - contact/initial_question
+    - ansprechpartner
+    - anspreechpartner
 - intent: contact/allgemeiner_kontakt
   examples: |
     - Allgemein
@@ -1230,6 +1237,7 @@ nlu:
     - Kontakt Lingen
     - contact/geschaeftsstelle_lingen
     - Ansprechpartner Geschäftsstelle Lingen
+    - kompetenzentrum lingen
 - intent: contact/geschaeftsstelle_muenster
   examples: |
     - Münster
@@ -1302,6 +1310,9 @@ nlu:
     - Was macht die Cloud?
     - Was macht Cloud?
     - Ich suche Informationen zur Cloud
+    - cloud
+    - cloud computing
+    - Ich suche Informationen zum Thema Cloud
 - intent: faq/cloud_as_a_service
   examples: |
     - faq/cloud_as_a_service
@@ -1338,6 +1349,11 @@ nlu:
     - Beantworte mir Fragen zu KI
     - Was ist KI?
     - Mehr Informationen zu KI
+    - was ist ki?
+    - ki
+    - künstliche intelligenz
+    - Was ist ki?
+    - künstliche Intelligenz
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
@@ -1385,6 +1401,9 @@ nlu:
     - Wann startet die nächste Veranstaltung?
     - Wann findet die nächste Veranstaltung statt?
     - Gibt es Veranstaltungen?
+    - zeige mir veranstaltungen
+    - veranstaltungen
+    - zeig mir veranstaltungen
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
@@ -1401,3 +1420,32 @@ nlu:
     - Nach Zeitraum
     - Zeitpunkt
     - Veranstaltungen nach Zeitpunkt
+- intent: botrating/you_helped_enough
+  examples: |
+    - botrating/you_helped_enough
+- intent: botrating/user_stars_rating
+  examples: |
+    - botrating/user_stars_rating
+- intent: botrating/want_more_information
+  examples: |
+    - botrating/want_more_information
+- intent: mood_great
+  examples: |
+    - Gut!
+    - ganz okay
+- intent: mood_unhappy
+  examples: |
+    - schlecht...
+- intent: faq/speech_recognition
+  examples: |
+    - sprcherkenung
+    - Spracherkennung?
+- intent: faq/face_identification
+  examples: |
+    - wie erkenne ich gesichter?
+- intent: faq/DataAnalytics
+  examples: |
+    - was ist data analytics?
+- intent: faq/link_mittelstand_agentur_cloud
+  examples: |
+    - faq/link_mittelstand_agentur_cloud
