@@ -60,7 +60,6 @@ nlu:
     - Zeitverschwendung
     - du nervst
     - langweilig
-    - Nicht so schlimm
     - Du bist scheiße
 - intent: chitchat/bot_clever
   examples: |
@@ -123,6 +122,10 @@ nlu:
     - Pizza bestellen
     - Unternehmenskultur
     - Projekte
+    - Geschäftsmodell-Check
+    - Wie kann ich mein Geschäftsmodell überprüfen lassen?
+    - Welche Projekte hat das Kompetenzzentrum begleitet?
+    - Projekte des Kompetenzzentrums
 - intent: affirm
   examples: |
     - ja
@@ -200,8 +203,6 @@ nlu:
     - Kompetenzzentrum
     - Kompetenzzentrum Lingen
     - Agentur Lingen
-    - kompetenzzentrum
-    - Was bietet das Kompetenzzentrum an?
 - intent: faq/mittelstand_agentur_cloud_ki
   examples: |
     - faq/mittelstand_agentur_cloud_ki
@@ -210,6 +211,7 @@ nlu:
     - Angebote der Agentur
     - ich will mein Unternehmen digitalisieren
     - Informationen zur Digitalisierung
+    - Digitalisierung
     - Angebote des Kompetenzzentrums
     - Aufgaben der Mittelstand 4.0 Agentur
     - Was macht die Mittelstand 4.0 Agentur?
@@ -219,6 +221,7 @@ nlu:
     - Was bietet die Agentur an?
     - Was sind die Aufgaben der Mittelstand 4.0-Agentur?
     - Was bietet die Mittelstand Agentur an?
+    - Was bietet das Kompetenzzentrum an?
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -1349,11 +1352,6 @@ nlu:
     - Beantworte mir Fragen zu KI
     - Was ist KI?
     - Mehr Informationen zu KI
-    - was ist ki?
-    - ki
-    - künstliche intelligenz
-    - Was ist ki?
-    - künstliche Intelligenz
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
@@ -1401,8 +1399,6 @@ nlu:
     - Wann startet die nächste Veranstaltung?
     - Wann findet die nächste Veranstaltung statt?
     - Gibt es Veranstaltungen?
-    - zeige mir veranstaltungen
-    - veranstaltungen
     - zeig mir veranstaltungen
 - intent: Events_All
   examples: |
@@ -1420,32 +1416,3 @@ nlu:
     - Nach Zeitraum
     - Zeitpunkt
     - Veranstaltungen nach Zeitpunkt
-- intent: botrating/you_helped_enough
-  examples: |
-    - botrating/you_helped_enough
-- intent: botrating/user_stars_rating
-  examples: |
-    - botrating/user_stars_rating
-- intent: botrating/want_more_information
-  examples: |
-    - botrating/want_more_information
-- intent: mood_great
-  examples: |
-    - Gut!
-    - ganz okay
-- intent: mood_unhappy
-  examples: |
-    - schlecht...
-- intent: faq/speech_recognition
-  examples: |
-    - sprcherkenung
-    - Spracherkennung?
-- intent: faq/face_identification
-  examples: |
-    - wie erkenne ich gesichter?
-- intent: faq/DataAnalytics
-  examples: |
-    - was ist data analytics?
-- intent: faq/link_mittelstand_agentur_cloud
-  examples: |
-    - faq/link_mittelstand_agentur_cloud
