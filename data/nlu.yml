@@ -37,6 +37,7 @@ nlu:
     - Mit wem spreche ich?
     - wer bist du?
     - was bist du?
+    - bist du ein Chatbot?
     - bist du ein Bot?
     - Hallo wer bist du?
     - warum bist du hier?
@@ -78,6 +79,9 @@ nlu:
     - können wir starten?
     - bist du jetzt fertig?
     - Kann ich dir eine Frage stellen?
+    - soll ich Sie etwas fragen?
+    - soll ich dich etwas fragen?
+    - darf ich dich etwas fragen?
 - intent: chitchat/bot_wrong
   examples: |
     - falsch
@@ -135,6 +139,8 @@ nlu:
     - auf jeden fall
     - jau
     - j
+    - jap
+    - yes
     - ja, schon
 - intent: deny
   examples: |
@@ -160,6 +166,8 @@ nlu:
     - dankeschön
     - Danke für diese Information
     - Toll, danke!
+    - dake
+    - dnake
     - Danke, das hat geholfen.
     - Das hat geholfen danke
     - ok
@@ -176,6 +184,9 @@ nlu:
     - rating_want_more_information
     - want_more_information
     - want more information
+    - weitere Fragen
+    - ich habe weitere Fragen
+    - ich will mehr wissen
 - intent: rating_you_helped_enough
   examples: |
     - rating_you_helped_enough
@@ -199,6 +210,9 @@ nlu:
     - faq/mittelstand_agentur_initial_question
     - Mittstand 4.0 Agentur
     - Die Agentur
+    - Mittelstand
+    - Agentur
+    - Lingen
     - Mittelstand 4.0
     - Kompetenzzentrum
     - Kompetenzzentrum Lingen
@@ -989,6 +1003,8 @@ nlu:
   examples: |
     - Was ist ein Bot?
     - Chat Bot
+    - Chatbot
+    - Bot
     - Wie können sich wiederholende Aufgaben von einem Computer erledigt werden?
     - Wie kann ich mit einem Computer chatten?
     - Wie kann ein Rechner chatten?
@@ -1116,6 +1132,36 @@ nlu:
     - Wie groß muss die Datenmenge für künstliche Intelligenz?
     - Beenötige ich viele Daten, um KI-Anwendungen zu nutzen?
     - große Datenmengen für künstliche Intelligenz
+- intent: faq/ki_introduction
+  examples: |
+    - faq/ki_introduction
+    - Was sind die ersten Schritte zur Einführung einer KI-Lösung?
+    - KI-Lösungen einführen
+    - Einführung KI
+    - Einführung Künstliche Intelligenz
+    - ersten Schritte KI Einführung
+    - Wie gehe ich am besten bei der Einführung von Künstlicher Intelligenz vor?
+    - Wie führe ich KI im Unternehmen ein?
+    - Wie führe ich Künstliche Intelligenz im Unternehmen ein?
+    - Gibt es einen Prozess, um KI einzuführen?
+    - Wie werden KI Lösungen im Unternehmen eingeführt?
+    - KI Einführung?
+    - Wie Plane ich die KI-Einführung?
+    - Künstliche Intelligenz wie einführen?
+    - Ich suche Informationen, wie ich KI in meinem Unternehmen einführen kann.
+    - Haben Sie Informationen zur Einführung von KI?
+    - Wie führe ich Künstliche Intelligenz ein?
+    - Einführen von KI
+    - Wie Einführung Künstliche Intelligenz Unternehmen?
+    - Prozess Einführung Künstliche Intelligenz?
+    - Wir planen den Neustart von KI
+    - Ich möchte KI in meinem Unternehmen einführen. Wie gehe ich dabei vor?
+    - KI-Lösungen im Unternehmen einführen
+    - Ich möchte eine KI-Lösung in meinem Unternehmen einführen
+    - Künstliche Intelligenz im Unternehmen einführen
+    - KI einführen
+    - erste Schritte künstliche Intelligenz
+    - Ich möchte eine Künstliche Intelligenz in meinem Unternehmen einführen
 - intent: faq/ki_acceptance
   examples: |
     - faq/ki_acceptance
@@ -1132,6 +1178,8 @@ nlu:
     - Unterstützung bei der Einführung von KI
     - Unterstützung küsntliche Intelligenz
     - Support bei KI-Anwendungen
+    - Förderungen
+    - Förderungen Künstliche Intelligenz
 - intent: faq/cloud_computing_topics
   examples: |
     - faq/cloud_computing_topics
@@ -1193,6 +1241,7 @@ nlu:
     - Wie arbeiten sie mit dem maritimen Bereich zusammen?
 - intent: contact/initial_question
   examples: |
+    - contact/initial_question
     - Ansprechpartner
     - Kontakt
     - Anschrift
@@ -1225,75 +1274,73 @@ nlu:
     - Gibt es dort Ansprechpartner?
     - Zum Support weiterleiten
     - Support notwendig
-    - contact/initial_question
     - ansprechpartner
     - anspreechpartner
 - intent: contact/allgemeiner_kontakt
   examples: |
+    - contact/allgemeiner_kontakt
     - Allgemein
     - Allgemeiner Kontakt
     - Allgemeiner Ansprechpartner
-    - contact/allgemeiner_kontakt
 - intent: contact/geschaeftsstelle_lingen
   examples: |
-    - Lingen
-    - Kontakt Lingen
     - contact/geschaeftsstelle_lingen
+    - Kontakt Lingen
     - Ansprechpartner Geschäftsstelle Lingen
     - kompetenzentrum lingen
 - intent: contact/geschaeftsstelle_muenster
   examples: |
+    - contact/geschaeftsstelle_muenster
     - Münster
     - Kontakt Münster
-    - contact/geschaeftsstelle_muenster
     - Ansprechpartner Geschäftsstelle Münster
 - intent: contact/oeffentlichkeitsarbeit
   examples: |
+    - contact/oeffentlichkeitsarbeit
     - Öffentlichkeitsarbeit
     - Kontakt Öffentlichkeitsarbeit
-    - contact/oeffentlichkeitsarbeit
     - Ansprechpartner für Öffentlichkeitsarbeit
 - intent: contact/ki_osnabrueck
   examples: |
+    - contact/ki_osnabrueck
     - KI Standort Osnabrück
     - Kontakt KI Osnabrück
-    - contact/ki_osnabrueck
     - Ansprechpartner für KI am Standort Osnabrück
 - intent: contact/ki_lingen
   examples: |
+    - contact/ki_lingen
     - KI Standort Lingen
     - Kontakt KI Lingen
-    - contact/ki_lingen
     - Ansprechpartner KI Standort Lingen
 - intent: contact/ki_emdenleer
   examples: |
+    - contact/ki_emdenleer
     - KI Standort Emden/Leer
     - Kontakt KI Emden/Leer
-    - contact/ki_emdenleer
     - Ansprechpartner für KI am Standort Emden/Leer
 - intent: contact/handelsbranche
   examples: |
+    - contact/handelsbranche
     - Handel
     - Handelsbranche
     - Kontakt Handelsbranche
-    - contact/handelsbranche
     - Ansprechpartner für die Handelsbranche
 - intent: contact/handwerk
   examples: |
-    - Kontakt Handwerk
     - contact/handwerk
+    - Kontakt Handwerk
     - Ansprechpartner für das Handwerk
 - intent: contact/agrarbranche
   examples: |
+    - contact/agrarbranche
     - Agrarbranche
     - Kontakt Agrarbranche
-    - contact/agrarbranche
     - Ansprechpartner für die Agrarbranche
 - intent: contact/maritimewirtschaft
   examples: |
+    - contact/maritimewirtschaft
     - Maritime Wirtschaft
     - Kontakt Maritime Wirtschaft
-    - contact/maritimewirtschaft
     - Ansprechpartner für die Maritime Wirtschaft
 - intent: faq/cloud_initial_question
   examples: |
@@ -1304,6 +1351,8 @@ nlu:
     - Ich habe eine Frage zur Cloud.
     - Könnt ihr mir mit einer Cloud-Anwendung helfen?
     - Wie kann ich eine Cloud nutzen?
+    - Mehr zu Cloud
+    - Mehr Informationen zur Cloud
     - Ich bruache Hilfe mit der Cloud.
     - Ich will etwas zur Cloud wissen.
     - Beantworte mir eine Frage zur Cloud
@@ -1342,8 +1391,6 @@ nlu:
     - Künstliche Intelligenz
     - Was ist künstliche Intelligenz?
     - Was kannst du mir zu künstliche Intelligenz sagen?
-    - erste Schritte künstliche Intelligenz
-    - KI einführen
     - Mehr Informationen künstliche Intelligenz
     - Fragen zu künstliche Intelligenz
     - Grundlagen künstliche Intelligenz

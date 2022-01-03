@@ -486,7 +486,7 @@ responses:
     - payload: faq/ki_businessmodel
       title: Einfluss auf Geschäftsmodell
     - payload: faq/ki_support
-      title: Förderungen
+      title: Unterstützung
     text: Bei der Künstlichen Intelligenz versucht man menschliches Lernen und Denken auf den Computer zu übertragen. Kognitive Kompetenzen wie beispielsweise strategisches Denken und sprachliche Fähigkeiten sollen imitiert werden. Haben Sie weitere Fragen zur KI?
   utter_faq/ki_modules:
   - buttons:

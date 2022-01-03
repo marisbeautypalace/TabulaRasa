@@ -31,6 +31,22 @@ stories:
   - action: utter_rating_initial_question
   - intent: affirm
   - action: utter_rating_want_more_information
+- story: botrating affirm path (from reminder)
+  steps:
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: affirm
+  - action: utter_rating_want_more_information
+- story: botrating deny path (from reminder)
+  steps:
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: deny
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+  - action: action_receive_rating
 - story: botrating deny path
   steps:
   - intent: rating_initial_question
