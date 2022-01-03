@@ -115,7 +115,7 @@ responses:
       title: ⭐⭐⭐⭐
     - payload: 5 Sterne
       title: ⭐⭐⭐⭐⭐
-    text: In Ordnung. Ich hoffe, dass ich all Ihre Fragen zufriedenstellend beantworten konnte. Ich wäre Ihnen sehr dankbar, wenn Sie den Service mit diesem Chatbot kurz bewerten würden. Sie haben die Möglichkeit entweder die Sterne-Bewertung auszuwählen oder ein qualitatives Feedback über das Textfeld zu hinterlassen. Vielen Dank!
+    text: In Ordnung. Ich hoffe, dass ich all Ihre Fragen zufriedenstellend beantworten konnte. Ich wäre Ihnen sehr dankbar, wenn Sie den Service mit diesem Chatbot durch Auswahl eines Buttons kurz bewerten würden. Vielen Dank!
   utter_rating_thanks:
   - text: Vielen Dank für Ihr Feedback und einen schönen Tag noch.
   utter_no_rating_specified:
