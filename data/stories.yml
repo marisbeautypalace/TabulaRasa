@@ -63,3 +63,7 @@ stories:
   steps:
   - intent: affirm
   - action: utter_cant_help
+- story: user wants more information
+  steps:
+  - intent: rating_want_more_information
+  - action: utter_rating_want_more_information

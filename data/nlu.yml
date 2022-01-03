@@ -82,6 +82,8 @@ nlu:
     - soll ich Sie etwas fragen?
     - soll ich dich etwas fragen?
     - darf ich dich etwas fragen?
+    - soll ich dich was fragen?
+    - Soll ich sie etwas fragen?
 - intent: chitchat/bot_wrong
   examples: |
     - falsch
@@ -130,6 +132,8 @@ nlu:
     - Wie kann ich mein Geschäftsmodell überprüfen lassen?
     - Welche Projekte hat das Kompetenzzentrum begleitet?
     - Projekte des Kompetenzzentrums
+    - Einfluss auf Geschäftsmodelle
+    - FAQ
 - intent: affirm
   examples: |
     - ja
