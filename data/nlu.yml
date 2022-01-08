@@ -134,6 +134,9 @@ nlu:
     - Projekte des Kompetenzzentrums
     - Einfluss auf Geschäftsmodelle
     - FAQ
+    - Wo auf der Internetseite bekomme ich Informationen zu KI und Agrar?
+    - wie bekomme ich Informationen dazu?
+    - Geschäftsmodell prüfen lassen
 - intent: affirm
   examples: |
     - ja
@@ -1209,6 +1212,7 @@ nlu:
     - Was bringt dem Bauer die Digitalisierung?
     - Latwirtschaft und Agra?
     - Wie nutzen Bauern die Digitalisierung?
+    - KI in der Agrarbranche
 - intent: faq/craft_digitalization
   examples: |
     - Handwerk
@@ -1280,6 +1284,7 @@ nlu:
     - Support notwendig
     - ansprechpartner
     - anspreechpartner
+    - kontaktieren
 - intent: contact/allgemeiner_kontakt
   examples: |
     - contact/allgemeiner_kontakt
@@ -1340,6 +1345,7 @@ nlu:
     - Agrarbranche
     - Kontakt Agrarbranche
     - Ansprechpartner für die Agrarbranche
+    - Wen kann ich zu Agrar und KI kontaktieren?
 - intent: contact/maritimewirtschaft
   examples: |
     - contact/maritimewirtschaft
