@@ -58,3 +58,19 @@ rules:
   - intent: nlu_fallback
   - action: action_set_reminder
   - action: utter_please_rephrase
+
+- rule: Activate Form
+  steps:
+  - action: action_receive_rating
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+
+- rule: Submit Form
+  condition:
+  - active_loop: qualitative_feedback_form
+  steps:
+  - action: qualitative_feedback_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks

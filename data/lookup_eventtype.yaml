@@ -1,0 +1,14 @@
+version: "2.0" 
+nlu: 
+- lookup: EventType 
+  examples: | 
+    - Geschäftsmodelle
+    - Fachseminar
+    - Technologien und Trends
+    - Maritime Wirtschaft
+    - IT-Recht
+    - Künstliche Intelligenz
+    - Handwerk
+    - Vortrag
+    - Unternehmenskultur
+    - Agrar

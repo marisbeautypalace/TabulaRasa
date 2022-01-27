@@ -25,10 +25,16 @@ intents:
 - Events_Timeframe
 - Events_Timeframe_Selection
 - Events_Category_Selection
+- get_category_event
 entities:
 - timeframe_selection
 - category_selection
 - rating_selection
+- qualitative_feedback
+- EventType
+forms:
+- qualitative_feedback_form
+
 slots:
   timeframe_selection:
     type: text
@@ -39,6 +45,11 @@ slots:
   rating_selection:
     type: text
     influence_conversation: true
+  qualitative_feedback:
+    type: unfeaturized
+  EventType:
+    type: text
+    auto_fill: true
 responses:
   utter_welcome:
   - text: |-
@@ -551,6 +562,12 @@ responses:
   - text: Nach welcher Kategorie soll gefiltert werden?
   utter_events_timeframe_selection:
   - text: Nach welchem Zeitraum soll gefiltert werden?
+  utter_rating_give_qualitative_feedback:
+  - text: Danke für Ihre Bewertung. Könnten Sie kurz beschreiben, was Ihnen gut bzw. nicht so gut gefallen hat?
+  utter_repeat_qualitative_feedback_for_user:
+  - text: Zudem war Ihr qualitatives Feedback '{qualitative_feedback}'.
+  utter_no_event_found:
+  - text: 'Leider finde ich zu dieser Veranstaltungskategorie keine Ergebnisse. Wir haben Veranstaltungen zu den folgenden Kategorien, bitte wählen Sie:'
 actions:
 - action_get_all_events
 - action_get_events_for_timeframe
@@ -562,3 +579,4 @@ actions:
 - action_react_to_reminder
 - action_receive_rating
 - action_say_rating
+- action_specific_event_category

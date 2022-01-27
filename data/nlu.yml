@@ -1473,3 +1473,15 @@ nlu:
     - Nach Zeitraum
     - Zeitpunkt
     - Veranstaltungen nach Zeitpunkt
+- intent: get_category_event
+  examples: |
+    - [Technologien und Trends](EventType)?
+    - Was gibt es für Veranstaltungen zu [Agrar](EventType)?
+    - Was gibt es für Veranstaltungen für [IT-Recht](EventType)?
+    - Veranstaltungen mit [Künstlicher Intelligenz](EventType)?
+    - Habt ihr [Vortrag](EventType)?
+    - Ich will mich über [Unternehmenskultur](EventType) informieren?
+    - Events zu [Agrar](EventType)
+    - Veranstaltungen zu [Vortrag](EventType)
+    - Wann ist die Veranstaltung zu [Maritime Wirtschaft](EventType)
+

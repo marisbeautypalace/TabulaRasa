@@ -38,6 +38,19 @@ stories:
   - action: utter_rating_initial_question
   - intent: affirm
   - action: utter_rating_want_more_information
+- story: botrating deny path
+  steps:
+  - intent: rating_initial_question
+  - action: utter_rating_initial_question
+  - intent: deny
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+  - action: action_receive_rating
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: 87 hunde
+  - action: utter_rating_thanks
+
 - story: botrating deny path (from reminder)
   steps:
   - intent: EXTERNAL_reminder
@@ -47,14 +60,11 @@ stories:
   - action: utter_rating_you_helped_enough
   - intent: rating_user_stars_rating
   - action: action_receive_rating
-- story: botrating deny path
-  steps:
-  - intent: rating_initial_question
-  - action: utter_rating_initial_question
-  - intent: deny
-  - action: utter_rating_you_helped_enough
-  - intent: rating_user_stars_rating
-  - action: action_receive_rating
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: 87 hunde
+  - action: utter_rating_thanks
+
 - story: badpath deny
   steps:
   - intent: deny
@@ -67,3 +77,8 @@ stories:
   steps:
   - intent: rating_want_more_information
   - action: utter_rating_want_more_information
+
+- story: get story for specific category
+  steps:
+  - intent: get_category_event
+  - action: action_specific_event_category
