@@ -1331,6 +1331,7 @@ nlu:
     - Allgemeiner Ansprechpartner
     - Wie lautet die Telefonnummer des Kompetenzzentrum Lingen ?
     - Wie ist die Adresse vom Kompetenzzentrum Lingen ?
+    - Wann sind die Öffnungszeiten vom Kompetenzzentrum Lingen ?
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - contact/geschaeftsstelle_lingen
