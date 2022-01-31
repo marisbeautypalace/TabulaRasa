@@ -84,12 +84,12 @@ def get_events_for_timeframe(df, k):
     return df
 
 '''
-Processes a data frame in such a way that only those events are included which fall into a specific categorie
+Processes a data frame in such a way that only those events are included which fall into a specific category
 IN: df = dataframe for processing
-    categorie = category to which df is processed
-OUT: df = dataframe that contains events for a specific categorie
+    category = category to which df is processed
+OUT: df = dataframe that contains events for a specific category
 '''
-def get_events_for_categorie(df, category):
+def get_events_for_category(df, category):
     checked_events = []
 
     for column in df['categories']:
@@ -131,15 +131,15 @@ def get_events_for_cost(df, limit):
 '''
 Converts categories to string type
 IN: categories = raw data from website
-OUT: string_categorie = raw data converted to string type
+OUT: string_category = raw data converted to string type
 '''
 def categories_to_string(categories):
-    string_categorie = ""
+    string_category = ""
 
     for i in categories:
-        string_categorie = string_categorie + i + ' | '
+        string_category = string_category + i + ' | '
 
-    return string_categorie[:-2]
+    return string_category[:-2]
 
 '''
 Converts string to datetime object
@@ -245,7 +245,7 @@ class ActionGetEventsForCategory(Action):
         slot = tracker.get_slot("category_selection")
         
         df_allevents = get_all_events(URL)
-        df_events_for_category = get_events_for_categorie(df_allevents, slot)
+        df_events_for_category = get_events_for_category(df_allevents, slot)
         carousel = df_to_carousel(df_events_for_category)
 
         dispatcher.utter_message(attachment=carousel)
@@ -381,7 +381,7 @@ class ActionGetSpecificEventCategory(Action):
             for x in set_of_categories: 
                 if slot in x:
                     #print("richtige Auswahl")
-                    dfEventsForCategory = get_events_for_categorie(df_all_events, slot1)
+                    dfEventsForCategory = get_events_for_category(df_all_events, slot1)
                     #print (dfEventsForCategory)
                     carousel = df_to_carousel(dfEventsForCategory)
                     dispatcher.utter_message(attachment=carousel)
