@@ -248,6 +248,7 @@ nlu:
     - Wie erhalte ich Informationen zur Digitalisierung ?
     - Wie erhalte ich Informationen zu Digitalisierung ?
     - Was bietet mir die Website vom Kompetenzzentrum Lingen ?
+    - Wie könnt ihr mir helfen ?
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -261,6 +262,8 @@ nlu:
     - An wen richten sich die Angebote ?
     - An wen richten sich die Angebote vom Kompetenzzentrum Lingen ?
     - Wer kann das Angebot in Anspruch nehmen ?
+    - Welche Angebote bietet ihr an ?
+    - Was bietet das Kompetenzentrum Lingen ?
 - intent: faq/mittelstand_agentur_free_offers
   examples: |
     - faq/mittelstand_agentur_free_offers
@@ -281,6 +284,7 @@ nlu:
     - Sind die Angebote der Agentur kostenlos nutzbar?
     - Sind die Angebote der Agentur kostenlos?
     - Sind die Angebote kostenfrei ?
+    - Kostete die Workshops etwas ?
 - intent: faq/mittelstand_agentur_location
   examples: |
     - faq/mittelstand_agentur_location
@@ -589,6 +593,7 @@ nlu:
     - Brauche ich eine Cloud?
     - Wozu cloud computing?
     - Für wen eignet sich der Einsatz von Cloud?
+    - Wo kann ich Cloud Computing in meinem Unternehmen einsetzen ?
 - intent: faq/use_of_cloud_not
   examples: |
     - faq/use_of_cloud_not
@@ -1095,6 +1100,7 @@ nlu:
     - Wann ist der Einsatz von Künstlicher Intelligenz sinnvoll?
     - Welche Fragen sollte man sich beim Einsatz von künstlicher Intelligenz stellen?
     - Für wen eignet sich KI nicht ?
+    - Wo kann ich künstliche Intelligenz in meinem Unternehmen einsetzen ?
 - intent: faq/ki_hardware
   examples: |
     - faq/ki_hardware
@@ -1243,6 +1249,9 @@ nlu:
     - Wie nutzen Bauern die Digitalisierung?
     - KI in der Agrarbranche
     - Welche Bereiche kann ich im Agrarbereich digitalisieren ?
+    - Wie kann ich den Bereich Agrar digitalisieren ?
+    - Digitalisierung Landwirtschaft
+    - digitalisierung agrar
 - intent: faq/craft_digitalization
   examples: |
     - Handwerk
@@ -1410,6 +1419,9 @@ nlu:
     - Was sollte man bei dem Einstieg in die Cloud beachten ?
     - Wie kann ich mich über Cloud informieren ?
     - Wie informiere ich mich zu Cloud Computing?
+    - Wie informiere ich mich zu Cloud Computing
+    - Wie erhalte ich Informationen zu Cloud Computing
+    - Was bedeutet Cloud Computing
 - intent: faq/cloud_as_a_service
   examples: |
     - faq/cloud_as_a_service
@@ -1461,6 +1473,8 @@ nlu:
   - text: |
       Wie kann ich mich über künstliche Intelligenz 
       informieren ?
+  - text: |
+      Was bedeutet KI
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
