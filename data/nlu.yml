@@ -243,6 +243,11 @@ nlu:
     - Was sind die Aufgaben der Mittelstand 4.0-Agentur?
     - Was bietet die Mittelstand Agentur an?
     - Was bietet das Kompetenzzentrum an?
+    - Welche Themen vertritt das Kompetenzzentrum Lingen ?
+    - Welche Themen vertritt die Agentur ?
+    - Wie erhalte ich Informationen zur Digitalisierung ?
+    - Wie erhalte ich Informationen zu Digitalisierung ?
+    - Was bietet mir die Website vom Kompetenzzentrum Lingen ?
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -253,6 +258,8 @@ nlu:
     - Wer kann die Angebote nutzen?
     - An wen richten sich die Angebote des Kompetenzzentrums Lingen?
     - Für wen sind die Angebote des Kompetenzzentrums geeignet?
+    - An wen richten sich die Angebote ?
+    - An wen richten sich die Angebote vom Kompetenzzentrum Lingen ?
 - intent: faq/mittelstand_agentur_free_offers
   examples: |
     - faq/mittelstand_agentur_free_offers
@@ -272,6 +279,7 @@ nlu:
     - Wie hoch sind die Kosten für die Leistungen der Mittelstand 4.0-Agentur?
     - Sind die Angebote der Agentur kostenlos nutzbar?
     - Sind die Angebote der Agentur kostenlos?
+    - Sind die Angebote kostenfrei ?
 - intent: faq/mittelstand_agentur_location
   examples: |
     - faq/mittelstand_agentur_location
@@ -293,6 +301,8 @@ nlu:
     - Ich suche Informationen zur Mittelstand 4.0 Agentur
     - Wie lautet die Adresse der Agentur?
     - Ich habe Fragen zur Agentur 4.0
+    - Wer sind eure Projektpartner ?
+    - Wer steckt hinter dem Kompetenzzzentrum Lingen ?
 - intent: faq/mittelstand_agentur_BMWi
   examples: |
     - faq/mittelstand_agentur_BMWi
@@ -326,6 +336,7 @@ nlu:
     - Welche Software sollte ich mir anschaffen?
     - Könnte ihr eine Software empfehlen?
     - Empfiehlt die Agentur Cloud Anbieter oder Software-Lösungen?
+    - Welche Anbieter empfiehlt das Kompetenzzentrum Lingen  für Cloud ?
 - intent: faq/mittelstand_agentur_support
   examples: |
     - faq/mittelstand_agentur_support
@@ -347,6 +358,7 @@ nlu:
     - Was kostet eine Kooperation?
     - Kostet eine Kooperation mit dem Kompetenzzentrum etwas?
     - Wie kann man mit der Agentur kooperieren?
+    - Kann ich selber als Unternehmen Unterstützer werden ?
 - intent: faq/cloud_provider
   examples: |
     - Wer ist der Cloud Provider?
@@ -617,6 +629,7 @@ nlu:
     - Cloud im Unternehmen einführen
     - Cloud einführen
     - Ich möchte eine Cloud in meinem Unternehmen einführen
+    - Wie lange dauert eine Cloud Implementierung ?
 - intent: faq/network_breakdown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
@@ -660,6 +673,7 @@ nlu:
     - Welche Bandbreite brauche ich?
     - Welche Bandbreite benötige ich für die Cloud Nutzung?
     - Welche Bandbreite brauche ich für Cloud?
+    - Brauche ich für Cloud Anwendungen eine gute Internetverbindung ?
 - intent: faq/provider_change
   examples: |
     - Welche Datenformat und Datenträger sollte man für die Rückgabe der Daten im Falle eines Anbieterwechsels wählen?
@@ -698,10 +712,12 @@ nlu:
     - Was ist gut an Cloud Computing?
     - Wieso ist die Nutzung einer Cloud gut?
     - Vorteile von Cloud Computing im Mittelstand
+    - Welche Vorteile bringt mir Cloud ?
 - intent: faq/cloud_or_outsourcing
   examples: |
     - Wie unterscheidet sich Cloud Computing zu klassischen Outsourcing Diensten?
     - Unterschied zwischen Cloud und Outsourcing-Diensten
+    - wie unterscheidet sich Cloud Computing zu Oursorcing Diensten ?
 - intent: faq/cloud_application_area
   examples: |
     - faq/cloud_application_area
@@ -910,6 +926,7 @@ nlu:
     - maschinelles Lernen
     - was macht machine learning?
     - wozu brauche ich machine learning?
+    - Was bringt mir maschinelles Lernen?
 - intent: faq/deep_learning
   examples: |
     - faq/deep_learning
@@ -1070,6 +1087,7 @@ nlu:
     - Wann nutze ich eine künstliche Intelligenz?
     - Wann ist der Einsatz von Künstlicher Intelligenz sinnvoll?
     - Welche Fragen sollte man sich beim Einsatz von künstlicher Intelligenz stellen?
+    - Für wen eignet sich KI nicht ?
 - intent: faq/ki_hardware
   examples: |
     - faq/ki_hardware
@@ -1111,6 +1129,7 @@ nlu:
     - Was ist gut an küntlicher Intelligenz?
     - Wieso ist die Nutzung einer KI gut?
     - Vorteile von künstlicher Intelligenz im Mittelstand
+    - Welche Vorteile bringt mir KI
 - intent: faq/ki_application
   examples: |
     - faq/ki_application
@@ -1169,6 +1188,7 @@ nlu:
     - KI einführen
     - erste Schritte künstliche Intelligenz
     - Ich möchte eine Künstliche Intelligenz in meinem Unternehmen einführen
+    - Wie lange dauert eine KI Implementierung ?
 - intent: faq/ki_acceptance
   examples: |
     - faq/ki_acceptance
@@ -1375,6 +1395,7 @@ nlu:
     - cloud
     - cloud computing
     - Ich suche Informationen zum Thema Cloud
+    - Was sollte man bei dem Einstieg in die Cloud beachten ?
 - intent: faq/cloud_as_a_service
   examples: |
     - faq/cloud_as_a_service
@@ -1409,6 +1430,7 @@ nlu:
     - Beantworte mir Fragen zu KI
     - Was ist KI?
     - Mehr Informationen zu KI
+    - Was ist eigentlich KI?
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
@@ -1457,6 +1479,7 @@ nlu:
     - Wann findet die nächste Veranstaltung statt?
     - Gibt es Veranstaltungen?
     - zeig mir veranstaltungen
+    - Bietet das Kompetenzzentrum Lingen auch Workshops an ?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
@@ -1484,4 +1507,3 @@ nlu:
     - Events zu [Agrar](EventType)
     - Veranstaltungen zu [Vortrag](EventType)
     - Wann ist die Veranstaltung zu [Maritime Wirtschaft](EventType)
-
