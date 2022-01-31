@@ -260,6 +260,7 @@ nlu:
     - Für wen sind die Angebote des Kompetenzzentrums geeignet?
     - An wen richten sich die Angebote ?
     - An wen richten sich die Angebote vom Kompetenzzentrum Lingen ?
+    - Wer kann das Angebot in Anspruch nehmen ?
 - intent: faq/mittelstand_agentur_free_offers
   examples: |
     - faq/mittelstand_agentur_free_offers
@@ -337,6 +338,9 @@ nlu:
     - Könnte ihr eine Software empfehlen?
     - Empfiehlt die Agentur Cloud Anbieter oder Software-Lösungen?
     - Welche Anbieter empfiehlt das Kompetenzzentrum Lingen  für Cloud ?
+    - Wo finde ich KI-Anbieter =
+    - Wo finde ich Cloud Anbieter ?
+    - Wo finde ich Anbieter zu Cloud Computing ?
 - intent: faq/mittelstand_agentur_support
   examples: |
     - faq/mittelstand_agentur_support
@@ -747,6 +751,7 @@ nlu:
     - Wie groß sollte mein Unternehmen für die Nutzung einer Cloud sein?
     - Cloud als Unternehmen im Mittelstand?
     - Cloud als Kleinunternehmen?
+    - Kann jedes Unternehmen seine Prozesse digitalisieren ?
 - intent: faq/speech_recognition_speech_identification
   examples: |
     - faq/speech_recognition_speech_identification
@@ -927,6 +932,8 @@ nlu:
     - was macht machine learning?
     - wozu brauche ich machine learning?
     - Was bringt mir maschinelles Lernen?
+    - Was bedeutet ML ?
+    - Was bedeutet ML
 - intent: faq/deep_learning
   examples: |
     - faq/deep_learning
@@ -1117,6 +1124,7 @@ nlu:
     - Wie kann ich künstliche Intelligenz im Unternehmen nutzen?
     - Arbeitet das Kompetenzzentrum mit künstlicher Intelligenz?
     - Wie kann ich künstliche Intelligenz nutzen?
+    - Was ist das KI-Trainer Programm ?
 - intent: faq/ki_benefits
   examples: |
     - faq/ki_benefits
@@ -1150,6 +1158,7 @@ nlu:
     - Wie beeinflusst künstliche Intelligenz mein Geschäftsmodell?
     - Einfluss von künstlicher Intelligenz auf mein Geschäftsmodell
     - Einfluss auf das Businessmodel von KI
+    - Wie kann ich mein Geschäftsmodell digitalisieren ?
 - intent: faq/ki_amount_of_data
   examples: |
     - faq/ki_amount_of_data
@@ -1233,6 +1242,7 @@ nlu:
     - Latwirtschaft und Agra?
     - Wie nutzen Bauern die Digitalisierung?
     - KI in der Agrarbranche
+    - Welche Bereiche kann ich im Agrarbereich digitalisieren ?
 - intent: faq/craft_digitalization
   examples: |
     - Handwerk
@@ -1311,6 +1321,8 @@ nlu:
     - Allgemein
     - Allgemeiner Kontakt
     - Allgemeiner Ansprechpartner
+    - Wie lautet die Telefonnummer des Kompetenzzentrum Lingen ?
+    - Wie ist die Adresse vom Kompetenzzentrum Lingen ?
 - intent: contact/geschaeftsstelle_lingen
   examples: |
     - contact/geschaeftsstelle_lingen
@@ -1396,6 +1408,8 @@ nlu:
     - cloud computing
     - Ich suche Informationen zum Thema Cloud
     - Was sollte man bei dem Einstieg in die Cloud beachten ?
+    - Wie kann ich mich über Cloud informieren ?
+    - Wie informiere ich mich zu Cloud Computing?
 - intent: faq/cloud_as_a_service
   examples: |
     - faq/cloud_as_a_service
@@ -1417,20 +1431,36 @@ nlu:
     - Welche Cloud-Arten gibt Es?
     - Welche Arten von Cloud gibt es?
 - intent: faq/ki_initial_question
-  examples: |
-    - KI
-    - Künstliche Intelligenz
-    - Was ist künstliche Intelligenz?
-    - Was kannst du mir zu künstliche Intelligenz sagen?
-    - Mehr Informationen künstliche Intelligenz
-    - Fragen zu künstliche Intelligenz
-    - Grundlagen künstliche Intelligenz
-    - grundlegende Fragen KI
-    - Hilfe künstliche Intelligenz
-    - Beantworte mir Fragen zu KI
-    - Was ist KI?
-    - Mehr Informationen zu KI
-    - Was ist eigentlich KI?
+  examples:
+  - text: |
+      KI
+  - text: |
+      Künstliche Intelligenz
+  - text: |
+      Was ist künstliche Intelligenz?
+  - text: |
+      Was kannst du mir zu künstliche Intelligenz sagen?
+  - text: |
+      Mehr Informationen künstliche Intelligenz
+  - text: |
+      Fragen zu künstliche Intelligenz
+  - text: |
+      Grundlagen künstliche Intelligenz
+  - text: |
+      grundlegende Fragen KI
+  - text: |
+      Hilfe künstliche Intelligenz
+  - text: |
+      Beantworte mir Fragen zu KI
+  - text: |
+      Was ist KI?
+  - text: |
+      Mehr Informationen zu KI
+  - text: |
+      Was ist eigentlich KI?
+  - text: |
+      Wie kann ich mich über künstliche Intelligenz 
+      informieren ?
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
@@ -1445,6 +1475,8 @@ nlu:
     - Gibt es KI Bausteine?
     - Welche KI Komponenten gibt es?
     - Welche KI Inhalte gibt es?
+    - Welche Prozesse in meinem Unternehmen kann ich digitalisieren ?
+    - Welche Prozesse kann ich atuomatisieren ?
 - intent: faq/ki_basic_question
   examples: |
     - faq/ki_basic_question
@@ -1480,6 +1512,8 @@ nlu:
     - Gibt es Veranstaltungen?
     - zeig mir veranstaltungen
     - Bietet das Kompetenzzentrum Lingen auch Workshops an ?
+    - Wo kann ich mich für Workshops anmelden ?
+    - Wo kann ich Workshops buchen ?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
