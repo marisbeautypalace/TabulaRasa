@@ -33,7 +33,6 @@ Scraping for a url of the kompetenzzentrum lingen (json format)
 IN: url = unique identifier used to locate the event resource of the kompetenzzentrum lingen on the internet
 OUT: df_all_events = dataframe which contains all events of the kompetenzzentrum lingen
 '''
-
 def get_all_events(URL):
     response = urllib.request.urlopen(URL)
     data_json = json.loads(response.read())
