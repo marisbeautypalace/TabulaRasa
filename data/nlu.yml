@@ -227,7 +227,6 @@ nlu:
 - intent: faq/mittelstand_agentur_cloud_ki
   examples: |
     - faq/mittelstand_agentur_cloud_ki
-    - Wie unterstützt mich das Mittelstand 4.0-Kompetenzzentrum Lingen zum Thema Cloud und künstliche Intelligenz?
     - Was bietet die Mittelstand 4.0-Agentur an?
     - Angebote der Agentur
     - ich will mein Unternehmen digitalisieren
@@ -249,6 +248,7 @@ nlu:
     - Wie erhalte ich Informationen zu Digitalisierung ?
     - Was bietet mir die Website vom Kompetenzzentrum Lingen ?
     - Wie könnt ihr mir helfen ?
+    - was macht das Kompetenzzentrum?
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -350,7 +350,6 @@ nlu:
     - faq/mittelstand_agentur_support
     - Was beinhalten die Angebote vom Kompetenzzentrum?
     - Wobei kann mich das Kompetenzzentrum unterstützen?
-    - was macht das Kompetenzzentrum?
 - intent: faq/mittelstand_agentur_cooperation
   examples: |
     - faq/mittelstand_agentur_cooperation
