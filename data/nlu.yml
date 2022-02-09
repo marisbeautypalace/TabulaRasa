@@ -96,6 +96,7 @@ nlu:
     - das meinte ich nicht
     - das meine ich nicht
     - ich meine etwas anderes
+    - Das hilft mir nicht weiter
 - intent: chitchat/bot_infos
   examples: |
     - wobei kannst du mir helfen?
@@ -137,6 +138,7 @@ nlu:
     - Wo auf der Internetseite bekomme ich Informationen zu KI und Agrar?
     - wie bekomme ich Informationen dazu?
     - Geschäftsmodell prüfen lassen
+    - Welche Projekte gab es bisher?
 - intent: affirm
   examples: |
     - ja
@@ -249,6 +251,8 @@ nlu:
     - Was bietet mir die Website vom Kompetenzzentrum Lingen ?
     - Wie könnt ihr mir helfen ?
     - was macht das Kompetenzzentrum?
+    - Ich möchte Informationen zur Digitalisierung
+    - Was ist KoLi
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -1120,6 +1124,7 @@ nlu:
     - Arbeitet das Kompetenzzentrum mit künstlicher Intelligenz?
     - Wie kann ich künstliche Intelligenz nutzen?
     - Was ist das KI-Trainer Programm ?
+    - Was ist ein KI Trainer?
 - intent: faq/ki_benefits
   examples: |
     - faq/ki_benefits
@@ -1154,6 +1159,10 @@ nlu:
     - Einfluss von künstlicher Intelligenz auf mein Geschäftsmodell
     - Einfluss auf das Businessmodel von KI
     - Wie kann ich mein Geschäftsmodell digitalisieren ?
+    - Welche Angebote gibt es zu Geschäftsmodellen?
+    - Was ist ein digitales Geschäftsmodell?
+    - Was ist ein Geschäftsmodell?
+    - Geschäftsmodell digitalisieren
 - intent: faq/ki_amount_of_data
   examples: |
     - faq/ki_amount_of_data
@@ -1241,6 +1250,9 @@ nlu:
     - Wie kann ich den Bereich Agrar digitalisieren ?
     - Digitalisierung Landwirtschaft
     - digitalisierung agrar
+    - Digitalisierung in der Landwirtschaft
+    - Angebote für Landwirte
+    - Agrar
 - intent: faq/craft_digitalization
   examples: |
     - Handwerk
@@ -1258,6 +1270,8 @@ nlu:
     - Wie unterstützt ihr das Handwerk beim Thema Digitalisierung
     - Wie arbeitet ihr mit dem Handwerk zusammen?
     - Arbeiten Sie mit dem Handwerk zusammen?
+    - Ich bin Handwerker. Welche Angebote gibt es für mich?
+    - welche Angebote gibt es für das Handwerk?
 - intent: faq/maritime_digitalization
   examples: |
     - Maritim
@@ -1377,6 +1391,8 @@ nlu:
     - Kontakt Agrarbranche
     - Ansprechpartner für die Agrarbranche
     - Wen kann ich zu Agrar und KI kontaktieren?
+    - Wer ist Ansprechpartner für Landwirte?
+    - Ansprechpartner für Agrar
 - intent: contact/maritimewirtschaft
   examples: |
     - contact/maritimewirtschaft
@@ -1433,38 +1449,22 @@ nlu:
     - Welche Cloud-Arten gibt Es?
     - Welche Arten von Cloud gibt es?
 - intent: faq/ki_initial_question
-  examples:
-  - text: |
-      KI
-  - text: |
-      Künstliche Intelligenz
-  - text: |
-      Was ist künstliche Intelligenz?
-  - text: |
-      Was kannst du mir zu künstliche Intelligenz sagen?
-  - text: |
-      Mehr Informationen künstliche Intelligenz
-  - text: |
-      Fragen zu künstliche Intelligenz
-  - text: |
-      Grundlagen künstliche Intelligenz
-  - text: |
-      grundlegende Fragen KI
-  - text: |
-      Hilfe künstliche Intelligenz
-  - text: |
-      Beantworte mir Fragen zu KI
-  - text: |
-      Was ist KI?
-  - text: |
-      Mehr Informationen zu KI
-  - text: |
-      Was ist eigentlich KI?
-  - text: |
-      Wie kann ich mich über künstliche Intelligenz 
-      informieren ?
-  - text: |
-      Was bedeutet KI
+  examples: |
+    - KI
+    - Künstliche Intelligenz
+    - Was ist künstliche Intelligenz?
+    - Was kannst du mir zu künstliche Intelligenz sagen?
+    - Mehr Informationen künstliche Intelligenz
+    - Fragen zu künstliche Intelligenz
+    - Grundlagen künstliche Intelligenz
+    - grundlegende Fragen KI
+    - Hilfe künstliche Intelligenz
+    - Beantworte mir Fragen zu KI
+    - Was ist KI?
+    - Mehr Informationen zu KI
+    - Was ist eigentlich KI?
+    - Wie kann ich mich über künstliche Intelligenz informieren ?
+    - Was bedeutet KI
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
@@ -1523,6 +1523,7 @@ nlu:
     - Bietet das Kompetenzzentrum Lingen auch Workshops an ?
     - Wo kann ich mich für Workshops anmelden ?
     - Wo kann ich Workshops buchen ?
+    - Hi KoLi, was ist die nächste Veranstaltung?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
