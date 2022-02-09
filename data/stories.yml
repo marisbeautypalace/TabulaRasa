@@ -78,7 +78,15 @@ stories:
   - intent: rating_want_more_information
   - action: utter_rating_want_more_information
 
-- story: get story for specific category
+- story: get story for specific category with entity
   steps:
   - intent: get_category_event
+  - slot_was_set: 
+    - EventType: Agrar
   - action: action_specific_event_category
+
+- story: get story for specific category without entity
+  steps:
+  - intent: get_category_event
+  - action: utter_no_event_found
+  - action: action_get_events_for_category_selection

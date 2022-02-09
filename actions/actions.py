@@ -375,7 +375,7 @@ class ActionGetSpecificEventCategory(Action):
         empty = 1
 
         df_all_events = get_all_events(URL)
-        set_of_categories = set_of_categories(df_all_events)
+        set_of_categories = get_set_of_categories(df_all_events)
 
         if slot != "":
             for x in set_of_categories: 
