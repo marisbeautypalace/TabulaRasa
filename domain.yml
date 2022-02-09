@@ -206,8 +206,6 @@ responses:
   - text: Cloud-Computing stellt integrierte, skalierbare und anpassbare Applikationen für Geschäftsprozesse zur Verfügung. Eine höhere Flexibilität bei geringeren Kosten und Risiken steht im Vordergrund. Outsourcing hingegen verlagert lediglich den Betrieb von Teilen des IT-Ökosystems zu einem Outsourcing-Anbieter, beispielsweise die Personalabrechnung oder Desktop Services.
   utter_faq/cloud_application_area:
   - text: Typische Anwendungen für Cloud Computing sind beispielsweise Optimierung der eigenen IT-Infrastruktur, Bereitstellen von Content, Hosting von Anwendungen, Externe E-Commerce Lösungen und Datenspeicherung und Datenbackup.
-  utter_faq/cloud_businessmodel:
-  - text: Durch die Virtualisierung und Bereitstellung von Software, Speicher, Rechenleistung und IT-Strukturen können Unternehmen bis zu 25 % ihrer IT-Kosten sparen. Viele Anbieter bieten Services an, die bedarfsgerecht und skalierbar sind, sodass IT-Leistungen bezahlt werden, die tatsächlich genutzt werden.
   utter_faq/cloud_company_size:
   - text: Grundsätzlich kann jedes Unternehmen von Cloud-Lösungen profitieren. Durch das Entlasten interner Ressourcen können sich Unternehmen auf das Kerngeschäft konzentrieren und zahlen idealerweise über das Pay-as-you-go-Modell für jene Services, die sie auch tatsächlich nutzen. Daher ist sie kostentechnisch im mittleren Bereich, sodass auch Kleinunternehmen davon profitieren können.
   utter_faq/speech_recognition_speech_identification:
@@ -429,8 +427,6 @@ responses:
       title: Sicherheit
     - payload: faq/cloud_benefits
       title: Vorteile
-    - payload: faq/cloud_businessmodel
-      title: Einfluss auf Geschäftsmodell
     - payload: faq/cloud_company_size
       title: Unternehmensgröße
     text: Das Cloud Computing ist eine Bereitstellung der IT-Infrastruktur (Speicherplatz, Zugriff auf Daten und Programme, Netzwerkdienste, Analyse und vieles mehr) als Dienstleistung über das Internet. Kapazitäten sind beliebig skalierbar und passen sich so der jeweiligen Auslastung an. Was möchten Sie noch zur Cloud wissen?
