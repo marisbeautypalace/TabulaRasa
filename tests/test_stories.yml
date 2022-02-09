@@ -788,3 +788,14 @@ stories:
   - intent: botrating
     user: |-
       botrating/you_helped_enough
+- story: Story from Conversation ID d4e5cdd4b7054686904d2ef17813005d
+  steps:
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was ist ki
+  - action: action_set_reminder
+  - action: utter_faq
