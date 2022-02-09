@@ -96,6 +96,7 @@ nlu:
     - das meinte ich nicht
     - das meine ich nicht
     - ich meine etwas anderes
+    - Das hilft mir nicht weiter
 - intent: chitchat/bot_infos
   examples: |
     - wobei kannst du mir helfen?
@@ -137,6 +138,7 @@ nlu:
     - Wo auf der Internetseite bekomme ich Informationen zu KI und Agrar?
     - wie bekomme ich Informationen dazu?
     - Geschäftsmodell prüfen lassen
+    - Welche Projekte gab es bisher?
 - intent: affirm
   examples: |
     - ja
@@ -249,6 +251,8 @@ nlu:
     - Was bietet mir die Website vom Kompetenzzentrum Lingen ?
     - Wie könnt ihr mir helfen ?
     - was macht das Kompetenzzentrum?
+    - Ich möchte Informationen zur Digitalisierung
+    - Was ist KoLi
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -1130,6 +1134,7 @@ nlu:
     - Arbeitet das Kompetenzzentrum mit künstlicher Intelligenz?
     - Wie kann ich künstliche Intelligenz nutzen?
     - Was ist das KI-Trainer Programm ?
+    - Was ist ein KI Trainer?
 - intent: faq/ki_benefits
   examples: |
     - faq/ki_benefits
@@ -1164,6 +1169,10 @@ nlu:
     - Einfluss von künstlicher Intelligenz auf mein Geschäftsmodell
     - Einfluss auf das Businessmodel von KI
     - Wie kann ich mein Geschäftsmodell digitalisieren ?
+    - Welche Angebote gibt es zu Geschäftsmodellen?
+    - Was ist ein digitales Geschäftsmodell?
+    - Was ist ein Geschäftsmodell?
+    - Geschäftsmodell digitalisieren
 - intent: faq/ki_amount_of_data
   examples: |
     - faq/ki_amount_of_data
@@ -1251,6 +1260,9 @@ nlu:
     - Wie kann ich den Bereich Agrar digitalisieren ?
     - Digitalisierung Landwirtschaft
     - digitalisierung agrar
+    - Digitalisierung in der Landwirtschaft
+    - Angebote für Landwirte
+    - Agrar
 - intent: faq/craft_digitalization
   examples: |
     - Handwerk
@@ -1268,6 +1280,8 @@ nlu:
     - Wie unterstützt ihr das Handwerk beim Thema Digitalisierung
     - Wie arbeitet ihr mit dem Handwerk zusammen?
     - Arbeiten Sie mit dem Handwerk zusammen?
+    - Ich bin Handwerker. Welche Angebote gibt es für mich?
+    - Gut, und welche Angebote gibt es für das Handwerk?
 - intent: faq/maritime_digitalization
   examples: |
     - Maritim
@@ -1387,6 +1401,7 @@ nlu:
     - Kontakt Agrarbranche
     - Ansprechpartner für die Agrarbranche
     - Wen kann ich zu Agrar und KI kontaktieren?
+    - Wer ist Ansprechpartner für Landwirte?
 - intent: contact/maritimewirtschaft
   examples: |
     - contact/maritimewirtschaft
@@ -1528,6 +1543,7 @@ nlu:
     - Bietet das Kompetenzzentrum Lingen auch Workshops an ?
     - Wo kann ich mich für Workshops anmelden ?
     - Wo kann ich Workshops buchen ?
+    - Hi KoLi, was ist die nächste Veranstaltung?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
