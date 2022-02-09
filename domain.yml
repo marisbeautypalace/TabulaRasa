@@ -54,7 +54,7 @@ slots:
 responses:
   utter_welcome:
   - text: |-
-      Hallo, mein Name ist KoLi. Ich bin der Chatbot 🤖 vom Mittelstand 4.0-Kompetenzzentrum in Lingen. Gerne beantworte ich Ihnen Fragen zu den folgenden Themen: 
+      Hallo, mein Name ist KoLi. Ich bin der Chatbot 🤖 vom Mittelstand 4.0-Kompetenzzentrum in Lingen. Ich beantworte  Ihnen gerne Fragen zu den folgenden Themen: 
        - Veranstaltungen 
        - Ansprechpartner 
        - Künstliche Intelligenz 
@@ -73,11 +73,11 @@ responses:
   utter_chitchat/bot_ready:
   - text: Ich bin bereit, wie kann ich Ihnen helfen?
   utter_chitchat/bot_wrong:
-  - text: Tut mir Leid, falls ich Sie falsch verstanden habe.
+  - text: Tut mir leid, falls ich Sie falsch verstanden habe.
   - text: Ich lerne kontinuierlich dazu. Manchmal kommt es vor, dass ich Fragen falsch interpretiere.
   utter_chitchat/bot_infos:
   - text: |-
-      Gerne beantworte ich Ihnen Fragen zu den folgenden Themen: 
+      Ich beantworte  Ihnen gerne Fragen zu den folgenden Themen: 
        - Veranstaltungen 
        - Ansprechpartner 
        - Künstliche Intelligenz 
@@ -94,9 +94,9 @@ responses:
   utter_out_of_scope:
   - text: Bei diesem Thema kann ich Ihnen leider nicht weiterhelfen.
   utter_please_rephrase:
-  - text: Tut mir Leid, die Frage habe ich leider nicht richtig verstanden. Könnten Sie die Frage umformulieren?
+  - text: Tut mir leid, diese Frage habe ich nicht richtig verstanden. Könnten Sie die Frage umformulieren?
   utter_cant_help:
-  - text: Tut mir Leid, die Frage habe ich leider nicht richtig verstanden. Könnten Sie die Frage umformulieren?
+  - text: Tut mir leid, diese Frage habe ich nicht richtig verstanden. Könnten Sie die Frage umformulieren?
   utter_no_user_message:
   - text: Sie haben seit einiger Zeit keine neue Nachricht eingegeben.
   utter_rating_initial_question:
@@ -135,7 +135,7 @@ responses:
   utter_repeat_rating_for_user:
   - text: Ihre Bewertung war '{rating_selection}'. Vielen Dank!
   utter_faq/mittelstand_agentur_cloud_ki:
-  - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt KMU in den Regionen Weser-Ems und Münsterland bei der Entwicklung datengetriebener Geschäftsmodelle von der Idee bis zu Umsetzung. Das Kompetenzzentrum bietet kostenlose Beratungsgespräche an zur Überprüfung der Zukunftsfähigkeit des eigenen Geschäftsmodells, sowie Vorträge zu digitalen Themen und Trends. [hier](https://kicc-prozesse.digital/faq/).
+  - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt KMU in den Regionen Weser-Ems und Münsterland bei der Entwicklung datengetriebener Geschäftsmodelle von der Idee bis zu Umsetzung. Das Kompetenzzentrum bietet kostenlose Beratungsgespräche an zur Überprüfung der Zukunftsfähigkeit des eigenen Geschäftsmodells, sowie Vorträge zu digitalen Themen und Trends. Weiter Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/mittelstand_agentur_offers:
   - text: Das Angebot richtet sich an kleine und mittelständische Unternehmen in den Regionen Weser-Ems und Münsterland.
   utter_faq/mittelstand_agentur_free_offers:
@@ -145,13 +145,13 @@ responses:
   utter_faq/mittelstand_agentur_BMWi:
   - text: Die Agentur ist ein Bundesprojekt und wird mit öffentlichen Mitteln des Bundesministeriums für Wirtschaft und Energie gefördert. Die Projektpartner (Fraunhofer IAO, it.emsland und Hochschule Osnabrück) bilden gemeinsam die Mittelstand 4.0-Agentur Cloud und sind für die Umsetzung des Projekts verantwortlich.
   utter_faq/mittelstand_agentur_software:
-  - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen wird vom Bundesministerium für Wirtschaft und Klimaschutz gefördert, sodass sie neutral gegenüber der Auswahl der Anbieter aufzutreten hat. Sie bietet eine Cloud-Anbietersuche, die beispielhaft dargestellt werden und keinen Markteilnehmer oder Produkte bevorzugt. Sollten doch einmal Namen von Cloud-Anbietern oder Software-Lösungen fallen, sind diese beispielhaft dargestellt.
+  - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen wird vom Bundesministerium für Wirtschaft und Klimaschutz gefördert, sodass sie neutral gegenüber der Auswahl der Anbieter aufzutreten hat. Sie bietet eine Cloud-Anbieter-Suche, die beispielhaft dargestellt werden und keinen Markteilnehmer oder Produkte bevorzugt. Sollten doch einmal Namen von Cloud-Anbietern oder Software-Lösungen fallen, sind diese beispielhaft dargestellt.
   utter_faq/mittelstand_agentur_support:
   - text: Die Angebote des Mittelstand 4.0-Kompetenzzentrums reichen von der Entwicklung und Ausgestaltung einer Idee bis hin zur konkreten Planung und Umsetzung eines Projektplans. Unternehmen haben durch die verschiedenen Veranstaltungsformate die Chance, sich auf dem gesamten Weg begleiten zu lassen.
   utter_faq/mittelstand_agentur_cooperation:
-  - text: Eine Kooperation mit dem Mittelstand 4.0-Kompetenzzentrum Lingen ist kostenlos. Außerdem kümmern wir uns um die Umsetzung der Veranstaltungen, sowohl digital als auch in Präsenz. Seien Sie als Wegbegleiter dabei und helfen Sie KMU bei ihrem digitalen Neustart oder Aufbruch. Füllen Sie dazu das Kontaktformular unter folgendem Link aus. https://kompetenzzentrum-lingen.digital/kooperationen
+  - text: Eine Kooperation mit dem Mittelstand 4.0-Kompetenzzentrum Lingen ist kostenlos. Außerdem kümmern wir uns um die Umsetzung der Veranstaltungen, sowohl digital als auch in Präsenz. Seien Sie als Wegbegleiter dabei und helfen Sie KMU bei ihrem digitalen Neustart oder Aufbruch. Füllen Sie dazu das Kontaktformular unter folgendem [Link](https://kompetenzzentrum-lingen.digital/kooperationen) aus.
   utter_faq/cloud_provider:
-  - text: Ein Cloud Provider ist ein externer Anbieter, der eine Cloud-basierte Plattform der verschiedene Dienst, wie Infrastruktur, Cloud-Services, Cloud-Server und Speicherdienste anbietet.
+  - text: Ein Cloud-Provider ist ein externer Anbieter, der eine Cloud-basierte Plattform der verschiedene Dienst, wie Infrastruktur, Cloud-Services, Cloud-Server und Speicherdienste anbietet.
   utter_faq/IaaS:
   - text: IaaS (Infrastructure as a Service) ist die unterste Ebene der Cloud-Modelle. In diesem Bereich wird vom Anwender virtuelle Hardware als Infrastruktur beim Cloud-Service-Provider (CSP) gemietet und in die unternehmensinterne IT-Landschaft integriert. Klassische Beispiele sind Speicherplatz, Rechenleistung oder Netzwerkbandbreite.
   utter_faq/PaaS:
@@ -161,85 +161,85 @@ responses:
   utter_faq/private_cloud:
   - text: Die private Cloud ist eine unternehmenseigene Cloud-Umgebung, welche gezielt für die eigene Institution betrieben wird. Sie kann vor Ort im eigenen Rechenzentrum installiert oder von Drittanbietern bereitgestellt werden. Sie ermöglicht Unternehmen, eine individuelle, auf die hausinternen Geschäftsprozesse zugeschnittene IT-Betriebsumgebung zu etablieren, ist jedoch meistens auch mit mehr Kosten verbunden. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/public_cloud:
-  - text: Die Public Cloud sind IT-Dienste, die im öffentlichen Netz angeboten werden. Die Anbieter stellen gratis oder über ein nutzungsabhängiges Zahlungsmodell Anwendungen und Speicherplatz zur Verfügung. Die Nutzer besitzen aufgrund des Mietverhältnisses ein temporäres Nutzungsrecht. Bekannte Anbieter sind Amazon Web Services, Microsoft Azure, IBM Cloud und Google Cloud Plattform. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+  - text: Die Public-Cloud sind IT-Dienste, die im öffentlichen Netz angeboten werden. Die Anbieter stellen gratis oder über ein nutzungsabhängiges Zahlungsmodell Anwendungen und Speicherplatz zur Verfügung. Die Nutzer besitzen aufgrund des Mietverhältnisses ein temporäres Nutzungsrecht. Bekannte Anbieter sind Amazon Web Services, Microsoft Azure, IBM-Cloud und Google-Cloud Plattform. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/hybrid_cloud:
-  - text: Die hybride Cloud ist eine Mischform, die die öffentliche und private Cloud verbindet und Dienste im Haus und in der Cloud nutzt. Die verschiedenen, für sich individuellen Infrastrukturen, können über standardisierte Schnittstellen miteinander kommunizieren. Es ermöglicht die Vorteile der verschiedenen Umgebungen zu vereinen und miteinander zu kombinieren. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+  - text: Die hybride Cloud ist eine Mischform, die die öffentliche und private Cloud verbindet und Dienste im Haus und in der Cloud nutzt. Die verschiedenen, für sich individuellen Infrastrukturen, können über standardisierte Schnittstellen miteinander kommunizieren. Es ermöglicht, die Vorteile der verschiedenen Umgebungen zu vereinen und miteinander zu kombinieren. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/community_cloud:
-  - text: Die Community Cloud ist ein Zusammenschluss von mehreren Unternehmen der gleichen Branche oder Interessengemeinschaft, welche aus ihren privaten Cloud-Lösungen eine Community Cloud formen. Der Zugriff ist auf die Mitglieder beschränkt. Die Form bietet sich überall dort an, wo sich Anforderungen aus Sicht der Unternehmen überschneiden und die Nutzung einer gemeinsamen Infrastruktur gewollt ist. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+  - text: Die Community-Cloud ist ein Zusammenschluss von mehreren Unternehmen der gleichen Branche oder Interessengemeinschaft, welche aus ihren privaten Cloud-Lösungen eine Community-Cloud formen. Der Zugriff ist auf die Mitglieder beschränkt. Die Form bietet sich überall dort an, wo sich Anforderungen aus Sicht der Unternehmen überschneiden und die Nutzung einer gemeinsamen Infrastruktur gewollt ist. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/onpremise_ondemand:
   - text: Bei der Auslagerung von IT-Dienstleistungen in die Cloud wird häufig von Software-on-Demand gesprochen. Im Vergleich zu dem On-Premise-Nutzungsmodell, bei welchem der Nutzer die Lizenz für ein Computerprogramm erwirbt und dieses selbst auf der eigenen Hardware betreibt, wird bei der On-Demand-Lösung die Software und damit verbundene Lizenzen beim Anbieter betrieben und je nach Bedarf hoch- oder herunterskaliert.
   utter_faq/cloud_storage:
-  - text: Der Cloud Speicher ist ein Cloud-Computing Modell, bei dem die Daten im Internet über den Cloud-Anbieter speichert. Er wird als Service verwaltet und betrieben und mit Just-in-Time Kapazität und entsprechenden Kosten bereitgestellt, so dass keine eigene Datenspeicherinfrastruktur gekauft oder verwaltet werden müssen. Durch die Flexibilität, globale Skalierbarkeit und Dauerhaftigkeit kann jederzeit und überall auf die Daten zugreifen.
+  - text: Der Cloudspeicher ist ein Cloud-Computing-Modell, bei dem die Daten im Internet über den Cloud-Anbieter speichert. Er wird als Service verwaltet und betrieben und mit Just-in-Time Kapazität und entsprechenden Kosten bereitgestellt, sodass keine eigene Datenspeicherinfrastruktur gekauft oder verwaltet werden müssen. Durch die Flexibilität, globale Skalierbarkeit und Dauerhaftigkeit kann jederzeit und überall auf die Daten zugreifen.
   utter_faq/cloud_virtualization:
-  - text: Virtualisierung ist ein Grundbaustein des Cloud Computing, da dort die gemeinsame Nutzung von Ressourcen, beispielsweise Rechenkapazität durch viele Anwender möglich ist. Ein Cloud Anbieter kann beispielsweise nicht für jeden Kunden einen eigenen Rechner bereitstellen, sondern nur eine virtuelle Maschine.
+  - text: Virtualisierung ist ein Grundbaustein des Cloud-Computing, da dort die gemeinsame Nutzung von Ressourcen, beispielsweise Rechenkapazität durch viele Anwender möglich ist. Ein Cloud-Anbieter kann beispielsweise nicht für jeden Kunden einen eigenen Rechner bereitstellen, sondern nur eine virtuelle Maschine.
   utter_faq/cloud_security:
-  - text: Cloud Security bezieht sich auf die breite Palette von Richtlinien, Technologien, Anwendungen und Kontrollen, die zum Schutz von Daten, virtualisierten IP, Diensten und der zugehörigen Infrastruktur des Cloud Computing eingesetzt werden. Sie ist ein Teilbereich der Computersicherheit, der Netzwerksicherheit und vor allem in der Informationssicherheit.
+  - text: Cloud-Security bezieht sich auf die breite Palette von Richtlinien, Technologien, Anwendungen und Kontrollen, die zum Schutz von Daten, virtualisierten IP, Diensten und der zugehörigen Infrastruktur des Cloud-Computing eingesetzt werden. Sie ist ein Teilbereich der Computersicherheit, der Netzwerksicherheit und vor allem in der Informationssicherheit.
   utter_faq/cloud_data_intelligence:
-  - text: Data Intelligence bezeichnet einen wertschöpfungs-orientierten Umgang mit gesammelten Daten aus dem Betrieb. Diese Informationen werden anhand von Data Intelligence in zweckmäßiger Weise für das Unternehmen aufbereitet und verarbeitet. Dadurch können Mehrwert und Wettbewerbsvorteile für das Unternehmen generiert werden.
+  - text: Data-Intelligence bezeichnet einen wertschöpfungsorientierten Umgang mit gesammelten Daten aus dem Betrieb. Diese Informationen werden anhand von Data Intelligence in zweckmäßiger Weise für das Unternehmen aufbereitet und verarbeitet. Dadurch können Mehrwert und Wettbewerbsvorteile für das Unternehmen generiert werden.
   utter_faq/cloud_business_intelligence:
-  - text: Business Intelligence (BI) sind Verfahren oder Prozesse, welche der elektronischen Analyse von Daten dienen. In der Praxis versteht man BI als eine Automatisierung des Reportings (Berichtswesens) und des Controllings. Mit bestimmten Software-Lösungen sind Unternehmen in der Lage relevante Daten zu sammeln, auszuwerten und anschließend für operative und strategische Entscheidungen zu nutzen.
+  - text: Business Intelligence (BI) sind Verfahren oder Prozesse, welche der elektronischen Analyse von Daten dienen. In der Praxis versteht man BI als eine Automatisierung des Reportings (Berichtswesens) und des Controllings. Mit bestimmten Software-Lösungen sind Unternehmen in der Lage, relevante Daten zu sammeln, auszuwerten und anschließend für operative und strategische Entscheidungen zu nutzen.
   utter_faq/cloud_multi:
   - text: Multi-Cloud kombiniert mehrere Cloud-Anbieter, Plattformen oder Services in einer Umgebung oder Architektur. Eine Multi-Cloud-Strategie reduziert die Abhängigkeit von einem einzigen Anbieter, schützt Ihre Cloud-Services vor Ausfällen, lässt Sie Ihre Architektur an Ihre Anforderungen anpassen und gibt Ihnen die Flexibilität, bei sich ändernden Anforderungen die Lösung zu wechseln.
   utter_faq/services:
-  - text: Dienstleistungen von Cloud Computing sind sehr vielfältig und können folgendes beispielsweise beinhalten. Informationssicherheit, Performance der Dienstleistung, integrationsfähigkeit an die IT-Landschaft des Kunden, niedrige Kosten, keine Technologiehürden, niedriger Einführungsaufwand, Berücksichtigung der Compliance-Anforderungen, Pay-per-Use, gute Help-Desk Strukturen und Support, virtuelles Training, Notfallpläne, flexible Gestaltung von Service Level Agreements.
+  - text: Dienstleistungen von Cloud-Computing sind sehr vielfältig und können folgendes beispielsweise beinhalten. Informationssicherheit, Performance der Dienstleistung, Integrationsfähigkeit an die IT-Landschaft des Kunden, niedrige Kosten, keine Technologiehürden, niedriger Einführungsaufwand, Berücksichtigung der Compliance-Anforderungen, Pay-Per-Use, gute Help-Desk Strukturen und Support, virtuelles Training, Notfallpläne, flexible Gestaltung von Service Level Agreements.
   utter_faq/cloud_or_it:
-  - text: Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett; Ausnahmen sind Internetanbindung und Firewall. Dafür kommen z.B. Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.
+  - text: Die Aufgaben der IT ändern sich. Der eigentliche Betrieb entfällt fast komplett; Ausnahmen sind Internetanbindung und Firewall. Dafür kommen zum Beispiel Aufgaben wie Vertragsmanagement, Konfiguration und Monitoring hinzu.
   utter_faq/cloudcomputing_or_ownserver:
-  - text: Es sind beliebige Mischungen möglich, die sich dann unter dem Sammelbegriff Hybrid Cloud zusammenfassen lassen. In den meisten Fällen ist eine schrittweise Umstellung oder der parallele Betrieb von Cloud und Nicht-Cloud-Lösungen sogar sinnvoller als ein vollständiger Wechsel in die Cloud.
+  - text: Es sind beliebige Mischungen möglich, die sich dann unter dem Sammelbegriff Hybrid-Cloud zusammenfassen lassen. In den meisten Fällen ist eine schrittweise Umstellung oder der parallele Betrieb von Cloud und Nicht-Cloud-Lösungen sogar sinnvoller als ein vollständiger Wechsel in die Cloud.
   utter_faq/use_of_cloud:
-  - text: Cloud Computing eignet sich für Unternehmen, die mithilfe Ihrer IT flexibel auf Kundenanforderungen eingehen möchten. Auch für diejenigen, die nicht größere Beträge in Servertechnik investieren möchten, könnte Cloud Computing interessant sein. Mehr Infomationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+  - text: Cloud-Computing eignet sich für Unternehmen, die mithilfe Ihrer IT flexibel auf Kundenanforderungen eingehen möchten. Auch für diejenigen, die nicht größere Beträge in Servertechnik investieren möchten, könnte Cloud-Computing interessant sein. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/use_of_cloud_not:
-  - text: Problematisch wird die Cloud immer dann, wenn die Netzwerkanbindung nicht in ausreichendem Maße gewährleistet ist. Neben einer grundsätzlich schlechten Breitbandverbindung betrifft es vor allem Außendienstmitarbeiter mit schlechter Mobilfunkanbindung. Mehr Infomationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+  - text: Problematisch wird die Cloud immer dann, wenn die Netzwerkanbindung nicht in ausreichendem Maße gewährleistet ist. Neben einer grundsätzlich schlechten Breitbandverbindung betrifft es vor allem Außendienstmitarbeiter mit schlechter Mobilfunkanbindung. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/cloud_introduction:
-  - text: Im ersten Schritt sollte jedes Unternehmen individuell klären, wie die Potenziale von Cloud genutzt werden können. Als nächstes gilt zu bestimmen, ob ein Mehrwert gegeben ist und ob die technische Vorrausetzungen vorhanden sind. Anschließend sollte ein geeigneter Anbieter zur Umsetzung gefunden werden. Zur Unterstützung können Unternehmen auf das kostenlose Beratungsangebot vom Kompetenzzentrum zurückgreifen.
+  - text: Im ersten Schritt sollte jedes Unternehmen individuell klären, wie die Potenziale von Cloud genutzt werden können. Als Nächstes gilt zu bestimmen, ob ein Mehrwert gegeben ist und ob die technische Vorausetzungen vorhanden sind. Anschließend sollte ein geeigneter Anbieter zur Umsetzung gefunden werden. Zur Unterstützung können Unternehmen auf das kostenlose Beratungsangebot vom Kompetenzzentrum zurückgreifen.
   utter_faq/network_breakdown:
-  - text: Unternehmen sollten sich schon jetzt die Frage stellen, ob sie arbeitsfähig wären, wenn das Internet ausfällt. Allein die Kommunikation und der Datentransfer über E-Mail oder die IP-Telefonie sind abhängig von einer funktionierenden Internetleitung. Diese Frage stellt sich also nicht erst, wenn man auf Cloud Computing umsattelt. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+  - text: Unternehmen sollten sich schon jetzt die Frage stellen, ob sie arbeitsfähig wären, wenn das Internet ausfällt. Allein die Kommunikation und der Datentransfer über E-Mail oder die IP-Telefonie sind abhängig von einer funktionierenden Internetleitung. Diese Frage stellt sich also nicht erst, wenn man auf Cloud-Computing umsattelt. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/range_of_internet:
-  - text: Die Anforderungen der Bandbreite hängt zum Teil von der Art der Anwendung und auf die Anzahl der Nutzer der Datenmenge ab, die zwischen dem Unternehmen und der Cloud regelmäßig übermittelt werden soll. Daher ist eine allgemeingültige Detailantwort nicht möglich. Zur groben Orientierung kann für ein Kleinunternehmen mit wenigen Mitarbeitern eine Bandbreitenverbindung ab 10 Mbit/s bereits ausreichen.
+  - text: Die Anforderungen an die Bandbreite hängen zum Teil von der Art der Anwendung und der Anzahl der Nutzer ab, die zwischen dem Unternehmen und der Cloud regelmäßig übermittelt werden soll. Daher ist eine allgemeingültige Detailantwort nicht möglich. Zur groben Orientierung kann für ein Kleinunternehmen mit wenigen Mitarbeitern eine Bandbreitenverbindung ab 10 Mbit/s bereits ausreichen.
   utter_faq/provider_change:
   - text: Sie sollten immer standardisierte Datenformate verwenden, da Sie diese im Falle eines Anbieterwechsels oder der Insolvenz Ihres Anbieters weiterverwenden möchten. Die Wahl des Datenträgers für die Rückgabe hängt von der Datenmenge ab, die Sie beim Anbieter gespeichert haben. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/cloud_insolvent:
   - text: Das hängt sehr stark davon ab, was Sie in den Nutzungsvereinbarungen mit Ihrem Anbieter vertraglich festgelegt haben. Ein Datenverlust ist daher nicht ausgeschlossen, kann aber durch entsprechende vertragliche Vereinbarungen verhindert werden. Grundsätzlich sollte man zwei Dinge absichern. Mehr Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/cloud_benefits:
-  - text: Cloud Computing eröffnet speziell für den Mittelstand viele Grenzen und der Erweiterung oder gar Neuorganisation von Geschäftsprozessen. Neben den klassischen Vorteilen von Skalierbarkeit, Kostentransparenz, bedarfsgerechter Leistungsabrechnung und der häufig einfachen Integration ist Cloud Computing auch ein Treiber im Bereich der digitalen (datengetriebenen) Geschäftsmodelle.
+  - text: Cloud-Computing eröffnet speziell für den Mittelstand viele Grenzen und der Erweiterung oder gar Neuorganisation von Geschäftsprozessen. Neben den klassischen Vorteilen von Skalierbarkeit, Kostentransparenz, bedarfsgerechter Leistungsabrechnung und der häufig einfachen Integration ist Cloud-Computing auch ein Treiber im Bereich der digitalen (datengetriebenen) Geschäftsmodelle.
   utter_faq/cloud_or_outsourcing:
   - text: Cloud-Computing stellt integrierte, skalierbare und anpassbare Applikationen für Geschäftsprozesse zur Verfügung. Eine höhere Flexibilität bei geringeren Kosten und Risiken steht im Vordergrund. Outsourcing hingegen verlagert lediglich den Betrieb von Teilen des IT-Ökosystems zu einem Outsourcing-Anbieter, beispielsweise die Personalabrechnung oder Desktop Services.
   utter_faq/cloud_application_area:
-  - text: Typische Anwendungen für Cloud Computing sind beispielsweise Optimierung der eigenen IT-Infrastruktur, Bereitstellen von Content, Hosting von Anwendungen, Externe E-Commerce Lösungen und Datenspeicherung und Datenbackup.
+  - text: Typische Anwendungen für Cloud-Computing sind beispielsweise Optimierung der eigenen IT-Infrastruktur, Bereitstellen von Content, Hosting von Anwendungen, externe E-Commerce Lösungen und Datenspeicherung und Datenbackup.
   utter_faq/cloud_company_size:
-  - text: Grundsätzlich kann jedes Unternehmen von Cloud-Lösungen profitieren. Durch das Entlasten interner Ressourcen können sich Unternehmen auf das Kerngeschäft konzentrieren und zahlen idealerweise über das Pay-as-you-go-Modell für jene Services, die sie auch tatsächlich nutzen. Daher ist sie kostentechnisch im mittleren Bereich, sodass auch Kleinunternehmen davon profitieren können.
+  - text: Grundsätzlich kann jedes Unternehmen von Cloud-Lösungen profitieren. Durch das Entlasten interner Ressourcen können sich Unternehmen auf das Kerngeschäft konzentrieren und zahlen idealerweise über das Pay-As-You-Go-Modell für jene Services, die sie auch tatsächlich nutzen. Daher ist sie kostentechnisch im mittleren Bereich, sodass auch Kleinunternehmen davon profitieren können.
   utter_faq/speech_recognition_speech_identification:
-  - text: Mit dem KI-Modul Speech Recognition [Sr] wird gesprochene Sprache und/oder Gefühlszustände allgemein in ein Audiosignal gewandelt. Darüber hinaus kann mit Speech Identification [Si] eine individuelle Stimme an einem Audiosignal erkannt werden.
+  - text: Mit dem KI-Modul Speech-Recognition [Sr] wird gesprochene Sprache und/oder Gefühlszustände allgemein in ein Audiosignal gewandelt. Darüber hinaus kann mit Speech-Identification [Si] eine individuelle Stimme an einem Audiosignal erkannt werden.
   utter_faq/face_recognition_face_identification:
-  - text: Mit der KI-Komponente Face Recognition [Fr] können Gesichter und emotionale Zuständen in Bildern oder Videosignalen erkannt werden. Konkrete Personen können mit dem KI-Modul Face Identifiaction [Fi] in Bildern oder Videosignalen erkannt.
+  - text: Mit der KI-Komponente Face-Recognition [Fr] können Gesichter und emotionale Zuständen in Bildern oder Videosignalen erkannt werden. Konkrete Personen können mit dem KI-Modul Face-Identifiaction [Fi] in Bildern oder Videosignalen erkannt.
   utter_faq/image_recognition_image_identification:
-  - text: Image Recognition [Ir] ermöglicht das Erkennen bestimmter Objekttypen in Bildern oder Videosignalen. Mit Image Identification [Ii] kann ein konkretes Objekt in einem Bild oder Video erkannt werden.
+  - text: Image-Recognition [Ir] ermöglicht das Erkennen bestimmter Objekttypen in Bildern oder Videosignalen. Mit Image-Identification [Ii] kann ein konkretes Objekt in einem Bild oder Video erkannt werden.
   utter_faq/audio_recognition_audio_identification:
-  - text: Audio Recognition [Ar], Speech Recognition [Sr] und Audio Identification [Ai] sind eng verwandt und überlappen sich teilweise. Nach einer Analyse des Audiosignals wird bei dem KI-Element Audio Recognition [Ar] das Signal von maschinellen Lernverfahren klassifiziert. Es werden bestimmte Arten von Geräuschen (Alarme, Gerätestress, Automotor) in einem Audiosignal erkannt. Mit Hilfe der Audio Identification [Ai] werde Audiosignaturen (ein bestimmter Motor oder eine bestimmte Türklingel) aus Audiosignalen erkannt.
+  - text: Audio-Recognition [Ar], Speech-Recognition [Sr] und Audio-Identification [Ai] sind eng verwandt und überlappen sich teilweise. Nach einer Analyse des Audiosignals wird bei dem KI-Element Audio-Recognition [Ar] das Signal von maschinellen Lernverfahren klassifiziert. Es werden bestimmte Arten von Geräuschen (Alarme, Gerätestress, Automotor) in einem Audiosignal erkannt. Mithilfe der Audio-Identification werde Audiosignaturen (ein bestimmter Motor oder eine bestimmte Türklingel) aus Audiosignalen erkannt.
   utter_faq/natural_language_processing:
-  - text: Maschinelle Sprachverarbeitung besitzt ein umfassendes Know-How zur Erkennung, Interpretation und Erzeugung von natürlicher Sprache in Wort und Schrift. Beispiele sind Stimmungserkennung und maschinelle Übersetzung, die aus dem Führen von Gesprächen resultieren.
+  - text: Maschinelle Sprachverarbeitung besitzt ein umfassendes Know-how zur Erkennung, Interpretation und Erzeugung von natürlicher Sprache in Wort und Schrift. Beispiele sind Stimmungserkennung und maschinelle Übersetzung, die aus dem Führen von Gesprächen resultieren.
   utter_faq/adversarial_learning:
-  - text: Das Gegnerische Lernen versucht mit sogenannten gegnerischen Beispielen ein Modell durch Lernen abgehärtet gegen Angriffe zu machen. Hierbei sind die Beispiele gezielt gestört, um falsche Ergebnisse herbeizuführen.
+  - text: Das gegnerische Lernen versucht, mit sogenannten gegnerischen Beispielen ein Modell durch Lernen abgehärtet gegen Angriffe zu machen. Hierbei sind die Beispiele gezielt gestört, um falsche Ergebnisse herbeizuführen.
   utter_faq/pattern_recognition:
   - text: Bei der Mustererkennung geht es um die automatisierte Erkennung von Mustern in gegebenen Daten. Beispiele für die Mustererkennung sind Bilderkennung, Gesichtserkennung oder Texterkennung.
   utter_faq/data_analytics:
   - text: Mit dem KI-Modul Data Analytics [Da]  werden Daten analysiert, um bestimmte Tatsachen und/ oder Ereignisse zu erkennen, die diese Daten repräsentieren. Beispielsweise kann es sich dabei um das Erkennen von Verkaufstrends und Kundengruppen oder das Korrelieren von Sensordaten handeln.
   utter_faq/text_extraction:
-  - text: Die KI-Komponente Text Extraction [Te] analysiert Texte, um Informationen über Entitäten, Zeit, Orte und Fakten extrahieren, die ausschließlich im Text enthalten sind. Es können verschiedene Entitäten (z. B. Personen, Organisationen, Städte, Produkte) und Begriffe (z. B. Kommunikation, Innovation, Produktion) in Texten erkannt und verstanden werden. Mehrdeutigkeiten von Wörtern werden aufgelöst.
+  - text: Die KI-Komponente Text-Extraction [Te] analysiert Texte, um Informationen über Entitäten, Zeit, Orte und Fakten extrahieren, die ausschließlich im Text enthalten sind. Es können verschiedene Entitäten (z. B. Personen, Organisationen, Städte, Produkte) und Begriffe (z. B. Kommunikation, Innovation, Produktion) in Texten erkannt und verstanden werden. Mehrdeutigkeiten von Wörtern werden aufgelöst.
   utter_faq/problem_solving:
-  - text: Die KI-Komponente Problem Solving [Ps] entspricht der menschlichen Fähigkeit, ein Problem durch Nachdenken zu lösen. Die prinzipielle Lösung steht im Vordergrund, das mögliche Optimieren ist nachrangig. Eine Fähigkeit von Problem Solving [Ps] besteht oft darin, ein Gesamtproblem in Einzelprobleme zu zerlegen.
+  - text: Die KI-Komponente Problem-Solving [Ps] entspricht der menschlichen Fähigkeit, ein Problem durch Nachdenken zu lösen. Die prinzipielle Lösung steht im Vordergrund, das mögliche Optimieren ist nachrangig. Eine Fähigkeit von Problem-Solving besteht oft darin, ein Gesamtproblem in Einzelprobleme zu zerlegen.
   utter_faq/language_understanding:
-  - text: Language Understanding [Lu] beschreibt das Verstehen der Information im Text, also die Zuordnung zur Bedeutung. Das KI-Element versteht die in Texten gemeinten Beziehungen zwischen Entitäten und Konzepten (siehe auch Text Extraction Te).
+  - text: Language-Understanding [Lu] beschreibt das Verstehen der Information im Text, also die Zuordnung zur Bedeutung. Das KI-Element versteht die in Texten gemeinten Beziehungen zwischen Entitäten und Konzepten (siehe auch Text Extraction Te).
   utter_faq/language_generation:
-  - text: Die Aufgabe von Language Generation [Lg] ist das automatische Erzeugen eines natürlichsprachlichen Textes aus der formalen logischen Repräsentation von Wissen.
+  - text: Die Aufgabe von Language-Generation [Lg] ist das automatische Erzeugen eines natürlichsprachlichen Textes aus der formalen logischen Repräsentation von Wissen.
   utter_faq/predictive_inference:
-  - text: Mit Predictive Inference [Pi] können Vorhersagen von Ereignissen oder Zuständen in der Zukunft auf der Grundlage eines Verständnisses eines aktuellen Zustandes der Welt und der Funktionsweise der Welt erstellt werden. Es basiert auf existierende Daten von metrischen Werten, Skalenwerten, Intervallen oder Klassen, z. B. Verkaufsprognosen, Wettervorhersagen oder Risikoklassen.
+  - text: Mit Predictive-Inference [Pi] können Vorhersagen von Ereignissen oder Zuständen in der Zukunft auf der Grundlage eines Verständnisses eines aktuellen Zustandes der Welt und der Funktionsweise der Welt erstellt werden. Es basiert auf existierende Daten von metrischen Werten, Skalenwerten, Intervallen oder Klassen, z. B. Verkaufsprognosen, Wettervorhersagen oder Risikoklassen.
   utter_faq/artificial_neural_network:
   - text: Künstliche neuronale Netze sind Algorithmen, die dem menschlichen Gehirn nachempfunden sind. Sie sind eine Vielzahl von Deep-Learning-Technologien, die sich im Allgemeinen auf die Lösung komplexer Signalverarbeitungs- und Mustererkennungsprobleme konzentrieren.
   utter_faq/machine_learning:
   - text: Maschinelles Lernen ist ein Teilgebiet der künstlichen Intelligenz. Durch das Erkennen von Mustern in vorliegenden Datenbeständen während einer Lernphase sind IT-Systeme in der Lage, eigenständig Lösungen für Probleme zu finden.
   utter_faq/deep_learning:
-  - text: Deep Learning bezeichnet eine Methode maschinellen Lernens, die künstliche neuronale Netze mit zahlreichen Zwischenschichten zwischen Eingabe- und Ausgabeschicht einsetzt und eine umfangreiche innere Struktur herausbildet. Die Maschinen werden in die Lage versetzt selbstständig und ohne menschliches Zutun, ihre Fähigkeiten verbessern.
+  - text: Deep Learning bezeichnet eine Methode maschinellen Lernens, die künstliche neuronale Netze mit zahlreichen Zwischenschichten zwischen Eingabe- und Ausgabeschicht einsetzt und eine umfangreiche innere Struktur herausbildet. Die Maschinen werden in die Lage versetzt, selbstständig und ohne menschliches Zutun, ihre Fähigkeiten verbessern.
   utter_faq/supervised_learning:
   - text: Überwachtes Lernen beschreibt eine Methode des maschinellen Lernens, die aus bestehenden Trainingsdaten beruht. Das Modell soll lernen, eine Funktion zu erlernen, um neue Beispiele gut vorherzusagen. Hier wird mit einem Teil der verfügbaren Daten trainiert.
   utter_faq/reinforcement_learning:
@@ -247,15 +247,15 @@ responses:
   utter_faq/unsupervised_learning:
   - text: Unüberwachtes Lernen ist eine Methode des maschinellen Lernens, bei dem der Algorithmus lernt, selbstständig ohne Überwachung von Muster und Zusammenhänge in Daten explorativ zu erkennen.
   utter_faq/bot:
-  - text: Bots sind Computerprogramme, die sich wiederholende Aufgaben automatisiert abarbeiten ohne auf eine menschliche Interaktion angewiesen zu sein. Ein Chatbot im Speziellen ist ein textbasiertes Dialogsystem, welches das Chatten mit einem technischen System erlaubt.
+  - text: Bots (Kurzform von Roboter) sind Computerprogramme, die sich wiederholende Aufgaben automatisiert abarbeiten, ohne auf eine menschliche Interaktion angewiesen zu sein. Ein Chatbot im Speziellen ist ein textbasiertes Dialogsystem, welches das Chatten mit einem technischen System erlaubt.
   utter_faq/predictive_maintenance:
-  - text: Unter Predictive Maintenance versteht man einen proaktiven Wartungsvorgang, der auf die einer permanenten Überwachung und Auswertung von Maschinen- und Prozessdaten basiert. Ziel ist es den zukünftigen Wartungsbedarf vorherzusagen und dadurch Störungen zu vermeiden.
+  - text: Unter Predictive Maintenance versteht man einen proaktiven Wartungsvorgang, der auf die einer permanenten Überwachung und Auswertung von Maschinen- und Prozessdaten basiert. Ziel ist es, den zukünftigen Wartungsbedarf vorherzusagen und dadurch Störungen zu vermeiden.
   utter_faq/ki_companysize:
-  - text: Die Größe von Unternehmen ist für den Einsatz Künstlicher Intelligenz nicht ausschlaggebend. Künstliche Intelligenz kann auch von kleinen Unternehmen jedweder Branche genutzt werden und ist für viele Unternehmensbereiche interessant. Häufig reicht bereits einfache IT-Infrastruktur aus, um KI-Anwendungen gewinnbringend einsetzen zu können. Entscheidend sind die Prozesse und deren datenbasierten Möglichkeiten im Unternehmen.
+  - text: Die Größe von Unternehmen ist für den Einsatz künstlicher Intelligenz nicht ausschlaggebend. Künstliche Intelligenz kann auch von kleinen Unternehmen jedweder Branche genutzt werden und ist für viele Unternehmensbereiche interessant. Häufig reicht bereits einfache IT-Infrastruktur aus, um KI-Anwendungen gewinnbringend einsetzen zu können. Entscheidend sind die Prozesse und deren datenbasierten Möglichkeiten im Unternehmen.
   utter_faq/ki_use:
-  - text: Zunächst sollte der Einsatzzweck von Künstlicher Intelligenz genau definiert werden. Was soll erreicht werden? Welche Prozesse sollen verbessert werden? Basierend auf diesen Fragen kann ein sinnvolles Einsatzszenario von Künstlicher Intelligenz im eigenen Unternehmen entwickelt werden.
+  - text: Zunächst sollte der Einsatzzweck von künstlicher Intelligenz genau definiert werden. Was soll erreicht werden? Welche Prozesse sollen verbessert werden? Basierend auf diesen Fragen kann ein sinnvolles Einsatzszenario von künstlicher Intelligenz im eigenen Unternehmen entwickelt werden.
   utter_faq/ki_hardware:
-  - text: Jedes Unternehmen kann Künstliche Intelligenz-Anwendungen bei sich laufen lassen. Zu Testzwecken reichen häufig „normale“ Rechner-Kapazitäten. Wird es komplexer oder soll KI ernsthaft in den Unternehmensalltag integriert werden, sollte über entsprechend leistungsfähige Hardware nachgedacht werden, falls diese im Unternehmen noch nicht vorhanden ist.
+  - text: Jedes Unternehmen kann künstliche Intelligenz-Anwendungen bei sich laufen lassen. Zu Testzwecken reichen häufig „normale“ Rechner-Kapazitäten. Wird es komplexer oder soll KI ernsthaft in den Unternehmensalltag integriert werden, sollte über entsprechend leistungsfähige Hardware nachgedacht werden, falls diese im Unternehmen noch nicht vorhanden ist.
   utter_faq/algorithmus:
   - text: Algorithmus ist eine eindeutige Rechenvorschrift, um ein Problem oder eine Klasse von Problemen selbst beibringend zu lösen. Sie besteht aus endlich vielen Einzelschritten und Trainingsdaten. Das System lehnt sich an das menschliche Gehirn an.
   utter_faq/lernalgorithmus:
@@ -269,7 +269,7 @@ responses:
   utter_faq/ferngesteuertes_system:
   - text: Ferngesteuerte Systeme wie beispielsweise Maschinen, Roboter oder Softwaresysteme werden durch den Menschen aus der Ferne gesteuert. Sie werden häufig in lebensfeindlichen Umgebungen eingesetzt.
   utter_faq/korpus:
-  - text: Korpus bezeichnet eine Sammlung von Daten und Algorithmen, aus denen Informationen durch Methoden der Künstlichen Intelligenz abgeleitet werden.
+  - text: Korpus bezeichnet eine Sammlung von Daten und Algorithmen, aus denen Informationen durch Methoden der künstlichen Intelligenz abgeleitet werden.
   utter_faq/m2m_comunication:
   - text: Machine-to-Machine-Kommunikation ist die Bezeichnung eines überwiegend automatisierten Informationsaustausches zwischen zwei Maschinen. Beispiele sind Automaten, Fahrzeuge oder Messwerken (Strom-, Gas und Wasserzählern).
   utter_faq/mensch_maschine_interaktion:
@@ -277,23 +277,23 @@ responses:
   utter_faq/big_data:
   - text: Mit Big Data werden große Datenmengen bezeichnet, die zu groß und komplex sind, um sie mit herkömmlichen Datenbanksystemen zu verwalten oder auszuwerten. Beispielsweise Daten zum Online-Suchverhalten, Bewegungsdaten oder Daten zum Kaufverhalten.
   utter_faq/data_mining:
-  - text: Unter Data Mining versteht man eine systematische Anwendung computergestützter Methoden, um Muster, Trends oder Zusammenhänge in vorhandene Datenmenge (Big Data) zu finden.
+  - text: Unter Data-Mining versteht man eine systematische Anwendung computergestützter Methoden, um Muster, Trends oder Zusammenhänge in vorhandene Datenmenge (Big Data) zu finden.
   utter_faq/internet_of_things:
   - text: Als Internet der Dinge wird eine Vernetzung von Geräten wie beispielsweise Maschinen, Produkte, Fahrzeuge etc. bezeichnet, die untereinander Daten austauschen oder Daten im Internet zur Verfügung stellen.
   utter_faq/smart_data:
-  - text: Smart Data beschreibt Datenbestände, die mit Hilfe von Algorithmen aus großen Datenmengen (Big Data) gefiltert wurden, um sinnvolle Informationen zu erhalten. Diese Daten werden gesammelt, geordnet und sorgfältig analysiert. Anwendung findet sie beispielsweise an Smartwatches, in dem wichtige Gesundheitsdaten analysiert und übermittelt werden.
+  - text: Smart Data beschreibt Datenbestände, die mithilfe von Algorithmen aus großen Datenmengen (Big Data) gefiltert wurden, um sinnvolle Informationen zu erhalten. Diese Daten werden gesammelt, geordnet und sorgfältig analysiert. Anwendung findet sie beispielsweise an Smartwatches, in dem wichtige Gesundheitsdaten analysiert und übermittelt werden.
   utter_faq/ki_benefits:
-  - text: Die Künstliche Intelligenz bietet eine Vielzahl an operativen Geschäftsvorteile. Sie reduziert Fehler, automatisiert wiederholende Aufgaben und unterstützt bei wichtigen Geschäftsentscheidungen und sorgt für die Arbeitsentlastung für das Management und Mitarbeitenden.
+  - text: Die künstliche Intelligenz bietet eine Vielzahl an operativen Geschäftsvorteile. Sie reduziert Fehler, automatisiert wiederholende Aufgaben und unterstützt bei wichtigen Geschäftsentscheidungen und sorgt für die Arbeitsentlastung für das Management und Mitarbeitenden.
   utter_faq/ki_application:
-  - text: 'Die relevantesten KI-Anwendungen sind: Assistenzsysteme und Automatisierungen, Intelligente Sensorik, optimiertes Ressourcenmanagement, vorausschauende Wartung, Robotik, Qualitätskontrolle sowie Chatbots und Sprachassistenten.'
+  - text: 'Die relevantesten KI-Anwendungen sind: Assistenzsysteme und Automatisierungen, intelligente Sensorik, optimiertes Ressourcenmanagement, vorausschauende Wartung, Robotik, Qualitätskontrolle sowie Chatbots und Sprachassistenten.'
   utter_faq/use_of_ki:
-  - text: 'Typische Einsatzgebiete für KI sind und werden: Prognose/ Vorhersage, Planungsassistenz/ Ressourcenmanagement, Wissensmanagement, Muster-/ Objektidentifikation, Intelligente Automatisierung und Qualitätskontrolle'
+  - text: 'Typische Einsatzgebiete für KI sind und werden: Prognose/ Vorhersage, Planungsassistenz/ Ressourcenmanagement, Wissensmanagement, Muster-/ Objektidentifikation, intelligente Automatisierung und Qualitätskontrolle'
   utter_faq/ki_businessmodel:
   - text: Durch die Digitalisierung und den Einsatz von künstlicher Intelligenz und Machine Learning können technologische Innovationen (Internet, 3D Druck, Blockchain Technologie, etc.) bestehende Geschäftsmodelle positiv beeinflussen. KI-gestützte Geschäftsmodelle können sich während der Nutzung selbst verbessern, sodass Daten ständig optimiert werden und gewinnbringend für digitale Geschäftsmodelle sind.
   utter_faq/ki_topics:
-  - text: Das Thema KI ist sehr vielseitig. Die KI-Trainer des Mittelstand 4.0-Kompetenzzentrums Lingen bieten daher tiefergehende Unterstützung KI basierte Bildverarbeitung, Spracherkennung sowie Vorhersage und Planung. Durch die Expertise der Projektpartner im Mittelstand 4.0-Kompetenzzentrum Lingen lassen sich diese Schwerpunkte mit den Branchen Agrar, Handel, Handwerk und Maritim sowie mit Cloud Computing verknüpfen.
+  - text: Das Thema KI ist sehr vielseitig. Die KI-Trainer des Mittelstand 4.0-Kompetenzzentrums Lingen bieten daher tiefergehende Unterstützung KI-basierte Bildverarbeitung, Spracherkennung sowie Vorhersage und Planung. Durch die Expertise der Projektpartner im Mittelstand 4.0-Kompetenzzentrum Lingen lassen sich diese Schwerpunkte mit den Branchen Agrar, Handel, Handwerk und Maritim sowie mit Cloud-Computing verknüpfen.
   utter_faq/ki_introduction:
-  - text: Im ersten Schritt sollte jedes Unternehmen individuell für sich klären, wie die Potenziale von KI genutzt werden können. Als nächstes gilt zu bestimmen, ob ein Mehrwert in der eigenen Prozessoptimierung gegeben ist und ob technische Vorrausetzungen vorhanden sind. Anschließend sollte ein geeigneter Anbieter gefunden werden, um das Technische Vorgehen umzusetzen. Zur Unterstützung und Einführung können Unternehmen auf das kostenlose Beratungsangebot vom Kompetenzzentrum zurückgreifen und sich von Praxisbeispielen inspirieren lassen.
+  - text: Im ersten Schritt sollte jedes Unternehmen individuell für sich klären, wie die Potenziale von KI genutzt werden können. Als Nächstes gilt zu bestimmen, ob ein Mehrwert in der eigenen Prozessoptimierung gegeben ist und ob technische Vorausetzungen vorhanden sind. Anschließend sollte ein geeigneter Anbieter gefunden werden, um das technische Vorgehen umzusetzen. Zur Unterstützung und Einführung können Unternehmen auf das kostenlose Beratungsangebot vom Kompetenzzentrum zurückgreifen und sich von Praxisbeispielen inspirieren lassen.
   utter_faq/ki_amount_of_data:
   - text: Für eine erfolgreiche Anwendung von KI-Algorithmen ist die Datenqualität und -quantität besonders wichtig. KI-Anwendungen liefern deutlich bessere Ergebnisse, wenn die basierten Daten vollständig bzw. in geeigneter Qualität vorliegen. Eine ungenügende Qualität der Daten führt zu falschen Ergebnissen.
   utter_faq/ki_acceptance:
@@ -301,9 +301,9 @@ responses:
   utter_faq/ki_support:
   - text: Es gibt auf Landes- und Bundesebene verschiedene Förderungen, die sich speziell auf die Unterstützung und Finanzierung von Kooperationen zwischen Unternehmen und Digitalisierung ausrichten. Der Mittelstand 4.0-Kompetenzzentrum Lingen ist einer davon und bietet umfassende Beratung zum Thema Digitalisierung für kleine und mittelständische Unternehmen.
   utter_faq/cloud_computing_topics:
-  - text: Mit Impulsgesprächen, Fachseminaren und Workshops zum Thema Cloud hilft das Mittelstand 4.0-Kompetenzzentrum Lingen dabei, die Möglichkeiten von Cloud für das eigene Unternehmen zu bewerten und für zukunftsfähige und datengetriebene Geschäftsmodelle zu nutzen. Vielfältiges Informationsmaterial, dass die Agentur Cloud erarbeitet hat, erleichtert es, sich auch eigenständig dem Thema zu nähern.
+  - text: Mit Impulsgesprächen, Fachseminaren und Workshops zum Thema Cloud hilft das Mittelstand 4.0-Kompetenzzentrum Lingen dabei, die Möglichkeiten von Cloud für das eigene Unternehmen zu bewerten und für zukunftsfähige und datengetriebene Geschäftsmodelle zu nutzen. Vielfältiges Informationsmaterial, dass die Agentur-Cloud erarbeitet hat, erleichtert es, sich auch eigenständig dem Thema zu nähern.
   utter_faq/agriculture_digitalization:
-  - text: Digitalisierung hilft landwirtschaftlichen Unternehmen, auch in Zukunft am Markt zu bestehen. Das Mittelstand 4.0-Kompentenzzentrum Lingen nimmt kleinen und mittleren landwirtschaftlichen Betrieben die Ängste und ermutigt diese, den Schritt zur Digitalisierung zu wagen. Das Kompetenzzentrum ist eine begleitende und unterstützende Anlaufstelle und führt Betriebe an neue Technologien heran. Da gerade Landwirte an die Zyklusfolgen der Ernte gebunden sind, bietet das Zentrum Angebote speziell für die Agrarbranche entsprechend dieser Zyklen an.
+  - text: Digitalisierung hilft landwirtschaftlichen Unternehmen, auch in Zukunft am Markt zu bestehen. Das Mittelstand 4.0-Kompetenzzentrum Lingen nimmt kleinen und mittleren landwirtschaftlichen Betrieben die Ängste und ermutigt diese, den Schritt zur Digitalisierung zu wagen. Das Kompetenzzentrum ist eine begleitende und unterstützende Anlaufstelle und führt Betriebe an neue Technologien heran. Da gerade Landwirte an die Zyklen der Ernte gebunden sind, bietet das Zentrum Angebote speziell für die Agrarbranche entsprechend dieser Zyklen an.
   utter_faq/craft_digitalization:
   - text: Die Experten des Mittelstand 4.0-Kompetenzzentrums stehen kleinen und mittleren Handwerksbetrieben aus der Region Nord-West mit Rat und Tat zur Seite. Wir befähigen Handwerksbetriebe, ihr Geschäftsmodell mit einer Datenbrille zu hinterfragen und auf Zukunftsfähigkeit hin zu überprüfen.
   utter_faq/maritime_digitalization:
@@ -345,7 +345,7 @@ responses:
        Telefon: +495918076981
   utter_contact/geschaeftsstelle_muenster:
   - text: |-
-      Ihr Ansprechpartner der Geschäftsstelle Münster ist Sebastian Köffer (münsterLAND.digital e.V.). 
+      Ihr Ansprechpartner der Geschäftsstelle Münster ist Sebastian Köffer (münsterLAND.digital e. V.). 
        E-Mail: sk@muensterland.digital 
        Telefon: +4925153556885
   utter_contact/oeffentlichkeitsarbeit:
@@ -375,7 +375,7 @@ responses:
        Telefon: +492518338088
   utter_contact/handwerk:
   - text: |-
-      Ihr Ansprechpartner für das Handwerk ist Sebastian Köffer (münsterLAND.digital e.V.). 
+      Ihr Ansprechpartner für das Handwerk ist Sebastian Köffer (münsterLAND.digital e. V.). 
        E-Mail: sk@muensterland.digital 
        Telefon: +4925153556885
   utter_contact/agrarbranche:
@@ -385,7 +385,7 @@ responses:
        Telefon: +495419695017
   utter_contact/maritimewirtschaft:
   - text: |-
-      Ihr Ansprechpartner für die Maritime Wirtschaft ist Jörg Bontjer (MARIKO gGmbH). 
+      Ihr Ansprechpartner für die maritime Wirtschaft ist Jörg Bontjer (MARIKO gGmbH). 
        E-Mail: joerg.bontjer@mariko-leer.de 
        Telefon: +494919261185
   utter_faq/mittelstand_agentur_initial_question:
@@ -422,14 +422,14 @@ responses:
     - payload: faq/cloud_as_a_service
       title: Cloud as a Service
     - payload: faq/services
-      title: Dienstleistungen Cloud Computing
+      title: Dienstleistungen Cloud-Computing
     - payload: faq/cloud_security
       title: Sicherheit
     - payload: faq/cloud_benefits
       title: Vorteile
     - payload: faq/cloud_company_size
       title: Unternehmensgröße
-    text: Das Cloud Computing ist eine Bereitstellung der IT-Infrastruktur (Speicherplatz, Zugriff auf Daten und Programme, Netzwerkdienste, Analyse und vieles mehr) als Dienstleistung über das Internet. Kapazitäten sind beliebig skalierbar und passen sich so der jeweiligen Auslastung an. Was möchten Sie noch zur Cloud wissen?
+    text: Das Cloud-Computing ist eine Bereitstellung der IT-Infrastruktur (Speicherplatz, Zugriff auf Daten und Programme, Netzwerkdienste, Analyse und vieles mehr) als Dienstleistung über das Internet. Kapazitäten sind beliebig skalierbar und passen sich so der jeweiligen Auslastung an. Was möchten Sie noch zur Cloud wissen?
   utter_faq/cloud_as_a_service:
   - buttons:
     - payload: faq/IaaS
@@ -438,7 +438,7 @@ responses:
       title: Platform as a Service
     - payload: faq/SaaS
       title: Software as a Service
-    text: Cloud as a Service bezieht sich auf ein weites Feld von Anwendungen, die Firmen oder End-User on demand nutzen und über das Internet erreichen. Über welche Art von Cloud as Service möchten Sie mehr wissen?
+    text: Cloud as a Service bezieht sich auf ein weites Feld von Anwendungen, die Firmen oder End-User on demand nutzen und über das Internet erreichen. Über welche Art von Cloud as a Service möchten Sie mehr wissen?
   utter_faq/cloud_using:
   - buttons:
     - payload: faq/use_of_cloud
@@ -454,9 +454,9 @@ responses:
     - payload: faq/cloud_business_intelligence
       title: Analyse von Daten
     - payload: faq/cloud_storage
-      title: Cloud Speicher
+      title: Cloud-Speicher
     - payload: faq/cloud_virtualization
-      title: Cloud Virtualisierung
+      title: Cloud-Virtualisierung
     - payload: faq/cloud_application_area
       title: Anwendungsbeispiele
     text: Welche Fragen haben Sie zu der Nutzung einer Cloud?
@@ -495,7 +495,7 @@ responses:
       title: Einfluss auf Geschäftsmodell
     - payload: faq/ki_support
       title: Unterstützung
-    text: Bei der Künstlichen Intelligenz versucht man menschliches Lernen und Denken auf den Computer zu übertragen. Kognitive Kompetenzen wie beispielsweise strategisches Denken und sprachliche Fähigkeiten sollen imitiert werden. Haben Sie weitere Fragen zur KI?
+    text: Bei der künstlichen Intelligenz versucht man menschliches Lernen und Denken auf den Computer zu übertragen. Kognitive Kompetenzen wie beispielsweise strategisches Denken und sprachliche Fähigkeiten sollen imitiert werden. Haben Sie weitere Fragen zur KI?
   utter_faq/ki_modules:
   - buttons:
     - payload: faq/speech_recognition_speech_identification
