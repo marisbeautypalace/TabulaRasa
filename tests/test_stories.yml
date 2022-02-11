@@ -666,3 +666,108 @@ stories:
       Was ist Modellbildung?
   - action: action_set_reminder
   - action: utter_faq
+- story: Story from Conversation ID 11c5984bab3c45f8a02a4f1c20307f5a
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was ist ein modell
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_greet
+  - intent: faq
+    user: |-
+      was ist KI?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist ein Modell?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: contact
+    user: |-
+      Ich bracuhe einen Ansprechpartner
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/allgemeiner_kontakt
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: faq
+    user: |-
+      Was ist Data Mining?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: faq
+    user: |-
+      Wie komme ich an Big Data?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: faq
+    user: |-
+      Was ist strukturierte Big Data?
+  - action: action_set_reminder
+  - action: utter_faq
+- story: Story from Conversation ID 2f06e97e9e2342b5b8e3eeb3e01162e5
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was ist das Mittelstand 4.0 Kompenenzzentrum
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wie kann mir das Kompentenzzentrum helfen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Welche Vorträge werden angeboten?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      5 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
