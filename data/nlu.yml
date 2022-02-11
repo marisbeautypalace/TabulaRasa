@@ -1546,15 +1546,15 @@ nlu:
     - [Technologien und Trends](EventType)?
     - Was gibt es für Veranstaltungen zu [Agrar](EventType)?
     - Was gibt es für Veranstaltungen für [IT-Recht](EventType)?
-    - Events zu [künsltiche Intelligenz]{"entity":"EventType","value":"Künstliche Intelligenz"}
-    - Events zu [AI]{"entity":"EventType","value":"Künstliche Intelligenz"}
-    - Was gibt es für Veranstaltungen für [Artifical Inteligence]{"entity":"EventType","value":"Künstliche Intelligenz"}?
-    - Was gibt es für Veranstaltungen für [KI]{"entity":"EventType","value":"Künstliche Intelligenz"}?
+    - Events zu [künsltiche Intelligenz]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}
+    - Events zu [AI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}
+    - Was gibt es für Veranstaltungen für [Artifical Inteligence]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
+    - Was gibt es für Veranstaltungen für [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
     - Veranstaltungen mit [Künstliche Intelligenz](EventType)?
     - Habt ihr [Vortrag](EventType)?
     - Ich will mich über [Unternehmenskultur](EventType) informieren?
     - Events zu [Agrar](EventType)
-    - Events zu [Landwirtschaft]{"entity":"EventType","value":"Agrar"}
+    - Events zu [Landwirtschaft]{"entity": "EventType", "value": "Agrar"}
     - Veranstaltungen zu [Vortrag](EventType)
     - Wann ist die Veranstaltung zu [Maritime Wirtschaft](EventType)
     - [Agrar](EventType)
@@ -1562,13 +1562,33 @@ nlu:
     - Was gibt es für Veranstaltungen zu diesme Bereich?
     - Gibt es Veranstlatungen dazu?
     - Events dazu?
-    - Veranstaltungen für [Landwirte]{"entity":"EventType","value":"Agrar"}
-    - Veranstaltungen für [Bauern]{"entity":"EventType","value":"Agrar"}
-    - Informationsveranstaltungen für das [Agrarbusiness]{"entity":"EventType","value":"Agrar"}
-    - Events zum Thema [Landwirtschaft]{"entity":"EventType","value":"Agrar"}
-    - Veranstaltungen im Bereich [Landwirtschaft]{"entity":"EventType","value":"Agrar"}
-    - Evetn im Bereich [Landwirtschaft]{"entity":"EventType","value":"Agrar"}
-    - Event für [maritime Industrie]{"entity":"EventType","value":"Maritime Wirtschaft"}
-    - Termin für das Event im Bereich [Schiffahrt]{"entity":"EventType","value":"Maritime Wirtschaft"}
-    - Termine für [Schiffsbauer]{"entity":"EventType","value":"Maritime Wirtschaft"}
-    - Wann ist die nächste Veranstaltung für [Handwerker]{"entity":"EventType","value":"Handwerk"}
+    - Veranstaltungen für [Landwirte]{"entity": "EventType", "value": "Agrar"}
+    - Veranstaltungen für [Bauern]{"entity": "EventType", "value": "Agrar"}
+    - Informationsveranstaltungen für das [Agrarbusiness]{"entity": "EventType", "value": "Agrar"}
+    - Events zum Thema [Landwirtschaft]{"entity": "EventType", "value": "Agrar"}
+    - Veranstaltungen im Bereich [Landwirtschaft]{"entity": "EventType", "value": "Agrar"}
+    - Evetn im Bereich [Landwirtschaft]{"entity": "EventType", "value": "Agrar"}
+    - Event für [maritime Industrie]{"entity": "EventType", "value": "Maritime Wirtschaft"}
+    - Termin für das Event im Bereich [Schiffahrt]{"entity": "EventType", "value": "Maritime Wirtschaft"}
+    - Termine für [Schiffsbauer]{"entity": "EventType", "value": "Maritime Wirtschaft"}
+    - Wann ist die nächste Veranstaltung für [Handwerker]{"entity": "EventType", "value": "Handwerk"}
+- synonym: Künstliche Intelligenz
+  examples: |
+    - KI
+    - AI
+    - Artifical Inteligence
+    - künsltiche Intelligenz
+- synonym: Agrar
+  examples: |
+    - Landwirte
+    - Bauern
+    - Agrarbusiness
+    - Landwirtschaft
+- synonym: Maritime Wirtschaft
+  examples: |
+    - Schiffahrt
+    - Schiffsbauer
+    - maritime Industrie
+- synonym: Handwerk
+  examples: |
+    - Handwerker

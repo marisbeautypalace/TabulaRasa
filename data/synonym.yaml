@@ -1,119 +1,65 @@
-version: "2.0" 
-nlu: 
-- synonym: Agrar
-  examples: |
-    - Landwirt
-    - Landwirte
-    - Bauer
-    - Bauern
-    - Landwirtschaft
-    - Agrarbusiness
-
-- synonym: Künstliche Intelligenz
-  examples: |
-    - KI
-    - Artifical Inteligence
-    - AI
-    - künstlicher Intelligenz
-    - künstlicher Intellignez
-    - künslticher Intellignez
-    - künstlichen Intelligenz
-    - künsltiche Intelignez
-    - künsltiche Intelligenz
-    - ki
-
+version: "2.0"
+nlu:
 - synonym: Geschäftsmodelle
   examples: |
-    - Geschäftsmodell
     - Business model
-    - digitale Geschäftsmodell
-    - Geschaeftsmodell
     - Geschäftsmodell
-
-
+    - Geschaeftsmodell
+    - digitale Geschäftsmodell
 - synonym: Fachseminar
   examples: |
-    - Fachseminar
-    - Seminar
+    - Schulung
+    - Lernangebote
     - Fortbildung
-    - Lernangebote 
-    - Kurs
+    - Schulungskurs
     - Übungskurs
     - Fortbildungskurs
-    - Schulung
-    - Schulungskurs
-
+    - Kurs
+    - Seminar
 - synonym: Workshop
   examples: |
-    - Arbeitstagung
-    - Arbeitssitzung
-    - Arbeitskreis
-    - Arbeitsgruppe
     - Übungen
-
+    - Arbeitstagung
+    - Arbeitskreis
+    - Arbeitssitzung
+    - Arbeitsgruppe
 - synonym: Technologien und Trends
-  examples: | 
-    - Technologie
+  examples: |
     - Trends
     - technology
+    - Technologie
     - trend
-
-- synonym: Maritime Wirtschaft
-  examples: | 
-    - Maritim
-    - maritime Industrie
-    - maritime
-    - Schiffahrt
-    - Werft
-    - Schiffbau
-    - Schiffsbauer
-
 - synonym: IT-Recht
-  examples: | 
-    - Computerrecht
-    - EDV-Recht
-    - Informationsrecht
+  examples: |
     - Internetrecht
-    - Multimediarecht 
-    - Softwarerecht
     - Informationstechnologierecht
-
-- synonym: Handwerk
-  examples: | 
-    - Handwerker
-    - handwerklich
-    - Handwerksbetrieb
-    - Handwerksberuf
-
+    - Computerrecht
+    - Multimediarecht
+    - Softwarerecht
+    - Informationsrecht
+    - EDV-Recht
 - synonym: Vortrag
-  examples: | 
-    - Einführungsvortrag
-    - Kurzvortrag
-    - Vorlesung
-    - Gastvortrag
-    - Rede
-    - Referat
+  examples: |
     - vortragen
+    - Gastvortrag
+    - Referat
+    - Rede
+    - Vorlesung
     - Vortragsreihe
-
+    - Kurzvortrag
+    - Einführungsvortrag
 - synonym: Unternehmenskultur
-  examples: | 
-    - Organisationskultur 
-    - Unternehmenskultur
-    - Betriebskultur 
-    - Verwaltungskultur 
+  examples: |
+    - Verwaltungskultur
+    - Betriebskultur
     - Unternehemenswerte
+    - Organisationskultur
     - organizational culture
     - corporate culture
-
-
 - synonym: Cloud Computing
-  examples: | 
-    - Rechnerwolke 
-    - Datenwolke
-    - Cloud Computing
-    - Everything as a Service
+  examples: |
     - XaaS -EaaS
+    - Rechnerwolke
+    - Everything as a Service
     - Cloud
-
-
+    - Datenwolke
