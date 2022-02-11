@@ -821,6 +821,7 @@ nlu:
     - Wie kann die menschliche Sprache automatisch verarbeitet werden?
     - Was ist Natural Language Processing?
     - Was ist maschinelle Spracherkennung?
+    - was ist nlp?
 - intent: faq/adversarial_learning
   examples: |
     - faq/adversarial_learning

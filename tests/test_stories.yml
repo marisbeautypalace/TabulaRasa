@@ -11,3 +11,763 @@ stories:
       was ist ki
   - action: action_set_reminder
   - action: utter_faq
+- story: Story from Conversation ID ea9709fb6c1f4dae9bf71ecd2edaaaa2
+  steps:
+  - intent: nlu_fallback
+    user: |-
+      ei
+  - action: action_set_reminder
+  - action: utter_please_rephrase
+  - intent: nlu_fallback
+    user: |-
+      Hei
+  - action: action_set_reminder
+  - action: utter_please_rephrase
+  - intent: greet
+    user: |-
+      Hi
+  - action: utter_greet
+  - intent: bot_challenge
+    user: |-
+      Wer bist du?
+  - action: action_set_reminder
+  - action: utter_iamabot
+  - intent: chitchat
+    user: |-
+      Was kannst du?
+  - action: action_set_reminder
+  - action: utter_chitchat
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: affirm
+    user: |-
+      ja
+  - action: utter_rating_want_more_information
+  - intent: contact
+    user: |-
+      Ich suche Ansprechpartne
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/allgemeiner_kontakt
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: rating_initial_question
+    user: |-
+      Danke!
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      3 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 3 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+- story: Story from Conversation ID 182f65884bef4565acc64b026b4ccee4
+  steps:
+  - intent: greet
+    user: |-
+      hey
+  - action: utter_welcome
+  - intent: bot_challenge
+    user: |-
+      wer bist du?
+  - action: action_set_reminder
+  - action: utter_iamabot
+  - intent: chitchat
+    user: |-
+      was kannst du?
+  - action: action_set_reminder
+  - action: utter_chitchat
+  - intent: faq
+    user: |-
+      was ist ki?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/link_ki_requirements
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/ki_amount_of_data
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      ich suche einen ansprechpartner
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/handelsbranche
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: rating_initial_question
+    user: |-
+      ok danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      4 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 4 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: chitchat
+    user: |-
+      alles super
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: alles super
+  - slot_was_set:
+    - qualitative_feedback: alles super
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+- story: Story from Conversation ID 05cec8fc4e43480597f0802196f42d16
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Wie führe ich [künstliche Intelligenz](EventType) ein?
+  - slot_was_set:
+    - EventType: künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist [künstliche Intelligenz](EventType)?
+  - slot_was_set:
+    - EventType: künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/link_ki_requirements
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/ki_hardware
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Welche Bandbreite benötige ich fpr Ki?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      Danke
+  - action: utter_rating_initial_question
+  - intent: affirm
+    user: |-
+      ja
+  - action: utter_rating_want_more_information
+  - intent: faq
+    user: |-
+      Wie kann ich eine Cloud nutzen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/cloud_introduction
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Ab welche Unternehmensgröße brauche ich eine Cloud?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wie führe ich die Cloud ein?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      Danke
+  - action: utter_rating_initial_question
+  - intent: faq
+    user: |-
+      Wo sind meine Daten wenn mein Anbieter insolvent geht?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      Danke
+  - action: utter_rating_initial_question
+  - intent: faq
+    user: |-
+      Welche Arten von Cloud gibt es?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wa ist die public cloud?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: faq
+    user: |-
+      Wie kann man Bilder automatisch erkennen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      Danke das ist super
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID fcc31d7058f44d608794b250e1acef4b
+  steps:
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was ist eine cloud?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/cloud_benefits
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: nlu_fallback
+    user: |-
+      ich bin landwirt
+  - action: action_set_reminder
+  - action: utter_please_rephrase
+  - intent: faq
+    user: |-
+      was macht ihr so?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: chitchat
+    user: |-
+      das war falsch
+  - action: action_set_reminder
+  - action: utter_chitchat
+- story: Story from Conversation ID 2d0604ea01ec4f9bb5d23a3342361f3a
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Wer kann mir beim Thema KI helfen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist KI
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist ein Algorithmus?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: get_category_event
+    user: |-
+      Habt ihr Veranstaltungen zu [Künstliche Intelligenz](EventType)?
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+- story: Story from Conversation ID 09b95c93de114883a78566c2c34b1a94
+  steps:
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was macht das Kompetenzzentrum?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Kompetenzzentrum
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/mittelstand_agentur_location
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      kompetenzzentrum
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      contact/initial_question
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/allgemeiner_kontakt
+  - action: action_set_reminder
+  - action: utter_contact
+- story: Story from Conversation ID 37f3e66ba3b747b0b78e9039c61868fc
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: bot_challenge
+    user: |-
+      Wer bist du?
+  - action: action_set_reminder
+  - action: utter_iamabot
+  - intent: faq
+    user: |-
+      Was ist ein Bot?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: chitchat
+    user: |-
+      Wie geht es dir?
+  - action: action_set_reminder
+  - action: utter_chitchat
+  - intent: nlu_fallback
+    user: |-
+      Toll
+  - action: action_set_reminder
+  - action: utter_please_rephrase
+  - intent: chitchat
+    user: |-
+      Kannst du mir eine Pizza bestellen?
+  - action: action_set_reminder
+  - action: utter_chitchat
+  - intent: nlu_fallback
+    user: |-
+      Ich will Pizza
+  - action: action_set_reminder
+  - action: utter_please_rephrase
+  - intent: faq
+    user: |-
+      Was ist SaaS
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wie kann man text automatisch erkennen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Und was ist face regocnition?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: nlu_fallback
+    user: |-
+      Ich meine Gesichtserkennung
+  - action: action_set_reminder
+  - action: utter_please_rephrase
+  - intent: faq
+    user: |-
+      Was ist Gesichtserkennung?
+  - action: action_set_reminder
+  - action: utter_faq
+- story: Story from Conversation ID 20f80937ba4547449eb24a4389cb1626
+  steps:
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      wozu braucht man KI?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+    user: |-
+      Was habt ihr für Veranstaltungen zu [künstliche Intelligenz](EventType)?
+  - slot_was_set:
+    - EventType: künstliche Intelligenz
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+  - intent: Events_Category_Selection
+    user: |-
+      /Events_Category_Selection{"category_selection":"Künstliche Intelligenz"}
+  - slot_was_set:
+    - category_selection: Künstliche Intelligenz
+  - action: action_get_events_for_category
+  - action: action_set_reminder
+  - intent: rating_initial_question
+    user: |-
+      cool danke
+  - action: utter_rating_initial_question
+  - intent: affirm
+    user: |-
+      ja
+  - action: utter_rating_want_more_information
+  - intent: contact
+    user: |-
+      ich hätte gerne einen ansprechpartner
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/[agrar](EventType)branche
+  - slot_was_set:
+    - EventType: agrar
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: rating_initial_question
+    user: |-
+      danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      2 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 2 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: chitchat
+    user: |-
+      du kannst nichts
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: du kannst nichts
+  - slot_was_set:
+    - qualitative_feedback: du kannst nichts
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+- story: Story from Conversation ID 5b949960734a4e60b500b3d874edfc84
+  steps:
+  - intent: faq
+    user: |-
+      Wo ist der Standort des Kompetenzzentrums?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      Und wer ist mein Ansprechpartner für [Handwerk](EventType)?
+  - slot_was_set:
+    - EventType: Handwerk
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: faq
+    user: |-
+      [Handwerk](EventType)
+  - slot_was_set:
+    - EventType: Handwerk
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      Ansprechpartner [Handwerk](EventType)
+  - slot_was_set:
+    - EventType: Handwerk
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: faq
+    user: |-
+      Wie kann ich meine Werft digitalisieren?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      Wen spreche ich an bezüglich Maritime Branche?
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/maritimewirtschaft
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: rating_initial_question
+    user: |-
+      Dank
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      4 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 4 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+- story: Story from Conversation ID b804b6d147204d0086cf6523fa4a473e
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Ich möchte mich über Cloud Computing informieren
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Ist Cloud eine Art Outsourcing?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wo kann ich Cloud Computing einsetzen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: faq
+    user: |-
+      Wie kann mich das Kompetenzzentrum beim Cloud Computing unterstützen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Ich möchte den Chatbot bewerten
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: nlu_fallback
+    user: |-
+      Kann ich qualitatives Feedback hinterlassen?
+  - action: action_set_reminder
+  - action: utter_please_rephrase
+  - intent: faq
+    user: |-
+      Ich finde den Bot schlecht
+  - action: action_set_reminder
+  - action: utter_faq
+- story: Story from Conversation ID f6129e6605154a058121ac2e7d106f91
+  steps:
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Was ist ein Korpus?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist ein Algorithmus?
+- story: Story from Conversation ID 00ccb0590aba4d1d9243516cf6790374
+  steps:
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      wie kann man Bilder verarbeiten?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      wie kann man Gesichter erkennen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      mit welcher Technologie kann man Bilder erkennen?
+  - action: action_set_reminder
+  - action: utter_faq
+- story: Story from Conversation ID 8d31d88d5c6448c9bba86bda46b3f76d
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: chitchat
+    user: |-
+      Wobei kannst du mir helfen?
+  - action: action_set_reminder
+  - action: utter_chitchat
+  - intent: faq
+    user: |-
+      Was macht das Kompetenzzentrum Lingen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      Danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      3 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 3 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+- story: Story from Conversation ID a1875a5df0414a9a9eaa3712c664bac7
+  steps:
+  - intent: faq
+    user: |-
+      Was ist Modellbildung?
+  - action: action_set_reminder
+  - action: utter_faq
+- story: Story from Conversation ID 11c5984bab3c45f8a02a4f1c20307f5a
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was ist ein modell
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_greet
+  - intent: faq
+    user: |-
+      was ist KI?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist ein Modell?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: contact
+    user: |-
+      Ich bracuhe einen Ansprechpartner
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/allgemeiner_kontakt
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: faq
+    user: |-
+      Was ist Data Mining?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: faq
+    user: |-
+      Wie komme ich an Big Data?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: faq
+    user: |-
+      Was ist strukturierte Big Data?
+  - action: action_set_reminder
+  - action: utter_faq
+- story: Story from Conversation ID 2f06e97e9e2342b5b8e3eeb3e01162e5
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was ist das Mittelstand 4.0 Kompenenzzentrum
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wie kann mir das Kompentenzzentrum helfen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Welche Vorträge werden angeboten?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      5 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
