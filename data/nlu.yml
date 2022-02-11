@@ -1615,6 +1615,8 @@ nlu:
     - Zeige mir Veranstaltungen zur Hochschule
     - Ich möchte an einer Veranstaltung vom Kompetenzzentrum teilnehmen
     - Was für Veranstaltungen bieter ihr an?
+    - Gibt es Events zum Bereich [Geschäftsmodell](EventType)
+    - Gibt es Veranstaltungen um eine neue [Technologie](EventType) kennzulernen
 - intent: get_category_event
   examples: |
     - Wo kann ich mich für [Workshops](EventType) anmelden ?
@@ -1667,6 +1669,49 @@ nlu:
     - Zeige mir Veranstaltungen zu [Künstlicher Intelligenz](EventType)
     - Welche Veranstaltungen gibt es für die Agrarbranche?
     - Veranstaltungen im Bereich Agrar
+    - Kann ich mich in einem Termin zu [digitale Geschäftsmodell ](EventType)informieren?
+    - Vorträge zu [Bussiness model](EventType)
+    - Events zu [Business model](EventType)
+    - Wann ist die kommende Veranstaltung zum Themenbereich [Geschaeftsmodell](EventType)
+    - Gibt es [Seminare](EventType)?
+    - Ich möchte ein [Seminar](EventType) besuchen
+    - Bietet ihr einen [Fortbildungskurs](EventType) an?
+    - Wann ist der nächste [Übungskurs](EventType)
+    - Kann ich einen [Schulungskurs](EventType) belegen?
+    - Gibt es hier auch [Fortbildung](EventType)
+    - Was bietet ihr für [Lernangebote](EventType) an?
+    - Ich möchte an einer [Schulung](EventType) teilnehmen
+    - Gibt es [Workshops](EventType) hierzu?
+    - Ich möchte zu diesem Thema eine [Übung](EventType) machen
+    - Bietet das Kompetenzzentrum [Übungen](EventType) an?
+    - Gibt es Event um sich über einen neuen [Trend](EventType) informieren kann?
+    - Habt ihr Veranstaltungen zu neuen [Trends](EventType)?
+    - Ich möchte mich vor Ort über [Trends](EventType) informieren
+    - Gibt es Events zu neuen [Technologien](EventType)
+    - Veranstaltungen zu [EDV-Recht](EventType)
+    - Ich kenne mich nicht mir [Internetrecht](EventType). Wo kann ich mich darüber informieren?
+    - Gibt es Events zum Bereich [Informationstechnologierecht](EventType)
+    - Kann ich an einem Veranstaltung zu [Computerrecht](EventType) teilnehmen?
+    - Gibt es Termine für Veranstaltungen zu [Informationsrecht](EventType)
+    - Wann findet die Vortragsreihe statt?
+    - Wann ist der nächste [Gastvortrag](EventType)
+    - Gibt es demnächst eine [Vorlesung](EventType)?
+    - Wann wird der nächste Experte  vortragen
+    - Bietet ihr [Vorträge](EventType) an?
+    - [Organisationskultur](EventType) Termine
+    - Ich möchte mich in einem Event über [Unternehemenswerte](EventType) informieren
+    - Veranstaltungen zu [Betriebskultur](EventType)
+    - Events zu [Verwaltungskultur](EventType)
+    - Ich möchte in einem Termin mehr über die [Cloud](EventType) erfahren
+    - [EaaS](EventType), gibt es hierzu Events?
+    - Gibt es [XaaS](EventType) Events?
+    - [corporate culture ](EventType)Veranstaltungen
+    - [organizational culture ](EventType)Events
+    - [Datenwolke](EventType) Events
+    - Gibt es [landwirtschaftliche](EventType) Events
+    - Gibt es handwerkliche Veranstaltungen
+    - Ich bin [Bauer](EventType). Gibt es eine Veranstaltung für mich?
+    - Gibt es Veranstaltungs-Angebote für [Werft](EventType)?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
@@ -1698,15 +1743,18 @@ nlu:
     - AI
 - synonym: Agrar
   examples: |
-    - Landwirte
-    - Bauern
     - Agrarbusiness
+    - Landwirte
+    - landwirtschaftliche
+    - Bauern
+    - Bauer
     - Landwirtschaft
 - synonym: Maritime Wirtschaft
   examples: |
     - Schiffahrt
     - Schiffsbauer
     - maritime Industrie
+    - Werft
 - synonym: Handwerk
   examples: |
     - handwerklich
