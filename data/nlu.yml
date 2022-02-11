@@ -16,6 +16,9 @@ nlu:
     - Kannst du mich begrüßen?
     - hallo
     - Moin!
+    - hi
+    - hey
+    - Hei
 - intent: goodbye
   examples: |
     - Schönen Tag
@@ -48,6 +51,7 @@ nlu:
     - Bist du ein Roboter?
     - Was bist du?
     - Bist du ein Bot?
+    - Wer bist du?
 - intent: chitchat/bot_bad
   examples: |
     - du kannst nichts
@@ -72,6 +76,7 @@ nlu:
     - du bist intelligent
     - smart
     - qualifiziert
+    - alles super
 - intent: chitchat/bot_ready
   examples: |
     - bist du bereit?
@@ -97,6 +102,7 @@ nlu:
     - das meine ich nicht
     - ich meine etwas anderes
     - Das hilft mir nicht weiter
+    - das war falsch
 - intent: chitchat/bot_infos
   examples: |
     - wobei kannst du mir helfen?
@@ -108,6 +114,8 @@ nlu:
     - Wie kannst Du mir helfen?
     - Welche Fragen kannst du mir beantworten?
     - Welche Fragen kannst Du beantworten?
+    - Wobei kannst du mir helfen?
+    - was kannst du?
 - intent: chitchat/bot_howareyou
   examples: |
     - wie geht es dir?
@@ -118,6 +126,7 @@ nlu:
     - wie gehts?
     - Wie geht es dir?
     - Wie geht es dir`
+    - Wie gehts dir?
 - intent: out_of_scope
   examples: |
     - ich will eine Pizza bestellen
@@ -139,6 +148,8 @@ nlu:
     - wie bekomme ich Informationen dazu?
     - Geschäftsmodell prüfen lassen
     - Welche Projekte gab es bisher?
+    - Ich will Pizza
+    - Kannst du mir eine Pizza bestellen?
 - intent: affirm
   examples: |
     - ja
@@ -188,6 +199,14 @@ nlu:
     - Stop
     - Stopp
     - Reboot
+    - Danke
+    - Ich finde den Bot schlecht
+    - Dank
+    - cool danke
+    - Toll
+    - Danke das ist super
+    - ok danke
+    - Danke!
 - intent: rating_want_more_information
   examples: |
     - rating_want_more_information
@@ -226,6 +245,7 @@ nlu:
     - Kompetenzzentrum
     - Kompetenzzentrum Lingen
     - Agentur Lingen
+    - kompetenzzentrum
 - intent: faq/mittelstand_agentur_cloud_ki
   examples: |
     - faq/mittelstand_agentur_cloud_ki
@@ -253,6 +273,12 @@ nlu:
     - was macht das Kompetenzzentrum?
     - Ich möchte Informationen zur Digitalisierung
     - Was ist KoLi
+    - Wie kann mir das Kompentenzzentrum helfen?
+    - was ist das Mittelstand 4.0 Kompenenzzentrum
+    - Was macht das Kompetenzzentrum Lingen?
+    - Wie kann mich das Kompetenzzentrum beim Cloud Computing unterstützen?
+    - was macht ihr so?
+    - Was bietet die Kompetenzzentrum für Hilf im Bereich Agrar
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -268,6 +294,8 @@ nlu:
     - Wer kann das Angebot in Anspruch nehmen ?
     - Welche Angebote bietet ihr an ?
     - Was bietet das Kompetenzentrum Lingen ?
+    - Was bietet ihr an?
+    - Welche Angebote habt ihr?
 - intent: faq/mittelstand_agentur_free_offers
   examples: |
     - faq/mittelstand_agentur_free_offers
@@ -289,6 +317,7 @@ nlu:
     - Sind die Angebote der Agentur kostenlos?
     - Sind die Angebote kostenfrei ?
     - Kostete die Workshops etwas ?
+    - Kosten eure Angebote etwas?
 - intent: faq/mittelstand_agentur_location
   examples: |
     - faq/mittelstand_agentur_location
@@ -312,6 +341,7 @@ nlu:
     - Ich habe Fragen zur Agentur 4.0
     - Wer sind eure Projektpartner ?
     - Wer steckt hinter dem Kompetenzzzentrum Lingen ?
+    - Wo ist der Standort des Kompetenzzentrums?
 - intent: faq/mittelstand_agentur_BMWi
   examples: |
     - faq/mittelstand_agentur_BMWi
@@ -397,6 +427,7 @@ nlu:
     - Wozu braucht man eine public Cloud?
     - kann ich eine public cloud selbst betreiben?
     - Wofür nutzt man die öffentliche Cloud?
+    - Wa ist die public cloud?
 - intent: faq/hybrid_cloud
   examples: |
     - faq/hybrid_cloud
@@ -519,6 +550,7 @@ nlu:
     - Was ist SaaS?
     - Warum Software as a Service?
     - Wozu brauche ich Software as a Service?
+    - Was ist SaaS
 - intent: faq/onpremise_ondemand
   examples: |
     - faq/onpremise_ondemand
@@ -597,6 +629,7 @@ nlu:
     - Wozu cloud computing?
     - Für wen eignet sich der Einsatz von Cloud?
     - Wo kann ich Cloud Computing in meinem Unternehmen einsetzen ?
+    - Wo kann ich Cloud Computing einsetzen?
 - intent: faq/use_of_cloud_not
   examples: |
     - faq/use_of_cloud_not
@@ -642,6 +675,7 @@ nlu:
     - Cloud einführen
     - Ich möchte eine Cloud in meinem Unternehmen einführen
     - Wie lange dauert eine Cloud Implementierung ?
+    - Wie führe ich die Cloud ein?
 - intent: faq/network_breakdown
   examples: |
     - Ist mein Unternehmen noch arbeitsfähig, wenn meine Internetleitung ausfällt?
@@ -686,6 +720,7 @@ nlu:
     - Welche Bandbreite benötige ich für die Cloud Nutzung?
     - Welche Bandbreite brauche ich für Cloud?
     - Brauche ich für Cloud Anwendungen eine gute Internetverbindung ?
+    - Welche Bandbreite benötige ich fpr Ki?
 - intent: faq/provider_change
   examples: |
     - Welche Datenformat und Datenträger sollte man für die Rückgabe der Daten im Falle eines Anbieterwechsels wählen?
@@ -712,6 +747,7 @@ nlu:
     - Sind meine Daten im Falle einer Insolvenz des Cloud-Anbieters verloren?
     - Wie kann ich einen Datenverlust bei Insolvenz des Cloud-Anbieters absichern?
     - Was passiert mit meinen Daten wenn mein Anbieter insolvent geht?
+    - Wo sind meine Daten wenn mein Anbieter insolvent geht?
 - intent: faq/cloud_benefits
   examples: |
     - faq/cloud_benefits
@@ -750,6 +786,7 @@ nlu:
     - Cloud als Unternehmen im Mittelstand?
     - Cloud als Kleinunternehmen?
     - Kann jedes Unternehmen seine Prozesse digitalisieren ?
+    - Ab welche Unternehmensgröße brauche ich eine Cloud?
 - intent: faq/speech_recognition_speech_identification
   examples: |
     - faq/speech_recognition_speech_identification
@@ -774,6 +811,9 @@ nlu:
     - wie erkenne ich Gesichter?
     - wie funktioniert Gesichtserkennung?
     - wie kann ich Gesichter erkennen?
+    - wie kann man Gesichter erkennen?
+    - Ich meine Gesichtserkennung
+    - Und was ist face regocnition?
 - intent: faq/image_recognition_image_identification
   examples: |
     - faq/image_recognition_image_identification
@@ -789,6 +829,9 @@ nlu:
     - Wie können Objekte in einem Bild erkannt werden?
     - wie funktioniert Bilderkennung?
     - wie kann ich Bilder analysieren?
+    - mit welcher Technologie kann man Bilder erkennen?
+    - wie kann man Bilder verarbeiten?
+    - Wie kann man Bilder automatisch erkennen?
 - intent: faq/audio_recognition_audio_identification
   examples: |
     - faq/audio_recognition_audio_identification
@@ -854,6 +897,7 @@ nlu:
     - Wie kann die Bedeutung von Textbausteinen ermittelt werden?
     - Wie kann mit Mehrdeutigkeiten von Begriffen in Texten umgegangen werden?
     - Was macht eine Text Extraction?
+    - Wie kann man text automatisch erkennen?
 - intent: faq/problem_solving
   examples: |
     - faq/problem_solving
@@ -913,6 +957,9 @@ nlu:
     - Modell im Bereich des maschinellen Lernens
     - Was ist ein Modell?
     - Was beschreibt ein Modell?
+    - was ist ein modell
+    - Was ist Modellbildung?
+    - Was ist Modellbildung beim maschinellen Lernen?
 - intent: faq/machine_learning
   examples: |
     - faq/machine_learning
@@ -1012,11 +1059,13 @@ nlu:
     - Was ist Big Data?
     - Wie können große Datenmengen verarbeitet werden?
     - Wie werden sehr große Datenmenege verwaltet und ausgewertet?
+    - Was ist strukturierte Big Data?
 - intent: faq/data_mining
   examples: |
     - Data Mining
     - Was ist Data Mining?
     - Wie können Zusammenhänge und Trends in vorhandenen Daten erkannt werden?
+    - Wie komme ich an Big Data?
 - intent: faq/internet_of_things
   examples: |
     - Internet of Things
@@ -1112,6 +1161,7 @@ nlu:
     - Brauche ich besondere hardware für künstliche Intelligenz?
     - Welche Anforderungen werden an den Computer in Bezug auf künstliche Intelligenz gestellt?
     - Was für eine Computer brauch ich für künstliche Intelligenz?
+    - Welche Voraussetzungen brauch meine Firma für KI?
 - intent: faq/ki_topics
   examples: |
     - faq/ki_topics
@@ -1139,6 +1189,7 @@ nlu:
     - Wieso ist die Nutzung einer KI gut?
     - Vorteile von künstlicher Intelligenz im Mittelstand
     - Welche Vorteile bringt mir KI
+    - Was hat [KI](EventType) für Vorteile?
 - intent: faq/ki_application
   examples: |
     - faq/ki_application
@@ -1153,6 +1204,7 @@ nlu:
     - typische Einsatzzwecke von KI
     - Einsatzzwecke
     - Einsatz von KI
+    - wozu braucht man KI?
 - intent: faq/ki_businessmodel
   examples: |
     - faq/ki_businessmodel
@@ -1164,6 +1216,8 @@ nlu:
     - Was ist ein digitales Geschäftsmodell?
     - Was ist ein Geschäftsmodell?
     - Geschäftsmodell digitalisieren
+    - Was ist ein Geschäftsmodelle
+    - Was ist ein [Geschäftsmodell](EventType)
 - intent: faq/ki_amount_of_data
   examples: |
     - faq/ki_amount_of_data
@@ -1203,6 +1257,7 @@ nlu:
     - erste Schritte künstliche Intelligenz
     - Ich möchte eine Künstliche Intelligenz in meinem Unternehmen einführen
     - Wie lange dauert eine KI Implementierung ?
+    - Wie führe ich künstliche Intelligenz ein?
 - intent: faq/ki_acceptance
   examples: |
     - faq/ki_acceptance
@@ -1221,6 +1276,7 @@ nlu:
     - Support bei KI-Anwendungen
     - Förderungen
     - Förderungen Künstliche Intelligenz
+    - Wie unterstützt ihr mein Unternehmen bei der Einführung von [KI](EventType)?
 - intent: faq/cloud_computing_topics
   examples: |
     - faq/cloud_computing_topics
@@ -1254,6 +1310,8 @@ nlu:
     - Digitalisierung in der Landwirtschaft
     - Angebote für Landwirte
     - Agrar
+    - Was für Angebote habt ihr für Landwirte?
+    - ich bin landwirt
 - intent: faq/craft_digitalization
   examples: |
     - Handwerk
@@ -1290,6 +1348,7 @@ nlu:
     - braucht meine Reederei Digitalisierung?
     - braucht meine werft Digitalisierung?
     - Wie arbeiten sie mit dem maritimen Bereich zusammen?
+    - Wie kann ich meine Werft digitalisieren?
 - intent: contact/initial_question
   examples: |
     - contact/initial_question
@@ -1328,6 +1387,10 @@ nlu:
     - ansprechpartner
     - anspreechpartner
     - kontaktieren
+    - Ich bracuhe einen Ansprechpartner
+    - ich hätte gerne einen ansprechpartner
+    - ich suche einen ansprechpartner
+    - Ich suche Ansprechpartne
 - intent: contact/allgemeiner_kontakt
   examples: |
     - contact/allgemeiner_kontakt
@@ -1367,6 +1430,10 @@ nlu:
     - KI Standort Lingen
     - Kontakt KI Lingen
     - Ansprechpartner KI Standort Lingen
+    - Wer kann mir beim Thema KI helfen?
+    - Zeige mir einen Ansprechpartner zu künstlicher Intelligenz
+    - Zeige mir Ansprechpartner für KI
+    - Zeige mir Ansprechpartner für Künstliche Intelligenz
 - intent: contact/ki_emdenleer
   examples: |
     - contact/ki_emdenleer
@@ -1380,11 +1447,14 @@ nlu:
     - Handelsbranche
     - Kontakt Handelsbranche
     - Ansprechpartner für die Handelsbranche
+    - Was für Angebote habt ihr für den Handel?
 - intent: contact/handwerk
   examples: |
     - contact/handwerk
     - Kontakt Handwerk
     - Ansprechpartner für das Handwerk
+    - Ansprechpartner Handwerk
+    - Und wer ist mein Ansprechpartner für Handwerk?
 - intent: contact/agrarbranche
   examples: |
     - contact/agrarbranche
@@ -1394,12 +1464,15 @@ nlu:
     - Wen kann ich zu Agrar und KI kontaktieren?
     - Wer ist Ansprechpartner für Landwirte?
     - Ansprechpartner für Agrar
+    - Zeige mir Ansprechpartner zu Agrar
+    - Zeige mir einen Ansprechpartner zum Thema Agrar
 - intent: contact/maritimewirtschaft
   examples: |
     - contact/maritimewirtschaft
     - Maritime Wirtschaft
     - Kontakt Maritime Wirtschaft
     - Ansprechpartner für die Maritime Wirtschaft
+    - Wen spreche ich an bezüglich Maritime Branche?
 - intent: faq/cloud_initial_question
   examples: |
     - faq/cloud_initial_question
@@ -1429,6 +1502,10 @@ nlu:
     - Wie informiere ich mich zu Cloud Computing
     - Wie erhalte ich Informationen zu Cloud Computing
     - Was bedeutet Cloud Computing
+    - Ich möchte den Chatbot bewerten
+    - Ist Cloud eine Art Outsourcing?
+    - Ich möchte mich über Cloud Computing informieren
+    - was ist eine [cloud](EventType)?
 - intent: faq/cloud_as_a_service
   examples: |
     - faq/cloud_as_a_service
@@ -1466,6 +1543,13 @@ nlu:
     - Was ist eigentlich KI?
     - Wie kann ich mich über künstliche Intelligenz informieren ?
     - Was bedeutet KI
+    - Was ist künstliche Intelligenz
+    - was ist KI?
+    - Kann ich qualitatives Feedback hinterlassen?
+    - Was ist KI
+    - was ist ki?
+    - Was ist Künstliche Intelligenz
+    - Künstliche Intelligenz
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
@@ -1522,27 +1606,19 @@ nlu:
     - Gibt es Veranstaltungen?
     - zeig mir veranstaltungen
     - Bietet das Kompetenzzentrum Lingen auch Workshops an ?
-    - Wo kann ich mich für Workshops anmelden ?
-    - Wo kann ich Workshops buchen ?
     - Hi KoLi, was ist die nächste Veranstaltung?
-- intent: Events_All
-  examples: |
-    - Zeig mir alle Events
-    - Alle Veranstaltungen
-    - jede Veranstaltung
-    - Alle
-- intent: Events_Category
-  examples: |
-    - Zeig mir Kategorien
-    - Unterteilung nach Kategorie
-    - Veranstaltunen nach Kategorie
-- intent: Events_Timeframe
-  examples: |
-    - Nach Zeitraum
-    - Zeitpunkt
-    - Veranstaltungen nach Zeitpunkt
+    - Wann sind veranstaltungen
+    - Zeig mir Veranstaltungne
+    - Gibt es eine Möglichkeit Events anzuzeigen?
+    - veranstaltugnen
+    - Ich möchte mich über Veranstaltungen informieren
+    - Zeige mir Veranstaltungen zur Hochschule
+    - Ich möchte an einer Veranstaltung vom Kompetenzzentrum teilnehmen
+    - Was für Veranstaltungen bieter ihr an?
 - intent: get_category_event
   examples: |
+    - Wo kann ich mich für [Workshops](EventType) anmelden ?
+    - Wo kann ich [Workshops](EventType) buchen ?
     - [Technologien und Trends](EventType)?
     - Was gibt es für Veranstaltungen zu [Agrar](EventType)?
     - Was gibt es für Veranstaltungen für [IT-Recht](EventType)?
@@ -1572,12 +1648,54 @@ nlu:
     - Termin für das Event im Bereich [Schiffahrt]{"entity": "EventType", "value": "Maritime Wirtschaft"}
     - Termine für [Schiffsbauer]{"entity": "EventType", "value": "Maritime Wirtschaft"}
     - Wann ist die nächste Veranstaltung für [Handwerker]{"entity": "EventType", "value": "Handwerk"}
+    - Bietet ihr Kurse zum optimieren des [Business model ](EventType)an?
+    - Zeige mir Veranstaltungen zu Künstliche Intelligenz
+    - Zeige mir Veranstaltungen zu Geschäftsmodelle
+    - Zeige mir Veranstaltungen hierzu
+    - Zeig mir Veranstaltungen hierzu
+    - Welche [Vorträge](EventType) werden angeboten?
+    - Was habt ihr für Veranstaltungen zu künstliche Intelligenz?
+    - Habt ihr Veranstaltungen zu Künstliche Intelligenz?
+    - Zeige Veranstaltungen zu Künstliche Intelligenz
+    - Zeige mir Veranstaltungen zu künstliche Intelligenz
+    - Zeige mir Veranstaltungen zu Dings
+    - Zeige mir Veranstaltungen zu Prono
+    - Ziege mir hierzu Veranstaltungen
+    - Zeige mir Veranstaltungen zu dem Bereich
+    - Zeige mir Veranstaltungen zu Porno
+    - Zeige mir Veranstaltungen zu Agrar
+    - Zeige mir Veranstaltungen zu [Künstlicher Intelligenz](EventType)
+    - Welche Veranstaltungen gibt es für die Agrarbranche?
+    - Veranstaltungen im Bereich Agrar
+- intent: Events_All
+  examples: |
+    - Zeig mir alle Events
+    - Alle Veranstaltungen
+    - jede Veranstaltung
+    - Alle
+    - Zeig mir Veranstaltungen
+    - Zeige mir alle Veranstaltungen
+- intent: Events_Category
+  examples: |
+    - Zeig mir Kategorien
+    - Unterteilung nach Kategorie
+    - Veranstaltunen nach Kategorie
+    - Veranstaltungen nach Kategorie filtern
+- intent: Events_Timeframe
+  examples: |
+    - Nach Zeitraum
+    - Zeitpunkt
+    - Veranstaltungen nach Zeitpunkt
+- intent: EXTERNAL_reminder
+  examples: |
+    - EXTERNAL: EXTERNAL_reminder
 - synonym: Künstliche Intelligenz
   examples: |
-    - KI
-    - AI
-    - Artifical Inteligence
     - künsltiche Intelligenz
+    - Künstlicher Intelligenz
+    - KI
+    - Artifical Inteligence
+    - AI
 - synonym: Agrar
   examples: |
     - Landwirte
@@ -1591,4 +1709,5 @@ nlu:
     - maritime Industrie
 - synonym: Handwerk
   examples: |
+    - handwerklich
     - Handwerker

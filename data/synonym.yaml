@@ -2,9 +2,10 @@ version: "2.0"
 nlu:
 - synonym: Geschäftsmodelle
   examples: |
-    - Business model
     - Geschäftsmodell
     - Geschaeftsmodell
+    - Business model
+    - Business model
     - digitale Geschäftsmodell
 - synonym: Fachseminar
   examples: |
@@ -21,6 +22,7 @@ nlu:
     - Übungen
     - Arbeitstagung
     - Arbeitskreis
+    - Workshops
     - Arbeitssitzung
     - Arbeitsgruppe
 - synonym: Technologien und Trends
@@ -40,6 +42,7 @@ nlu:
     - EDV-Recht
 - synonym: Vortrag
   examples: |
+    - Vorträge
     - vortragen
     - Gastvortrag
     - Referat
@@ -63,3 +66,4 @@ nlu:
     - Everything as a Service
     - Cloud
     - Datenwolke
+    - cloud
