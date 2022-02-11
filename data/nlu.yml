@@ -1712,6 +1712,8 @@ nlu:
     - Gibt es handwerkliche Veranstaltungen
     - Ich bin [Bauer](EventType). Gibt es eine Veranstaltung für mich?
     - Gibt es Veranstaltungs-Angebote für [Werft](EventType)?
+    - Wann wird der Experte vortragen
+    - Gibt es handwerkliche Events?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
