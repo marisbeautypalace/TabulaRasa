@@ -369,10 +369,13 @@ class ActionGetSpecificEventCategory(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        
+        slot =""
+        slot1 =""
+        slot2= 0
         slot1 = tracker.get_slot("EventType")
         slot = str(slot1)
         empty = 1
+        print("Slot extrahiert:" + slot)
 
         df_all_events = get_all_events(URL)
         set_of_categories = get_set_of_categories(df_all_events)
@@ -380,18 +383,26 @@ class ActionGetSpecificEventCategory(Action):
         if slot != "":
             for x in set_of_categories: 
                 if slot in x:
-                    #print("richtige Auswahl")
+                    #print("richtige Auswahl"+slot)
                     dfEventsForCategory = get_events_for_category(df_all_events, slot1)
                     #print (dfEventsForCategory)
                     carousel = df_to_carousel(dfEventsForCategory)
                     dispatcher.utter_message(attachment=carousel)
                     empty = 0
+        else:
+            buttons = []
+            for category in set_of_categories:
+                slot2 = '{"category_selection":' + '"' + category + '"' + '}'
+                buttons.append({"payload": '/Events_Category_Selection'+slot2, "title": category})
+            dispatcher.utter_message(response="utter_no_event_found", buttons=buttons)
+            empty = 0
+        
         if empty == 1:
-                buttons = []
-                for category in set_of_categories:
-                    slot = '{"category_selection":' + '"' + category + '"' + '}'
-                    buttons.append({"payload": '/Events_Category_Selection'+slot, "title": category})
-                dispatcher.utter_message(response="utter_no_event_found", buttons=buttons)
+            buttons = []
+            for category in set_of_categories:
+                slot2 = '{"category_selection":' + '"' + category + '"' + '}'
+                buttons.append({"payload": '/Events_Category_Selection'+slot2, "title": category})
+            dispatcher.utter_message(response="utter_no_event_found_category", slot_category=slot, buttons=buttons)
 
         return [SlotSet("EventType", "")]
 

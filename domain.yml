@@ -26,6 +26,7 @@ intents:
 - rating_user_stars_rating
 - rating_want_more_information
 - rating_you_helped_enough
+
 entities:
 - timeframe_selection
 - category_selection
@@ -565,6 +566,9 @@ responses:
   - text: Zudem war Ihr qualitatives Feedback '{qualitative_feedback}'.
   utter_no_event_found:
   - text: 'Leider finde ich zu dieser Veranstaltungskategorie keine Ergebnisse. Wir haben Veranstaltungen zu den folgenden Kategorien, bitte wählen Sie:'
+  utter_no_event_found_category:
+  - text: 'Leider finde ich aktuell zu dem Themenbereich {slot_category} keine Ergebnisse. Wir haben Veranstaltungen zu den folgenden Kategorien, bitte wählen Sie:'
+
 actions:
 - action_get_all_events
 - action_get_events_for_timeframe

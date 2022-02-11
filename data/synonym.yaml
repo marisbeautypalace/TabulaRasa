@@ -1,19 +1,16 @@
 version: "2.0" 
 nlu: 
-- lookup: EventType 
-  examples: | 
-    - Geschäftsmodelle
-    - Fachseminar
-    - Technologien und Trends
-    - Maritime Wirtschaft
-    - IT-Recht
-    - Künstliche Intelligenz
-    - Handwerk
-    - Vortrag
-    - Unternehmenskultur
-    - Agrar
-    - Cloud Computing
-    - Workshop
+- synonym: Agrar
+  examples: |
+    - Landwirt
+    - Landwirte
+    - Bauer
+    - Bauern
+    - Landwirtschaft
+    - Agrarbusiness
+
+- synonym: Künstliche Intelligenz
+  examples: |
     - KI
     - Artifical Inteligence
     - AI
@@ -24,17 +21,18 @@ nlu:
     - künsltiche Intelignez
     - künsltiche Intelligenz
     - ki
-    - Landwirt
-    - Landwirte
-    - Bauer
-    - Bauern
-    - Landwirtschaft
-    - Agrarbusiness
+
+- synonym: Geschäftsmodelle
+  examples: |
     - Geschäftsmodell
     - Business model
     - digitale Geschäftsmodell
     - Geschaeftsmodell
     - Geschäftsmodell
+
+
+- synonym: Fachseminar
+  examples: |
     - Fachseminar
     - Seminar
     - Fortbildung
@@ -44,21 +42,34 @@ nlu:
     - Fortbildungskurs
     - Schulung
     - Schulungskurs
+
+- synonym: Workshop
+  examples: |
     - Arbeitstagung
     - Arbeitssitzung
     - Arbeitskreis
     - Arbeitsgruppe
     - Übungen
+
+- synonym: Technologien und Trends
+  examples: | 
     - Technologie
     - Trends
     - technology
     - trend
+
+- synonym: Maritime Wirtschaft
+  examples: | 
     - Maritim
     - maritime Industrie
     - maritime
     - Schiffahrt
     - Werft
     - Schiffbau
+    - Schiffsbauer
+
+- synonym: IT-Recht
+  examples: | 
     - Computerrecht
     - EDV-Recht
     - Informationsrecht
@@ -66,10 +77,16 @@ nlu:
     - Multimediarecht 
     - Softwarerecht
     - Informationstechnologierecht
+
+- synonym: Handwerk
+  examples: | 
     - Handwerker
     - handwerklich
     - Handwerksbetrieb
     - Handwerksberuf
+
+- synonym: Vortrag
+  examples: | 
     - Einführungsvortrag
     - Kurzvortrag
     - Vorlesung
@@ -78,6 +95,9 @@ nlu:
     - Referat
     - vortragen
     - Vortragsreihe
+
+- synonym: Unternehmenskultur
+  examples: | 
     - Organisationskultur 
     - Unternehmenskultur
     - Betriebskultur 
@@ -85,10 +105,15 @@ nlu:
     - Unternehemenswerte
     - organizational culture
     - corporate culture
+
+
+- synonym: Cloud Computing
+  examples: | 
     - Rechnerwolke 
     - Datenwolke
     - Cloud Computing
     - Everything as a Service
     - XaaS -EaaS
     - Cloud
-    - Schiffsbauer
+
+
