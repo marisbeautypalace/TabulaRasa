@@ -1597,7 +1597,7 @@ nlu:
     - Beispiel für Umsetzung
     - Zeig mir Praxisbeispiele
     - Gibt es Praxisbeispiele
-    - Welche praxisbeispiele habt ihr? 
+    - Welche praxisbeispiele habt ihr?
     - Habt ihr das in der Praxis umgesetzt?
 - intent: faq/ki_qualifizierung_dummy
   examples: |
@@ -1791,9 +1791,9 @@ nlu:
 - synonym: Agrar
   examples: |
     - Agrarbusiness
+    - landwirtschaftliche
     - Landwirtschaft
     - landwirtschaftlichen
-    - landwirtschaftliche
     - Bauer
     - Bauern
     - Landwirte
