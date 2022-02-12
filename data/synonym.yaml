@@ -2,58 +2,57 @@ version: "2.0"
 nlu:
 - synonym: Geschäftsmodelle
   examples: |
-    - Bussiness model
-    - Geschäftsmodell
-    - Geschaeftsmodell
-    - Business model
-    - Business model
     - digitale Geschäftsmodell
+    - Geschaeftsmodell
+    - Bussiness model
+    - Business model
+    - Geschäftsmodell
 - synonym: Fachseminar
   examples: |
     - Schulung
-    - Lernangebote
-    - Fortbildung
-    - Schulungskurs
-    - Übungskurs
     - Seminare
+    - Lernangebote
+    - Übungskurs
+    - Fortbildung
     - Fortbildungskurs
+    - Schulungskurs
     - Seminar
 - synonym: Workshop
   examples: |
-    - Übungen
     - Workshops
+    - Übungen
     - Übung
 - synonym: Technologien und Trends
   examples: |
-    - Technologien
-    - Trends
     - Technologie
+    - Technologien
     - Trend
+    - Trends
 - synonym: IT-Recht
   examples: |
-    - Internetrecht
-    - Informationstechnologierecht
-    - Computerrecht
     - Informationsrecht
     - EDV-Recht
+    - Informationstechnologierecht
+    - Internetrecht
+    - Computerrecht
 - synonym: Vortrag
   examples: |
-    - Vorlesung
-    - Gastvortrag
     - Vorträge
     - vortragen
+    - Vorlesung
+    - Gastvortrag
 - synonym: Unternehmenskultur
   examples: |
-    - Verwaltungskultur
     - corporate culture
-    - organizational culture
     - Betriebskultur
-    - Unternehemenswerte
     - Organisationskultur
+    - Verwaltungskultur
+    - organizational culture
+    - Unternehemenswerte
 - synonym: Cloud Computing
   examples: |
-    - XaaS
     - EaaS
+    - XaaS
     - Cloud
-    - Datenwolke
     - cloud
+    - Datenwolke

@@ -1727,6 +1727,7 @@ nlu:
     - Gibt es Infoveranstaltungen zur [künstlichen Intelligenz](EventType)
     - Gibt es Informationsveranstaltungen zum Thema [künstliche Inteligenz](EventType)
     - Gibt es [maritim](EventType) gehaltene Veranstaltungen?
+    - Habt ihr Veranstaltungen dazu?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
@@ -1751,29 +1752,29 @@ nlu:
     - EXTERNAL: EXTERNAL_reminder
 - synonym: Künstliche Intelligenz
   examples: |
-    - künsltiche Intelligenz
-    - Künstlicher Intelligenz
+    - Artifical Inteligence
+    - AI
+    - künstliche Inteligenz
     - künstlichen Intelligenz
     - KI
-    - Artifical Inteligence
-    - künstliche Inteligenz
-    - AI
+    - künsltiche Intelligenz
+    - Künstlicher Intelligenz
 - synonym: Agrar
   examples: |
     - Agrarbusiness
-    - landwirtschaftlichen
-    - Landwirte
     - landwirtschaftliche
-    - Bauern
-    - Bauer
     - Landwirtschaft
+    - landwirtschaftlichen
+    - Bauer
+    - Bauern
+    - Landwirte
 - synonym: Maritime Wirtschaft
   examples: |
-    - Schiffahrt
-    - Werft
     - Schiffsbauer
     - maritime Industrie
     - maritim
+    - Werft
+    - Schiffahrt
 - synonym: Handwerk
   examples: |
     - handwerklich
