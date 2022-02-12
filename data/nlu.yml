@@ -77,6 +77,7 @@ nlu:
     - smart
     - qualifiziert
     - alles super
+    - War alles gut
 - intent: chitchat/bot_ready
   examples: |
     - bist du bereit?
@@ -208,6 +209,7 @@ nlu:
     - Danke das ist super
     - ok danke
     - Danke!
+    - Kann ich auch eine neue Bewertung vergeben?
 - intent: rating_want_more_information
   examples: |
     - rating_want_more_information
@@ -234,6 +236,7 @@ nlu:
     - Wie war meine Bewertung?
     - Meine Bewertung
     - Wie viele Stars habe ich gegeben?
+    - Was war meine Bewertung?
 - intent: faq/mittelstand_agentur_initial_question
   examples: |
     - faq/mittelstand_agentur_initial_question
@@ -1219,6 +1222,7 @@ nlu:
     - Geschäftsmodell digitalisieren
     - Was ist ein Geschäftsmodelle
     - Was ist ein [Geschäftsmodell](EventType)
+    - was ist ein Geschäftsmodell?
 - intent: faq/ki_amount_of_data
   examples: |
     - faq/ki_amount_of_data
@@ -1392,6 +1396,7 @@ nlu:
     - ich hätte gerne einen ansprechpartner
     - ich suche einen ansprechpartner
     - Ich suche Ansprechpartne
+    - Ansprechartner
 - intent: contact/allgemeiner_kontakt
   examples: |
     - contact/allgemeiner_kontakt
@@ -1456,6 +1461,8 @@ nlu:
     - Ansprechpartner für das Handwerk
     - Ansprechpartner Handwerk
     - Und wer ist mein Ansprechpartner für Handwerk?
+    - Habt ihr einen Ansprechpartner für Handwerk?
+    - Handwerk Ansprechpartner
 - intent: contact/agrarbranche
   examples: |
     - contact/agrarbranche
@@ -1551,6 +1558,10 @@ nlu:
     - was ist ki?
     - Was ist Künstliche Intelligenz
     - Künstliche Intelligenz
+    - Ich möchte mich über AI informieren
+    - was ist artifical inteligence?
+    - was ist artifical intelligenz
+    - Was ist computer intelligenz
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
@@ -1728,6 +1739,8 @@ nlu:
     - Gibt es Informationsveranstaltungen zum Thema [künstliche Inteligenz](EventType)
     - Gibt es [maritim](EventType) gehaltene Veranstaltungen?
     - Habt ihr Veranstaltungen dazu?
+    - habt ihr veranstaltungen zu Agrar?
+    - habt ihr [handwerkliche](EventType) Veranstaltungen?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
