@@ -1590,6 +1590,21 @@ nlu:
     - Was braucht man für Voraussetzungen für KI?
     - Welche Voraussetzungen muss mein Unternehmen erfüllen, um KI umzusetzen?
     - Was muss erfüllt sein, dass ich KI umsetzen kann?
+- intent: faq/praxisbeispiele
+  examples: |
+    - Praxisbeispiel
+    - Praxisbeispiele
+    - Beispiel für Umsetzung
+    - Zeig mir Praxisbeispiele
+    - Gibt es Praxisbeispiele
+    - Welche praxisbeispiele habt ihr? 
+    - Habt ihr das in der Praxis umgesetzt?
+- intent: faq/ki_qualifizierung_dummy
+  examples: |
+    - KI-Qualifizierung
+    - KI-Qualifizierungsprogramm
+    - Veranstaltung KI-Qualifizierung
+    - Was ist das KI-Qualifizierungsprogramm?
 - intent: get_all_events
   examples: |
     - Veranstaltungen
