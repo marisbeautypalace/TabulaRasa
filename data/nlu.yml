@@ -1686,11 +1686,9 @@ nlu:
     - Habt ihr Veranstaltungen zu Künstliche Intelligenz?
     - Zeige Veranstaltungen zu Künstliche Intelligenz
     - Zeige mir Veranstaltungen zu künstliche Intelligenz
-    - Zeige mir Veranstaltungen zu Dings
-    - Zeige mir Veranstaltungen zu Prono
+    - Zeige mir Veranstaltungen zu
     - Ziege mir hierzu Veranstaltungen
     - Zeige mir Veranstaltungen zu dem Bereich
-    - Zeige mir Veranstaltungen zu Porno
     - Zeige mir Veranstaltungen zu Agrar
     - Zeige mir Veranstaltungen zu [Künstlicher Intelligenz](EventType)
     - Welche Veranstaltungen gibt es für die Agrarbranche?
@@ -1744,6 +1742,7 @@ nlu:
     - Veranstaltungen zu Unternehmenskultur
     - Fachseminar
     - Events dazu
+    - Gib Events
     - Events hierzu
     - Ich will an einer [landwirtschaftlichen](EventType) Veranstaltung teilnehmen
     - Gibt es [handwerkliche](EventType) Events
