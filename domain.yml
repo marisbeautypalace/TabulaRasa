@@ -11,10 +11,13 @@ intents:
 - Events_Timeframe_Selection
 - affirm
 - bot_challenge
-- chitchat
-- contact
+- chitchat:
+    use_entities: []
+- contact:
+    use_entities: []
 - deny
-- faq
+- faq:
+    use_entities: []
 - get_all_events
 - get_category_event
 - goodbye

@@ -1546,7 +1546,7 @@ nlu:
     - grundlegende Fragen KI
     - Hilfe künstliche Intelligenz
     - Beantworte mir Fragen zu KI
-    - Was ist KI?
+    - Was ist KI[EventType]?
     - Mehr Informationen zu KI
     - Was ist eigentlich KI?
     - Wie kann ich mich über künstliche Intelligenz informieren ?
@@ -1627,8 +1627,6 @@ nlu:
     - Zeige mir Veranstaltungen zur Hochschule
     - Ich möchte an einer Veranstaltung vom Kompetenzzentrum teilnehmen
     - Was für Veranstaltungen bieter ihr an?
-    - Gibt es Events zum Bereich [Geschäftsmodell](EventType)
-    - Gibt es Veranstaltungen um eine neue [Technologie](EventType) kennzulernen
 - intent: get_category_event
   examples: |
     - Wo kann ich mich für [Workshops](EventType) anmelden ?
@@ -1741,6 +1739,8 @@ nlu:
     - Habt ihr Veranstaltungen dazu?
     - habt ihr veranstaltungen zu Agrar?
     - habt ihr [handwerkliche](EventType) Veranstaltungen?
+    - Gibt es Events zum Bereich [Geschäftsmodell](EventType)
+    - Gibt es Veranstaltungen um eine neue [Technologie](EventType) kennzulernen
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
