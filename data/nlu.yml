@@ -150,6 +150,7 @@ nlu:
     - Welche Projekte gab es bisher?
     - Ich will Pizza
     - Kannst du mir eine Pizza bestellen?
+    - IT-Recht
 - intent: affirm
   examples: |
     - ja
@@ -1714,6 +1715,18 @@ nlu:
     - Gibt es Veranstaltungs-Angebote für [Werft](EventType)?
     - Wann wird der Experte vortragen
     - Gibt es handwerkliche Events?
+    - Gibt es hierzu Veranstlatungen?
+    - Veranstaltungen zu Unternehmenskultur
+    - Fachseminar
+    - Events dazu
+    - Events hierzu
+    - Ich will an einer [landwirtschaftlichen](EventType) Veranstaltung teilnehmen
+    - Gibt es [handwerkliche](EventType) Events
+    - ich möchte an [landwirtschaftlichen](EventType) Events teilnehmen
+    - Wann ist der Termin zur Information für [Handwerksbetriebe](EventType)
+    - Gibt es Infoveranstaltungen zur [künstlichen Intelligenz](EventType)
+    - Gibt es Informationsveranstaltungen zum Thema [künstliche Inteligenz](EventType)
+    - Gibt es [maritim](EventType) gehaltene Veranstaltungen?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
@@ -1740,12 +1753,15 @@ nlu:
   examples: |
     - künsltiche Intelligenz
     - Künstlicher Intelligenz
+    - künstlichen Intelligenz
     - KI
     - Artifical Inteligence
+    - künstliche Inteligenz
     - AI
 - synonym: Agrar
   examples: |
     - Agrarbusiness
+    - landwirtschaftlichen
     - Landwirte
     - landwirtschaftliche
     - Bauern
@@ -1754,10 +1770,13 @@ nlu:
 - synonym: Maritime Wirtschaft
   examples: |
     - Schiffahrt
+    - Werft
     - Schiffsbauer
     - maritime Industrie
-    - Werft
+    - maritim
 - synonym: Handwerk
   examples: |
     - handwerklich
     - Handwerker
+    - handwerkliche
+    - Handwerksbetriebe
