@@ -283,6 +283,7 @@ nlu:
     - Wie kann mich das Kompetenzzentrum beim Cloud Computing unterstützen?
     - was macht ihr so?
     - Was bietet die Kompetenzzentrum für Hilf im Bereich Agrar
+    - Wie unterstütz mich das Kompentenzzentrum beim Thema KI?
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -1317,6 +1318,8 @@ nlu:
     - Agrar
     - Was für Angebote habt ihr für Landwirte?
     - ich bin landwirt
+    - Wie kann mich das Kompetenztzentrum zum Bereich Landwirtschaft unterstützen?
+    - Ich bin [Landwirt](EventType) und möchte mein Betrieb digitalisieren
 - intent: faq/craft_digitalization
   examples: |
     - Handwerk
@@ -1440,6 +1443,7 @@ nlu:
     - Zeige mir einen Ansprechpartner zu künstlicher Intelligenz
     - Zeige mir Ansprechpartner für KI
     - Zeige mir Ansprechpartner für Künstliche Intelligenz
+    - Habt ihr einen Ansprechparnter für das Thema KI?
 - intent: contact/ki_emdenleer
   examples: |
     - contact/ki_emdenleer
@@ -1474,6 +1478,9 @@ nlu:
     - Ansprechpartner für Agrar
     - Zeige mir Ansprechpartner zu Agrar
     - Zeige mir einen Ansprechpartner zum Thema Agrar
+    - Ich brauche einen Ansprechpartner für Landwirtschaft
+    - Habt ihr einen Ansprechpartner im Bereich [Landwirtschaft](EventType)?
+    - Ansprechpartner für Agrar?
 - intent: contact/maritimewirtschaft
   examples: |
     - contact/maritimewirtschaft
@@ -1481,6 +1488,7 @@ nlu:
     - Kontakt Maritime Wirtschaft
     - Ansprechpartner für die Maritime Wirtschaft
     - Wen spreche ich an bezüglich Maritime Branche?
+    - Habt ihr einen Ansprechpartner für maritime Wirtschaft?
 - intent: faq/cloud_initial_question
   examples: |
     - faq/cloud_initial_question
@@ -1514,12 +1522,14 @@ nlu:
     - Ist Cloud eine Art Outsourcing?
     - Ich möchte mich über Cloud Computing informieren
     - was ist eine [cloud](EventType)?
+    - Was ist Cloud?
 - intent: faq/cloud_as_a_service
   examples: |
     - faq/cloud_as_a_service
     - Was ist Cloud as a Servcie?
     - Wie kann ich Dienstleistungen in der Cloud nutzen?
     - Cloud as a Service
+    - Was ist CaaS
 - intent: faq/cloud_using
   examples: |
     - faq/cloud_using
@@ -1643,6 +1653,7 @@ nlu:
     - Zeige mir Veranstaltungen zur Hochschule
     - Ich möchte an einer Veranstaltung vom Kompetenzzentrum teilnehmen
     - Was für Veranstaltungen bieter ihr an?
+    - Gibt es Veranstaltugnen bei euch?
 - intent: get_category_event
   examples: |
     - Wo kann ich mich für [Workshops](EventType) anmelden ?
@@ -1756,6 +1767,7 @@ nlu:
     - habt ihr [handwerkliche](EventType) Veranstaltungen?
     - Gibt es Events zum Bereich [Geschäftsmodell](EventType)
     - Gibt es Veranstaltungen um eine neue [Technologie](EventType) kennzulernen
+    - Habt ihr auch Veranstaltungen hierzu?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
@@ -1778,6 +1790,9 @@ nlu:
 - intent: EXTERNAL_reminder
   examples: |
     - EXTERNAL: EXTERNAL_reminder
+- intent: faq
+  examples: |
+    - Was ist Cloud Computing?
 - synonym: Künstliche Intelligenz
   examples: |
     - Artifical Inteligence
@@ -1789,6 +1804,7 @@ nlu:
     - Künstlicher Intelligenz
 - synonym: Agrar
   examples: |
+    - Landwirt
     - Agrarbusiness
     - landwirtschaftliche
     - Landwirtschaft

@@ -573,7 +573,7 @@ responses:
   utter_no_event_found:
   - text: 'Leider finde ich zu dieser Veranstaltungskategorie keine Ergebnisse. Hier finde Sie den aktuellen [Veranstaltungskalender](https://kompetenzzentrum-lingen.digital/kategorie/praxisprojekte) mit allen Veranstaltungen. Wir haben Veranstaltungen zu den folgenden Kategorien, bitte wählen Sie:'
   utter_no_event_found_category:
-  - text: 'Leider finde ich aktuell zu dem Themenbereich {slot_category} keine Ergebnisse. Hier finde Sie den aktuellen [Veranstaltungskalender](https://kompetenzzentrum-lingen.digital/kategorie/praxisprojekte) mit allen Veranstaltungen. 'Wir haben Veranstaltungen zu den folgenden Kategorien, bitte wählen Sie:'
+  - text: 'Leider finde ich aktuell zu dem Themenbereich {slot_category} keine Ergebnisse. Hier finde Sie den aktuellen [Veranstaltungskalender](https://kompetenzzentrum-lingen.digital/kategorie/praxisprojekte) mit allen Veranstaltungen. Wir haben Veranstaltungen zu den folgenden Kategorien, bitte wählen Sie:'
 actions:
 - action_get_all_events
 - action_get_events_for_timeframe

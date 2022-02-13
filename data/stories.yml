@@ -50,7 +50,6 @@ stories:
   - slot_was_set:
     - qualitative_feedback: 87 hunde
   - action: utter_rating_thanks
-
 - story: botrating deny path (from reminder)
   steps:
   - intent: EXTERNAL_reminder
@@ -64,7 +63,6 @@ stories:
   - slot_was_set:
     - qualitative_feedback: 87 hunde
   - action: utter_rating_thanks
-
 - story: badpath deny
   steps:
   - intent: deny
@@ -77,16 +75,102 @@ stories:
   steps:
   - intent: rating_want_more_information
   - action: utter_rating_want_more_information
-
 - story: get story for specific category with entity
   steps:
   - intent: get_category_event
-#  - slot_was_set: 
-#    - EventType: Agrar
   - action: action_specific_event_category
-
-#- story: get story for specific category without entity
-#  steps:
-#  - intent: get_category_event
-#  - action: utter_no_event_found
-#  - action: action_get_events_for_category_selection
+- story: Story from Conversation ID 2ecbd4b6893b406e9b49fdc02f0ff47b
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: faq
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: contact
+    entities:
+    - EventType: Agrar
+  - slot_was_set:
+    - EventType: Agrar
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: get_category_event
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+- story: Story from Conversation ID ce3f210941774813a57b4347a98cccac
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: get_all_events
+  - action: action_event_selection
+  - intent: Events_Timeframe
+  - action: action_get_events_for_timeframe_selection
+  - intent: Events_Timeframe_Selection
+    entities:
+    - timeframe_selection: '30'
+  - slot_was_set:
+    - timeframe_selection: '30'
+  - action: action_get_events_for_timeframe
+  - action: action_set_reminder
+  - intent: contact
+    entities:
+    - EventType: maritime Wirtschaft
+  - slot_was_set:
+    - EventType: maritime Wirtschaft
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: rating_initial_question
+  - action: utter_rating_initial_question
+  - intent: deny
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: faq
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: Der Bot hat gut funktioniert
+  - slot_was_set:
+    - qualitative_feedback: Der Bot hat gut funktioniert
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+  - intent: bot_challenge
+  - action: action_set_reminder
+  - action: utter_iamabot
+  - intent: rating_user_ask_rating
+  - action: action_say_rating
