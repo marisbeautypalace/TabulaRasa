@@ -43,8 +43,8 @@ nlu:
     - Gastvortrag
 - synonym: Unternehmenskultur
   examples: |
-    - Organisationskultur
     - corporate culture
+    - Organisationskultur
     - Betriebskultur
     - Verwaltungskultur
     - organizational culture
