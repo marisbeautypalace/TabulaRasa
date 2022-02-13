@@ -19,6 +19,7 @@ nlu:
     - hi
     - hey
     - Hei
+    - Hello
 - intent: goodbye
   examples: |
     - Schönen Tag
@@ -52,6 +53,7 @@ nlu:
     - Was bist du?
     - Bist du ein Bot?
     - Wer bist du?
+    - Wie alt bist du?
 - intent: chitchat/bot_bad
   examples: |
     - du kannst nichts
@@ -117,6 +119,7 @@ nlu:
     - Welche Fragen kannst Du beantworten?
     - Wobei kannst du mir helfen?
     - was kannst du?
+    - Was kannst du so?
 - intent: chitchat/bot_howareyou
   examples: |
     - wie geht es dir?
@@ -128,6 +131,7 @@ nlu:
     - Wie geht es dir?
     - Wie geht es dir`
     - Wie gehts dir?
+    - Hallo, wie geht es dir?
 - intent: out_of_scope
   examples: |
     - ich will eine Pizza bestellen
@@ -152,6 +156,7 @@ nlu:
     - Ich will Pizza
     - Kannst du mir eine Pizza bestellen?
     - IT-Recht
+    - Dir auch
 - intent: affirm
   examples: |
     - ja
@@ -210,6 +215,7 @@ nlu:
     - ok danke
     - Danke!
     - Kann ich auch eine neue Bewertung vergeben?
+    - Danke für das Angebot
 - intent: rating_want_more_information
   examples: |
     - rating_want_more_information
@@ -1400,6 +1406,7 @@ nlu:
     - ich suche einen ansprechpartner
     - Ich suche Ansprechpartne
     - Ansprechartner
+    - Habt ihr einen Ansprechpartner im Bereich Cloud für mich?
 - intent: contact/allgemeiner_kontakt
   examples: |
     - contact/allgemeiner_kontakt
@@ -1573,6 +1580,7 @@ nlu:
     - was ist artifical intelligenz
     - Was ist computer intelligenz
     - Was ist KI?
+    - Erzähl mir etwas über künstliche Intelligenz
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
@@ -1654,6 +1662,7 @@ nlu:
     - Ich möchte an einer Veranstaltung vom Kompetenzzentrum teilnehmen
     - Was für Veranstaltungen bieter ihr an?
     - Gibt es Veranstaltugnen bei euch?
+    - Veranstaltunge
 - intent: get_category_event
   examples: |
     - Wo kann ich mich für [Workshops](EventType) anmelden ?
@@ -1806,9 +1815,9 @@ nlu:
   examples: |
     - Landwirt
     - Agrarbusiness
-    - landwirtschaftliche
     - Landwirtschaft
     - landwirtschaftlichen
+    - landwirtschaftliche
     - Bauer
     - Bauern
     - Landwirte

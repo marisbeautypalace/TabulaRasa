@@ -44,8 +44,8 @@ nlu:
 - synonym: Unternehmenskultur
   examples: |
     - corporate culture
-    - Organisationskultur
     - Betriebskultur
+    - Organisationskultur
     - Verwaltungskultur
     - organizational culture
     - Unternehemenswerte
