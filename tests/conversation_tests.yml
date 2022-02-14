@@ -51,3 +51,85 @@ stories:
   - slot_was_set:
     - requested_slot: null
   - action: utter_rating_thanks
+- story: Story from Conversation ID 8abb48a89a4a44fbbabc45ea566a6ee6
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: get_all_events
+    user: |-
+      Ich möchte mich über Veranstaltungen informieren
+  - action: action_event_selection
+  - intent: Events_Timeframe
+    user: |-
+      /Events_Timeframe
+  - action: action_get_events_for_timeframe_selection
+  - intent: Events_Timeframe_Selection
+    user: |-
+      /Events_Timeframe_Selection{"timeframe_selection":"30"}
+  - slot_was_set:
+    - timeframe_selection: '30'
+  - action: action_get_events_for_timeframe
+  - action: action_set_reminder
+  - intent: rating_initial_question
+    user: |-
+      Danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      5 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: faq
+    user: |-
+      Guter Bot, schnelle Antowrt
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: Guter Bot, schnelle Antowrt
+  - slot_was_set:
+    - qualitative_feedback: Guter Bot, schnelle Antowrt
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+- story: Story from Conversation ID 0d641df817624580880c0bef06cc4ca9
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Was macht ihr?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist [künstliche Intelligenz](EventType)?
+  - slot_was_set:
+    - EventType: künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Erzähl mir über die Vorteile von [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+    user: |-
+      Habt ihr Events hierzu?
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
