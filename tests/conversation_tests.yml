@@ -88,3 +88,35 @@ stories:
     user: |-
       nein
   - action: utter_rating_you_helped_enough
+- story: Story from Conversation ID 9b8d701eb85242d88bf50053ae07802d
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: get_all_events
+    user: |-
+      Wann ist das nächste Event?
+  - action: action_event_selection
+  - intent: Events_All
+    user: |-
+      /Events_All
+  - action: action_get_all_events
+  - action: action_set_reminder
+  - intent: contact
+    user: |-
+      Bitte ich brauch einen Ansprechpartner
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/[ki]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}_emdenleer
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: faq
+    user: |-
+      Was macht ihr?
+  - action: action_set_reminder
+  - action: utter_faq
