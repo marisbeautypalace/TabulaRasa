@@ -1,56 +1,6 @@
 version: "2.0"
 stories:
-- story: Story from Conversation ID 2ecbd4b6893b406e9b49fdc02f0ff47b
-  steps:
-  - intent: greet
-    user: |-
-      Hallo
-  - action: utter_welcome
-  - intent: faq
-    user: |-
-      Was ist [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
-  - slot_was_set:
-    - EventType: Künstliche Intelligenz
-  - action: action_set_reminder
-  - action: utter_faq
-  - intent: faq
-    user: |-
-      faq/[ki]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}_benefits
-  - slot_was_set:
-    - EventType: Künstliche Intelligenz
-  - action: action_set_reminder
-  - action: utter_faq
-  - intent: faq
-    user: |-
-      Wie unterstütz mich das Kompentenzzentrum beim Thema [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
-  - slot_was_set:
-    - EventType: Künstliche Intelligenz
-  - action: action_set_reminder
-  - action: utter_faq
-  - intent: contact
-    user: |-
-      Habt ihr einen Ansprechparnter für das Thema [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
-  - slot_was_set:
-    - EventType: Künstliche Intelligenz
-  - action: action_set_reminder
-  - action: utter_contact
-  - intent: EXTERNAL_reminder
-    user: |-
-      EXTERNAL: EXTERNAL_reminder
-  - action: action_react_to_reminder
-  - action: utter_rating_initial_question
-  - intent: contact
-    user: |-
-      Ansprechpartner für [Agrar](EventType)?
-  - slot_was_set:
-    - EventType: Agrar
-  - action: action_set_reminder
-  - action: utter_contact
-  - intent: get_category_event
-    user: |-
-      Habt ihr auch Veranstaltungen hierzu?
-  - action: action_specific_event_category
-- story: Story from Conversation ID ce3f210941774813a57b4347a98cccac
+- story: Story from Conversation ID 8abb48a89a4a44fbbabc45ea566a6ee6
   steps:
   - intent: greet
     user: |-
@@ -58,7 +8,7 @@ stories:
   - action: utter_welcome
   - intent: get_all_events
     user: |-
-      Gibt es Veranstaltugnen bei euch?
+      Ich möchte mich über Veranstaltungen informieren
   - action: action_event_selection
   - intent: Events_Timeframe
     user: |-
@@ -71,13 +21,6 @@ stories:
     - timeframe_selection: '30'
   - action: action_get_events_for_timeframe
   - action: action_set_reminder
-  - intent: contact
-    user: |-
-      Habt ihr einen Ansprechpartner für [maritime Wirtschaft](EventType)?
-  - slot_was_set:
-    - EventType: maritime Wirtschaft
-  - action: action_set_reminder
-  - action: utter_contact
   - intent: rating_initial_question
     user: |-
       Danke
@@ -98,71 +41,13 @@ stories:
     - requested_slot: qualitative_feedback
   - intent: faq
     user: |-
-      Der Bot hat gut funktioniert
+      Guter Bot, schnelle Antowrt
   - action: qualitative_feedback_form
   - slot_was_set:
-    - qualitative_feedback: Der Bot hat gut funktioniert
+    - qualitative_feedback: Guter Bot, schnelle Antowrt
   - slot_was_set:
-    - qualitative_feedback: Der Bot hat gut funktioniert
+    - qualitative_feedback: Guter Bot, schnelle Antowrt
   - active_loop: null
   - slot_was_set:
     - requested_slot: null
   - action: utter_rating_thanks
-  - intent: bot_challenge
-    user: |-
-      Wer bist du?
-  - action: action_set_reminder
-  - action: utter_iamabot
-  - intent: rating_user_ask_rating
-    user: |-
-      Was war meine Bewertung?
-  - action: action_say_rating
-- story: Story from Conversation ID 9f8ca908d5244a359d9912b025c3e77b
-  steps:
-  - intent: faq
-    user: |-
-      Was ist [Cloud]{"entity": "EventType", "value": "Cloud Computing"}?
-  - slot_was_set:
-    - EventType: Cloud Computing
-  - action: action_set_reminder
-  - action: utter_faq
-  - intent: faq
-    user: |-
-      faq/[cloud]{"entity": "EventType", "value": "Cloud Computing"}_using
-  - slot_was_set:
-    - EventType: Cloud Computing
-  - action: action_set_reminder
-  - action: utter_faq
-  - intent: faq
-    user: |-
-      faq/[cloud]{"entity": "EventType", "value": "Cloud Computing"}_application_area
-  - slot_was_set:
-    - EventType: Cloud Computing
-  - action: action_set_reminder
-  - action: utter_faq
-  - intent: EXTERNAL_reminder
-    user: |-
-      EXTERNAL: EXTERNAL_reminder
-  - action: action_react_to_reminder
-  - action: utter_rating_initial_question
-  - intent: contact
-    user: |-
-      Habt ihr einen Ansprechpartner im Bereich [Cloud]{"entity": "EventType", "value": "Cloud Computing"} für mich?
-  - slot_was_set:
-    - EventType: Cloud Computing
-  - action: action_set_reminder
-  - action: utter_contact
-  - intent: get_category_event
-    user: |-
-      Events hierzu
-  - action: action_specific_event_category
-  - slot_was_set:
-    - EventType: ''
-  - intent: rating_initial_question
-    user: |-
-      danke
-  - action: utter_rating_initial_question
-  - intent: affirm
-    user: |-
-      ja
-  - action: utter_rating_want_more_information
