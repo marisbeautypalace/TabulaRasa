@@ -51,3 +51,40 @@ stories:
   - slot_was_set:
     - requested_slot: null
   - action: utter_rating_thanks
+- story: Story from Conversation ID 25ae79f00afb417680bc5e5d01e04fde
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was ist [cloud]{"entity": "EventType", "value": "Cloud Computing"}?
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/services
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist ein Provider?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+    user: |-
+      Events dazu?
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+  - intent: rating_initial_question
+    user: |-
+      danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough

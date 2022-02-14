@@ -9,7 +9,6 @@ intents:
 - Events_Category_Selection
 - Events_Timeframe
 - Events_Timeframe_Selection
-- 'Seit wann gibt es das Kompetenzzentrum Lingen '
 - affirm
 - bot_challenge
 - chitchat:
