@@ -1242,6 +1242,7 @@ nlu:
     - Vorteile von künstlicher Intelligenz im Mittelstand
     - Welche Vorteile bringt mir KI
     - Was hat [KI](EventType) für Vorteile?
+    - Erzähl mir über die Vorteile von KI
 - intent: faq/ki_application
   examples: |
     - faq/ki_application
@@ -1926,9 +1927,9 @@ nlu:
   examples: |
     - Landwirt
     - Agrarbusiness
+    - landwirtschaftliche
     - Landwirtschaft
     - landwirtschaftlichen
-    - landwirtschaftliche
     - Bauer
     - Bauern
     - Landwirte
