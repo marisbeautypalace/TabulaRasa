@@ -9,6 +9,7 @@ intents:
 - Events_Category_Selection
 - Events_Timeframe
 - Events_Timeframe_Selection
+- 'Seit wann gibt es das Kompetenzzentrum Lingen '
 - affirm
 - bot_challenge
 - chitchat:
@@ -154,7 +155,7 @@ responses:
   utter_faq/mittelstand_agentur_cooperation:
   - text: Eine Kooperation mit dem Mittelstand 4.0-Kompetenzzentrum Lingen ist kostenlos. Außerdem kümmern wir uns um die Umsetzung der Veranstaltungen, sowohl digital als auch in Präsenz. Seien Sie als Wegbegleiter dabei und helfen Sie KMU bei ihrem digitalen Neustart oder Aufbruch. Füllen Sie dazu das Kontaktformular unter folgendem [Link](https://kompetenzzentrum-lingen.digital/kooperationen) aus.
   utter_faq/cloud_provider:
-  - text: Ein Cloud-Provider ist ein externer Anbieter, der eine Cloud-basierte Plattform der verschiedene Dienst, wie Infrastruktur, Cloud-Services, Cloud-Server und Speicherdienste anbietet.
+  - text: Ein Cloud-Provider ist ein externer Anbieter, der eine Cloud-basierte Plattform der verschiedene Dienst, wie Infrastruktur, Cloud-Services, Cloud-Server und Speicherdienste anbietet. Hier finden Sie verschiedene [Cloud-Provider](https://kicc-prozesse.digital/cloud-anbieter-suche/)
   utter_faq/IaaS:
   - text: IaaS (Infrastructure as a Service) ist die unterste Ebene der Cloud-Modelle. In diesem Bereich wird vom Anwender virtuelle Hardware als Infrastruktur beim Cloud-Service-Provider (CSP) gemietet und in die unternehmensinterne IT-Landschaft integriert. Klassische Beispiele sind Speicherplatz, Rechenleistung oder Netzwerkbandbreite.
   utter_faq/PaaS:
@@ -574,6 +575,16 @@ responses:
   - text: 'Leider finde ich zu dieser Veranstaltungskategorie keine Ergebnisse. Hier finde Sie den aktuellen [Veranstaltungskalender](https://kompetenzzentrum-lingen.digital/kategorie/praxisprojekte) mit allen Veranstaltungen. Wir haben Veranstaltungen zu den folgenden Kategorien, bitte wählen Sie:'
   utter_no_event_found_category:
   - text: 'Leider finde ich aktuell zu dem Themenbereich {slot_category} keine Ergebnisse. Hier finde Sie den aktuellen [Veranstaltungskalender](https://kompetenzzentrum-lingen.digital/kategorie/praxisprojekte) mit allen Veranstaltungen. Wir haben Veranstaltungen zu den folgenden Kategorien, bitte wählen Sie:'
+  utter_faq/adress_kompetenzzentrum_lingen:
+  - text: 'Hier finden Sie das Kompetenzzentrums Lingen: Kaiserstraße 10c, 49809 Lingen (Ems)'
+  utter_faq/ki_provider:
+  - text: Zur Umsetzung von künstlicher Intelligenz, stellen verschiedene Anbieter unterschiedliche Services bereit. Services von KI-Anbietern umfassen bereits fertige KIs für Bild- oder Spracherkennung, Frameworks zum Entwickeln und Trainieren künstlicher Intelligenz sowie die Integration in bestehende Softwareprodukte. [Hier](https://kicc-prozesse.digital/ki-anbieter-suche/) finden Sie KI-Provider.
+  utter_faq/founding_kompetenzzentrum_lingen:
+  - text: Das Kompetenzzentrum Lingen existiert seit dem 01.10.2017.
+  utter_faq/current_topics:
+  - text: Sie finden aktuelle Themen des Kompetenzzentrum Lingens im Bereich (Aktuelles)(https://kompetenzzentrum-lingen.digital/kategorie/aktuelles)
+  utter_faq/focus_kompetenzzentrum_lingen:
+  - text: Das Angebot des Mittelstand 4.0-Kompetenzzentrums Lingen richtet sich an kleine und mittlere Unternehmen jeglicher Branchen. Die Expertise der einzelnen Konsortialpartner ermöglicht zusätzlich ein branchenspezifisches Angebot für die Branchen Maritim, Handel, Handwerk und Agrar.
 actions:
 - action_get_all_events
 - action_get_events_for_timeframe
