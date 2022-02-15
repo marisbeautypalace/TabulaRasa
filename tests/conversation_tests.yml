@@ -120,3 +120,109 @@ stories:
       Was macht ihr?
   - action: action_set_reminder
   - action: utter_faq
+- story: Story from Conversation ID df6fae028e224dc7a59a63b78e1007b7
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_greet
+  - intent: contact
+    user: |-
+      Gibt es Ansprechpartner?
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/geschaeftsstelle_muenster
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/geschaeftsstelle_lingen
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: contact
+    user: |-
+      Ich brauche einen Ansprechpartner für Öffentlichkeitsarbeit
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: faq
+    user: |-
+      Was sind Vorteile von [Cloud]{"entity": "EventType", "value": "Cloud Computing"}
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+    user: |-
+      Gibt es Events dazu?
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+- story: Story from Conversation ID 22c1173f08c448748c9ff1b06c4da67a
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Was brauche ich für Voraussetzungen für [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/[ki]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}_hardware
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+    user: |-
+      Habt ihr Events zum [Handwerk](EventType)?
+  - slot_was_set:
+    - EventType: Handwerk
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+  - intent: rating_initial_question
+    user: |-
+      Danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      3 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 3 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: nlu_fallback
+    user: |-
+      Alles iO
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: Alles iO
+  - slot_was_set:
+    - qualitative_feedback: Alles iO
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks

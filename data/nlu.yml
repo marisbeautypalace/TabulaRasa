@@ -292,6 +292,10 @@ nlu:
     - Wie unterstütz mich das Kompentenzzentrum beim Thema KI?
     - Wie unterstützt das Kompentenzzentrum bei KI
     - Was ist das Ziel vom Kompetenzzentrum in Lingen ?
+    - Was macht ihr?
+    - Was macht das Kompetenzzentrum?
+    - Welche Angebote macht das Kompetenzzentrum
+    - Was ist das Mittelstand 4.0 Kompetenzzentrum?
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -428,6 +432,7 @@ nlu:
     - Was ist ein Cloud Anbieter?
     - Was ist ein Cloud Provider?
     - Was gibt es für Cloud-Provider?
+    - Was ist ein Provider?
 - intent: faq/private_cloud
   examples: |
     - faq/private_cloud
@@ -1456,6 +1461,8 @@ nlu:
     - Habt ihr einen Ansprechpartner im Bereich Cloud für mich?
     - Gibt es Ansprechpartner?
     - Hallo wie kann mich die Agentur bei meinem Digitalisierungsvorhaben unterstützen?
+    - Bitte ich brauch einen Ansprechpartner
+    - Habt ihr einen Ansprechpartner für mich?
 - intent: contact/allgemeiner_kontakt
   examples: |
     - contact/allgemeiner_kontakt
@@ -1580,6 +1587,7 @@ nlu:
     - Ich möchte mich über Cloud Computing informieren
     - was ist eine [cloud](EventType)?
     - Was ist Cloud?
+    - was ist cloud?
 - intent: faq/cloud_as_a_service
   examples: |
     - faq/cloud_as_a_service
@@ -1663,6 +1671,7 @@ nlu:
     - Was braucht man für Voraussetzungen für KI?
     - Welche Voraussetzungen muss mein Unternehmen erfüllen, um KI umzusetzen?
     - Was muss erfüllt sein, dass ich KI umsetzen kann?
+    - Was brauche ich für Voraussetzungen für KI
 - intent: faq/praxisbeispiele
   examples: |
     - Praxisbeispiel
@@ -1722,6 +1731,7 @@ nlu:
     - Veranstaltunge
     - Wann sind die nächsten Events?
     - Habt ihr Verastaltungen?
+    - Wann ist das nächste Event?
 - intent: get_category_event
   examples: |
     - Wo kann ich mich für [Workshops](EventType) anmelden ?
@@ -1839,6 +1849,8 @@ nlu:
     - Habt ihr Veranstlatungen zum Thema Handwerk
     - Gibt es Events dazu?
     - Veranstaltungen zum Handwerk
+    - Habt ihr Events zum Handwerk?
+    - Habt ihr Events hierzu?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
