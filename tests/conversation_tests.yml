@@ -226,3 +226,626 @@ stories:
   - slot_was_set:
     - requested_slot: null
   - action: utter_rating_thanks
+- story: Story from Conversation ID e86a6bf6b0714f22a3bdf9e33bc890d4
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: contact
+    user: |-
+      Ich möchte mich über [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"} informieren. Gibt es einen Ansprechpartner?
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID 5d538e7f0bdc49508843ce44337e8f24
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Ich bin [Landwirt](EventType) und möchte mein Betrieb digitalisieren
+  - slot_was_set:
+    - EventType: Landwirt
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      Habt ihr einen Ansprechpartner im Bereich [Landwirt](EventType)schaft?
+  - slot_was_set:
+    - EventType: Landwirt
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID 2ecbd4b6893b406e9b49fdc02f0ff47b
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Was ist [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/[ki]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}_benefits
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wie unterstütz mich das Kompentenzzentrum beim Thema [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      Habt ihr einen Ansprechparnter für das Thema [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: contact
+    user: |-
+      Ansprechpartner für [Agrar](EventType)?
+  - slot_was_set:
+    - EventType: Agrar
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: get_category_event
+    user: |-
+      Habt ihr auch Veranstaltungen hierzu?
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+- story: Story from Conversation ID ce3f210941774813a57b4347a98cccac
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: get_all_events
+    user: |-
+      Gibt es Veranstaltugnen bei euch?
+  - action: action_event_selection
+  - intent: Events_Timeframe
+    user: |-
+      /Events_Timeframe
+  - action: action_get_events_for_timeframe_selection
+  - intent: Events_Timeframe_Selection
+    user: |-
+      /Events_Timeframe_Selection{"timeframe_selection":"30"}
+  - slot_was_set:
+    - timeframe_selection: '30'
+  - action: action_get_events_for_timeframe
+  - action: action_set_reminder
+  - intent: contact
+    user: |-
+      Habt ihr einen Ansprechpartner für [maritime Wirtschaft](EventType)?
+  - slot_was_set:
+    - EventType: maritime Wirtschaft
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: rating_initial_question
+    user: |-
+      Danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      5 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: faq
+    user: |-
+      Der Bot hat gut funktioniert
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: Der Bot hat gut funktioniert
+  - slot_was_set:
+    - qualitative_feedback: Der Bot hat gut funktioniert
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+  - intent: bot_challenge
+    user: |-
+      Wer bist du?
+  - action: action_set_reminder
+  - action: utter_iamabot
+  - intent: rating_user_ask_rating
+    user: |-
+      Was war meine Bewertung?
+  - action: action_say_rating
+- story: Story from Conversation ID 9f8ca908d5244a359d9912b025c3e77b
+  steps:
+  - intent: faq
+    user: |-
+      Was ist [Cloud]{"entity": "EventType", "value": "Cloud Computing"}?
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/[cloud]{"entity": "EventType", "value": "Cloud Computing"}_using
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/[cloud]{"entity": "EventType", "value": "Cloud Computing"}_application_area
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: contact
+    user: |-
+      Habt ihr einen Ansprechpartner im Bereich [Cloud]{"entity": "EventType", "value": "Cloud Computing"} für mich?
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: get_category_event
+    user: |-
+      Events hierzu
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+  - intent: rating_initial_question
+    user: |-
+      danke
+  - action: utter_rating_initial_question
+  - intent: affirm
+    user: |-
+      ja
+  - action: utter_rating_want_more_information
+- story: Story from Conversation ID dc5962b52fb04d8db9ea6de7c7e5e475
+  steps:
+  - intent: greet
+    user: |-
+      /greet
+  - action: utter_welcome
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_greet
+  - intent: faq
+    user: |-
+      Was ist [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wie unterstützt das Kompentenzzentrum bei [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      5 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: nlu_fallback
+    user: |-
+      Schnelle Info
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: Schnelle Info
+  - slot_was_set:
+    - qualitative_feedback: Schnelle Info
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+  - intent: get_category_event
+    user: |-
+      Veranstaltungen zum [Handwerk](EventType)
+  - slot_was_set:
+    - EventType: Handwerk
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+- story: Story from Conversation ID df6fae028e224dc7a59a63b78e1007b7
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_greet
+  - intent: contact
+    user: |-
+      Gibt es Ansprechpartner?
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/geschaeftsstelle_muenster
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/geschaeftsstelle_lingen
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: contact
+    user: |-
+      Ich brauche einen Ansprechpartner für Öffentlichkeitsarbeit
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: faq
+    user: |-
+      Was sind Vorteile von [Cloud]{"entity": "EventType", "value": "Cloud Computing"}
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+    user: |-
+      Gibt es Events dazu?
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+- story: Story from Conversation ID c09a17d0228f4e6c9f91f9bf835c28e9
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Was hat das Kompentenzzentrum für Angebote?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      4 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 4 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: faq
+    user: |-
+      Gute Erfahrung
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: Gute Erfahrung
+  - slot_was_set:
+    - qualitative_feedback: Gute Erfahrung
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+  - intent: get_category_event
+    user: |-
+      Habt ihr Veranstlatungen zum Thema [Handwerk](EventType)
+  - slot_was_set:
+    - EventType: Handwerk
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+- story: Story from Conversation ID c3000d90e6884be8bd9f458e5267ba98
+  steps:
+  - intent: faq
+    user: |-
+      Wie kommunizieren Maschinen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: contact
+    user: |-
+      Gibt es Ansprechpartner?
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/[ki]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}_emdenleer
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/[ki]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}_emdenleer
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID 923602d3c1ac4b2bb135f341f3df307b
+  steps:
+  - intent: faq
+    user: |-
+      Hallo wie kann mich die Agentur bei meinem Digitalisierungsvorhaben unterstützen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID c31880edea2c47788a48d6696c74b357
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Was ist das Mittelstand 4.0 Kompetenzzentrum?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Welche Angebote macht das Kompetenzzentrum
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID 0d641df817624580880c0bef06cc4ca9
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Was macht ihr?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist [künstliche Intelligenz](EventType)?
+  - slot_was_set:
+    - EventType: künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Erzähl mir über die Vorteile von [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+    user: |-
+      Habt ihr Events hierzu?
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+  - intent: faq
+    user: |-
+      Kluger bot
+  - action: action_set_reminder
+  - action: utter_faq
+- story: Story from Conversation ID 8abb48a89a4a44fbbabc45ea566a6ee6
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: get_all_events
+    user: |-
+      Ich möchte mich über Veranstaltungen informieren
+  - action: action_event_selection
+  - intent: Events_Timeframe
+    user: |-
+      /Events_Timeframe
+  - action: action_get_events_for_timeframe_selection
+  - intent: Events_Timeframe_Selection
+    user: |-
+      /Events_Timeframe_Selection{"timeframe_selection":"30"}
+  - slot_was_set:
+    - timeframe_selection: '30'
+  - action: action_get_events_for_timeframe
+  - action: action_set_reminder
+  - intent: rating_initial_question
+    user: |-
+      Danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      5 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: faq
+    user: |-
+      Guter Bot, schnelle Antowrt
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: Guter Bot, schnelle Antowrt
+  - slot_was_set:
+    - qualitative_feedback: Guter Bot, schnelle Antowrt
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+- story: Story from Conversation ID 25ae79f00afb417680bc5e5d01e04fde
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was ist [cloud]{"entity": "EventType", "value": "Cloud Computing"}?
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/services
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist ein Provider?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+    user: |-
+      Events dazu?
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+  - intent: rating_initial_question
+    user: |-
+      danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+- story: Story from Conversation ID 22c1173f08c448748c9ff1b06c4da67a
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Was brauche ich für Voraussetzungen für [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/[ki]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}_hardware
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+    user: |-
+      Habt ihr Events zum [Handwerk](EventType)?
+  - slot_was_set:
+    - EventType: Handwerk
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+  - intent: rating_initial_question
+    user: |-
+      Danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      3 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 3 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: nlu_fallback
+    user: |-
+      Alles iO
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: Alles iO
+  - slot_was_set:
+    - qualitative_feedback: Alles iO
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
