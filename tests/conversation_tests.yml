@@ -1035,3 +1035,24 @@ stories:
       faq/mittelstand_agentur_cooperation
   - action: action_set_reminder
   - action: utter_faq
+- story: Story from Conversation ID b3cf71d175ea4155a9b839341a377b7f
+  steps:
+  - intent: faq
+    user: |-
+      [Werft]{"entity": "EventType", "value": "Maritime Wirtschaft"}
+  - slot_was_set:
+    - EventType: Maritime Wirtschaft
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      Wer ist da mein Ansprechpartner?
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/[maritim]{"entity": "EventType", "value": "Maritime Wirtschaft"}ewirtschaft
+  - slot_was_set:
+    - EventType: Maritime Wirtschaft
+  - action: action_set_reminder
+  - action: utter_contact
