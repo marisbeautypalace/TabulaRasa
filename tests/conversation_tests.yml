@@ -849,3 +849,189 @@ stories:
   - slot_was_set:
     - requested_slot: null
   - action: utter_rating_thanks
+- story: Story from Conversation ID a4defab06a374920ae898aa1b9da594a
+  steps:
+  - intent: greet
+    user: |-
+      hi
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was zum Geier ist ein Korpus?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      geil danke
+  - action: utter_rating_initial_question
+  - intent: affirm
+    user: |-
+      ja
+  - action: utter_rating_want_more_information
+  - intent: faq
+    user: |-
+      sag mal was zu [cloud]{"entity": "EventType", "value": "Cloud Computing"}
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/services
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      habt ihr Praxisbeispiele?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      super nett, danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      4 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 4 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: chitchat
+    user: |-
+      alles klasse
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: alles klasse
+  - slot_was_set:
+    - qualitative_feedback: alles klasse
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+- story: Story from Conversation ID 971f0dbc0a044f229faed42d0e02bc6b
+  steps:
+  - intent: greet
+    user: |-
+      hello
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was macht das Soli?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    user: |-
+      Ich bin [Landwirt]{"entity": "EventType", "value": "Agrar"}, wer ist mein Ansprechpartner?
+  - slot_was_set:
+    - EventType: Agrar
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/[agrar](EventType)branche
+  - slot_was_set:
+    - EventType: agrar
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: get_category_event
+    user: |-
+      habt ihr Veranstaltungen für [Landwirt]{"entity": "EventType", "value": "Agrar"}e?
+  - slot_was_set:
+    - EventType: Agrar
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+  - intent: Events_Category_Selection
+    user: |-
+      /Events_Category_Selection{"category_selection":"Künstliche Intelligenz"}
+  - slot_was_set:
+    - category_selection: Künstliche Intelligenz
+  - action: action_get_events_for_category
+  - action: action_set_reminder
+  - intent: faq
+    user: |-
+      wie unterstützt ihr [Landwirt]{"entity": "EventType", "value": "Agrar"}e?
+  - slot_was_set:
+    - EventType: Agrar
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      jo danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      5 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: faq
+    user: |-
+      bischt beste brudi
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: bischt beste brudi
+  - slot_was_set:
+    - qualitative_feedback: bischt beste brudi
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+- story: Story from Conversation ID 08ed490b19414d79bd23baef29a19cf3
+  steps:
+  - intent: greet
+    user: |-
+      hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      was ist [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/[ki]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}_modules
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/natural_language_processing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      ok
+  - action: utter_rating_initial_question
+  - intent: affirm
+    user: |-
+      ja
+  - action: utter_rating_want_more_information
+  - intent: faq
+    user: |-
+      Kompetenzzentrum
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/mittelstand_agentur_cooperation
+  - action: action_set_reminder
+  - action: utter_faq
