@@ -258,9 +258,6 @@ nlu:
     - Kompetenzzentrum Lingen
     - Agentur Lingen
     - kompetenzzentrum
-- intent: faq/mittelstand_agentur_cloud_ki
-  examples: |
-    - faq/mittelstand_agentur_cloud_ki
     - Was bietet die Mittelstand 4.0-Agentur an?
     - Angebote der Agentur
     - ich will mein Unternehmen digitalisieren
@@ -296,6 +293,17 @@ nlu:
     - Was macht das Kompetenzzentrum?
     - Welche Angebote macht das Kompetenzzentrum
     - Was ist das Mittelstand 4.0 Kompetenzzentrum?
+- intent: faq/mittelstand_weitere_info
+  examples: |
+    - faq/mittelstand_weitere_info
+    - Habt ihr weiterführende Informationen zum Kompetenzzentrum Lingen?
+    - Gibt es einen Link mit weiteren Informationen zum Kompetenzzentrum
+    - Habt ihr weitere Informationen zur Agentur für mich?
+    - weitere Informationen zum Mittelstand 4.0 Kompetenzzentrum
+    - Wo finde ich weitere FAQs?
+    - FAQs
+    - FAQ
+    - Wo finde ich weitere Informationen?
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -1219,9 +1227,9 @@ nlu:
     - Welche Anforderungen werden an den Computer in Bezug auf künstliche Intelligenz gestellt?
     - Was für eine Computer brauch ich für künstliche Intelligenz?
     - Welche Voraussetzungen brauch meine Firma für KI?
-- intent: faq/ki_topics
+- intent: faq/ki_trainer
   examples: |
-    - faq/ki_topics
+    - faq/ki_trainer
     - KI Themen
     - Künstliche Intelligenz Themen
     - In welchen Bereichen kann ich zum Thema künstliche Intelligenz Unterstützung erhalten?
@@ -1233,6 +1241,8 @@ nlu:
     - Wie kann ich künstliche Intelligenz nutzen?
     - Was ist das KI-Trainer Programm ?
     - Was ist ein KI Trainer?
+    - KI-Trainer
+    - Wer kann mich beim Thema künsltiche Intelligenz von Kompetenzzentrum untersützen.
 - intent: faq/ki_benefits
   examples: |
     - faq/ki_benefits

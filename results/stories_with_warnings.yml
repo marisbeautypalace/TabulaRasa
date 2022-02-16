@@ -1,0 +1,300 @@
+version: "2.0"
+stories:
+- story: Story from Conversation ID 9f8ca908d5244a359d9912b025c3e77b (.\tests\test_stories.yml)
+  steps:
+  - intent: faq
+    entities:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    entities:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    entities:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: contact
+    entities:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: get_category_event
+  - action: action_specific_event_category  # predicted: action_unlikely_intent
+  - slot_was_set:
+    - EventType: ''
+  - intent: rating_initial_question
+  - action: utter_rating_initial_question
+  - intent: affirm
+  - action: utter_rating_want_more_information
+- story: Story from Conversation ID df6fae028e224dc7a59a63b78e1007b7 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: greet
+  - action: utter_greet
+  - intent: contact
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: contact
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: faq
+    entities:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+  - action: action_specific_event_category  # predicted: action_unlikely_intent
+  - slot_was_set:
+    - EventType: ''
+- story: Story from Conversation ID c3000d90e6884be8bd9f458e5267ba98 (.\tests\test_stories.yml)
+  steps:
+  - intent: faq
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: contact
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder  # predicted: action_unlikely_intent
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID 0d641df817624580880c0bef06cc4ca9 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: faq
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    entities:
+    - EventType: künstliche Intelligenz
+  - slot_was_set:
+    - EventType: künstliche Intelligenz
+  - slot_was_set:
+    - EventType: künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+  - action: action_specific_event_category  # predicted: action_unlikely_intent
+  - slot_was_set:
+    - EventType: ''
+  - intent: faq
+  - action: action_set_reminder
+  - action: utter_faq
+- story: Story from Conversation ID 25ae79f00afb417680bc5e5d01e04fde (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: faq
+    entities:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+  - action: action_specific_event_category  # predicted: action_unlikely_intent
+  - slot_was_set:
+    - EventType: ''
+  - intent: rating_initial_question
+  - action: utter_rating_initial_question
+  - intent: deny
+  - action: utter_rating_you_helped_enough
+- story: Story from Conversation ID 22c1173f08c448748c9ff1b06c4da67a (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: faq
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+    entities:
+    - EventType: Handwerk
+  - slot_was_set:
+    - EventType: Handwerk
+  - slot_was_set:
+    - EventType: Handwerk
+  - action: action_specific_event_category  # predicted: action_unlikely_intent
+  - slot_was_set:
+    - EventType: ''
+  - intent: rating_initial_question
+  - action: utter_rating_initial_question
+  - intent: deny
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 3 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - slot_was_set:
+    - qualitative_feedback: Alles iO
+  - slot_was_set:
+    - qualitative_feedback: Alles iO
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+- story: Story from Conversation ID e86a6bf6b0714f22a3bdf9e33bc890d4 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: contact
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder  # predicted: action_unlikely_intent
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID 2ecbd4b6893b406e9b49fdc02f0ff47b (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: faq
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder  # predicted: action_unlikely_intent
+  - action: utter_rating_initial_question
+  - intent: contact
+    entities:
+    - EventType: Agrar
+  - slot_was_set:
+    - EventType: Agrar
+  - slot_was_set:
+    - EventType: Agrar
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: get_category_event
+  - action: action_specific_event_category  # predicted: action_unlikely_intent
+  - slot_was_set:
+    - EventType: ''

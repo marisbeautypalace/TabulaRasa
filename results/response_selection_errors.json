@@ -1,0 +1,170 @@
+[
+  {
+    "text": "Welche Angebote bietet das Kompetenzzentrum an ?",
+    "intent_response_key_target": "faq/mittelstand_agentur_offers",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur_cloud_ki",
+      "confidence": 0.5255931615829468
+    }
+  },
+  {
+    "text": "faq/mittelstand_agentur_support",
+    "intent_response_key_target": "faq/mittelstand_agentur_support",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur_offers",
+      "confidence": 0.44348081946372986
+    }
+  },
+  {
+    "text": "Was beinhalten die Angebote vom Kompetenzzentrum?",
+    "intent_response_key_target": "faq/mittelstand_agentur_support",
+    "intent_response_key_prediction": {
+      "name": "faq/mittelstand_agentur_offers",
+      "confidence": 0.37184658646583557
+    }
+  },
+  {
+    "text": "Vorteile Cloud",
+    "intent_response_key_target": "faq/cloud_benefits",
+    "intent_response_key_prediction": {
+      "name": "faq/cloudcomputing_or_ownserver",
+      "confidence": 0.5988208651542664
+    }
+  },
+  {
+    "text": "Was sind Vorteile von Cloud",
+    "intent_response_key_target": "faq/cloud_benefits",
+    "intent_response_key_prediction": {
+      "name": "faq/cloudcomputing_or_ownserver",
+      "confidence": 0.37694332003593445
+    }
+  },
+  {
+    "text": "Wie kann ich Muster in Daten erkennen?",
+    "intent_response_key_target": "faq/data_analytics",
+    "intent_response_key_prediction": {
+      "name": "faq/pattern_recognition",
+      "confidence": 0.47275078296661377
+    }
+  },
+  {
+    "text": "Wie können unstrukturierte Datenquellen verarbeitet werden?",
+    "intent_response_key_target": "faq/data_analytics",
+    "intent_response_key_prediction": {
+      "name": "faq/big_data",
+      "confidence": 0.2736870348453522
+    }
+  },
+  {
+    "text": "Was ist künstliche Intelligenz?",
+    "intent_response_key_target": "faq/artificial_neural_network",
+    "intent_response_key_prediction": {
+      "name": "faq/ki_initial_question",
+      "confidence": 0.5347376465797424
+    }
+  },
+  {
+    "text": "Supervised learning",
+    "intent_response_key_target": "faq/supervised_learning",
+    "intent_response_key_prediction": {
+      "name": "faq/unsupervised_learning",
+      "confidence": 0.38720953464508057
+    }
+  },
+  {
+    "text": "Was ist supervised learning?",
+    "intent_response_key_target": "faq/supervised_learning",
+    "intent_response_key_prediction": {
+      "name": "faq/unsupervised_learning",
+      "confidence": 0.4000762701034546
+    }
+  },
+  {
+    "text": "Was beschreibt die Methode Supervised Learning?",
+    "intent_response_key_target": "faq/supervised_learning",
+    "intent_response_key_prediction": {
+      "name": "faq/unsupervised_learning",
+      "confidence": 0.4398268163204193
+    }
+  },
+  {
+    "text": "Wer nutzt künstliche Intelligenz?",
+    "intent_response_key_target": "faq/ki_topics",
+    "intent_response_key_prediction": {
+      "name": "faq/ki_use",
+      "confidence": 0.41465994715690613
+    }
+  },
+  {
+    "text": "faq/use_of_ki",
+    "intent_response_key_target": "faq/use_of_ki",
+    "intent_response_key_prediction": {
+      "name": "faq/ki_use",
+      "confidence": 0.38792818784713745
+    }
+  },
+  {
+    "text": "wozu braucht man KI?",
+    "intent_response_key_target": "faq/use_of_ki",
+    "intent_response_key_prediction": {
+      "name": "faq/ki_use",
+      "confidence": 0.6781200170516968
+    }
+  },
+  {
+    "text": "Wie kann ich Dienstleistungen in der Cloud nutzen?",
+    "intent_response_key_target": "faq/cloud_as_a_service",
+    "intent_response_key_prediction": {
+      "name": "faq/services",
+      "confidence": 0.5333383083343506
+    }
+  },
+  {
+    "text": "faq/cloud_using",
+    "intent_response_key_target": "faq/cloud_using",
+    "intent_response_key_prediction": {
+      "name": "faq/use_of_cloud",
+      "confidence": 0.3476015329360962
+    }
+  },
+  {
+    "text": "Nutzung der Cloud",
+    "intent_response_key_target": "faq/cloud_using",
+    "intent_response_key_prediction": {
+      "name": "faq/use_of_cloud",
+      "confidence": 0.37680771946907043
+    }
+  },
+  {
+    "text": "Wie kann ich Cloud Computing nutzen?",
+    "intent_response_key_target": "faq/cloud_using",
+    "intent_response_key_prediction": {
+      "name": "faq/use_of_cloud",
+      "confidence": 0.41618672013282776
+    }
+  },
+  {
+    "text": "Was kann die Cloud?",
+    "intent_response_key_target": "faq/cloud_using",
+    "intent_response_key_prediction": {
+      "name": "faq/cloud_initial_question",
+      "confidence": 0.4393375515937805
+    }
+  },
+  {
+    "text": "Haben Sie Beispiel Produkte wie digitale Hardware zur Demonstration ?",
+    "intent_response_key_target": "faq/praxisbeispiele",
+    "intent_response_key_prediction": {
+      "name": "faq/SaaS",
+      "confidence": 0.22465163469314575
+    }
+  },
+  {
+    "text": "Wo finde ich das Kompetenzzentrum Lingen?",
+    "intent_response_key_target": "faq/adress_kompetenzzentrum_lingen",
+    "intent_response_key_prediction": {
+      "name": "faq/founding_kompetenzzentrum_lingen",
+      "confidence": 0.3691898584365845
+    }
+  }
+]

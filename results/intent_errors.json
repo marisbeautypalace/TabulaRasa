@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Projektmitarbeiter",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "contact",
+      "confidence": 0.8769587278366089
+    }
+  },
+  {
+    "text": "Agrar",
+    "intent": "get_category_event",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.5093706846237183
+    }
+  },
+  {
+    "text": "Alle Veranstaltungen",
+    "intent": "Events_All",
+    "intent_prediction": {
+      "name": "get_all_events",
+      "confidence": 0.8157767653465271
+    }
+  },
+  {
+    "text": "Zeig mir Veranstaltungen",
+    "intent": "Events_All",
+    "intent_prediction": {
+      "name": "get_all_events",
+      "confidence": 0.7974534630775452
+    }
+  }
+]

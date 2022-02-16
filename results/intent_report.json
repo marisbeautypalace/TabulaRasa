@@ -1,0 +1,161 @@
+{
+  "EXTERNAL_reminder": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "rating_want_more_information": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "rating_user_stars_rating": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "Events_All": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {
+      "get_all_events": 2
+    }
+  },
+  "Events_Category": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "Events_Timeframe": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20,
+    "confused_with": {}
+  },
+  "contact": {
+    "precision": 0.991304347826087,
+    "recall": 1.0,
+    "f1-score": 0.9956331877729258,
+    "support": 114,
+    "confused_with": {}
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
+  },
+  "get_category_event": {
+    "precision": 1.0,
+    "recall": 0.9914529914529915,
+    "f1-score": 0.9957081545064378,
+    "support": 117,
+    "confused_with": {
+      "faq": 1
+    }
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "rating_user_ask_rating": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "rating_initial_question": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 36,
+    "confused_with": {}
+  },
+  "faq": {
+    "precision": 0.9991258741258742,
+    "recall": 0.9991258741258742,
+    "f1-score": 0.9991258741258742,
+    "support": 1144,
+    "confused_with": {
+      "contact": 1
+    }
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "chitchat": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 66,
+    "confused_with": {}
+  },
+  "rating_you_helped_enough": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "get_all_events": {
+    "precision": 0.9534883720930233,
+    "recall": 1.0,
+    "f1-score": 0.9761904761904763,
+    "support": 41,
+    "confused_with": {}
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21,
+    "confused_with": {}
+  },
+  "accuracy": 0.9975669099756691,
+  "macro avg": {
+    "precision": 0.9971959297022492,
+    "recall": 0.9828622766122767,
+    "f1-score": 0.9883328846297857,
+    "support": 1644
+  },
+  "weighted avg": {
+    "precision": 0.9976287827907468,
+    "recall": 0.9975669099756691,
+    "f1-score": 0.9974597609532704,
+    "support": 1644
+  }
+}

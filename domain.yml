@@ -137,8 +137,6 @@ responses:
   - text: Sie haben bisher noch keine Bewertung hinterlassen.
   utter_repeat_rating_for_user:
   - text: Ihre Bewertung war '{rating_selection}'. Vielen Dank!
-  utter_faq/mittelstand_agentur_cloud_ki:
-  - text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt KMU in den Regionen Weser-Ems und Münsterland bei der Entwicklung datengetriebener Geschäftsmodelle von der Idee bis zu Umsetzung. Das Kompetenzzentrum bietet kostenlose Beratungsgespräche an zur Überprüfung der Zukunftsfähigkeit des eigenen Geschäftsmodells, sowie Vorträge zu digitalen Themen und Trends. Weiter Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
   utter_faq/mittelstand_agentur_offers:
   - text: Das Angebot richtet sich an kleine und mittelständische Unternehmen in den Regionen Weser-Ems und Münsterland.
   utter_faq/mittelstand_agentur_free_offers:
@@ -259,10 +257,14 @@ responses:
   - text: Zunächst sollte der Einsatzzweck von künstlicher Intelligenz genau definiert werden. Was soll erreicht werden? Welche Prozesse sollen verbessert werden? Basierend auf diesen Fragen kann ein sinnvolles Einsatzszenario von künstlicher Intelligenz im eigenen Unternehmen entwickelt werden.
   utter_faq/ki_hardware:
   - text: Jedes Unternehmen kann künstliche Intelligenz-Anwendungen bei sich laufen lassen. Zu Testzwecken reichen häufig „normale“ Rechner-Kapazitäten. Wird es komplexer oder soll KI ernsthaft in den Unternehmensalltag integriert werden, sollte über entsprechend leistungsfähige Hardware nachgedacht werden, falls diese im Unternehmen noch nicht vorhanden ist.
+  utter_faq/ki_data:
+  - text: Für eine erfolgreiche Anwendung von KI-Algorithmen ist die Datenqualität und ‑quantität besonders wichtig. KI-Anwendungen liefern deutlich bessere Ergebnisse, wenn die basierten Daten vollständig bzw. in geeigneter Qualität vorliegen. Eine ungenügende Qualität der Daten führt zu falschen Ergebnissen.
   utter_faq/algorithmus:
   - text: Algorithmus ist eine eindeutige Rechenvorschrift, um ein Problem oder eine Klasse von Problemen selbst beibringend zu lösen. Sie besteht aus endlich vielen Einzelschritten und Trainingsdaten. Das System lehnt sich an das menschliche Gehirn an.
   utter_faq/lernalgorithmus:
   - text: Ein Lernalgorithmus ist ein Algorithmus, der Trainingsdaten enthält und ein Modell für die gesehenen Daten berechnet, das auf neue Beispieldaten angewendet werden kann.
+  utter_faq/model:
+  - text: Der Begriff Modell bezeichnet eine Abstraktion der Wirklichkeit. Im Bereich des maschinellen Lernens erzeugt ein Lernalgorithmus ein Modell, um eingespeiste Daten zu generalisieren.
   utter_faq/assistenzsysteme:
   - text: Assistenzsysteme sind Systeme, die sich auf eine Software beruhen, die den Menschen auf bestimmte Situationen oder Handlungen unterstützen. Sie analysieren die Situation und die Umgebung, um aufbauend darauf Vorhersagen zu treffen. Beispiel für Assistenzsysteme sind autonome Fahrsysteme, die den Fahrer bei der Steuerung des Fahrzeuges unterstützen.
   utter_faq/autonome_systeme:
@@ -293,8 +295,8 @@ responses:
   - text: 'Typische Einsatzgebiete für KI sind und werden: Prognose/ Vorhersage, Planungsassistenz/ Ressourcenmanagement, Wissensmanagement, Muster-/ Objektidentifikation, intelligente Automatisierung und Qualitätskontrolle'
   utter_faq/ki_businessmodel:
   - text: Durch die Digitalisierung und den Einsatz von künstlicher Intelligenz und Machine Learning können technologische Innovationen (Internet, 3D Druck, Blockchain Technologie, etc.) bestehende Geschäftsmodelle positiv beeinflussen. KI-gestützte Geschäftsmodelle können sich während der Nutzung selbst verbessern, sodass Daten ständig optimiert werden und gewinnbringend für digitale Geschäftsmodelle sind.
-  utter_faq/ki_topics:
-  - text: Das Thema KI ist sehr vielseitig. Die KI-Trainer des Mittelstand 4.0-Kompetenzzentrums Lingen bieten daher tiefergehende Unterstützung KI-basierte Bildverarbeitung, Spracherkennung sowie Vorhersage und Planung. Durch die Expertise der Projektpartner im Mittelstand 4.0-Kompetenzzentrum Lingen lassen sich diese Schwerpunkte mit den Branchen Agrar, Handel, Handwerk und Maritim sowie mit Cloud-Computing verknüpfen.
+  utter_faq/ki_trainer:
+  - text: Das Thema KI ist sehr vielseitig. Die KI-Trainer des Mittelstand 4.0-Kompetenzzentrums Lingen bieten daher tiefergehende Unterstützung KI-basierte Bildverarbeitung, Spracherkennung sowie Vorhersage und Planung. Durch die Expertise der Projektpartner im Mittelstand 4.0-Kompetenzzentrum Lingen lassen sich diese Schwerpunkte mit den Branchen Agrar, Handel, Handwerk und Maritim sowie mit Cloud-Computing verknüpfen. [Hier](https://kompetenzzentrum-lingen.digital/kuenstliche-intelligenz) können Sie mehr erfahren.
   utter_faq/ki_introduction:
   - text: Im ersten Schritt sollte jedes Unternehmen individuell für sich klären, wie die Potenziale von KI genutzt werden können. Als Nächstes gilt zu bestimmen, ob ein Mehrwert in der eigenen Prozessoptimierung gegeben ist und ob technische Vorausetzungen vorhanden sind. Anschließend sollte ein geeigneter Anbieter gefunden werden, um das technische Vorgehen umzusetzen. Zur Unterstützung und Einführung können Unternehmen auf das kostenlose Beratungsangebot vom Kompetenzzentrum zurückgreifen und sich von Praxisbeispielen inspirieren lassen.
   utter_faq/ki_amount_of_data:
@@ -397,8 +399,6 @@ responses:
        Telefon: +494919261185
   utter_faq/mittelstand_agentur_initial_question:
   - buttons:
-    - payload: faq/mittelstand_agentur_cloud_ki
-      title: Was ist das?
     - payload: faq/mittelstand_agentur_offers
       title: Zielgruppe
     - payload: faq/mittelstand_agentur_free_offers
@@ -415,7 +415,12 @@ responses:
       title: Kooperation
     - payload: contact/initial_question
       title: Ansprechpartner
-    text: Welche Frage haben Sie zum Mittelstand 4.0-Kompetenzzentrum Lingen?
+    - payload: faq/mittelstand_weitere_info
+      title: Weitere Informationen
+    text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt KMU in den Regionen Weser-Ems und Münsterland bei der Entwicklung datengetriebener Geschäftsmodelle von der Idee bis zu Umsetzung. Das Kompetenzzentrum bietet kostenlose Beratungsgespräche an zur Überprüfung der Zukunftsfähigkeit des eigenen Geschäftsmodells, sowie Vorträge zu digitalen Themen und Trends. Welche Frage haben Sie zum Mittelstand 4.0-Kompetenzzentrum Lingen?
+utter_faq/mittelstand_weitere_info:
+  - text: Weiter Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
+
   utter_faq/cloud_initial_question:
   - buttons:
     - payload: faq/cloud_computing_topics
@@ -488,7 +493,7 @@ responses:
       title: Grundlegende KI-Technologien
     - payload: faq/link_ki_requirements
       title: Voraussetzungen KI
-    - payload: faq/ki_topics
+    - payload: faq/ki_trainer
       title: Unterstützung des Kompetenzzentrums
     - payload: faq/ki_introduction
       title: Einführung KI
@@ -502,6 +507,8 @@ responses:
       title: Einfluss auf Geschäftsmodell
     - payload: faq/ki_support
       title: Unterstützung
+    - payload: faq/ki_data
+      title: Datenqualität
     text: Bei der künstlichen Intelligenz versucht man menschliches Lernen und Denken auf den Computer zu übertragen. Kognitive Kompetenzen wie beispielsweise strategisches Denken und sprachliche Fähigkeiten sollen imitiert werden. Haben Sie weitere Fragen zur KI?
   utter_faq/ki_modules:
   - buttons:
@@ -575,7 +582,7 @@ responses:
   utter_no_event_found_category:
   - text: 'Leider finde ich aktuell zu dem Themenbereich {slot_category} keine Ergebnisse. Hier finde Sie den aktuellen [Veranstaltungskalender](https://kompetenzzentrum-lingen.digital/kategorie/praxisprojekte) mit allen Veranstaltungen. Wir haben Veranstaltungen zu den folgenden Kategorien, bitte wählen Sie:'
   utter_faq/adress_kompetenzzentrum_lingen:
-  - text: 'Hier finden Sie das Kompetenzzentrums Lingen: Kaiserstraße 10c, 49809 Lingen (Ems)'
+  - text: 'Das Mittelstand 4.0‑Kompetenzzentrum Lingen setzen sich aus Transfer- und Forschungspartnern in der Region zusammen. Die Konsortialleitung sitzt mit dem IT-Emsland in Lingen (Kaiserstraße 10c, 49809 Lingen (Ems))'
   utter_faq/ki_provider:
   - text: Zur Umsetzung von künstlicher Intelligenz, stellen verschiedene Anbieter unterschiedliche Services bereit. Services von KI-Anbietern umfassen bereits fertige KIs für Bild- oder Spracherkennung, Frameworks zum Entwickeln und Trainieren künstlicher Intelligenz sowie die Integration in bestehende Softwareprodukte. [Hier](https://kicc-prozesse.digital/ki-anbieter-suche/) finden Sie KI-Provider.
   utter_faq/founding_kompetenzzentrum_lingen:

@@ -1,0 +1,350 @@
+{
+  "utter_welcome": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16
+  },
+  "action_get_events_for_category": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "utter_iamabot": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "qualitative_feedback_form": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14
+  },
+  "EXTERNAL_reminder": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11
+  },
+  "[Landwirt](EventType)": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
+  },
+  "[Werft]{\"entity\": \"EventType\", \"value\": \"Maritime Wirtschaft\"}": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_contact": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19
+  },
+  "Events_Category_Selection": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "[cloud]{\"entity\": \"EventType\", \"value\": \"Cloud Computing\"}": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4
+  },
+  "utter_rating_want_more_information": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "[{\"timeframe_selection\":\"30\"}]{\"entity\": \"timeframe_selection\", \"value\": \"30\"}": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "action_get_events_for_timeframe_selection": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "action_event_selection": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "action_get_events_for_timeframe": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "[Handwerk](EventType)": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "[KI]{\"entity\": \"EventType\", \"value\": \"K\\u00fcnstliche Intelligenz\"}": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9
+  },
+  "rating_user_stars_rating": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7
+  },
+  "[{\"category_selection\":\"Künstliche Intelligenz\"}]{\"entity\": \"category_selection\", \"value\": \"K\\u00fcnstliche Intelligenz\"}": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "[maritime Wirtschaft](EventType)": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "Events_All": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "action_get_all_events": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_rating_thanks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7
+  },
+  "utter_rating_you_helped_enough": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8
+  },
+  "action_receive_rating": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 7
+  },
+  "action_set_reminder": {
+    "precision": 0.967741935483871,
+    "recall": 0.9836065573770492,
+    "f1-score": 0.975609756097561,
+    "support": 61
+  },
+  "Events_Timeframe": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8
+  },
+  "action_react_to_reminder": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11
+  },
+  "greet": {
+    "precision": 0.9473684210526315,
+    "recall": 1.0,
+    "f1-score": 0.972972972972973,
+    "support": 18
+  },
+  "[ki]{\"entity\": \"EventType\", \"value\": \"K\\u00fcnstliche Intelligenz\"}": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6
+  },
+  "contact": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19
+  },
+  "[Agrar](EventType)": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "get_category_event": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9
+  },
+  "Events_Timeframe_Selection": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "utter_faq": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 37
+  },
+  "rating_user_ask_rating": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "rating_initial_question": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9
+  },
+  "[künstliche Intelligenz](EventType)": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "[agrar](EventType)": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "[maritim]{\"entity\": \"EventType\", \"value\": \"Maritime Wirtschaft\"}": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "faq": {
+    "precision": 1.0,
+    "recall": 0.926829268292683,
+    "f1-score": 0.9620253164556963,
+    "support": 41
+  },
+  "action_listen": {
+    "precision": 1.0,
+    "recall": 0.9784172661870504,
+    "f1-score": 0.989090909090909,
+    "support": 139
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "action_specific_event_category": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9
+  },
+  "chitchat": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_rating_initial_question": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 20
+  },
+  "utter_greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "get_all_events": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "action_say_rating": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "[Landwirt]{\"entity\": \"EventType\", \"value\": \"Agrar\"}": {
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1-score": 0.7499999999999999,
+    "support": 3
+  },
+  "[Cloud]{\"entity\": \"EventType\", \"value\": \"Cloud Computing\"}": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "nlu_fallback": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 2
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "micro avg": {
+    "precision": 0.9850746268656716,
+    "recall": 0.974169741697417,
+    "f1-score": 0.9795918367346939,
+    "support": 542
+  },
+  "macro avg": {
+    "precision": 0.9430407641782855,
+    "recall": 0.9440396075211573,
+    "f1-score": 0.9420138254382361,
+    "support": 542
+  },
+  "weighted avg": {
+    "precision": 0.9816728926665712,
+    "recall": 0.974169741697417,
+    "f1-score": 0.97702952402473,
+    "support": 542
+  },
+  "conversation_accuracy": {
+    "accuracy": 0.65,
+    "correct": 13,
+    "with_warnings": 8,
+    "total": 20
+  }
+}

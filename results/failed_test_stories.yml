@@ -1,0 +1,292 @@
+version: "2.0"
+stories:
+- story: Story from Conversation ID dc5962b52fb04d8db9ea6de7c7e5e475 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: greet
+  - action: utter_greet
+  - intent: faq
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    entities:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: deny
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - slot_was_set:
+    - qualitative_feedback: Schnelle Info
+  - slot_was_set:
+    - qualitative_feedback: Schnelle Info
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+  - intent: get_category_event
+    entities:
+    - EventType: Handwerk
+  - slot_was_set:
+    - EventType: Handwerk
+  - slot_was_set:
+    - EventType: Handwerk
+  - action: action_specific_event_category  # predicted: action_unlikely_intent
+  - slot_was_set:
+    - EventType: ''
+- story: Story from Conversation ID c09a17d0228f4e6c9f91f9bf835c28e9 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: faq
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: deny
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 4 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - slot_was_set:
+    - qualitative_feedback: Gute Erfahrung
+  - slot_was_set:
+    - qualitative_feedback: Gute Erfahrung
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+  - intent: get_category_event
+    entities:
+    - EventType: Handwerk
+  - slot_was_set:
+    - EventType: Handwerk
+  - slot_was_set:
+    - EventType: Handwerk
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+- story: Story from Conversation ID 923602d3c1ac4b2bb135f341f3df307b (.\tests\test_stories.yml)
+  steps:
+  - intent: faq  # predicted: contact/initial_question: Hallo wie kann mich die Agentur bei meinem Digitalisierungsvorhaben unterstützen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID 8abb48a89a4a44fbbabc45ea566a6ee6 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: get_all_events
+  - action: action_event_selection
+  - intent: Events_Timeframe
+  - action: action_get_events_for_timeframe_selection
+  - intent: Events_Timeframe_Selection
+    entities:
+    - timeframe_selection: '30'
+  - slot_was_set:
+    - timeframe_selection: '30'
+  - slot_was_set:
+    - timeframe_selection: '30'
+  - action: action_get_events_for_timeframe
+  - action: action_set_reminder
+  - action: action_listen  # predicted: action_set_reminder
+  - intent: rating_initial_question
+  - action: utter_rating_initial_question
+  - intent: deny
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+  - action: action_receive_rating  # predicted: utter_rating_initial_question
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - slot_was_set:
+    - qualitative_feedback: Guter Bot, schnelle Antowrt
+  - slot_was_set:
+    - qualitative_feedback: Guter Bot, schnelle Antowrt
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+- story: Story from Conversation ID 971f0dbc0a044f229faed42d0e02bc6b (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: faq
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    entities:
+    - EventType: Agrar
+  - slot_was_set:
+    - EventType: Agrar
+  - slot_was_set:
+    - EventType: Agrar
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    entities:
+    - EventType: agrar
+  - slot_was_set:
+    - EventType: agrar
+  - slot_was_set:
+    - EventType: agrar
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: get_category_event
+    entities:
+    - EventType: Agrar
+  - slot_was_set:
+    - EventType: Agrar
+  - slot_was_set:
+    - EventType: Agrar
+  - action: action_specific_event_category  # predicted: action_unlikely_intent
+  - slot_was_set:
+    - EventType: ''
+  - intent: Events_Category_Selection
+    entities:
+    - category_selection: Künstliche Intelligenz
+  - slot_was_set:
+    - category_selection: Künstliche Intelligenz
+  - slot_was_set:
+    - category_selection: Künstliche Intelligenz
+  - action: action_get_events_for_category  # predicted: action_default_fallback after action_unlikely_intent
+  - action: action_set_reminder  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: faq
+    entities:
+    - EventType: Agrar
+  - slot_was_set:
+    - EventType: Agrar
+  - slot_was_set:
+    - EventType: Agrar
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+  - action: utter_rating_initial_question
+  - intent: deny
+  - action: utter_rating_you_helped_enough  # predicted: action_default_fallback
+  - intent: rating_user_stars_rating
+  - action: action_receive_rating  # predicted: action_unlikely_intent
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - slot_was_set:
+    - qualitative_feedback: bischt beste brudi
+  - slot_was_set:
+    - qualitative_feedback: bischt beste brudi
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+- story: Story from Conversation ID 5d538e7f0bdc49508843ce44337e8f24 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: faq
+    entities:
+    - EventType: Landwirt
+  - slot_was_set:
+    - EventType: Landwirt
+  - slot_was_set:
+    - EventType: Landwirt
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: contact
+    entities:
+    - EventType: Landwirt
+  - slot_was_set:
+    - EventType: Landwirt
+  - slot_was_set:
+    - EventType: Landwirt
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+  - action: action_react_to_reminder  # predicted: action_unlikely_intent
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID ce3f210941774813a57b4347a98cccac (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - intent: get_all_events
+  - action: action_event_selection
+  - intent: Events_Timeframe
+  - action: action_get_events_for_timeframe_selection
+  - intent: Events_Timeframe_Selection
+    entities:
+    - timeframe_selection: '30'
+  - slot_was_set:
+    - timeframe_selection: '30'
+  - slot_was_set:
+    - timeframe_selection: '30'
+  - action: action_get_events_for_timeframe
+  - action: action_set_reminder
+  - action: action_listen  # predicted: action_set_reminder
+  - intent: contact
+    entities:
+    - EventType: maritime Wirtschaft
+  - slot_was_set:
+    - EventType: maritime Wirtschaft
+  - slot_was_set:
+    - EventType: maritime Wirtschaft
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: rating_initial_question
+  - action: utter_rating_initial_question  # predicted: action_unlikely_intent
+  - intent: deny
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+  - action: action_receive_rating  # predicted: utter_rating_initial_question
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - slot_was_set:
+    - qualitative_feedback: Der Bot hat gut funktioniert
+  - slot_was_set:
+    - qualitative_feedback: Der Bot hat gut funktioniert
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+  - intent: bot_challenge
+  - action: action_set_reminder
+  - action: utter_iamabot
+  - intent: rating_user_ask_rating
+  - action: action_say_rating
