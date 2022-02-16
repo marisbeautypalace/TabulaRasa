@@ -1056,3 +1056,24 @@ stories:
     - EventType: Maritime Wirtschaft
   - action: action_set_reminder
   - action: utter_contact
+- story: Story from Conversation ID bd5cc74b8e1642b382fbf7a626468d52
+  steps:
+  - intent: faq
+    user: |-
+      Habt ihr Beispiele aus der Praxis
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_greet
+  - intent: faq
+    user: |-
+      Komptenzzentrum
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/mittelstand_agentur_cooperation
+  - action: action_set_reminder
+  - action: utter_faq
