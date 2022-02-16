@@ -311,6 +311,7 @@ nlu:
     - was macht das Soli?
     - Was hat das Kompentenzzentrum für Angebote?
     - Was bietet mir die Website vom Kompetenzzentrum Lingen ?
+    - Komptenzzentrum
 - intent: faq/mittelstand_weitere_info
   examples: |
     - faq/mittelstand_weitere_info
@@ -1742,6 +1743,7 @@ nlu:
     - habt ihr Praxisbeispiele?
     - Gibt es bereits erfolgreich umgesetzte Digitalisierungen mit dem Kompetenzzentrum ?
     - Demonstrator
+    - Habt ihr Beispiele aus der Praxis
 - intent: faq/ki_qualifizierung_dummy
   examples: |
     - KI-Qualifizierung
