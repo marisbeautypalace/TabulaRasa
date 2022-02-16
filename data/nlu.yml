@@ -22,6 +22,10 @@ nlu:
     - Hello
     - Halllo
     - hello
+    - halloo
+    - heyy
+    - hey was geht
+    - hey du
 - intent: goodbye
   examples: |
     - Schönen Tag
@@ -56,6 +60,7 @@ nlu:
     - Bist du ein Bot?
     - Wer bist du?
     - Wie alt bist du?
+    - Super. Bist du ein Bot?
 - intent: chitchat/bot_bad
   examples: |
     - du kannst nichts
@@ -82,6 +87,8 @@ nlu:
     - qualifiziert
     - alles super
     - War alles gut
+    - bischt beste brudi
+    - alles klasse
 - intent: chitchat/bot_ready
   examples: |
     - bist du bereit?
@@ -122,6 +129,7 @@ nlu:
     - Wobei kannst du mir helfen?
     - was kannst du?
     - Was kannst du so?
+    - Welche Fragen beantwortest du?
 - intent: chitchat/bot_howareyou
   examples: |
     - wie geht es dir?
@@ -159,6 +167,9 @@ nlu:
     - Kannst du mir eine Pizza bestellen?
     - IT-Recht
     - Dir auch
+    - Welche Chancen gibt es in der Digitalisierung im Einzelhandel ?
+    - Welche Chancen gibt es im Einzelhandel ?
+    - Digitalisierung
 - intent: affirm
   examples: |
     - ja
@@ -218,6 +229,9 @@ nlu:
     - Danke!
     - Kann ich auch eine neue Bewertung vergeben?
     - Danke für das Angebot
+    - jo danke
+    - super nett, danke
+    - geil danke
 - intent: rating_want_more_information
   examples: |
     - rating_want_more_information
@@ -293,6 +307,10 @@ nlu:
     - Was macht das Kompetenzzentrum?
     - Welche Angebote macht das Kompetenzzentrum
     - Was ist das Mittelstand 4.0 Kompetenzzentrum?
+    - Wie kann ich mein Unternehmen digitalisieren?
+    - was macht das Soli?
+    - Was hat das Kompentenzzentrum für Angebote?
+    - Was bietet mir die Website vom Kompetenzzentrum Lingen ?
 - intent: faq/mittelstand_weitere_info
   examples: |
     - faq/mittelstand_weitere_info
@@ -368,6 +386,7 @@ nlu:
     - Wer sind eure Projektpartner ?
     - Wer steckt hinter dem Kompetenzzzentrum Lingen ?
     - Wo ist der Standort des Kompetenzzentrums?
+    - Wo sitzt die Agentur?
 - intent: faq/mittelstand_agentur_BMWi
   examples: |
     - faq/mittelstand_agentur_BMWi
@@ -500,6 +519,7 @@ nlu:
     - Storage der Cloud nutzen
     - Wie kann ich Daten in der Cloud speichern?
     - Wie kann ich etwas in der Cloud abspeichern?
+    - Wo werden meine Daten gespeichert?
 - intent: faq/cloud_virtualization
   examples: |
     - faq/cloud_virtualization
@@ -520,6 +540,7 @@ nlu:
     - Sicherheit und Cloud
     - Sicherheit in der Cloud
     - Wie wird die Sicherheit in der Cloud gewährleistet?
+    - Wie kann ich meine Cloud absichern?
 - intent: faq/cloud_data_intelligence
   examples: |
     - faq/cloud_data_intelligence
@@ -762,6 +783,8 @@ nlu:
     - Welche Bandbreite brauche ich für Cloud?
     - Brauche ich für Cloud Anwendungen eine gute Internetverbindung ?
     - Welche Bandbreite benötige ich fpr Ki?
+    - Welche Internet Verbindung ist für Cloud notwendig?
+    - Welche Bandbreite brauche für Cloud?
 - intent: faq/provider_change
   examples: |
     - Welche Datenformat und Datenträger sollte man für die Rückgabe der Daten im Falle eines Anbieterwechsels wählen?
@@ -789,6 +812,7 @@ nlu:
     - Wie kann ich einen Datenverlust bei Insolvenz des Cloud-Anbieters absichern?
     - Was passiert mit meinen Daten wenn mein Anbieter insolvent geht?
     - Wo sind meine Daten wenn mein Anbieter insolvent geht?
+    - Was passiert mit meinen Daten wenn der Anbieter insolvent geht?
 - intent: faq/cloud_benefits
   examples: |
     - faq/cloud_benefits
@@ -843,6 +867,10 @@ nlu:
     - Wie funktioniert Spracherkennung
     - wie kann ich Sprache analysieren?
     - Wie kann menschliche Sprache künstlich verarbeitet werden?
+    - Wie kann man Stimmen automatisch erkennen?
+    - kann man Sprache auch automatisch erkennen?
+    - Wie kann Sprache automatisch erkannt werden?
+    - Wie funktioniert Spracherkennung?
 - intent: faq/face_recognition_face_identification
   examples: |
     - faq/face_recognition_face_identification
@@ -856,6 +884,7 @@ nlu:
     - wie kann man Gesichter erkennen?
     - Ich meine Gesichtserkennung
     - Und was ist face regocnition?
+    - Wie kann ein Computer Gesichter erkennen?
 - intent: faq/image_recognition_image_identification
   examples: |
     - faq/image_recognition_image_identification
@@ -1059,6 +1088,7 @@ nlu:
     - Algorithmus
     - Was ist ein Algorithmus?
     - Was sind Alorithmen?
+    - Was macht ein Algorithmus?
 - intent: faq/lernalgorithmus
   examples: |
     - Lernalgorithmus
@@ -1082,6 +1112,7 @@ nlu:
     - Was ist AS?
     - autonomous system
     - autonome Systeme
+    - Wie kann Software den Menschen unterstützen?
 - intent: faq/automatisierungsstufe
   examples: |
     - Automatisierungsstufe
@@ -1099,6 +1130,7 @@ nlu:
   examples: |
     - Korpus
     - Was ist ein Korpus?
+    - was zum Geier ist ein Korpus?
 - intent: faq/m2m_comunication
   examples: |
     - Machine to Machine Comunication
@@ -1108,6 +1140,7 @@ nlu:
     - Wie kommunizieren Maschinen?
     - Was ist Machine-to-Machine Communication?
     - Was ist M2M Kommunikation?
+    - können Maschinen kommunizieren?
 - intent: faq/mensch_maschine_interaktion
   examples: |
     - Mensch-Maschine-Interaktion
@@ -1158,6 +1191,7 @@ nlu:
     - Wer erledigt automatisch wiederholende Aufgaben?
     - Wie kann ich mit einem Computer schreiben?
     - Wie kann ich mit einem Computer automatisch chatten?
+    - Was ist ein Chatbot?
 - intent: faq/predictive_maintenance
   examples: |
     - Was ist Predictive Maintenance?
@@ -1273,6 +1307,7 @@ nlu:
     - Einsatzzwecke
     - Einsatz von KI
     - wozu braucht man KI?
+    - wofür brauche ich KI?
 - intent: faq/ki_businessmodel
   examples: |
     - faq/ki_businessmodel
@@ -1385,6 +1420,7 @@ nlu:
     - Ich bin [Landwirt](EventType) und möchte mein Betrieb digitalisieren
     - Welche Chancen gibt es in der Digitalisierung von Agrar?
     - Wie kann ich den Agrarbereich digitalisieren ?
+    - wie unterstützt ihr Landwirte?
 - intent: faq/craft_digitalization
   examples: |
     - Handwerk
@@ -1473,6 +1509,9 @@ nlu:
     - Hallo wie kann mich die Agentur bei meinem Digitalisierungsvorhaben unterstützen?
     - Bitte ich brauch einen Ansprechpartner
     - Habt ihr einen Ansprechpartner für mich?
+    - Wer ist mein Kontakt in Münster?
+    - Wer ist da mein Ansprechpartner?
+    - Ich bin Landwirt, wer ist mein Ansprechpartner?
 - intent: contact/allgemeiner_kontakt
   examples: |
     - contact/allgemeiner_kontakt
@@ -1494,6 +1533,7 @@ nlu:
     - Münster
     - Kontakt Münster
     - Ansprechpartner Geschäftsstelle Münster
+    - Wer ist in Münster mein Kontakt?
 - intent: contact/oeffentlichkeitsarbeit
   examples: |
     - contact/oeffentlichkeitsarbeit
@@ -1532,6 +1572,7 @@ nlu:
     - Kontakt Handelsbranche
     - Ansprechpartner für die Handelsbranche
     - Was für Angebote habt ihr für den Handel?
+    - Wie kann ich den Einzelhandel digitalisieren ?
 - intent: contact/handwerk
   examples: |
     - contact/handwerk
@@ -1563,6 +1604,8 @@ nlu:
     - Ansprechpartner für die Maritime Wirtschaft
     - Wen spreche ich an bezüglich Maritime Branche?
     - Habt ihr einen Ansprechpartner für maritime Wirtschaft?
+    - An wen kann ich mich mit meiner Werft wenden?
+    - was macht ihr mit Schifffahrt?
 - intent: faq/cloud_initial_question
   examples: |
     - faq/cloud_initial_question
@@ -1598,6 +1641,8 @@ nlu:
     - was ist eine [cloud](EventType)?
     - Was ist Cloud?
     - was ist cloud?
+    - Was ist eine Cloud?
+    - sag mal was zu cloud
 - intent: faq/cloud_as_a_service
   examples: |
     - faq/cloud_as_a_service
@@ -1650,6 +1695,7 @@ nlu:
     - Was ist KI?
     - Erzähl mir etwas über künstliche Intelligenz
     - Was sind die Grundlagen zu Künslticher Intelligenz?
+    - und KI?
 - intent: faq/ki_modules
   examples: |
     - faq/ki_modules
@@ -1693,6 +1739,8 @@ nlu:
     - Habt ihr das in der Praxis umgesetzt?
     - Praxisprojekte
     - Haben Sie Beispiel Produkte wie digitale Hardware zur Demonstration ?
+    - habt ihr Praxisbeispiele?
+    - Gibt es bereits erfolgreich umgesetzte Digitalisierungen mit dem Kompetenzzentrum ?
 - intent: faq/ki_qualifizierung_dummy
   examples: |
     - KI-Qualifizierung
@@ -1861,6 +1909,7 @@ nlu:
     - Veranstaltungen zum Handwerk
     - Habt ihr Events zum Handwerk?
     - Habt ihr Events hierzu?
+    - habt ihr Veranstaltungen für Landwirte?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
@@ -1899,6 +1948,8 @@ nlu:
     - Wo in Lingen liegt das Kompetenzzentrum
     - Wo ist das Kompetenzzentrum Lingen?
     - Wo sitzt das Kompetenzzentrum Lingen?
+    - Wo ist das Kompetenzzentrum?
+    - wo habt ihr euern Standort?
 - intent: faq/ki_provider
   examples: |
     - Wo finde ich KI-Provider
@@ -1949,9 +2000,9 @@ nlu:
   examples: |
     - Landwirt
     - Agrarbusiness
-    - landwirtschaftliche
     - Landwirtschaft
     - landwirtschaftlichen
+    - landwirtschaftliche
     - Bauer
     - Bauern
     - Landwirte
