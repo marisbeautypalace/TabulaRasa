@@ -418,9 +418,8 @@ responses:
     - payload: faq/mittelstand_weitere_info
       title: Weitere Informationen
     text: Das Mittelstand 4.0-Kompetenzzentrum Lingen unterstützt KMU in den Regionen Weser-Ems und Münsterland bei der Entwicklung datengetriebener Geschäftsmodelle von der Idee bis zu Umsetzung. Das Kompetenzzentrum bietet kostenlose Beratungsgespräche an zur Überprüfung der Zukunftsfähigkeit des eigenen Geschäftsmodells, sowie Vorträge zu digitalen Themen und Trends. Welche Frage haben Sie zum Mittelstand 4.0-Kompetenzzentrum Lingen?
-utter_faq/mittelstand_weitere_info:
+  utter_faq/mittelstand_weitere_info:
   - text: Weiter Informationen finden Sie [hier](https://kicc-prozesse.digital/faq/).
-
   utter_faq/cloud_initial_question:
   - buttons:
     - payload: faq/cloud_computing_topics

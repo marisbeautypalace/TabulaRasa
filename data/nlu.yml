@@ -1741,6 +1741,7 @@ nlu:
     - Haben Sie Beispiel Produkte wie digitale Hardware zur Demonstration ?
     - habt ihr Praxisbeispiele?
     - Gibt es bereits erfolgreich umgesetzte Digitalisierungen mit dem Kompetenzzentrum ?
+    - Demonstrator
 - intent: faq/ki_qualifizierung_dummy
   examples: |
     - KI-Qualifizierung
