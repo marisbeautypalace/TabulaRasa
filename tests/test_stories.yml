@@ -1077,3 +1077,514 @@ stories:
       faq/mittelstand_agentur_cooperation
   - action: action_set_reminder
   - action: utter_faq
+- story: Story from Conversation ID 0bdf9fb025de4713a28da9ea45b2146f
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      Was ist das Kompetenzzentrum Lingen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/mittelstand_agentur_offers
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Ist das Angebot kostenlos?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was sind die Schwerpunkt Branchen des Kompetenzzentrum Lingens?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: faq
+    user: |-
+      Habt ihr Praxisbeispiele?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      Danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      5 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: nlu_fallback
+    user: |-
+      Hat alles geklappt
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: Hat alles geklappt
+  - slot_was_set:
+    - qualitative_feedback: Hat alles geklappt
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+- story: Story from Conversation ID 3887281075b8464ab302ab892aa7ae84
+  steps:
+  - intent: faq
+    user: |-
+      Was ist maschinelles Lernen?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Ich möchte mein [Geschäftsmodell]{"entity": "EventType", "value": "Gesch\u00e4ftsmodelle"} digitalisieren
+  - slot_was_set:
+    - EventType: Geschäftsmodelle
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: affirm
+    user: |-
+      ja
+  - action: utter_rating_want_more_information
+  - intent: get_category_event
+    user: |-
+      Habt ihr Veranstaltungen zu [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+- story: Story from Conversation ID 5520a55fc3674caf8dc934ae83c2a150
+  steps:
+  - intent: faq
+    user: |-
+      Wo in Lingen liegt das Kompetenzzentrum
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Neuigkeiten Kompetenzzentrum Lingen
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: faq
+    user: |-
+      Wie Einführung [künstlicher Intelligenz]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"} im Unternehmen
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_category_event
+    user: |-
+      Events dazu?
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+  - intent: get_all_events
+    user: |-
+      Was gibt es für Events?
+  - action: action_event_selection
+  - intent: Events_Timeframe
+    user: |-
+      Events nach Zeitraum filtern
+  - action: action_get_events_for_timeframe_selection
+  - intent: Events_Timeframe_Selection
+    user: |-
+      /Events_Timeframe_Selection{"timeframe_selection":"30"}
+  - slot_was_set:
+    - timeframe_selection: '30'
+  - action: action_get_events_for_timeframe
+  - action: action_set_reminder
+- story: Story from Conversation ID e1ee8f2fd59f408f8ad225ee6a34da50
+  steps:
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Maritime Wirtschaft
+  - slot_was_set:
+    - EventType: Maritime Wirtschaft
+  - action: utter_faq/maritime_digitalization
+  - intent: get_category_event
+    user: |-
+      Habt ihr Events dazu?
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+  - intent: faq
+    user: |-
+      Ich möchte mein [Business model]{"entity": "EventType", "value": "Gesch\u00e4ftsmodelle"}n digitalisieren
+  - slot_was_set:
+    - EventType: Geschäftsmodelle
+  - action: utter_faq/mittelstand_agentur_initial_question
+  - intent: faq
+    user: |-
+      faq/mittelstand_agentur_cooperation
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: affirm
+    user: |-
+      ja
+  - action: utter_rating_want_more_information
+  - intent: faq
+    user: |-
+      Was ist [Cloud]{"entity": "EventType", "value": "Cloud Computing"}?
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+- story: Story from Conversation ID dd4ad0f084fb47f38fcbdae681a9ee0f
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: contact
+    user: |-
+      Wer sind meine Ansprechpartner für [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: contact
+    user: |-
+      contact/[maritim]{"entity": "EventType", "value": "Maritime Wirtschaft"}ewirtschaft
+  - slot_was_set:
+    - EventType: Maritime Wirtschaft
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: faq
+    user: |-
+      Was kann man bei der Digitalisierung für [Werft]{"entity": "EventType", "value": "Maritime Wirtschaft"}en noch machen?
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - slot_was_set:
+    - EventType: Maritime Wirtschaft
+  - slot_was_set:
+    - EventType: Maritime Wirtschaft
+  - action: utter_faq/maritime_digitalization
+  - intent: get_category_event
+    user: |-
+      Habt ihr Events dazu?
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+  - intent: faq
+    user: |-
+      Ich möchte mein [Business model]{"entity": "EventType", "value": "Gesch\u00e4ftsmodelle"}n digitalisieren
+  - slot_was_set:
+    - EventType: Geschäftsmodelle
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID 01726dcc55ee4e7496d06ae6153080c1
+  steps:
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_cant_help
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_greet
+  - intent: get_all_events
+    user: |-
+      Zeige mir Events
+  - action: action_event_selection
+  - intent: Events_Timeframe
+    user: |-
+      /Events_Timeframe
+  - action: action_get_events_for_timeframe_selection
+  - intent: Events_Timeframe_Selection
+    user: |-
+      /Events_Timeframe_Selection{"timeframe_selection":"60"}
+  - slot_was_set:
+    - timeframe_selection: '60'
+  - action: action_get_events_for_timeframe
+  - action: action_set_reminder
+  - intent: rating_initial_question
+    user: |-
+      abbruch
+  - action: utter_rating_initial_question
+  - intent: rating_initial_question
+    user: |-
+      abbruch
+  - action: utter_rating_initial_question
+  - intent: rating_initial_question
+    user: |-
+      restart
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+- story: Story from Conversation ID f137dadc9d954670abf88a3fba48e195
+  steps:
+  - intent: faq
+    user: |-
+      Was ist [Cloud]{"entity": "EventType", "value": "Cloud Computing"}
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: get_all_events
+    user: |-
+      Alle Events anzeigen
+  - action: action_event_selection
+  - intent: Events_All
+    user: |-
+      /Events_All
+  - action: action_get_all_events
+  - action: action_set_reminder
+  - intent: rating_initial_question
+    user: |-
+      Neustart
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      5 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 5 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+- story: Story from Conversation ID 90bc098fa8f74fe39f1b6643c13cf2c9
+  steps:
+  - intent: faq
+    user: |-
+      Was ist ein Korpus
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was bietet das Kompetenzzentrum an?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/mittelstand_agentur_BMWi
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Wo finde ich das Kompetenzzentrum
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      Danke
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID 342b80c604724f04af38b7cf461e0c7a
+  steps:
+  - intent: faq
+    user: |-
+      Was ist eine Community [Cloud]{"entity": "EventType", "value": "Cloud Computing"}?
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist eine virtuelle Maschine?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: faq
+    user: |-
+      Was ist Infrastructure as a service
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist Platform as a Service?
+  - action: action_set_reminder
+  - action: utter_faq
+- story: Story from Conversation ID 2b4eabd1159e42b7a739150c4437041b
+  steps:
+  - intent: faq
+    user: |-
+      Wie funktioniert Bilderkennung?
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist [KI]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}?
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/[ki]{"entity": "EventType", "value": "K\u00fcnstliche Intelligenz"}_modules
+  - slot_was_set:
+    - EventType: Künstliche Intelligenz
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/predictive_inference
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      Abbruch
+  - action: utter_rating_initial_question
+- story: Story from Conversation ID 0a60cb8da6b94879a85b3289c308f103
+  steps:
+  - intent: greet
+    user: |-
+      Hallo
+  - action: utter_welcome
+  - intent: faq
+    user: |-
+      wie kann ich [cloud computing](EventType) nutzen
+  - slot_was_set:
+    - EventType: cloud computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Vorteile von [Cloud]{"entity": "EventType", "value": "Cloud Computing"}
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      Was ist [Cloud]{"entity": "EventType", "value": "Cloud Computing"}?
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: faq
+    user: |-
+      faq/[cloud]{"entity": "EventType", "value": "Cloud Computing"}_company_size
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - action: action_set_reminder
+  - action: utter_faq
+  - intent: rating_initial_question
+    user: |-
+      Danke
+  - action: utter_rating_initial_question
+  - intent: affirm
+    user: |-
+      ja
+  - action: utter_rating_want_more_information
+  - intent: contact
+    user: |-
+      Ich brauche einen Ansprechpartner
+  - action: action_set_reminder
+  - action: utter_contact
+  - intent: EXTERNAL_reminder
+    user: |-
+      EXTERNAL: EXTERNAL_reminder
+  - action: action_react_to_reminder
+  - action: utter_rating_initial_question
+  - intent: contact
+    user: |-
+      Ansprechpartner für [Werft]{"entity": "EventType", "value": "Maritime Wirtschaft"}en
+  - slot_was_set:
+    - EventType: cloud computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Cloud Computing
+  - slot_was_set:
+    - EventType: Maritime Wirtschaft
+  - action: utter_contact/maritimewirtschaft
+- story: Story from Conversation ID 061618f72885468180221b470fff8604
+  steps:
+  - intent: get_category_event
+    user: |-
+      Habt ihr [Fachseminar](EventType)e?
+  - slot_was_set:
+    - EventType: Fachseminar
+  - action: action_specific_event_category
+  - slot_was_set:
+    - EventType: ''
+  - intent: rating_initial_question
+    user: |-
+      danke
+  - action: utter_rating_initial_question
+  - intent: deny
+    user: |-
+      nein
+  - action: utter_rating_you_helped_enough
+  - intent: rating_user_stars_rating
+    user: |-
+      4 Sterne
+  - action: action_receive_rating
+  - slot_was_set:
+    - rating_selection: 4 Sterne
+  - action: qualitative_feedback_form
+  - active_loop: qualitative_feedback_form
+  - slot_was_set:
+    - requested_slot: qualitative_feedback
+  - intent: chitchat
+    user: |-
+      war ganz gut
+  - action: qualitative_feedback_form
+  - slot_was_set:
+    - qualitative_feedback: war ganz gut
+  - slot_was_set:
+    - qualitative_feedback: war ganz gut
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_rating_thanks
+  - intent: rating_user_ask_rating
+    user: |-
+      was war meine Bewertung?
+  - action: action_say_rating

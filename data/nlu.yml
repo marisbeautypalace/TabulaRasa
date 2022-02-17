@@ -89,6 +89,8 @@ nlu:
     - War alles gut
     - bischt beste brudi
     - alles klasse
+    - war ganz gut
+    - kluger bot
 - intent: chitchat/bot_ready
   examples: |
     - bist du bereit?
@@ -169,6 +171,7 @@ nlu:
     - Welche Chancen gibt es in der Digitalisierung im Einzelhandel ?
     - Welche Chancen gibt es im Einzelhandel ?
     - Digitalisierung
+    - Ich möchte mich impfen lassen
 - intent: faq/mittelstand_weitere_info
   examples: |
     - FAQ
@@ -243,6 +246,11 @@ nlu:
     - jo danke
     - super nett, danke
     - geil danke
+    - Abbruch
+    - Neustarten
+    - restart
+    - abbruch
+    - Hat alles geklappt
 - intent: rating_want_more_information
   examples: |
     - rating_want_more_information
@@ -270,6 +278,7 @@ nlu:
     - Meine Bewertung
     - Wie viele Stars habe ich gegeben?
     - Was war meine Bewertung?
+    - was war meine Bewertung?
 - intent: faq/mittelstand_agentur_initial_question
   examples: |
     - faq/mittelstand_agentur_initial_question
@@ -324,6 +333,7 @@ nlu:
     - Was bietet mir die Website vom Kompetenzzentrum Lingen ?
     - Was macht das Kompetnezzentrum?
     - Komptenzzentrum
+    - Was ist das Kompetenzzentrum Lingen?
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -364,6 +374,7 @@ nlu:
     - Sind die Angebote kostenfrei ?
     - Kostete die Workshops etwas ?
     - Kosten eure Angebote etwas?
+    - Ist das Angebot kostenlos?
 - intent: faq/mittelstand_agentur_location
   examples: |
     - faq/mittelstand_agentur_location
@@ -535,6 +546,7 @@ nlu:
     - Rechenkapazität gemeinsam nutzen
     - Wie kann man Rechenkapazität gemeinsam nutzen?
     - Wie können Ressourcen gebündelt werden?
+    - Was ist eine virtuelle Maschine?
 - intent: faq/cloud_security
   examples: |
     - faq/cloud_security
@@ -588,6 +600,7 @@ nlu:
     - wofür kann ich infrastructure as a service nutzen?
     - was ist iaas?
     - was ist Infrastructure as a service?
+    - Was ist Infrastructure as a service
 - intent: faq/PaaS
   examples: |
     - faq/PaaS
@@ -829,6 +842,7 @@ nlu:
     - Vorteile von Cloud Computing im Mittelstand
     - Welche Vorteile bringt mir Cloud ?
     - Was sind Vorteile von Cloud
+    - Vorteile von Cloud
 - intent: faq/cloud_or_outsourcing
   examples: |
     - Wie unterscheidet sich Cloud Computing zu klassischen Outsourcing Diensten?
@@ -905,6 +919,7 @@ nlu:
     - mit welcher Technologie kann man Bilder erkennen?
     - wie kann man Bilder verarbeiten?
     - Wie kann man Bilder automatisch erkennen?
+    - Wie funktioniert Bilderkennung?
 - intent: faq/audio_recognition_audio_identification
   examples: |
     - faq/audio_recognition_audio_identification
@@ -1053,6 +1068,7 @@ nlu:
     - Was bringt mir maschinelles Lernen?
     - Was bedeutet ML ?
     - Was bedeutet ML
+    - Was ist maschinelles Lernen?
 - intent: faq/deep_learning
   examples: |
     - faq/deep_learning
@@ -1133,6 +1149,7 @@ nlu:
     - Korpus
     - Was ist ein Korpus?
     - was zum Geier ist ein Korpus?
+    - Was ist ein Korpus
 - intent: faq/m2m_comunication
   examples: |
     - Machine to Machine Comunication
@@ -1324,6 +1341,8 @@ nlu:
     - Was ist ein Geschäftsmodelle
     - Was ist ein [Geschäftsmodell](EventType)
     - was ist ein Geschäftsmodell?
+    - Ich möchte mein Business modeln digitalisieren
+    - Ich möchte mein Geschäftsmodell digitalisieren
 - intent: faq/ki_amount_of_data
   examples: |
     - faq/ki_amount_of_data
@@ -1364,6 +1383,7 @@ nlu:
     - Ich möchte eine Künstliche Intelligenz in meinem Unternehmen einführen
     - Wie lange dauert eine KI Implementierung ?
     - Wie führe ich künstliche Intelligenz ein?
+    - Wie Einführung künstlicher Intelligenz im Unternehmen
 - intent: faq/ki_acceptance
   examples: |
     - faq/ki_acceptance
@@ -1383,6 +1403,7 @@ nlu:
     - Förderungen
     - Förderungen Künstliche Intelligenz
     - Wie unterstützt ihr mein Unternehmen bei der Einführung von [KI](EventType)?
+    - Ich brauch Support bei KI
 - intent: faq/cloud_computing_topics
   examples: |
     - faq/cloud_computing_topics
@@ -1463,6 +1484,7 @@ nlu:
     - Wie arbeiten sie mit dem maritimen Bereich zusammen?
     - Wie kann ich meine Werft digitalisieren?
     - Wie kann ich den maritimen Bereich digitalisieren ?
+    - Was kann man bei der Digitalisierung für Werften noch machen?
 - intent: contact/initial_question
   examples: |
     - contact/initial_question
@@ -1514,6 +1536,8 @@ nlu:
     - Wer ist mein Kontakt in Münster?
     - Wer ist da mein Ansprechpartner?
     - Ich bin Landwirt, wer ist mein Ansprechpartner?
+    - Ich brauche einen Ansprechpartner
+    - Wer sind meine Ansprechpartner für KI?
 - intent: contact/allgemeiner_kontakt
   examples: |
     - contact/allgemeiner_kontakt
@@ -1608,6 +1632,7 @@ nlu:
     - Habt ihr einen Ansprechpartner für maritime Wirtschaft?
     - An wen kann ich mich mit meiner Werft wenden?
     - was macht ihr mit Schifffahrt?
+    - Ansprechpartner für Werften
 - intent: faq/cloud_initial_question
   examples: |
     - faq/cloud_initial_question
@@ -1645,6 +1670,8 @@ nlu:
     - was ist cloud?
     - Was ist eine Cloud?
     - sag mal was zu cloud
+    - wie kann ich cloud computing nutzen
+    - Was ist Cloud
 - intent: faq/cloud_as_a_service
   examples: |
     - faq/cloud_as_a_service
@@ -1745,6 +1772,7 @@ nlu:
     - Gibt es bereits erfolgreich umgesetzte Digitalisierungen mit dem Kompetenzzentrum ?
     - Demonstrator
     - Habt ihr Beispiele aus der Praxis
+    - Habt ihr Praxisbeispiele?
 - intent: faq/ki_qualifizierung_dummy
   examples: |
     - KI-Qualifizierung
@@ -1794,6 +1822,10 @@ nlu:
     - Wann sind die nächsten Events?
     - Habt ihr Verastaltungen?
     - Wann ist das nächste Event?
+    - Zeige mir Events
+    - Alle Events anzeigen
+    - Was stehen nächste Woche für Events an?
+    - Was gibt es für Events?
 - intent: get_category_event
   examples: |
     - Wo kann ich mich für [Workshops](EventType) anmelden ?
@@ -1914,6 +1946,12 @@ nlu:
     - Habt ihr Events zum Handwerk?
     - Habt ihr Events hierzu?
     - habt ihr Veranstaltungen für Landwirte?
+    - Habt ihr Fachseminare?
+    - Ich möchte ein Fachseminar besuchen
+    - ich möchte an einem Fachseminar teilnehmen
+    - Ich will an einem Fachseminar teilnehmen
+    - Habt ihr Events dazu?
+    - Habt ihr Veranstaltungen zu KI?
 - intent: Events_All
   examples: |
     - Zeig mir alle Events
@@ -1922,6 +1960,7 @@ nlu:
     - Alle
     - Zeig mir Veranstaltungen
     - Zeige mir alle Veranstaltungen
+    - Zeige mir alle Events
 - intent: Events_Category
   examples: |
     - Zeig mir Kategorien
@@ -1936,6 +1975,7 @@ nlu:
     - Events der nächsten Wochen
     - Veranstaltungen nach Zeitraum filtern
     - Zeige mir Veranstaltungen der nächsten Monate an
+    - Events nach Zeitraum filtern
 - intent: EXTERNAL_reminder
   examples: |
     - EXTERNAL: EXTERNAL_reminder
@@ -1956,6 +1996,7 @@ nlu:
     - wo habt ihr euern Standort?
     - Adresse vom Kompetenzzentrum Lingen
     - Was ist die Adresse?
+    - Wo finde ich das Kompetenzzentrum
 - intent: faq/ki_provider
   examples: |
     - Wo finde ich KI-Provider
@@ -1984,6 +2025,7 @@ nlu:
     - Neuigkeiten Kompetenzzentrum Lingen
     - Aktuelles im Kompetenzzentrum Lingen
     - News beim Kompetenzzentrum Lingen
+    - Was gibt es neues?
 - intent: faq/focus_kompetenzzentrum_lingen
   examples: |
     - Was sind die Schwerpunkte im Kompetenzzentrum Lingen
@@ -1993,6 +2035,7 @@ nlu:
     - An welche Branchen richtet sich das Angebot des Kompetenzzentrums?
     - Wo liegen die Schwerpunkte des Kompetenzzentrums Lingen?
     - An die Branchen welcher Unternehmen richtet sich das Angebot des Kompetenzzentrum Lingen
+    - Was sind die Schwerpunkt Branchen des Kompetenzzentrum Lingens?
 - synonym: Künstliche Intelligenz
   examples: |
     - Artifical Inteligence
