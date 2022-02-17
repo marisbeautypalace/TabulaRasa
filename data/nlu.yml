@@ -158,7 +158,6 @@ nlu:
     - Welche Projekte hat das Kompetenzzentrum begleitet?
     - Projekte des Kompetenzzentrums
     - Einfluss auf Geschäftsmodelle
-    - FAQ
     - Wo auf der Internetseite bekomme ich Informationen zu KI und Agrar?
     - wie bekomme ich Informationen dazu?
     - Geschäftsmodell prüfen lassen
@@ -170,6 +169,18 @@ nlu:
     - Welche Chancen gibt es in der Digitalisierung im Einzelhandel ?
     - Welche Chancen gibt es im Einzelhandel ?
     - Digitalisierung
+- intent: faq/mittelstand_weitere_info
+  examples: |
+    - FAQ
+    - faq/mittelstand_weitere_info
+    - Habt ihr weiterführende Informationen zum Kompetenzzentrum Lingen?
+    - Gibt es einen Link mit weiteren Informationen zum Kompetenzzentrum
+    - Habt ihr weitere Informationen zur Agentur für mich?
+    - weitere Informationen zum Mittelstand 4.0 Kompetenzzentrum
+    - Wo finde ich weitere FAQs?
+    - FAQs
+    - Wo finde ich weitere Informationen?
+    - faq
 - intent: affirm
   examples: |
     - ja
@@ -311,17 +322,8 @@ nlu:
     - was macht das Soli?
     - Was hat das Kompentenzzentrum für Angebote?
     - Was bietet mir die Website vom Kompetenzzentrum Lingen ?
-- intent: faq/mittelstand_weitere_info
-  examples: |
-    - faq/mittelstand_weitere_info
-    - Habt ihr weiterführende Informationen zum Kompetenzzentrum Lingen?
-    - Gibt es einen Link mit weiteren Informationen zum Kompetenzzentrum
-    - Habt ihr weitere Informationen zur Agentur für mich?
-    - weitere Informationen zum Mittelstand 4.0 Kompetenzzentrum
-    - Wo finde ich weitere FAQs?
-    - FAQs
-    - FAQ
-    - Wo finde ich weitere Informationen?
+    - Was macht das Kompetnezzentrum?
+    - Komptenzzentrum
 - intent: faq/mittelstand_agentur_offers
   examples: |
     - faq/mittelstand_agentur_offers
@@ -1742,6 +1744,7 @@ nlu:
     - habt ihr Praxisbeispiele?
     - Gibt es bereits erfolgreich umgesetzte Digitalisierungen mit dem Kompetenzzentrum ?
     - Demonstrator
+    - Habt ihr Beispiele aus der Praxis
 - intent: faq/ki_qualifizierung_dummy
   examples: |
     - KI-Qualifizierung
@@ -1951,6 +1954,8 @@ nlu:
     - Wo sitzt das Kompetenzzentrum Lingen?
     - Wo ist das Kompetenzzentrum?
     - wo habt ihr euern Standort?
+    - Adresse vom Kompetenzzentrum Lingen
+    - Was ist die Adresse?
 - intent: faq/ki_provider
   examples: |
     - Wo finde ich KI-Provider
