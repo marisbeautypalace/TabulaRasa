@@ -26,6 +26,7 @@ nlu:
     - heyy
     - hey was geht
     - hey du
+    - moinsen
 - intent: goodbye
   examples: |
     - Schönen Tag
