@@ -2039,33 +2039,33 @@ nlu:
     - Was sind die Schwerpunkt Branchen des Kompetenzzentrum Lingens?
 - synonym: Künstliche Intelligenz
   examples: |
-    - Artifical Inteligence
+    - künsltiche Intelligenz
     - AI
+    - Artifical Inteligence
+    - KI
     - künstliche Inteligenz
     - künstlichen Intelligenz
-    - KI
-    - künsltiche Intelligenz
     - Künstlicher Intelligenz
 - synonym: Agrar
   examples: |
-    - Landwirt
-    - Agrarbusiness
-    - landwirtschaftliche
     - Landwirtschaft
+    - Landwirte
+    - Bauern
+    - Agrarbusiness
+    - Landwirt
+    - landwirtschaftliche
     - landwirtschaftlichen
     - Bauer
-    - Bauern
-    - Landwirte
 - synonym: Maritime Wirtschaft
   examples: |
-    - Schiffsbauer
     - maritime Industrie
+    - Schiffahrt
+    - Schiffsbauer
     - maritim
     - Werft
-    - Schiffahrt
 - synonym: Handwerk
   examples: |
-    - handwerklich
     - Handwerker
+    - handwerklich
     - handwerkliche
     - Handwerksbetriebe
