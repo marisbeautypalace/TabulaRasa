@@ -51,9 +51,9 @@ For more Information also see:
 
 ## Set up Docker Compose for the Docker Image with Spacy & Action Server
 
-1. Download the Rasa X Docker-compose.yml (in this case for Version == 0.42.4)
+1. Download the Rasa X Docker-compose.yml (in this case for Version == 1.0.1)
 ```
-wget -qO docker-compose.yml https://storage.googleapis.com/rasa-x-releases/0.42.4/docker-compose.ce.yml
+wget -qO docker-compose.yml https://storage.googleapis.com/rasa-x-releases/1.0.1/docker-compose.ce.yml
 ```
 
 2. Create a directory for the Rasa-Sevice Dockerfile (e. g. "rasa-service")
