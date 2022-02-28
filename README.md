@@ -261,15 +261,18 @@ index.html
 ## Access the ratings.csv
 # Option 1: From inside the container
 1. Access Rasa X server (see above)
-2. Open the container bash for navigation (replace the <CONTAINERID> with the current id)
+2. Open the container bash for navigation (replace the <CONTAINERID> with the current id of the application container)
 ```
 docker container exec -it <CONTAINERID> bash
 ```
-3. 
+3. View the content of the file by
+```
+cat ratings.csv
+```
 
 # Option 2: From outside the container
 1. Access Rasa X server (see above)
-2. Copy the file to your Local System (replace the <CONTAINERID> with the current id)
+2. Copy the file to your Local System (replace the <CONTAINERID> with the current id of the application container)
 ```
 sudo docker cp <CONTAINERID>:app/ratings.csv ~/ratings.csv
 ```
