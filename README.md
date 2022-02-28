@@ -1,5 +1,5 @@
 # TabulaRasa
-interd. Project HS Osnabrueck
+interdisciplinary Project HS Osnabrueck
 
 ## UI
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/37381176/155945700-2f5ed1e2-1265-4db7-af8b-85cb3ac1611b.png)
