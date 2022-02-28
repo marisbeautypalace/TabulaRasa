@@ -10,7 +10,7 @@ Creating a rasa chatbot to answer FAQs and manage event registration for Kompete
 
 1. Download the install script for Rasa X either for a specific version 
 ```
-curl -sSL -o install.sh https://storage.googleapis.com/rasa-x-releases/0.42.6/install.sh
+curl -sSL -o install.sh https://storage.googleapis.com/rasa-x-releases/1.0.1/install.sh
 ```
 or edge version
 ```
