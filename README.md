@@ -258,19 +258,20 @@ The script which contains the body, the parameters and other features you will f
 index.html
 ```
 
-## ratings.csv
+## Access the ratings.csv
 # Option 1: From inside the container
 1. Access Rasa X server (see above)
-2. Open the container bash for navigation
+2. Open the container bash for navigation (replace the <CONTAINERID> with the current id)
 ```
-docker container exec -it *CONTAINERID* bash
+docker container exec -it <CONTAINERID> bash
 ```
+3. 
 
 # Option 2: From outside the container
 1. Access Rasa X server (see above)
-2. Copy the file to your Local System 
+2. Copy the file to your Local System (replace the <CONTAINERID> with the current id)
 ```
-sudo docker cp *CONTAINERID*:app/ratings.csv ~/ratings.csv
+sudo docker cp <CONTAINERID>:app/ratings.csv ~/ratings.csv
 ```
 3. Navigate to copied file, where you will find the ratings
 ```
