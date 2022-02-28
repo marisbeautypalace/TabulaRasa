@@ -280,3 +280,5 @@ sudo docker cp <CONTAINERID>:app/ratings.csv ~/ratings.csv
 ```
 cd home/tabula
 ```
+  
+**We recommend to access the ratings.csv from outside the container.**
