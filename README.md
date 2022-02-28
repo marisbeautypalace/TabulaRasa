@@ -269,6 +269,7 @@ docker container exec -it <CONTAINERID> bash
 ```
 cat ratings.csv
 ```
+4. Close the bash with CTRL + D
 
 ### Option 2: From outside the container
 1. Access Rasa X server (see above)
