@@ -220,10 +220,10 @@ rasa --version
 This is my output: 
 ```
 This is my output:
-Rasa Version      :         2.8.12
+Rasa Version      :         2.8.16
 Minimum Compatible Version: 2.8.9
 Rasa SDK Version  :         2.8.2
-Rasa X Version    :         0.42.4
+Rasa X Version    :         1.0.1
 Python Version    :         3.7.11
 Operating System  :         Windows-10-10.0.19041-SP0
 Python Path       :         c:\dev\miniconda3\envs\tabularasa\python.exe
