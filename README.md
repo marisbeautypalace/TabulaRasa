@@ -4,9 +4,14 @@ interd. Project HS Osnabrueck
 ## Mockup
 ![mockup](https://user-images.githubusercontent.com/37381176/142486864-53c861e0-ae5c-41d5-bc00-815e4279702b.png)
 
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/37381176/155945700-2f5ed1e2-1265-4db7-af8b-85cb3ac1611b.png)
+
+
+
 Creating a rasa chatbot to answer FAQs and manage event registration for Kompetenzzentrum 4.0 Lingen
 
-## Setup Rasa X server (Docker)
+## Setup Rasa X server (Docker)![Uploading MicrosoftTeams-image.png…]()
+
 
 1. Download the install script for Rasa X either for a specific version 
 ```
