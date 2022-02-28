@@ -1,5 +1,5 @@
 # TabulaRasa
-interdisciplinary Project HS Osnabrueck
+interdisciplinary project HS Osnabrueck
 
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/37381176/155945700-2f5ed1e2-1265-4db7-af8b-85cb3ac1611b.png)
 ![MicrosoftTeams-image (1)](https://user-images.githubusercontent.com/37381176/155945816-9f39cf33-5f5a-46b2-b38e-ced2335db478.png)
