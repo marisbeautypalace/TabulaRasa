@@ -463,7 +463,7 @@ stories:
   - action: utter_faq
   - intent: EXTERNAL_reminder
     user: |-
-      EXTERNAL: EXTERNAL_reminder
+      EXTERNAL: 
   - action: action_react_to_reminder
   - action: utter_rating_initial_question
   - intent: deny
@@ -480,7 +480,7 @@ stories:
   - active_loop: qualitative_feedback_form
   - slot_was_set:
     - requested_slot: qualitative_feedback
-  - intent: nlu_fallback
+  - intent: chitchat
     user: |-
       Schnelle Info
   - action: qualitative_feedback_form
@@ -1226,48 +1226,6 @@ stories:
     - timeframe_selection: '30'
   - action: action_get_events_for_timeframe
   - action: action_set_reminder
-- story: Story from Conversation ID e1ee8f2fd59f408f8ad225ee6a34da50
-  steps:
-  - slot_was_set:
-    - EventType: Künstliche Intelligenz
-  - slot_was_set:
-    - EventType: Maritime Wirtschaft
-  - slot_was_set:
-    - EventType: Maritime Wirtschaft
-  - action: utter_faq/maritime_digitalization
-  - intent: get_category_event
-    user: |-
-      Habt ihr Events dazu?
-  - action: action_specific_event_category
-  - slot_was_set:
-    - EventType: ''
-  - intent: faq
-    user: |-
-      Ich möchte mein [Business model]{"entity": "EventType", "value": "Gesch\u00e4ftsmodelle"}n digitalisieren
-  - slot_was_set:
-    - EventType: Geschäftsmodelle
-  - action: utter_faq/mittelstand_agentur_initial_question
-  - intent: faq
-    user: |-
-      faq/mittelstand_agentur_cooperation
-  - action: action_set_reminder
-  - action: utter_faq
-  - intent: EXTERNAL_reminder
-    user: |-
-      EXTERNAL: EXTERNAL_reminder
-  - action: action_react_to_reminder
-  - action: utter_rating_initial_question
-  - intent: affirm
-    user: |-
-      ja
-  - action: utter_rating_want_more_information
-  - intent: faq
-    user: |-
-      Was ist [Cloud]{"entity": "EventType", "value": "Cloud Computing"}?
-  - slot_was_set:
-    - EventType: Cloud Computing
-  - action: action_set_reminder
-  - action: utter_faq
 - story: Story from Conversation ID dd4ad0f084fb47f38fcbdae681a9ee0f
   steps:
   - intent: greet
@@ -1297,7 +1255,8 @@ stories:
     - EventType: Maritime Wirtschaft
   - slot_was_set:
     - EventType: Maritime Wirtschaft
-  - action: utter_faq/maritime_digitalization
+  - action: action_set_reminder
+  - action: utter_faq
   - intent: get_category_event
     user: |-
       Habt ihr Events dazu?
@@ -1543,7 +1502,8 @@ stories:
     - EventType: Cloud Computing
   - slot_was_set:
     - EventType: Maritime Wirtschaft
-  - action: utter_contact/maritimewirtschaft
+  - action: action_set_reminder
+  - action: utter_contact
 - story: Story from Conversation ID 061618f72885468180221b470fff8604
   steps:
   - intent: get_category_event
