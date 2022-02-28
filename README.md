@@ -8,8 +8,7 @@ interdisciplinary Project HS Osnabrueck
 
 Creating a rasa chatbot to answer FAQs and manage event registration for Kompetenzzentrum 4.0 Lingen
 
-## Setup Rasa X server (Docker)![Uploading MicrosoftTeams-image.png…]()
-
+## Setup Rasa X server (Docker)
 
 1. Download the install script for Rasa X either for a specific version 
 ```
