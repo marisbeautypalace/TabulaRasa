@@ -6,6 +6,7 @@
       .rw-launcher{background-color: #b50900;}
       .rw-conversation-container .rw-reply{background-color: #b50900; border: 1px solid #b50900;}
       .rw-sender .rw-send{background-color: transparent; filter: invert(50%) brightness(125%);}
+      .hoverClass .p-tooltip-text {background-color: red !important;}
     </style>
     
             <script>!(function () {
@@ -18,8 +19,8 @@
                 window.WebChat.default(
                   {
                     customData: { language: "en" },
-                    //socketUrl: "https://tabularasa.kicc-prozesse.digital",
-                    socketUrl: "http://localhost:5005",
+                    socketUrl: "https://tabularasa.kicc-prozesse.digital",
+                    // socketUrl: "http://localhost:5005",
                     title: "KoLi",
                     subtitle: "online",
                     profileAvatar: "./assets/logo-only.png",
@@ -29,6 +30,7 @@
                     fullScreenMode: false,
                     connectingText: "Verbinde mit Kompetenzzentrum Lingen",
                     initPayload: "/greet",
+                    disableTooltips: true,
                     params: {
                       storage: "session"
                     }
