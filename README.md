@@ -37,7 +37,7 @@ sudo python3 rasa_x_commands.py create --update admin me <PASSWORD>
 For more Information also see:
 (https://rasa.com/docs/rasa-x/installation-and-setup/install/docker-compose/)
 
-## Connect Rasa X with your Git Reposetory
+## Connect Rasa X with your Git Repository
 
 1. Start Rasa X within your webbrowser and navigate to the "Connect to a reposetory" option
 
