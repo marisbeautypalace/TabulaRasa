@@ -57,12 +57,13 @@ slots:
 responses:
   utter_welcome:
   - text: |-
-      Hallo, mein Name ist KoLi. Ich bin der Chatbot 🤖 vom Mittelstand 4.0-Kompetenzzentrum in Lingen. Ich beantworte  Ihnen gerne Fragen zu den folgenden Themen: 
+      Hallo, mein Name ist KoLi. Ich bin der Chatbot 🤖 vom Mittelstand 4.0-Kompetenzzentrum Lingen. Ich befinde mich gerade in einer Testphase und beantworte Ihnen gerne Fragen zu den folgenden Themen: 
        - Veranstaltungen 
        - Ansprechpartner 
        - Künstliche Intelligenz 
-       - Cloud-Computing 
-       - Mittelstand 4.0-Kompetenzzentrum
+       - Cloud Computing 
+       - Mittelstand 4.0-Kompetenzzentrum Lingen
+
       Wobei kann ich Ihnen helfen?
   utter_greet:
   - text: Hallo, wie kann ich Ihnen helfen?
